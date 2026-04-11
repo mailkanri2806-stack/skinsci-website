@@ -1,0 +1,2 @@
+# www to non-www redirect
+https://www.skinsci.jp/* https://skinsci.jp/:splat 301

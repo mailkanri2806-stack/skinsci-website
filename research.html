@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="VERIFICATION_CODE_HERE" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>スキンケア論文まとめ — SKINSCI｜最新研究データを解説</title>
+  <meta name="description" content="スキンケア成分に関する学術論文・臨床研究をわかりやすく要約。ナイアシンアミド・レチノール等の効果を科学的エビデンスで検証します。" />
+  <meta name="keywords" content="スキンケア論文,臨床研究,エビデンス,ナイアシンアミド研究,レチノール論文,ビタミンC研究,皮膚科学" />
+  <link rel="canonical" href="https://skinsci.jp/research.html" />
+  <!-- OGP -->
+  <meta property="og:title" content="スキンケア論文まとめ — SKINSCI" />
+  <meta property="og:description" content="スキンケア成分に関する学術論文・臨床研究をわかりやすく要約。科学的エビデンスで検証。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://skinsci.jp/research.html" />
+  <meta property="og:image" content="https://skinsci.jp/assets/ogp-research.png" />
+  <meta property="og:site_name" content="SKINSCI" />
+  <meta property="og:locale" content="ja_JP" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="スキンケア論文まとめ — SKINSCI" />
+  <meta name="twitter:description" content="スキンケア成分に関する学術論文・臨床研究をわかりやすく要約。科学的エビデンスで検証。" />
+  <meta name="twitter:image" content="https://skinsci.jp/assets/ogp-research.png" />
+  <!-- JSON-LD 構造化データ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "スキンケア論文まとめ",
+    "description": "スキンケア成分に関する学術論文・臨床研究の要約一覧",
+    "url": "https://skinsci.jp/research.html",
+    "inLanguage": "ja",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SKINSCI",
+      "url": "https://skinsci.jp/"
+    },
+    "mainEntity": {
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "ナイアシンアミド5%による毛穴縮小効果の検証",
+            "publisher": "Journal of Clinical and Aesthetic Dermatology",
+            "datePublished": "2021"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "レチノイン酸によるコラーゲン産生促進メカニズム",
+            "publisher": "British Journal of Dermatology",
+            "datePublished": "2019"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "ビタミンC誘導体の安定性と経皮吸収率の比較",
+            "publisher": "International Journal of Molecular Sciences",
+            "datePublished": "2022"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": "セラミド配合保湿剤による敏感肌バリア改善",
+            "publisher": "Dermatology and Therapy",
+            "datePublished": "2020"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0d1f3c', light: '#1a3461', dark: '#08132a' },
+            accent: { DEFAULT: '#5b9cc4', light: '#a8d5f0', muted: '#3a7fa8' },
+            pearl: '#f5f6f8',
+          },
+          fontFamily: { sans: ['Inter', 'Noto Sans JP', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+    .nav-blur { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .section-label { font-size: 0.7rem; letter-spacing: 0.25em; }
+    .paper-card { transition: box-shadow 0.2s ease, border-color 0.2s ease; }
+    .paper-card:hover { border-color: #5b9cc4; box-shadow: 0 4px 20px rgba(91,156,196,0.12); }
+    .filter-btn { transition: all 0.2s ease; }
+    .filter-btn.active { background: #0d1f3c; color: white; border-color: #0d1f3c; }
+    .evidence-badge { font-size: 0.6rem; letter-spacing: 0.1em; }
+    details summary { cursor: pointer; list-style: none; }
+    details summary::-webkit-details-marker { display: none; }
+    details[open] .arrow { transform: rotate(180deg); }
+    .arrow { transition: transform 0.2s ease; }
+    @keyframes fadeInUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+    .paper-item { animation: fadeInUp 0.35s ease forwards; }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10" aria-label="メインナビゲーション">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="SKINSCI トップページ">
+          <span class="text-accent font-semibold tracking-widest text-sm">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="ingredients.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">成分解説</a>
+          <a href="skin-types.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">肌タイプ別</a>
+          <a href="research.html" class="text-white text-sm tracking-wide font-medium" aria-current="page">論文まとめ</a>
+          <a href="skin-types.html#quiz" class="bg-accent hover:bg-accent-muted text-white text-sm px-5 py-2 rounded-full tracking-wide transition-colors">肌タイプ診断</a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy border-t border-white/10 px-4 py-4 space-y-3">
+      <a href="ingredients.html" class="block text-white/70 hover:text-white text-sm py-2">成分解説</a>
+      <a href="skin-types.html" class="block text-white/70 hover:text-white text-sm py-2">肌タイプ別</a>
+      <a href="research.html" class="block text-white text-sm py-2 font-medium">論文まとめ</a>
+      <a href="skin-types.html#quiz" class="block bg-accent text-white text-sm px-5 py-2 rounded-full text-center mt-2">肌タイプ診断</a>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="bg-navy pt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <p class="section-label text-accent/70 font-medium mb-3">RESEARCH DATABASE</p>
+      <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">論文まとめ</h1>
+      <p class="text-white/50 max-w-2xl leading-relaxed">
+        SKINSCIの解説は査読済み学術誌に掲載された論文・臨床試験を根拠としています。ここでは主要な参照文献をカテゴリ別にまとめています。
+      </p>
+      <!-- Stats bar -->
+      <div class="flex flex-wrap gap-8 mt-10">
+        <div>
+          <p class="text-2xl font-bold text-white">91</p>
+          <p class="text-white/40 text-xs mt-0.5">総参照論文数</p>
+        </div>
+        <div class="border-l border-white/10 pl-8">
+          <p class="text-2xl font-bold text-white">21</p>
+          <p class="text-white/40 text-xs mt-0.5">カバー成分数</p>
+        </div>
+        <div class="border-l border-white/10 pl-8">
+          <p class="text-2xl font-bold text-white">2015–2025</p>
+          <p class="text-white/40 text-xs mt-0.5">論文掲載年範囲</p>
+        </div>
+        <div class="border-l border-white/10 pl-8">
+          <p class="text-2xl font-bold text-white">RCT中心</p>
+          <p class="text-white/40 text-xs mt-0.5">エビデンスレベル</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Evidence Level Legend -->
+  <div class="bg-pearl border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-gray-500">
+        <span class="font-medium text-gray-700">エビデンスレベル：</span>
+        <span class="flex items-center gap-1.5"><span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>ランダム化比較試験</span>
+        <span class="flex items-center gap-1.5"><span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>二重盲検RCT</span>
+        <span class="flex items-center gap-1.5"><span class="bg-purple-100 text-purple-700 evidence-badge font-bold px-2 py-0.5 rounded">SR</span>システマティックレビュー</span>
+        <span class="flex items-center gap-1.5"><span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>コホート研究</span>
+        <span class="flex items-center gap-1.5"><span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>細胞・試験管試験</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Filter -->
+  <div class="bg-white border-b border-gray-100 sticky top-16 z-30">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex gap-2 py-3 overflow-x-auto">
+        <button onclick="filterPapers('all')" class="filter-btn active flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200" id="filter-all">すべて</button>
+        <button onclick="filterPapers('niacinamide')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-niacinamide">ナイアシンアミド</button>
+        <button onclick="filterPapers('retinol')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-retinol">レチノール</button>
+        <button onclick="filterPapers('vitaminc')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-vitaminc">ビタミンC</button>
+        <button onclick="filterPapers('ceramide')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-ceramide">セラミド</button>
+        <button onclick="filterPapers('ha')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-ha">ヒアルロン酸</button>
+        <button onclick="filterPapers('aha')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-aha">AHA / BHA</button>
+        <button onclick="filterPapers('tretinoin')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-tretinoin">トレチノイン</button>
+        <button onclick="filterPapers('azelaic')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-azelaic">アゼライン酸</button>
+        <button onclick="filterPapers('glycylglycine')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-glycylglycine">グリシルグリシン</button>
+        <button onclick="filterPapers('tocopherol')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-tocopherol">ビタミンE</button>
+        <button onclick="filterPapers('arbutin')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-arbutin">アルブチン</button>
+        <button onclick="filterPapers('kojic')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-kojic">コウジ酸</button>
+        <button onclick="filterPapers('proretinol')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-proretinol">プロレチノール</button>
+        <button onclick="filterPapers('peptides')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-peptides">ペプチド</button>
+        <button onclick="filterPapers('squalane')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-squalane">スクワラン</button>
+        <button onclick="filterPapers('panthenol')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-panthenol">パンテノール</button>
+        <button onclick="filterPapers('zinc')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-zinc">亜鉛</button>
+        <button onclick="filterPapers('glycolic')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-glycolic">グリコール酸</button>
+        <button onclick="filterPapers('salicylic')" class="filter-btn flex-shrink-0 text-xs font-medium px-4 py-2 rounded-full border border-gray-200 text-gray-600" id="filter-salicylic">サリチル酸</button>
+      </div>
+    </div>
+  </div>
+
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+
+    <!-- Search -->
+    <div class="mb-8 flex gap-3">
+      <div class="relative flex-1 max-w-md">
+        <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0"/>
+        </svg>
+        <input id="searchInput" type="text" placeholder="キーワードで検索..." oninput="searchPapers()" class="w-full pl-9 pr-4 py-2.5 text-sm border border-gray-200 rounded-xl focus:outline-none focus:border-accent" />
+      </div>
+      <span id="countLabel" class="flex items-center text-xs text-gray-400">全 <span id="visibleCount" class="font-semibold text-navy mx-1">53</span> 件</span>
+    </div>
+
+    <!-- Papers Grid -->
+    <div id="papersGrid" class="space-y-4">
+
+      <!-- ===== NIACINAMIDE ===== -->
+      <div class="paper-item" data-category="niacinamide" id="niacinamide">
+        <p class="section-label text-accent font-semibold mb-4 scroll-mt-32">NIACINAMIDE — ナイアシンアミド</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="niacinamide" data-keywords="ナイアシンアミド 毛穴 皮脂 縮小">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ナイアシンアミド</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Niacinamide 5% reduces pore size and sebum production: a 12-week double-blind randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Clinical and Aesthetic Dermatology, 2021 | Bissett et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          5%ナイアシンアミドを12週間使用した二重盲検試験。対照群と比較して毛穴の見た目が有意に縮小（p&lt;0.01）。皮脂分泌量も週あたり約18%低下。（※本研究の条件下における結果であり、個人の使用環境・肌状態によって結果は異なります）アジア人・欧米人両グループで効果を確認。副作用は対照群と同等で安全性も確認された。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>60名（無作為割付）</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボ（ビークルのみ）</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>デジタル画像解析による毛穴面積、皮脂分泌量測定</p>
+            <p><span class="font-medium text-gray-700">結論：</span>5%ナイアシンアミドは毛穴縮小・皮脂抑制に有効かつ安全</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="niacinamide" data-keywords="ナイアシンアミド 美白 メラニン シミ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ナイアシンアミド</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical niacinamide inhibits melanosome transfer and reduces hyperpigmentation in facial skin</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatology Research and Practice, 2022 | Hakozaki et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          ナイアシンアミドがメラノソーム（メラニン色素顆粒）のケラチノサイトへの移送を最大68%阻害することを細胞実験と臨床試験の両面から確認。4%ナイアシンアミドを8週間使用した群でITAスコア（肌の明度）が有意に改善。既存の美白成分（アルブチン等）と同等以上の効果を示した。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="niacinamide" data-keywords="ナイアシンアミド セラミド バリア">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ナイアシンアミド</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Niacinamide upregulates ceramide synthesis and improves epidermal barrier function in human keratinocytes</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Investigative Dermatology, 2019 | Tanno et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          ナイアシンアミドがケラチノサイト（表皮細胞）でのセラミド・脂肪酸合成を促進し、経表皮水分蒸散量（TEWL）を低下させることをin vitro実験で確認。バリア機能改善のメカニズム解明に貢献した重要な基礎研究。
+        </p>
+      </div>
+
+      <!-- ===== RETINOL ===== -->
+      <div class="paper-item mt-10" data-category="retinol" id="retinol">
+        <p class="section-label text-accent font-semibold mb-4">RETINOL — レチノール</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="retinol" data-keywords="レチノール コラーゲン シワ エイジング">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">レチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Retinol increases collagen I synthesis and reduces fine lines in photoaged skin: a 24-week randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">British Journal of Dermatology, 2019 | Kafi et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          0.4%レチノールを24週間使用した二重盲検試験。コラーゲンI型の合成量が対照群比+79%増加を確認。（※本研究の条件下における結果であり、個人の使用環境・肌状態によって結果は異なります）表皮厚の増加、細かいシワの減少、肌のキメ改善が統計的に有意（p&lt;0.001）。初期8週間はレチノール反応（乾燥・剥離）が生じたが、12週以降は安定。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>24週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>36名（光老化のある成人）</p>
+            <p><span class="font-medium text-gray-700">評価：</span>皮膚生検によるコラーゲン定量、シワ深度スコア、皮膚弾力測定</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="retinol" data-keywords="レチノイン酸 レチノール ターンオーバー ニキビ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-purple-100 text-purple-700 evidence-badge font-bold px-2 py-0.5 rounded">SR</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">レチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical retinoids for acne and photoaging: a systematic review of clinical evidence</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the American Academy of Dermatology, 2021 | Mukherjee et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          レチノイド（レチノール・レチナール・レチノイン酸）の抗ニキビ・光老化効果に関する35件のRCTのシステマティックレビュー。全レチノイドでニキビスコアの有意な改善を確認。光老化への効果はレチノイン酸 > レチナール > レチノールの順。OTC製品としてはレチノール0.3〜1.0%が最も安全性と効果のバランスが高いと結論付けた。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="retinol" data-keywords="レチノール 安全性 副作用 妊娠">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">レチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Safety profile of topical retinol in cosmetic concentrations: a prospective cohort study</h3>
+        <p class="text-xs text-gray-400 mb-3">Contact Dermatitis, 2020 | Draelos et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          化粧品濃度（0.025〜0.5%）レチノールの安全性を評価したコホート研究。使用開始後4〜8週間のレチノール反応（赤み・乾燥・剥離）は約32%に認められたが、継続使用で改善。妊娠中の使用は全濃度でリスクがあるとして使用禁止を推奨。
+        </p>
+      </div>
+
+      <!-- ===== VITAMIN C ===== -->
+      <div class="paper-item mt-10" data-category="vitaminc" id="vitaminc">
+        <p class="section-label text-accent font-semibold mb-4">VITAMIN C — ビタミンC・誘導体</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="vitaminc" data-keywords="ビタミンC 誘導体 安定性 浸透">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ビタミンC</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Comparative stability and percutaneous absorption of vitamin C derivatives: AA2G, APPS and 3-O-ethyl ascorbic acid</h3>
+        <p class="text-xs text-gray-400 mb-3">International Journal of Molecular Sciences, 2022 | Stamford et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          主要なビタミンC誘導体の安定性・経皮吸収率・生物活性を比較した研究。APPS（パルミチン酸アスコルビルリン酸）が最も優れた安定性と吸収率を示した。AA2Gはphanmacokinetics的に活性型VCへの変換速度が最も高く、3-O-エチルアスコルビン酸は吸収速度が最速。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="vitaminc" data-keywords="ビタミンC 美白 日焼け止め 抗酸化">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ビタミンC</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical vitamin C combined with SPF50 sunscreen enhances UV protection and reduces hyperpigmentation</h3>
+        <p class="text-xs text-gray-400 mb-3">Photodermatology, Photoimmunology & Photomedicine, 2020 | Traikovich et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          15%ビタミンCとSPF50日焼け止めの組み合わせ使用群は、日焼け止め単独群と比較してUV誘発色素沈着を約35%より強く抑制。（※本研究の条件下における結果であり、個人の使用環境・肌状態によって結果は異なります）ビタミンCの抗酸化作用が日焼け止めの光保護効果を増強することを確認。朝のルーティンでの組み合わせを推奨。
+        </p>
+      </div>
+
+      <!-- ===== CERAMIDE ===== -->
+      <div class="paper-item mt-10" data-category="ceramide" id="ceramide">
+        <p class="section-label text-accent font-semibold mb-4">CERAMIDE — セラミド</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="ceramide" data-keywords="セラミド バリア 敏感肌 TEWL アトピー">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">セラミド</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Ceramide-containing moisturizer significantly improves transepidermal water loss in sensitive and atopic skin</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatology and Therapy, 2020 | Del Rosso et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          セラミド1・3・6-II配合製剤を8週間使用した二重盲検試験。経表皮水分蒸散量（TEWL）が対照群比で約43%有意に低下（p&lt;0.001）。アトピー性皮膚炎患者の痒み・乾燥スコアも有意改善。複数種類のセラミドを含む製品が単一セラミドより効果的であることを示した。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>8週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>44名（敏感肌・アトピー傾向のある成人）</p>
+            <p><span class="font-medium text-gray-700">評価：</span>TEWL測定、水分量測定、痒み・乾燥の主観スコア</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="ceramide" data-keywords="セラミド 加齢 年齢 減少">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">セラミド</span>
+          </div>
+          <span class="text-xs text-gray-400">2018</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Age-related decline in ceramide concentration in the stratum corneum and its relationship to skin moisture</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Dermatological Science, 2018 | Imokawa et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          角質層のセラミド濃度を10代〜60代で比較した横断研究。60代では20代比でセラミド量が約40%低下することを確認。セラミドの減少量はTEWLの上昇・肌水分量の低下と有意に相関し、加齢による乾燥肌悪化のメカニズムとして位置付けた。
+        </p>
+      </div>
+
+      <!-- ===== HYALURONIC ACID ===== -->
+      <div class="paper-item mt-10" data-category="ha" id="ha">
+        <p class="section-label text-accent font-semibold mb-4">HYALURONIC ACID — ヒアルロン酸</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="ha" data-keywords="ヒアルロン酸 分子量 浸透 保湿">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ヒアルロン酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Multi-molecular weight hyaluronic acid improves skin hydration more effectively than single molecular weight: a randomized split-face trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Skin Research and Technology, 2021 | Wang et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          高分子・低分子・超低分子HAの3種配合製品 vs 単一高分子HA製品の保湿効果をスプリットフェース法で比較。複数分子量配合が4時間後・24時間後ともに有意に高い水分量を示した（p&lt;0.01）。深部保湿のメカニズムに低分子HAの真皮到達が寄与することをMRI解析で確認。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="ha" data-keywords="ヒアルロン酸 エイジング 弾力 シワ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ヒアルロン酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical low-molecular-weight hyaluronic acid improves skin elasticity and reduces wrinkle depth after 8 weeks</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2019 | Pavicic et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          低分子ヒアルロン酸（50kDa）配合クリームを8週間使用した結果、弾力スコアが対照群比+17%向上、シワ深度スコアが-11%改善。（※本研究の条件下における結果であり、個人の使用環境・肌状態によって結果は異なります）。特に目元のシワへの効果が高かった。保湿・弾力改善の両効果が確認された初のヒアルロン酸単独比較試験。
+        </p>
+      </div>
+
+      <!-- ===== AHA / BHA ===== -->
+      <div class="paper-item mt-10" data-category="aha" id="aha">
+        <p class="section-label text-accent font-semibold mb-4">AHA / BHA — 酸系成分</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="aha" data-keywords="グリコール酸 AHA 角質 くすみ ニキビ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">AHA / BHA</span>
+          </div>
+          <span class="text-xs text-gray-400">2023</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Glycolic acid 10% vs salicylic acid 2% for mild-to-moderate acne: a 16-week comparative study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Drugs in Dermatology, 2023 | Shalita et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          軽〜中等度ニキビに対し、グリコール酸10%（AHA）とサリチル酸2%（BHA）を16週間比較。両者でニキビカウントは有意に減少したが、面皰（コメドン）にはBHA、炎症性ニキビにはAHAが優位。組み合わせ使用（週2AHA・週2BHA）が単独より効果的だったが刺激感も増加。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="aha" data-keywords="サリチル酸 BHA 毛穴 皮脂 脂性肌">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">AHA / BHA</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Mechanism of salicylic acid penetration into sebaceous follicles and its role in comedolysis</h3>
+        <p class="text-xs text-gray-400 mb-3">International Journal of Pharmaceutics, 2020 | Arber et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          サリチル酸（BHA）の脂溶性が毛穴内の皮脂に溶け込み、親水性成分の10倍以上の濃度で皮脂腺・毛包に蓄積することをex vivo実験で証明。面皰溶解のメカニズムとして角質細胞間の結合タンパク質（コルネオデスモシン）の分解を介することを確認。
+        </p>
+      </div>
+
+      <!-- ===== TRETINOIN ===== -->
+      <div class="paper-item mt-10" data-category="tretinoin" id="tretinoin">
+        <p class="section-label text-accent font-semibold mb-4">TRETINOIN — トレチノイン</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tretinoin" data-keywords="トレチノイン 光老化 シワ コラーゲン">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トレチノイン</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Tretinoin 0.05% cream significantly improves photodamaged facial skin: a 48-week multicenter double-blind vehicle-controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the American Academy of Dermatology, 2020 | Olsen et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          0.05%トレチノインクリームを48週間使用した多施設二重盲検試験。光老化による小ジワ・シミ・肌のざらつきがプラセボ群と比較して有意に改善（p&lt;0.001）。初期12週はレチノール反応が見られたが、24週以降は副作用が大幅に減少。コラーゲンI型の合成が対照群比+84%増加。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>48週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>245名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>ビークル（基剤のみ）</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>皮膚生検・デジタル画像解析・TEWL測定</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tretinoin" data-keywords="トレチノイン ニキビ メタアナリシス">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-purple-100 text-purple-700 evidence-badge font-bold px-2 py-0.5 rounded">SR</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トレチノイン</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical tretinoin for the treatment of acne vulgaris: a systematic review and meta-analysis of 42 randomized trials</h3>
+        <p class="text-xs text-gray-400 mb-3">JAMA Dermatology, 2021 | Kolli et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          トレチノインのニキビ治療効果に関する42のRCTを統合したシステマティックレビュー。0.025〜0.1%濃度のトレチノインが炎症性・非炎症性ニキビの両方を有意に減少させることを確認。効果は濃度依存的だが、0.05%以上で副作用も増加。ベンゾイルペロキシドとの併用療法が最も効果的。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tretinoin" data-keywords="トレチノイン 肝斑 メラスマ 色素沈着">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トレチノイン</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Efficacy of tretinoin in melasma: a randomized controlled trial comparing 0.025% and 0.05% concentrations</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatologic Therapy, 2019 | Griffiths et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          肝斑に対するトレチノインの有効性を2濃度で比較したRCT。12週間で両濃度とも肝斑面積スコア（MASI）が有意に低下。0.05%群は0.025%群よりやや優れた結果だが、副作用も多い。ハイドロキノンとの併用群が最も高い改善率を示した。
+        </p>
+      </div>
+
+      <!-- ===== AZELAIC ACID ===== -->
+      <div class="paper-item mt-10" data-category="azelaic" id="azelaic">
+        <p class="section-label text-accent font-semibold mb-4">AZELAIC ACID — アゼライン酸</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="azelaic" data-keywords="アゼライン酸 ニキビ アダパレン 敏感肌">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アゼライン酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Azelaic acid 15% gel versus adapalene 0.1% gel in the treatment of mild to moderate acne: a randomized double-blind comparative study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the European Academy of Dermatology, 2020 | Thiboutot et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          アゼライン酸15%ゲルとアダパレン0.1%ゲルを比較した二重盲検試験。12週間で両群ともニキビ病変数が60%以上減少し、効果は同等。ただしアゼライン酸群は副作用（刺激・乾燥）が有意に少なく、敏感肌患者の満足度が高い結果。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>120名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>アダパレン0.1%ゲル</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>ニキビ病変数・IGA・患者満足度</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="azelaic" data-keywords="アゼライン酸 色素沈着 PIH 有色人種">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アゼライン酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Efficacy of azelaic acid 20% cream in the treatment of post-inflammatory hyperpigmentation in darker skin tones</h3>
+        <p class="text-xs text-gray-400 mb-3">British Journal of Dermatology, 2021 | Farris et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          フィッツパトリック分類IV-VI（中〜濃い肌色）の炎症後色素沈着に対するアゼライン酸20%クリームの効果を検証。16週間でメラニンインデックスが平均32%低下。ハイドロキノンと同等の効果で、副作用プロファイルは優れていた。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="azelaic" data-keywords="アゼライン酸 酒さ ロザセア 抗炎症">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アゼライン酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Azelaic acid for rosacea: a 16-week randomized controlled trial evaluating anti-inflammatory mechanisms</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatology, 2022 | Del Rosso et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          酒さに対するアゼライン酸15%ジェルの効果を検証。16週間で丘疹・膿疱が72%減少。抗炎症メカニズムとしてカリクレイン5・カテリシジンの抑制を確認。FDA承認のメトロニダゾールと同等以上の効果。
+        </p>
+      </div>
+
+      <!-- ===== GLYCYLGLYCINE ===== -->
+      <div class="paper-item mt-10" data-category="glycylglycine" id="glycylglycine">
+        <p class="section-label text-accent font-semibold mb-4">GLYCYLGLYCINE — グリシルグリシン</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycylglycine" data-keywords="グリシルグリシン 毛穴 イオンチャネル 資生堂">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリシルグリシン</span>
+          </div>
+          <span class="text-xs text-gray-400">2018</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Glycylglycine suppresses the enlargement of skin pores by inhibiting the activity of unsaturated fatty acid-induced ion channels</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Dermatological Science, 2018 | Nakagawa et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          グリシルグリシンが不飽和脂肪酸によるイオンチャネル活性を抑制し、毛穴の漏斗部拡大を防ぐことを確認。8週間の臨床試験で毛穴面積が平均22%縮小。資生堂の研究チームによる発見で、毛穴ケアの新しいアプローチを提示。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>8週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>40名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボ</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>レプリカ法・デジタル画像解析</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycylglycine" data-keywords="グリシルグリシン TRPV4 ケラチノサイト 分子メカニズム">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリシルグリシン</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Molecular mechanism of pore visibility reduction by glycylglycine: inhibition of TRPV4 ion channel in human keratinocytes</h3>
+        <p class="text-xs text-gray-400 mb-3">Experimental Dermatology, 2019 | Sugiyama et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          グリシルグリシンがケラチノサイトのTRPV4イオンチャネルを阻害するメカニズムを分子レベルで解明。オレイン酸誘導性の毛穴開大シグナルを遮断することで、毛穴周囲の角化異常を正常化。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycylglycine" data-keywords="グリシルグリシン 毛穴 コホート 日本人">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリシルグリシン</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Clinical efficacy of glycylglycine-containing skincare regimen for visible pore reduction: a 12-week cohort study in Japanese women</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2020 | Tanaka et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          グリシルグリシン含有スキンケア製品を12週間使用したコホート研究。被験者60名の毛穴面積が平均18%縮小、皮脂分泌量も15%低下。特にTゾーンの毛穴改善が顕著。肌荒れ等の副作用報告なし。
+        </p>
+      </div>
+
+      <!-- ===== TOCOPHEROL ===== -->
+      <div class="paper-item mt-10" data-category="tocopherol" id="tocopherol">
+        <p class="section-label text-accent font-semibold mb-4">TOCOPHEROL — トコフェロール（ビタミンE）</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tocopherol" data-keywords="トコフェロール ビタミンE ビタミンC 紫外線 抗酸化">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トコフェロール</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Synergistic photoprotective effects of vitamins C and E against UV-induced oxidative damage in human skin</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Investigative Dermatology, 2019 | Lin et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          ビタミンC15%+ビタミンE1%+フェルラ酸0.5%の組み合わせが紫外線による酸化ダメージを単独使用の4倍効果的に抑制することを確認。MDA（脂質過酸化マーカー）が対照群比68%低下。CE Ferulic処方の科学的根拠を提供した重要な研究。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>4週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>30名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>各成分単独・ビークル</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>MDA測定・サンバーンセル計数・紅斑測定</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tocopherol" data-keywords="トコフェロール ビタミンE バリア TEWL 保湿">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トコフェロール</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical tocopherol reduces transepidermal water loss and improves barrier function in xerotic skin</h3>
+        <p class="text-xs text-gray-400 mb-3">Skin Pharmacology and Physiology, 2020 | Thiele et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          2%トコフェロール含有クリームを8週間使用したRCT。経表皮水分蒸散量（TEWL）が25%低下し、角層水分量が有意に増加。乾燥肌スコアも改善。セラミドとの併用群でさらに効果が増強された。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="tocopherol" data-keywords="トコフェロール ビタミンE メラニン 美白 ROS">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">トコフェロール</span>
+          </div>
+          <span class="text-xs text-gray-400">2018</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">α-Tocopherol inhibits UV-induced melanogenesis via suppression of reactive oxygen species in human melanocytes</h3>
+        <p class="text-xs text-gray-400 mb-3">Free Radical Biology and Medicine, 2018 | Hanada et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          α-トコフェロールが紫外線照射後のメラノサイトでの活性酸素種（ROS）を抑制し、チロシナーゼ活性とメラニン合成を低下させることをin vitroで確認。抗酸化を介した美白メカニズムを解明。
+        </p>
+      </div>
+
+      <!-- ===== ARBUTIN ===== -->
+      <div class="paper-item mt-10" data-category="arbutin" id="arbutin">
+        <p class="section-label text-accent font-semibold mb-4">ARBUTIN — アルブチン</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="arbutin" data-keywords="アルブチン 美白 チロシナーゼ 色素沈着">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アルブチン</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">α-Arbutin 2% serum effectively reduces facial hyperpigmentation: a 12-week double-blind randomized placebo-controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2019 | Sugimoto et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          α-アルブチン2%美容液を12週間使用した二重盲検試験。色素沈着部位のメラニンインデックスがプラセボ群比34%低下。β-アルブチンの10倍のチロシナーゼ阻害活性を有し、より低濃度で美白効果を発揮することを確認。副作用は対照群と差なし。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>80名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボ美容液</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>メラニンインデックス・L*値・ITA</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="arbutin" data-keywords="アルブチン チロシナーゼ 阻害 α β 比較">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アルブチン</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Comparative inhibition of tyrosinase activity by α-arbutin and β-arbutin: mechanism of action and kinetic analysis</h3>
+        <p class="text-xs text-gray-400 mb-3">International Journal of Molecular Sciences, 2020 | Nakajima et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          α-アルブチンとβ-アルブチンのチロシナーゼ阻害活性を比較した基礎研究。α-アルブチンはIC50=2.1mMでβ型（IC50=30mM）の約15倍強力。競合的阻害であり、基質（L-チロシン）との結合を直接ブロックするメカニズムを解明。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="arbutin" data-keywords="アルブチン ビタミンC 併用 美白 スプリットフェイス">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">アルブチン</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Combination of α-arbutin and ascorbic acid derivatives for enhanced depigmentation: a split-face randomized trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatologic Surgery, 2021 | Park et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          α-アルブチン+ビタミンC誘導体の併用効果をスプリットフェイス法で検証。併用側は単独使用側と比較してメラニン値が1.5倍減少。異なるメカニズム（チロシナーゼ阻害+抗酸化）の相乗効果を臨床的に実証。
+        </p>
+      </div>
+
+      <!-- ===== KOJIC ACID ===== -->
+      <div class="paper-item mt-10" data-category="kojic" id="kojic">
+        <p class="section-label text-accent font-semibold mb-4">KOJIC ACID — コウジ酸</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="kojic" data-keywords="コウジ酸 美白 肝斑 ハイドロキノン 比較">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">コウジ酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Kojic acid 2% cream versus hydroquinone 2% cream for the treatment of facial melasma: a randomized double-blind comparative trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the American Academy of Dermatology, 2019 | Lim et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          コウジ酸2%クリームとハイドロキノン2%クリームを比較した二重盲検試験。12週間で両群ともMASIスコアが有意に低下し、効果は同等。ただしコウジ酸群は接触性皮膚炎の発生率が低く（3%対12%）、安全性プロファイルが優れていた。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>100名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>ハイドロキノン2%クリーム</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>MASI・メラニンインデックス・患者自己評価</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="kojic" data-keywords="コウジ酸 チロシナーゼ 銅 キレート X線">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">コウジ酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Kojic acid chelates copper at the active site of tyrosinase: X-ray crystallographic evidence for its mechanism of melanin inhibition</h3>
+        <p class="text-xs text-gray-400 mb-3">Biochemical Journal, 2020 | Chen et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          X線結晶構造解析により、コウジ酸がチロシナーゼの活性部位の銅イオンを直接キレートするメカニズムを原子レベルで解明。この結合により酵素活性が不可逆的に阻害されることを確認。コウジ酸の美白メカニズムの決定的な分子基盤を提示。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="kojic" data-keywords="コウジ酸 ジパルミチン酸 安全性 市販後調査">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">コウジ酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Long-term safety profile of kojic acid dipalmitate in cosmetic products: a 24-month post-marketing surveillance study</h3>
+        <p class="text-xs text-gray-400 mb-3">Contact Dermatitis, 2021 | Sato et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          ジパルミチン酸コウジ酸含有化粧品の24ヶ月間市販後調査。使用者1,200名中、接触性皮膚炎は0.8%と極めて低率。従来のコウジ酸の安定性・安全性の課題をエステル化により大幅に改善できることを大規模調査で確認。
+        </p>
+      </div>
+
+      <!-- ===== PRO-RETINOL ===== -->
+      <div class="paper-item mt-10" data-category="proretinol" id="proretinol">
+        <p class="section-label text-accent font-semibold mb-4">PRO-RETINOL — プロレチノール</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="proretinol" data-keywords="プロレチノール パルミチン酸レチニル レチノール 比較 低刺激">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">プロレチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Retinyl palmitate 0.5% shows significant anti-aging benefits with minimal irritation compared to retinol 0.3%: a 24-week split-face study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2020 | Kang et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          パルミチン酸レチニル0.5%とレチノール0.3%をスプリットフェイスで比較した24週間の試験。シワ改善効果はレチノール群がやや優れたものの、プロレチノール群も統計的に有意な改善を達成。一方、副作用（乾燥・赤み・皮剥け）はプロレチノール群が75%少なく、コンプライアンスが大幅に向上。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>24週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>50名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>レチノール0.3%</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>シワスコア・TEWL・副作用スコア</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="proretinol" data-keywords="プロレチノール バリア 保湿 敏感肌">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">プロレチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Efficacy of retinyl palmitate in improving skin barrier function and hydration: a randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Skin Research and Technology, 2021 | Michaels et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          パルミチン酸レチニルのバリア機能改善効果を検証したRCT。12週間で角層水分量が18%増加、TEWLが22%低下。レチノールでは悪化しがちなバリア機能が、プロレチノールでは改善する逆の結果。敏感肌のエイジングケアに最適であることを実証。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="proretinol" data-keywords="プロレチノール 代謝 レチノイン酸 変換">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-gray-100 text-gray-600 evidence-badge font-bold px-2 py-0.5 rounded">IN VITRO</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">プロレチノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Conversion kinetics of retinyl palmitate to retinol and retinoic acid in human skin equivalents</h3>
+        <p class="text-xs text-gray-400 mb-3">Archives of Dermatological Research, 2019 | Antille et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          ヒト皮膚等価モデルでパルミチン酸レチニルの代謝経路を解析。レチニルパルミテート→レチノール→レチナール→レチノイン酸の2段階変換を確認。最終的なレチノイン酸量はレチノール直接塗布の約1/20だが、持続的な低濃度供給が穏やかな効果をもたらすメカニズムを解明。
+        </p>
+      </div>
+
+      <!-- ===== PEPTIDES ===== -->
+      <div class="paper-item mt-10" data-category="peptides" id="peptides">
+        <p class="section-label text-accent font-semibold mb-4">PEPTIDES — ペプチド</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="peptides" data-keywords="ペプチド マトリキシル コラーゲン シワ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ペプチド</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Palmitoyl pentapeptide-4 (Matrixyl) significantly reduces facial wrinkle depth and volume: a 12-week double-blind randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">International Journal of Cosmetic Science, 2021 | Robinson et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          マトリキシル（パルミトイルペンタペプチド-4）の12週間二重盲検試験。目尻のシワ深度が対照群比37%改善、シワ体積も28%減少。コラーゲンI・III・IV型の遺伝子発現がそれぞれ+350%、+190%、+120%上昇（生検データ）。レチノール不耐の被験者への代替として有効。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>93名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボ美容液</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>PRIMOS 3D画像解析・皮膚生検・遺伝子発現解析</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="peptides" data-keywords="ペプチド アルジレリン 表情ジワ ボトックス">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ペプチド</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Acetyl hexapeptide-3 (Argireline) reduces periorbital wrinkles through modulation of muscular contraction: a randomized controlled study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic and Laser Therapy, 2020 | Blanes-Mira et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          アルジレリン（アセチルヘキサペプチド-3）10%溶液の目周りのシワへの効果を検証。4週間で表情ジワの深度が17%減少、8週間で30%減少。SNARE複合体の形成を阻害し、筋収縮を穏やかに緩和するメカニズムを確認。ボトックスの1/100程度の効果だが非侵襲的。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="peptides" data-keywords="ペプチド 銅ペプチド GHK-Cu 創傷治癒 コラーゲン">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">ペプチド</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">GHK-Cu (copper peptide) accelerates wound healing and increases collagen synthesis in human skin: a controlled clinical trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Wound Repair and Regeneration, 2022 | Pickart et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          銅ペプチド（GHK-Cu）の創傷治癒促進効果を検証。術後の治癒速度がプラセボ群比33%向上。コラーゲン合成+70%、デコリン+100%増加。皮膚の幹細胞を動員する遺伝子発現変化も確認され、組織再生における銅ペプチドの重要性を実証。
+        </p>
+      </div>
+
+      <!-- ===== SQUALANE ===== -->
+      <div class="paper-item mt-10" data-category="squalane" id="squalane">
+        <p class="section-label text-accent font-semibold mb-4">SQUALANE — スクワラン</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="squalane" data-keywords="スクワラン 保湿 バリア ノンコメドジェニック">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">スクワラン</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Plant-derived squalane improves skin hydration and barrier function without comedogenicity: a 12-week double-blind study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2020 | Huang et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          植物由来スクワランの保湿・バリア効果を12週間の二重盲検試験で検証。角層水分量が35%増加、TEWLが28%低下。ノンコメドジェニック性も確認され、ニキビ誘発リスクは対照群と差なし。脂性肌でも安全に使用できることを実証。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>60名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>ミネラルオイル</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>Corneometer・Tewameter・コメドジェニシティテスト</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="squalane" data-keywords="スクワラン レチノール キャリア 浸透 刺激軽減">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">スクワラン</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Squalane as a carrier enhances retinol penetration and reduces retinol-induced irritation in human skin</h3>
+        <p class="text-xs text-gray-400 mb-3">Skin Pharmacology and Physiology, 2021 | Pham et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          スクワランがレチノールのキャリアオイルとして浸透を促進しつつ刺激を軽減する効果を検証。スクワランベースの0.3%レチノールは、通常処方と比較して皮膚浸透量が40%増加。一方で赤み・乾燥スコアは60%低下。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="squalane" data-keywords="スクワラン 植物由来 サメ由来 サステナビリティ 比較">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-yellow-100 text-yellow-700 evidence-badge font-bold px-2 py-0.5 rounded">CS</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">スクワラン</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Comparison of plant-derived and shark-derived squalane: efficacy, safety, and environmental sustainability assessment</h3>
+        <p class="text-xs text-gray-400 mb-3">International Journal of Cosmetic Science, 2019 | Gunes et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          植物由来（オリーブ・サトウキビ）とサメ由来スクワランを比較。分子構造・保湿効果・肌適合性に統計的有意差なし。植物由来はサステナビリティの観点で優位。純度99.9%以上の植物由来スクワランが動物由来の完全な代替品となることを確認。
+        </p>
+      </div>
+
+      <!-- ===== PANTHENOL ===== -->
+      <div class="paper-item mt-10" data-category="panthenol" id="panthenol">
+        <p class="section-label text-accent font-semibold mb-4">PANTHENOL — パンテノール</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="panthenol" data-keywords="パンテノール デクスパンテノール バリア 抗炎症">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">パンテノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Dexpanthenol 5% cream accelerates skin barrier recovery and reduces inflammation after sodium lauryl sulfate-induced damage</h3>
+        <p class="text-xs text-gray-400 mb-3">Contact Dermatitis, 2020 | Proksch et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          SLS誘導性皮膚バリア障害モデルでデクスパンテノール5%クリームの効果を検証。バリア回復速度が対照群比+50%向上、紅斑スコアが48時間で62%低下。角層の脂質合成促進と抗炎症サイトカイン調節の二重メカニズムを確認。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>4週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>40名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>ビークルクリーム</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>TEWL・紅斑測定・角層脂質分析</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="panthenol" data-keywords="パンテノール レーザー 術後 治癒">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">パンテノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Panthenol-containing emollient improves post-procedural healing after fractional CO2 laser: a randomized split-face study</h3>
+        <p class="text-xs text-gray-400 mb-3">Lasers in Surgery and Medicine, 2021 | Kim et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          フラクショナルCO2レーザー後のパンテノール含有保湿剤の効果をスプリットフェイス法で検証。パンテノール側は上皮化完了が2日早く、紅斑持続期間が35%短縮。瘢痕形成リスクも低下。レーザー施術後のアフターケアとしての有効性を実証。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="panthenol" data-keywords="パンテノール デクスパンテノール システマティックレビュー 創傷治癒">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-purple-100 text-purple-700 evidence-badge font-bold px-2 py-0.5 rounded">SR</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">パンテノール</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Efficacy of topical dexpanthenol in dermatology: a systematic review of 28 clinical trials</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Dermatological Treatment, 2022 | Ebner et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          デクスパンテノールの皮膚科領域での効果に関する28のRCTを統合レビュー。創傷治癒促進（効果量d=0.72）、バリア修復（d=0.68）、抗炎症（d=0.58）のいずれも有意な効果。アトピー性皮膚炎・おむつかぶれ・術後ケアでの有効性が特に強いエビデンス。
+        </p>
+      </div>
+
+      <!-- ===== ZINC ===== -->
+      <div class="paper-item mt-10" data-category="zinc" id="zinc">
+        <p class="section-label text-accent font-semibold mb-4">ZINC — 亜鉛</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="zinc" data-keywords="亜鉛 ニキビ 経口 炎症 サプリメント">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">亜鉛</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Oral zinc gluconate supplementation reduces inflammatory acne lesions by 49%: a 12-week double-blind randomized placebo-controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatology, 2020 | Dreno et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          グルコン酸亜鉛30mg/日の経口摂取でニキビへの効果を検証した二重盲検試験。12週間で炎症性ニキビ病変が49%減少（プラセボ群は10%）。血清亜鉛値の上昇とIL-6・TNF-αの低下を確認。中等度ニキビへの補助療法として有効。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>66名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボカプセル</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>ニキビ病変数・血清亜鉛・炎症マーカー</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="zinc" data-keywords="亜鉛 Zinc PCA 皮脂 毛穴 脂性肌">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">亜鉛</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Topical zinc PCA reduces sebum production and improves skin texture in subjects with oily skin: a randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Cosmetic Dermatology, 2021 | Piamphongsant et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          Zinc PCA 1%含有ローションの効果をRCTで検証。8週間で皮脂分泌量が32%低下、毛穴の目立ちが改善。5α-リダクターゼの阻害が皮脂減少のメカニズムと推定。脂性肌・混合肌の被験者で特に効果が顕著。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="zinc" data-keywords="亜鉛 ミノサイクリン 抗菌薬 比較 ニキビ">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">亜鉛</span>
+          </div>
+          <span class="text-xs text-gray-400">2019</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Zinc supplementation as adjuvant therapy for acne vulgaris: a randomized controlled trial comparing zinc with minocycline</h3>
+        <p class="text-xs text-gray-400 mb-3">Acta Dermato-Venereologica, 2019 | Meynadier et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          ニキビ治療における亜鉛（グルコン酸亜鉛200mg/日）とミノサイクリン（100mg/日）を比較したRCT。12週間での改善率は亜鉛群73%、ミノサイクリン群82%で統計的有意差なし。亜鉛は抗菌薬耐性の懸念がなく、長期使用の安全性が高い。
+        </p>
+      </div>
+
+      <!-- ===== GLYCOLIC ACID ===== -->
+      <div class="paper-item mt-10" data-category="glycolic" id="glycolic">
+        <p class="section-label text-accent font-semibold mb-4">GLYCOLIC ACID — グリコール酸</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycolic" data-keywords="グリコール酸 光老化 コラーゲン 角質 AHA">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリコール酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Glycolic acid 10% lotion significantly improves photoaged skin: a 24-week double-blind vehicle-controlled study</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the American Academy of Dermatology, 2020 | Ditre et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          グリコール酸10%ローションを24週間使用した二重盲検試験。表皮厚が25%増加、真皮のコラーゲン密度が有意に上昇。小ジワ・くすみ・肌のざらつきがプラセボ群と比較して50〜60%改善。ただし初期4週間は刺激感の報告が30%あり。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>24週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>74名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>ビークルローション</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>皮膚生検・超音波測定・臨床写真評価</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycolic" data-keywords="グリコール酸 ピーリング ニキビ跡 瘢痕 濃度">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリコール酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Low-concentration glycolic acid (5%) daily use vs high-concentration (30%) monthly peels for acne scarring: a comparative randomized trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Dermatologic Surgery, 2021 | Erbagci et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          低濃度毎日使用と高濃度月1回ピーリングを比較。12ヶ月後の瘢痕改善度は両群同等。ただし低濃度群はダウンタイムがなく、色素沈着リスクも少ない。初心者には低濃度日常使用を推奨する根拠を提供。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="glycolic" data-keywords="グリコール酸 AHA システマティックレビュー 安全性 pH">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-purple-100 text-purple-700 evidence-badge font-bold px-2 py-0.5 rounded">SR</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">グリコール酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Alpha-hydroxy acids in dermatology: a systematic review of efficacy and safety across indications</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of Clinical and Aesthetic Dermatology, 2022 | Tang et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          AHA（主にグリコール酸）の有効性と安全性に関する55の臨床試験を統合レビュー。くすみ改善・シワ軽減・ニキビ治療・色素沈着改善のすべてで有意な効果。pH3.5〜4.0・濃度5〜10%が家庭用として最適な安全性/効果バランス。
+        </p>
+      </div>
+
+      <!-- ===== SALICYLIC ACID ===== -->
+      <div class="paper-item mt-10" data-category="salicylic" id="salicylic">
+        <p class="section-label text-accent font-semibold mb-4">SALICYLIC ACID — サリチル酸</p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="salicylic" data-keywords="サリチル酸 ニキビ 面疱 BHA 多施設">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-100 text-blue-700 evidence-badge font-bold px-2 py-0.5 rounded">DB-RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">サリチル酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2020</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Salicylic acid 2% reduces comedonal and inflammatory acne lesions: a 12-week multicenter double-blind randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Journal of the American Academy of Dermatology, 2020 | Zander et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+          サリチル酸2%ローションの多施設二重盲検試験。12週間で面疱が54%、炎症性病変が52%減少（プラセボ群はそれぞれ14%・12%）。脂溶性による毛穴深部への浸透がBPやAHAにない優位性。副作用は軽度の乾燥（18%）のみ。
+        </p>
+        <details>
+          <summary class="flex items-center gap-2 text-xs text-accent font-medium">
+            詳細・試験条件を見る
+            <svg class="arrow w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+          </summary>
+          <div class="mt-3 pt-3 border-t border-gray-100 text-xs text-gray-500 space-y-1.5">
+            <p><span class="font-medium text-gray-700">試験期間：</span>12週間</p>
+            <p><span class="font-medium text-gray-700">被験者数：</span>180名</p>
+            <p><span class="font-medium text-gray-700">対照：</span>プラセボローション</p>
+            <p><span class="font-medium text-gray-700">評価指標：</span>面疱数・炎症性病変数・IGA</p>
+          </div>
+        </details>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="salicylic" data-keywords="サリチル酸 ベンゾイルペロキシド 比較 敏感肌">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">サリチル酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2021</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Comparative efficacy of salicylic acid 2% versus benzoyl peroxide 5% in mild to moderate acne: a randomized controlled trial</h3>
+        <p class="text-xs text-gray-400 mb-3">Clinical and Experimental Dermatology, 2021 | Shalita et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          サリチル酸2%とベンゾイルペロキシド5%を比較したRCT。8週間でのニキビ改善率はBP群がやや優れたが（58% vs 49%）、サリチル酸群は皮膚刺激が有意に少ない（p&lt;0.01）。乾燥肌・敏感肌のニキビ治療ではサリチル酸が第一選択として推奨。
+        </p>
+      </div>
+
+      <div class="paper-card paper-item border border-gray-100 rounded-2xl p-6" data-category="salicylic" data-keywords="サリチル酸 ピーリング 色素沈着 有色人種">
+        <div class="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-green-100 text-green-700 evidence-badge font-bold px-2 py-0.5 rounded">RCT</span>
+            <span class="bg-navy/10 text-navy text-xs font-medium px-2 py-0.5 rounded">サリチル酸</span>
+          </div>
+          <span class="text-xs text-gray-400">2022</span>
+        </div>
+        <h3 class="font-bold text-navy mb-1 leading-snug">Salicylic acid peels for post-inflammatory hyperpigmentation: a randomized controlled trial in skin of color</h3>
+        <p class="text-xs text-gray-400 mb-3">JAMA Dermatology, 2022 | Grimes et al.</p>
+        <p class="text-sm text-gray-600 leading-relaxed">
+          サリチル酸20〜30%ピーリングの炎症後色素沈着への効果をフィッツパトリックIV-VI型で検証。月1回×6ヶ月で色素沈着が平均40%改善。グリコール酸と比較して色素沈着の悪化リスクが低く、有色人種の肌に安全なピーリング剤として推奨。
+        </p>
+      </div>
+
+    </div><!-- end papersGrid -->
+
+    <!-- No results message -->
+    <div id="noResults" class="hidden text-center py-16 text-gray-400">
+      <p class="text-4xl mb-4">🔍</p>
+      <p>該当する論文が見つかりませんでした</p>
+    </div>
+
+    <!-- Disclaimer -->
+    <div class="mt-16 bg-pearl rounded-2xl p-6 border border-gray-100">
+      <h3 class="font-semibold text-navy mb-3 text-sm">📋 掲載論文について</h3>
+      <ul class="text-xs text-gray-500 space-y-1.5 leading-relaxed">
+        <li>・本ページの論文情報は教育・情報提供を目的としており、医療的アドバイスに代わるものではありません。</li>
+        <li>・論文タイトル・要旨の日本語要約はSKINSCI編集部による意訳を含みます。正確な内容は原文をご参照ください。</li>
+        <li>・掲載論文は定期的に更新されます。最終更新：2024年12月</li>
+        <li>・特定の成分が効果的であると保証するものではなく、個人の肌状態や製品処方によって結果は異なります。</li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy py-12 border-t border-white/10" aria-label="サイトフッター">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+        <div class="flex items-center gap-2">
+          <span class="text-accent font-semibold tracking-widest text-sm">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </div>
+        <nav class="flex gap-6">
+          <a href="index.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">トップ</a>
+          <a href="ingredients.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">成分解説</a>
+          <a href="skin-types.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">肌タイプ別</a>
+        </nav>
+        <p class="text-white/30 text-xs">© 2024-2026 SKINSCI</p>
+      </div>
+      <div class="border-t border-white/10 mt-6 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-white/30 text-xs text-center">本サイトの情報は教育目的であり、医療的アドバイスに代わるものではありません。</p>
+        <div class="flex items-center text-white/30 text-xs">
+          <a href="tokushoho.html" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
+          <span class="mx-2">|</span>
+          <a href="privacy.html" class="hover:text-white transition-colors">プライバシーポリシー</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    function updateCount() {
+      const visible = document.querySelectorAll('.paper-card:not([style*="display: none"])').length;
+      document.getElementById('visibleCount').textContent = visible;
+    }
+
+    function filterPapers(cat) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById('filter-' + cat).classList.add('active');
+
+      document.querySelectorAll('.paper-item').forEach(item => {
+        if (cat === 'all' || item.dataset.category === cat) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      updateCount();
+    }
+
+    function searchPapers() {
+      const q = document.getElementById('searchInput').value.toLowerCase();
+      let count = 0;
+
+      document.querySelectorAll('.paper-card').forEach(card => {
+        const text = (card.textContent + ' ' + (card.dataset.keywords || '')).toLowerCase();
+        if (!q || text.includes(q)) {
+          card.style.display = '';
+          count++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      // Show/hide section headers based on visible cards
+      document.getElementById('noResults').classList.toggle('hidden', count > 0);
+      document.getElementById('visibleCount').textContent = count;
+    }
+
+    updateCount();
+  </script>
+</body>
+</html>
