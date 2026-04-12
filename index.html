@@ -14,9 +14,9 @@
   <meta name="google-site-verification" content="5K1yj2blq4uTvLuEZ9xTCcXjGvWQt6RSdpuo1YT2w8o" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SKINSCI — 科学で選ぶスキンケア｜成分解説・肌タイプ診断</title>
-  <meta name="description" content="科学的根拠に基づくスキンケア情報サイト。成分の効果・研究データを分かりやすく解説し、肌タイプ別の最適なケアをご提案します。" />
+  <meta name="description" content="スキンケア成分の効果・使い方を論文データで徹底解説。ナイアシンアミド・レチノール・セラミド等の完全ガイドと肌タイプ診断で、あなたに最適なケアが見つかります。" />
   <meta name="keywords" content="スキンケア,成分解説,肌タイプ診断,ナイアシンアミド,レチノール,ビタミンC,セラミド,科学的根拠,美肌" />
-  <link rel="canonical" href="https://skinsci.jp/" />
+  <link rel="canonical" href="https://mailkanri2806-stack.github.io/skinsci-website/" />
   <!-- OGP -->
   <meta property="og:title" content="SKINSCI — 科学で選ぶスキンケア" />
   <meta property="og:description" content="成分の効果・研究データを分かりやすく解説。肌タイプ別の最適なケアをご提案します。" />
@@ -57,6 +57,7 @@
     "sameAs": []
   }
   </script>
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -75,6 +76,7 @@
     };
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
   <style>
     html { scroll-behavior: smooth; }
@@ -177,7 +179,7 @@
       <div class="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
         <div class="flex-1">
           <p class="section-label text-accent font-medium mb-3">SKIN TYPE QUIZ</p>
-          <h2 class="text-2xl md:text-3xl font-bold text-navy mb-4">あなたの肌タイプは？</h2>
+          <h2 class="text-2xl md:text-3xl font-bold text-navy mb-4">肌タイプ診断 - あなたの肌タイプは？</h2>
           <p class="text-gray-500 leading-relaxed mb-6">
             5つの質問に答えるだけで、あなたの肌タイプを判定。<br/>
             最適な成分・ルーティンをご提案します。
@@ -217,7 +219,7 @@
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
         <div>
           <p class="section-label text-accent font-medium mb-3">FEATURED INGREDIENTS</p>
-          <h2 class="text-3xl font-bold text-navy">注目のスキンケア成分</h2>
+          <h2 class="text-3xl font-bold text-navy">注目のスキンケア有効成分を科学的に解説</h2>
         </div>
         <a href="ingredients.html" class="text-accent hover:text-accent-muted text-sm font-medium tracking-wide mt-4 md:mt-0 flex items-center gap-1">
           すべての成分を見る
@@ -315,7 +317,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-14">
         <p class="section-label text-accent/70 font-medium mb-3">HOW TO USE</p>
-        <h2 class="text-3xl font-bold text-white">SKINSCIの使い方</h2>
+        <h2 class="text-3xl font-bold text-white">SKINSCIで始めるスキンケア成分学習</h2>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div class="text-center">
@@ -441,7 +443,7 @@
           <span class="mt-auto text-accent text-sm font-medium">記事を読む →</span>
         </a>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <a href="ingredient-combinations.html" class="card-hover group bg-white rounded-2xl p-6 flex items-center gap-4 border border-gray-100">
           <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
             <span class="text-xl">🧪</span>
@@ -460,6 +462,36 @@
             <p class="text-xs text-accent font-medium tracking-widest mb-1">BARRIER CARE</p>
             <h3 class="font-bold text-navy group-hover:text-accent transition-colors">セラミド完全ガイド</h3>
             <p class="text-gray-400 text-xs mt-1">バリア機能との関係・選び方を科学的に解説</p>
+          </div>
+        </a>
+        <a href="skincare-order.html" class="card-hover group bg-white rounded-2xl p-6 flex items-center gap-4 border border-gray-100">
+          <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
+            <span class="text-xl">📋</span>
+          </div>
+          <div>
+            <p class="text-xs text-accent font-medium tracking-widest mb-1">ROUTINE</p>
+            <h3 class="font-bold text-navy group-hover:text-accent transition-colors">スキンケアの正しい順番</h3>
+            <p class="text-gray-400 text-xs mt-1">朝と夜の塗る順番を肌タイプ別に解説</p>
+          </div>
+        </a>
+        <a href="sensitive-skin-guide.html" class="card-hover group bg-white rounded-2xl p-6 flex items-center gap-4 border border-gray-100">
+          <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
+            <span class="text-xl">🌸</span>
+          </div>
+          <div>
+            <p class="text-xs text-accent font-medium tracking-widest mb-1">SENSITIVE SKIN</p>
+            <h3 class="font-bold text-navy group-hover:text-accent transition-colors">敏感肌スキンケアガイド</h3>
+            <p class="text-gray-400 text-xs mt-1">避けるべき成分と使うべき成分を解説</p>
+          </div>
+        </a>
+        <a href="vitamin-c-guide.html" class="card-hover group bg-white rounded-2xl p-6 flex items-center gap-4 border border-gray-100">
+          <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
+            <span class="text-xl">✨</span>
+          </div>
+          <div>
+            <p class="text-xs text-accent font-medium tracking-widest mb-1">VITAMIN C</p>
+            <h3 class="font-bold text-navy group-hover:text-accent transition-colors">ビタミンC誘導体の選び方</h3>
+            <p class="text-gray-400 text-xs mt-1">種類・効果・使い方を科学的に解説</p>
           </div>
         </a>
       </div>

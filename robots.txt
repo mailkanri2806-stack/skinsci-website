@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://skinsci.jp/sitemap.xml
+Sitemap: https://mailkanri2806-stack.github.io/skinsci-website/sitemap.xml

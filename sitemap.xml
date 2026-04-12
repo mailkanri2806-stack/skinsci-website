@@ -1,69 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://skinsci.jp/</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/ingredients.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/ingredients.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/research.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/research.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/skin-types.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/skin-types.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/tokushoho.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/tokushoho.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/privacy.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/privacy.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/niacinamide-guide.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/niacinamide-guide.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/retinol-guide.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/retinol-guide.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/morning-routine.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/morning-routine.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/ingredient-combinations.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/ingredient-combinations.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://skinsci.jp/ceramide-guide.html</loc>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/ceramide-guide.html</loc>
     <lastmod>2026-04-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/sensitive-skin-guide.html</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/vitamin-c-guide.html</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mailkanri2806-stack.github.io/skinsci-website/skincare-order.html</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
