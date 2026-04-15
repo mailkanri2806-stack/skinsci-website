@@ -149,7 +149,38 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <p class="section-label text-accent/70 font-medium mb-3">INGREDIENT GUIDE</p>
       <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">スキンケア成分解説</h1>
-      <p class="text-white/50 max-w-xl leading-relaxed">各成分の作用機序・推奨濃度・使用方法・相性の良い組み合わせを、研究データをもとに解説します。</p>
+      <p class="text-white/50 max-w-xl leading-relaxed mb-8">各成分の作用機序・推奨濃度・使用方法・相性の良い組み合わせを、研究データをもとに解説します。</p>
+      <!-- 成分カテゴリ ビジュアル -->
+      <div class="grid grid-cols-3 md:grid-cols-7 gap-3 mt-6">
+        <a href="#filter-brightening" onclick="filterIngredients('brightening')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">✨</div>
+          <p class="text-white/80 text-xs font-medium">美白・くすみ</p>
+        </a>
+        <a href="#filter-antiaging" onclick="filterIngredients('antiaging')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">⏳</div>
+          <p class="text-white/80 text-xs font-medium">エイジング</p>
+        </a>
+        <a href="#filter-hydration" onclick="filterIngredients('hydration')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">💧</div>
+          <p class="text-white/80 text-xs font-medium">保湿</p>
+        </a>
+        <a href="#filter-pores" onclick="filterIngredients('pores')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">🕳️</div>
+          <p class="text-white/80 text-xs font-medium">毛穴・皮脂</p>
+        </a>
+        <a href="#filter-barrier" onclick="filterIngredients('barrier')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">🛡️</div>
+          <p class="text-white/80 text-xs font-medium">バリア強化</p>
+        </a>
+        <a href="#filter-soothing" onclick="filterIngredients('soothing')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">🌿</div>
+          <p class="text-white/80 text-xs font-medium">鎮静・修復</p>
+        </a>
+        <a href="#filter-acne" onclick="filterIngredients('acne')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-xl p-3 text-center transition-all">
+          <div class="text-3xl mb-1">🔴</div>
+          <p class="text-white/80 text-xs font-medium">ニキビケア</p>
+        </a>
+      </div>
     </div>
   </header>
 
