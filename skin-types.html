@@ -185,7 +185,30 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <p class="section-label text-accent/70 font-medium mb-3">SKIN TYPE GUIDE</p>
       <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">肌タイプ別ガイド</h1>
-      <p class="text-white/50 max-w-xl leading-relaxed">乾燥肌・脂性肌・混合肌・敏感肌それぞれの特徴と、おすすめの成分・ルーティンを紹介します。</p>
+      <p class="text-white/50 max-w-xl leading-relaxed mb-8">乾燥肌・脂性肌・混合肌・敏感肌それぞれの特徴と、おすすめの成分・ルーティンを紹介します。</p>
+      <!-- 4タイプ ビジュアルオーバービュー -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-6">
+        <a href="#tab-dry" onclick="switchTab('dry')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-2xl p-5 text-center transition-all">
+          <div class="text-6xl mb-2">🌵</div>
+          <p class="text-white font-bold text-sm">乾燥肌</p>
+          <p class="text-white/40 text-xs tracking-widest mt-1">DRY</p>
+        </a>
+        <a href="#tab-oily" onclick="switchTab('oily')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-2xl p-5 text-center transition-all">
+          <div class="text-6xl mb-2">💧</div>
+          <p class="text-white font-bold text-sm">脂性肌</p>
+          <p class="text-white/40 text-xs tracking-widest mt-1">OILY</p>
+        </a>
+        <a href="#tab-combo" onclick="switchTab('combo')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-2xl p-5 text-center transition-all">
+          <div class="text-6xl mb-2">🌓</div>
+          <p class="text-white font-bold text-sm">混合肌</p>
+          <p class="text-white/40 text-xs tracking-widest mt-1">COMBINATION</p>
+        </a>
+        <a href="#tab-sensitive" onclick="switchTab('sensitive')" class="bg-white/5 hover:bg-white/10 border border-white/10 hover:border-accent rounded-2xl p-5 text-center transition-all">
+          <div class="text-6xl mb-2">🌸</div>
+          <p class="text-white font-bold text-sm">敏感肌</p>
+          <p class="text-white/40 text-xs tracking-widest mt-1">SENSITIVE</p>
+        </a>
+      </div>
     </div>
   </header>
 
@@ -194,16 +217,16 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex overflow-x-auto">
         <button onclick="switchTab('dry')" class="skin-tab active flex items-center gap-2 px-5 py-4 text-sm text-gray-500 whitespace-nowrap" id="tab-dry">
-          <span>💧</span> 乾燥肌
+          <span class="text-xl">🌵</span> 乾燥肌
         </button>
         <button onclick="switchTab('oily')" class="skin-tab flex items-center gap-2 px-5 py-4 text-sm text-gray-500 whitespace-nowrap" id="tab-oily">
-          <span>✨</span> 脂性肌
+          <span class="text-xl">💧</span> 脂性肌
         </button>
         <button onclick="switchTab('combo')" class="skin-tab flex items-center gap-2 px-5 py-4 text-sm text-gray-500 whitespace-nowrap" id="tab-combo">
-          <span>🌿</span> 混合肌
+          <span class="text-xl">🌓</span> 混合肌
         </button>
         <button onclick="switchTab('sensitive')" class="skin-tab flex items-center gap-2 px-5 py-4 text-sm text-gray-500 whitespace-nowrap" id="tab-sensitive">
-          <span>🌸</span> 敏感肌
+          <span class="text-xl">🌸</span> 敏感肌
         </button>
       </div>
     </div>
@@ -218,7 +241,7 @@
         <div class="lg:col-span-2 space-y-8">
           <div>
             <div class="flex items-center gap-3 mb-4">
-              <span class="text-3xl">💧</span>
+              <span class="text-5xl">🌵</span>
               <div>
                 <h2 class="text-2xl font-bold text-navy">乾燥肌</h2>
                 <p class="text-gray-400 text-sm">Dry Skin</p>
@@ -395,7 +418,7 @@
         <div class="lg:col-span-2 space-y-8">
           <div>
             <div class="flex items-center gap-3 mb-4">
-              <span class="text-3xl">✨</span>
+              <span class="text-5xl">💧</span>
               <div>
                 <h2 class="text-2xl font-bold text-navy">脂性肌</h2>
                 <p class="text-gray-400 text-sm">Oily Skin</p>
@@ -539,7 +562,7 @@
         <div class="lg:col-span-2 space-y-8">
           <div>
             <div class="flex items-center gap-3 mb-4">
-              <span class="text-3xl">🌿</span>
+              <span class="text-5xl">🌓</span>
               <div>
                 <h2 class="text-2xl font-bold text-navy">混合肌</h2>
                 <p class="text-gray-400 text-sm">Combination Skin</p>
@@ -638,7 +661,7 @@
         <div class="lg:col-span-2 space-y-8">
           <div>
             <div class="flex items-center gap-3 mb-4">
-              <span class="text-3xl">🌸</span>
+              <span class="text-5xl">🌸</span>
               <div>
                 <h2 class="text-2xl font-bold text-navy">敏感肌</h2>
                 <p class="text-gray-400 text-sm">Sensitive Skin</p>
