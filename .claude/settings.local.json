@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Write(**)",
+      "Edit(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "Bash(git status)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(findstr *)",
+      "Bash(find *)"
+    ],
+    "deny": [
+      "Bash(git push *)",
+      "Bash(rm *)",
+      "Bash(del *)"
+    ]
+  }
+}
