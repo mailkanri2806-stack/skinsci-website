@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB4R8WCP2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KCB4R8WCP2');
+  </script>
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="5K1yj2blq4uTvLuEZ9xTCcXjGvWQt6RSdpuo1YT2w8o" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>肌悩み×予算で見つける スキンケアセット診断 — SKINSCI</title>
+  <meta name="description" content="あなたの肌悩みと予算に合わせて、最適なスキンケアセットを提案。ニキビ・毛穴・乾燥・シミ・エイジング・敏感肌、それぞれに合った商品をステップ形式で診断します。" />
+  <meta name="keywords" content="スキンケア 診断,スキンケアセット おすすめ,肌悩み別 スキンケア,予算別 スキンケア" />
+  <link rel="canonical" href="https://mailkanri2806-stack.github.io/skinsci-website/product-finder.html" />
+  <!-- OGP -->
+  <meta property="og:title" content="肌悩み×予算で見つける スキンケアセット診断" />
+  <meta property="og:description" content="あなたの肌悩みと予算に合わせて、最適なスキンケアセットを提案します。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://mailkanri2806-stack.github.io/skinsci-website/product-finder.html" />
+  <meta property="og:image" content="https://mailkanri2806-stack.github.io/skinsci-website/assets/ogp-product-finder.png" />
+  <meta property="og:site_name" content="SKINSCI" />
+  <meta property="og:locale" content="ja_JP" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="肌悩み×予算で見つける スキンケアセット診断" />
+  <meta name="twitter:description" content="あなたの肌悩みと予算に合わせて、最適なスキンケアセットを提案します。" />
+  <meta name="twitter:image" content="https://mailkanri2806-stack.github.io/skinsci-website/assets/ogp-product-finder.png" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "肌悩み×予算で見つける スキンケアセット診断",
+    "description": "あなたの肌悩みと予算に合わせて、最適なスキンケアセットを提案します。",
+    "url": "https://mailkanri2806-stack.github.io/skinsci-website/product-finder.html",
+    "inLanguage": "ja",
+    "author": { "@type": "Organization", "name": "SKINSCI" },
+    "publisher": { "@type": "Organization", "name": "SKINSCI", "url": "https://mailkanri2806-stack.github.io/skinsci-website/", "logo": "https://mailkanri2806-stack.github.io/skinsci-website/assets/logo.png" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mailkanri2806-stack.github.io/skinsci-website/" },
+      { "@type": "ListItem", "position": 2, "name": "スキンケアセット診断", "item": "https://mailkanri2806-stack.github.io/skinsci-website/product-finder.html" }
+    ]
+  }
+  </script>
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0d1f3c', light: '#1a3461', dark: '#08132a' },
+            accent: { DEFAULT: '#5b9cc4', light: '#a8d5f0', muted: '#3a7fa8' },
+            pearl: '#f5f6f8',
+          },
+          fontFamily: { sans: ['Inter', 'Noto Sans JP', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+    .nav-blur { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .section-label { font-size: 0.7rem; letter-spacing: 0.25em; }
+    .card-hover { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(13,31,60,0.1); }
+    .step-active { border-color: #5b9cc4; background: #f0f9ff; }
+    .concern-btn.selected { border-color: #5b9cc4; background: #e0f2fe; box-shadow: 0 0 0 2px #5b9cc4; }
+    .budget-btn.selected { border-color: #5b9cc4; background: #e0f2fe; box-shadow: 0 0 0 2px #5b9cc4; }
+    .fade-in { animation: fadeIn 0.4s ease-out; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10" aria-label="メインナビゲーション">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="SKINSCI トップページ">
+          <span class="text-accent font-semibold tracking-widest text-sm section-label">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="ingredients.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">成分解説</a>
+          <a href="skin-types.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">肌タイプ別</a>
+          <a href="research.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">論文まとめ</a>
+          <a href="skin-types.html#quiz" class="bg-accent hover:bg-accent-muted text-white text-sm px-5 py-2 rounded-full tracking-wide transition-colors">肌タイプ診断</a>
+        </div>
+        <div class="hidden lg:flex items-center gap-1 text-xs ml-4 pl-4 border-l border-white/20" aria-label="言語選択">
+            <a href="./index.html" class="text-white font-semibold px-2 py-1">日本語</a>
+            <span class="text-white/30">|</span>
+            <a href="./en/index.html" class="text-white/50 hover:text-white px-2 py-1">EN</a>
+            <span class="text-white/30">|</span>
+            <a href="./ko/index.html" class="text-white/50 hover:text-white px-2 py-1">한국어</a>
+          </div>
+                <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy border-t border-white/10 px-4 py-4 space-y-3">
+      <a href="ingredients.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">成分解説</a>
+      <a href="skin-types.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">肌タイプ別</a>
+      <a href="research.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">論文まとめ</a>
+      <a href="skin-types.html#quiz" class="block bg-accent text-white text-sm px-5 py-2 rounded-full text-center mt-2 tracking-wide">肌タイプ診断</a>
+      <div class="flex items-center gap-2 pt-3 mt-3 border-t border-white/10 text-xs">
+        <a href="./index.html" class="text-white font-semibold px-2 py-1">日本語</a>
+        <span class="text-white/30">|</span>
+        <a href="./en/index.html" class="text-white/50 px-2 py-1">EN</a>
+        <span class="text-white/30">|</span>
+        <a href="./ko/index.html" class="text-white/50 px-2 py-1">한국어</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-navy pt-28 pb-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <p class="section-label text-accent/80 font-medium mb-4">PRODUCT FINDER</p>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">肌悩み×予算で見つける<br/>あなたに合うスキンケアセット</h1>
+      <p class="text-white/50 text-sm">3ステップで、あなたの肌に合った商品をご提案します</p>
+      <p class="text-yellow-300/80 text-xs mt-4">※本ページにはアフィリエイトリンク（PR）が含まれます</p>
+    </div>
+  </section>
+
+  <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- Step Indicator -->
+    <div class="flex items-center justify-center gap-2 mb-10">
+      <div id="step-ind-1" class="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center text-sm font-bold">1</div>
+      <div class="w-8 h-0.5 bg-gray-200" id="step-line-1"></div>
+      <div id="step-ind-2" class="w-10 h-10 rounded-full bg-gray-200 text-gray-500 flex items-center justify-center text-sm font-bold">2</div>
+      <div class="w-8 h-0.5 bg-gray-200" id="step-line-2"></div>
+      <div id="step-ind-3" class="w-10 h-10 rounded-full bg-gray-200 text-gray-500 flex items-center justify-center text-sm font-bold">3</div>
+    </div>
+
+    <!-- Step 1: 肌悩み選択 -->
+    <div id="step1" class="fade-in">
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-gray-900 mb-2">Step 1: 肌悩みを選んでください</h2>
+        <p class="text-sm text-gray-500 mb-6">当てはまるものを全て選択してください（複数OK）</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3" id="concerns-grid">
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="acne">
+            <span class="text-2xl block mb-1">😣</span>
+            <span class="font-semibold text-sm">ニキビ・吹き出物</span>
+            <span class="block text-xs text-gray-400 mt-0.5">繰り返すニキビ、赤み</span>
+          </button>
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="pores">
+            <span class="text-2xl block mb-1">🔍</span>
+            <span class="font-semibold text-sm">毛穴の目立ち</span>
+            <span class="block text-xs text-gray-400 mt-0.5">黒ずみ、開き、たるみ毛穴</span>
+          </button>
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="dryness">
+            <span class="text-2xl block mb-1">🏜️</span>
+            <span class="font-semibold text-sm">乾燥・つっぱり</span>
+            <span class="block text-xs text-gray-400 mt-0.5">洗顔後のつっぱり、粉ふき</span>
+          </button>
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="spots">
+            <span class="text-2xl block mb-1">🌑</span>
+            <span class="font-semibold text-sm">シミ・くすみ</span>
+            <span class="block text-xs text-gray-400 mt-0.5">色素沈着、肌のくすみ</span>
+          </button>
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="aging">
+            <span class="text-2xl block mb-1">⏳</span>
+            <span class="font-semibold text-sm">シワ・たるみ（エイジング）</span>
+            <span class="block text-xs text-gray-400 mt-0.5">ほうれい線、ハリ不足</span>
+          </button>
+          <button type="button" class="concern-btn p-4 border-2 border-gray-200 rounded-xl text-left transition-all hover:border-accent/50" data-concern="sensitive">
+            <span class="text-2xl block mb-1">🌿</span>
+            <span class="font-semibold text-sm">敏感肌・赤み</span>
+            <span class="block text-xs text-gray-400 mt-0.5">刺激に弱い、赤みが出やすい</span>
+          </button>
+        </div>
+        <button id="btn-to-step2" disabled class="mt-6 w-full sm:w-auto px-8 py-3 bg-accent hover:bg-accent-muted disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold rounded-full transition-colors">
+          次へ: 予算を選ぶ
+        </button>
+      </div>
+    </div>
+
+    <!-- Step 2: 予算選択 -->
+    <div id="step2" class="hidden fade-in">
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-gray-900 mb-2">Step 2: 予算を選んでください</h2>
+        <p class="text-sm text-gray-500 mb-6">セット合計の目安です</p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3" id="budget-grid">
+          <button type="button" class="budget-btn p-5 border-2 border-gray-200 rounded-xl text-center transition-all hover:border-accent/50" data-budget="low">
+            <span class="text-2xl block mb-2">💰</span>
+            <span class="font-semibold text-sm block">プチプラ</span>
+            <span class="text-xs text-gray-400">約3,000円以下</span>
+          </button>
+          <button type="button" class="budget-btn p-5 border-2 border-gray-200 rounded-xl text-center transition-all hover:border-accent/50" data-budget="mid">
+            <span class="text-2xl block mb-2">💰💰</span>
+            <span class="font-semibold text-sm block">スタンダード</span>
+            <span class="text-xs text-gray-400">約3,000〜8,000円</span>
+          </button>
+          <button type="button" class="budget-btn p-5 border-2 border-gray-200 rounded-xl text-center transition-all hover:border-accent/50" data-budget="high">
+            <span class="text-2xl block mb-2">💰💰💰</span>
+            <span class="font-semibold text-sm block">しっかり投資</span>
+            <span class="text-xs text-gray-400">約8,000円以上</span>
+          </button>
+        </div>
+        <div class="flex gap-3 mt-6">
+          <button id="btn-back-to-step1" class="px-6 py-3 border border-gray-300 text-gray-600 font-bold rounded-full hover:bg-gray-50 transition-colors">
+            戻る
+          </button>
+          <button id="btn-to-step3" disabled class="px-8 py-3 bg-accent hover:bg-accent-muted disabled:bg-gray-300 disabled:cursor-not-allowed text-white font-bold rounded-full transition-colors">
+            結果を見る
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Step 3: 結果表示 -->
+    <div id="step3" class="hidden fade-in">
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+        <h2 class="text-xl font-bold text-gray-900 mb-2">あなたにおすすめのスキンケアセット</h2>
+        <p class="text-sm text-gray-500 mb-4" id="result-summary"></p>
+
+        <!-- セット切り替え -->
+        <div class="flex gap-2 mb-6">
+          <button id="btn-minimal" class="px-4 py-2 text-sm font-semibold rounded-full border-2 border-accent bg-accent/10 text-navy transition-all">最低限セット（3ステップ）</button>
+          <button id="btn-full" class="px-4 py-2 text-sm font-semibold rounded-full border-2 border-gray-200 text-gray-500 transition-all hover:border-accent/50">フルセット</button>
+        </div>
+
+        <!-- 最低限セットの説明 -->
+        <div id="set-info" class="mb-6 p-4 bg-blue-50 rounded-xl border border-blue-100">
+          <p class="text-sm text-blue-800 font-semibold mb-1" id="set-info-title">最低限セット: まずはこの3つから</p>
+          <p class="text-xs text-blue-600" id="set-info-desc">洗顔 + 化粧水 + 日焼け止め。忙しくても、この3つだけは続けたいスキンケアの基本です。</p>
+        </div>
+
+        <!-- 結果カード -->
+        <div id="results-container" class="space-y-4"></div>
+
+        <!-- 注記 -->
+        <div class="mt-8 space-y-4">
+          <div class="p-4 bg-amber-50 rounded-xl border border-amber-200">
+            <p class="text-sm font-bold text-amber-800 mb-1">乳液とクリーム、どっちが必要？</p>
+            <p class="text-xs text-amber-700">両方使う必要はありません。どちらか一方でOKです。乾燥がひどい場合はクリーム推奨、普通〜脂性肌の方は乳液が軽くておすすめです。</p>
+          </div>
+        </div>
+
+        <div class="flex gap-3 mt-6">
+          <button id="btn-restart" class="px-6 py-3 border border-gray-300 text-gray-600 font-bold rounded-full hover:bg-gray-50 transition-colors">
+            最初からやり直す
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 免責事項 -->
+    <section class="mt-14 mb-8">
+      <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100">
+        <h3 class="text-sm font-bold text-gray-700 mb-3">免責事項</h3>
+        <ul class="text-xs text-gray-500 space-y-1.5 leading-relaxed">
+          <li>本ページの情報は一般的なスキンケアの知識に基づくものであり、医療的なアドバイスではありません。</li>
+          <li>個人の肌質・体質によって合う商品は異なります。使用前にパッチテストを推奨します。</li>
+          <li>肌に異常を感じた場合は直ちに使用を中止し、皮膚科専門医にご相談ください。</li>
+          <li>価格は変動する場合があります。最新の価格は各販売サイトでご確認ください。</li>
+          <li>本ページにはアフィリエイトリンクが含まれており、購入により当サイトに収益が発生する場合があります。</li>
+          <li>効果・効能を保証するものではありません。</li>
+        </ul>
+      </div>
+    </section>
+
+<!-- 口コミセクション -->
+<section class="mb-14 mt-14" id="reviews-section">
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-2">みんなの口コミ</h2>
+    <p class="text-sm text-gray-500 mb-6">このページの成分・商品について、あなたの体験を教えてください</p>
+
+    <!-- 口コミ投稿フォーム -->
+    <form id="review-form" class="mb-8 p-5 bg-gray-50 rounded-xl">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">ニックネーム</label>
+          <input type="text" id="rv-nickname" placeholder="匿名でもOK" maxlength="20"
+            class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">成分・商品名</label>
+          <input type="text" id="rv-target" placeholder="例: おすすめされた美容液" maxlength="50"
+            class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none">
+        </div>
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">満足度</label>
+        <div id="rv-stars" class="flex gap-1 cursor-pointer text-2xl select-none">
+          <span data-star="1" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="2" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="3" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="4" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="5" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+        </div>
+        <input type="hidden" id="rv-rating" value="5">
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">口コミ・感想</label>
+        <textarea id="rv-comment" rows="3" placeholder="使ってみた感想、効果、気になった点など" maxlength="500"
+          class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none resize-none"></textarea>
+      </div>
+      <button type="submit" id="rv-submit"
+        class="w-full sm:w-auto px-6 py-2.5 bg-[#0d1f3c] text-white text-sm font-bold rounded-lg hover:bg-[#1a3a5c] transition-colors">
+        口コミを投稿する
+      </button>
+      <p id="rv-status" class="text-sm mt-2 hidden"></p>
+    </form>
+
+    <!-- 口コミ一覧 -->
+    <div id="reviews-list">
+      <p class="text-sm text-gray-400 text-center py-4" id="rv-loading">口コミを読み込み中...</p>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  const API = 'https://script.google.com/macros/s/AKfycbwmJSC9f2D0wdSpznfXjgJP95LLptP1Tad0GsdgTN09DKOz_bBu7nVAVPhzC_LEQbM7aw/exec';
+  const PAGE = location.pathname.split('/').pop().replace('.html', '');
+  let selectedRating = 5;
+
+  // 星の選択
+  document.querySelectorAll('#rv-stars span').forEach(star => {
+    star.addEventListener('click', function() {
+      selectedRating = parseInt(this.dataset.star);
+      document.getElementById('rv-rating').value = selectedRating;
+      document.querySelectorAll('#rv-stars span').forEach(s => {
+        s.style.color = parseInt(s.dataset.star) <= selectedRating ? '#facc15' : '#d1d5db';
+      });
+    });
+  });
+  // 初期表示: 5つ星
+  document.querySelectorAll('#rv-stars span').forEach(s => s.style.color = '#facc15');
+
+  // 口コミ投稿
+  document.getElementById('review-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const btn = document.getElementById('rv-submit');
+    const status = document.getElementById('rv-status');
+    btn.disabled = true;
+    btn.textContent = '送信中...';
+
+    try {
+      await fetch(API, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          nickname: document.getElementById('rv-nickname').value || '匿名',
+          target: document.getElementById('rv-target').value,
+          rating: selectedRating,
+          comment: document.getElementById('rv-comment').value,
+          page: PAGE
+        })
+      });
+      status.textContent = '口コミを投稿しました！ありがとうございます。';
+      status.className = 'text-sm mt-2 text-green-600';
+      status.classList.remove('hidden');
+      document.getElementById('rv-nickname').value = '';
+      document.getElementById('rv-target').value = '';
+      document.getElementById('rv-comment').value = '';
+      selectedRating = 5;
+      document.querySelectorAll('#rv-stars span').forEach(s => s.style.color = '#facc15');
+      setTimeout(() => loadReviews(), 2000);
+    } catch (err) {
+      status.textContent = '送信に失敗しました。もう一度お試しください。';
+      status.className = 'text-sm mt-2 text-red-600';
+      status.classList.remove('hidden');
+    }
+    btn.disabled = false;
+    btn.textContent = '口コミを投稿する';
+  });
+
+  // 口コミ読み込み（Googleスプレッドシート直接読み込み）
+  async function loadReviews() {
+    try {
+      const SHEET_URL = 'https://docs.google.com/spreadsheets/d/16WOueia601ROg-pOfBJyuLMI3jGgzSktldg0jmpEY0Y/gviz/tq?tqx=out:json';
+      const res = await fetch(SHEET_URL);
+      const text = await res.text();
+      const json = JSON.parse(text.match(/google\.visualization\.Query\.setResponse\((.*)\)/s)[1]);
+      const cols = json.table.cols.map(c => c.label);
+      const rows = json.table.rows.map(row => {
+        const obj = {};
+        row.c.forEach((cell, i) => { obj[cols[i]] = cell ? (cell.v || '') : ''; });
+        return obj;
+      });
+      const pageReviews = rows.filter(r => (r.page || '') === '' || r.page === PAGE)
+        .reverse().slice(0, 20);
+      const container = document.getElementById('reviews-list');
+
+      if (pageReviews.length === 0) {
+        container.innerHTML = '<p class="text-sm text-gray-400 text-center py-4">まだ口コミがありません。最初の口コミを投稿してみましょう！</p>';
+        return;
+      }
+
+      container.innerHTML = pageReviews.map(r => {
+        const stars = String.fromCharCode(9733).repeat(Math.min(5, Math.max(1, parseInt(r.rating) || 5))) +
+                      String.fromCharCode(9734).repeat(5 - Math.min(5, Math.max(1, parseInt(r.rating) || 5)));
+        const date = r.timestamp ? new Date(r.timestamp).toLocaleDateString('ja-JP') : '';
+        const nickname = (String(r.nickname) || '匿名').replace(/</g, '&lt;');
+        const target = (String(r.target) || '').replace(/</g, '&lt;');
+        const comment = (String(r.comment) || '').replace(/</g, '&lt;').replace(/\n/g, '<br>');
+        return '<div class="border-b border-gray-100 py-4 last:border-0">' +
+          '<div class="flex items-center justify-between mb-1">' +
+            '<span class="font-semibold text-sm text-gray-800">' + nickname + '</span>' +
+            '<span class="text-xs text-gray-400">' + date + '</span>' +
+          '</div>' +
+          (target ? '<span class="inline-block text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded mb-1">' + target + '</span>' : '') +
+          '<div class="text-yellow-400 text-sm mb-1">' + stars + '</div>' +
+          '<p class="text-sm text-gray-700 leading-relaxed">' + comment + '</p>' +
+        '</div>';
+      }).join('');
+    } catch (err) {
+      document.getElementById('reviews-list').innerHTML =
+        '<p class="text-sm text-gray-400 text-center py-4">口コミの読み込みに失敗しました</p>';
+    }
+  }
+
+  loadReviews();
+})();
+</script>
+<!-- END SKINSCI Reviews Section -->
+
+</article>
+
+  <!-- Footer -->
+  <footer class="bg-navy py-12 border-t border-white/10" aria-label="サイトフッター">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-accent font-semibold tracking-widest text-sm">SKIN</span>
+            <span class="text-white font-bold tracking-widest">SCI</span>
+          </div>
+          <p class="text-white/40 text-sm leading-relaxed max-w-xs">
+            科学的根拠に基づいたスキンケア情報を提供するメディア。成分の正しい知識で、あなたに合ったスキンケアを見つけましょう。
+          </p>
+          <!-- SNS Links -->
+          <div class="flex items-center gap-4 mt-4">
+            <a href="https://x.com/skinsci_lab" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm font-bold" aria-label="X">X</a>
+            <a href="https://www.instagram.com/skinsci_lab/" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm" aria-label="Instagram">IG</a>
+            <a href="https://note.com/skinsci_lab" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm" aria-label="note">note</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-white/60 text-xs tracking-widest mb-4">CONTENTS</p>
+          <ul class="space-y-2">
+            <li><a href="ingredients.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">成分解説</a></li>
+            <li><a href="skin-types.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">肌タイプ別ガイド</a></li>
+            <li><a href="research.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">論文まとめ</a></li>
+            <li><a href="skin-types.html#quiz" class="text-white/40 hover:text-white/70 text-sm transition-colors">肌タイプ診断</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-white/60 text-xs tracking-widest mb-4">LEGAL</p>
+          <ul class="space-y-2">
+            <li><a href="tokushoho.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">特定商取引法に基づく表記</a></li>
+            <li><a href="privacy.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-white/30 text-xs">&copy; 2024-2026 SKINSCI. All rights reserved.</p>
+        <p class="text-white/30 text-xs text-center">本サイトの情報は教育目的であり、医療的アドバイスに代わるものではありません。肌に異常を感じた場合は専門医にご相談ください。</p>
+        <div class="flex items-center text-white/30 text-xs">
+          <a href="tokushoho.html" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
+          <span class="mx-2">|</span>
+          <a href="privacy.html" class="hover:text-white transition-colors">プライバシーポリシー</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- メニュー開閉 -->
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- Product Finder Logic -->
+  <script>
+  (function() {
+    // 商品データ
+    const products = {
+      cleansing: {
+        low: { name: 'カウブランド 無添加メイク落としミルク', price: '約800円', reason: '低刺激で肌に優しいミルクタイプ。敏感肌でも使いやすい処方' },
+        mid: { name: 'ファンケル マイルドクレンジングオイル', price: '約1,800円', reason: 'メイクも日焼け止めもしっかり落とすのに、つっぱらない実力派' },
+        high: { name: 'アテニア スキンクリアクレンズオイル', price: '約1,900円', reason: 'くすみの原因にもアプローチ。落としながらケアできる' }
+      },
+      wash: {
+        low: { name: 'ロゼット 洗顔パスタ 海泥スムース', price: '約500円', reason: '海泥が余分な皮脂・汚れを吸着。毛穴ケアにも期待できる' },
+        mid: { name: 'キュレル 泡洗顔料', price: '約1,300円', reason: 'セラミドを守りながら洗う設計。乾燥肌・敏感肌に配慮' },
+        high: { name: 'オルビス ミスター ウォッシュ', price: '約1,500円', reason: '濃密泡で皮脂汚れをしっかりオフ。すっきり感と潤いの両立' }
+      },
+      toner: {
+        low: { name: 'ナチュリエ ハトムギ化粧水', price: '約700円', reason: '大容量でバシャバシャ使える。刺激が少なく肌なじみが良い' },
+        mid: { name: '無印良品 敏感肌用化粧水 しっとりタイプ', price: '約800円', reason: '余計なものを入れないシンプル設計。どんな肌タイプにも' },
+        high: { name: 'イプサ ザ・タイムR アクア', price: '約4,400円', reason: '水の層で包み込む独自技術。肌表面に潤いを持続させる' }
+      },
+      serum: {
+        acne: {
+          low: { name: 'メラノCC 薬用しみ集中対策美容液', price: '約1,000円', reason: '活性型ビタミンCがニキビ跡の色素沈着ケアに寄与' },
+          mid: { name: 'アクアレーベル アクアローション', price: '約1,500円', reason: '保湿しながらニキビ予防。バランスの良い処方' },
+          high: { name: 'タカミスキンピール', price: '約5,200円', reason: '角質ケアで肌のターンオーバーをサポート' }
+        },
+        pores: {
+          low: { name: 'チューンメーカーズ ナイアシンアミド', price: '約1,200円', reason: 'ナイアシンアミドが皮脂バランスを整え毛穴を目立ちにくく' },
+          mid: { name: 'チューンメーカーズ ナイアシンアミド', price: '約1,200円', reason: 'ナイアシンアミドが皮脂バランスを整え毛穴を目立ちにくく' },
+          high: { name: 'タカミスキンピール', price: '約5,200円', reason: '角質ケアのパイオニア。毛穴のざらつきに働きかける' }
+        },
+        dryness: {
+          low: { name: '菊正宗 日本酒の美容液', price: '約900円', reason: 'アミノ酸豊富な日本酒由来成分で深い潤いを補給' },
+          mid: { name: 'キュレル 潤浸保湿美容液', price: '約2,500円', reason: 'セラミド機能成分配合。肌のバリア機能をサポート' },
+          high: { name: 'キュレル 潤浸保湿美容液', price: '約2,500円', reason: 'セラミド機能成分配合。乾燥の根本にアプローチ' }
+        },
+        spots: {
+          low: { name: 'メラノCC 薬用しみ集中対策美容液', price: '約1,000円', reason: '活性型ビタミンC配合。メラニンの生成を抑制する薬用処方' },
+          mid: { name: 'メラノCC 薬用しみ集中対策美容液', price: '約1,000円', reason: '活性型ビタミンC配合。コスパ良くシミ対策' },
+          high: { name: 'HAKU メラノフォーカスV', price: '約11,000円', reason: '資生堂の美白研究の結晶。2種の美白有効成分を配合' }
+        },
+        aging: {
+          low: { name: 'メラノCC 薬用しみ集中対策美容液', price: '約1,000円', reason: 'ビタミンCがコラーゲン生成をサポート。入門として' },
+          mid: { name: 'エリクシール レチノパワー リンクルクリーム S', price: '約3,700円', reason: '純粋レチノール配合。シワ改善の有効成分として承認済み' },
+          high: { name: 'エスティローダー アドバンスナイトリペア', price: '約15,000円', reason: '夜の肌修復をサポート。世界的ベストセラーの実力' }
+        },
+        sensitive: {
+          low: { name: '無印良品 敏感肌用美容液', price: '約800円', reason: 'アルコールフリー・パラベンフリー。刺激を最小限に' },
+          mid: { name: '無印良品 敏感肌用美容液', price: '約800円', reason: '余計なものを入れない安心設計。低刺激にこだわり' },
+          high: { name: 'ラロッシュポゼ トレリアン ウルトラ セラム', price: '約4,500円', reason: '皮膚科医推奨ブランド。敏感肌のための集中保湿' }
+        }
+      },
+      milkLotion: {
+        low: { name: '無印良品 敏感肌用乳液', price: '約600円', reason: '軽い使用感で重くならない。毎日使いやすいシンプル処方' },
+        mid: { name: 'ミノン アミノモイスト モイストチャージミルク', price: '約2,000円', reason: 'アミノ酸系保湿で肌を柔らかく整える' },
+        high: { name: 'エリクシール ブライトニング エマルジョン', price: '約3,500円', reason: '美白有効成分配合。保湿しながら透明感ケア' }
+      },
+      cream: {
+        low: { name: 'ニベアクリーム 大缶', price: '約500円', reason: '高保湿でコスパ抜群。乾燥がひどい部分にしっかりフタ' },
+        mid: { name: 'キュレル 潤浸保湿フェイスクリーム', price: '約2,500円', reason: 'セラミドケアで乾燥性敏感肌の潤いを守る' },
+        high: { name: 'エスティローダー リバイタライジング シュプリームクリーム', price: '約12,000円', reason: 'エイジングケアと保湿を両立する高級クリーム' }
+      },
+      sunscreen: {
+        low: { name: 'ビオレUV アクアリッチ ウォータリーエッセンス', price: '約800円', reason: '軽い塗り心地で白浮きしない。毎日使いやすいテクスチャー' },
+        mid: { name: 'スキンアクア トーンアップUVエッセンス', price: '約800円', reason: 'トーンアップ効果で肌を明るく見せる。化粧下地にも' },
+        high: { name: 'ラロッシュポゼ UVイデア XL プロテクショントーンアップ', price: '約3,700円', reason: '敏感肌にも使える高防御。皮膚科医推奨の実力派' }
+      }
+    };
+
+    // ステート
+    let selectedConcerns = [];
+    let selectedBudget = null;
+    let showFullSet = false;
+
+    // DOM
+    const step1 = document.getElementById('step1');
+    const step2 = document.getElementById('step2');
+    const step3 = document.getElementById('step3');
+    const btnToStep2 = document.getElementById('btn-to-step2');
+    const btnToStep3 = document.getElementById('btn-to-step3');
+    const btnBackToStep1 = document.getElementById('btn-back-to-step1');
+    const btnRestart = document.getElementById('btn-restart');
+    const btnMinimal = document.getElementById('btn-minimal');
+    const btnFull = document.getElementById('btn-full');
+
+    // Step indicators
+    function updateStepIndicators(step) {
+      for (let i = 1; i <= 3; i++) {
+        const ind = document.getElementById('step-ind-' + i);
+        if (i <= step) {
+          ind.className = 'w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center text-sm font-bold';
+        } else {
+          ind.className = 'w-10 h-10 rounded-full bg-gray-200 text-gray-500 flex items-center justify-center text-sm font-bold';
+        }
+      }
+      for (let i = 1; i <= 2; i++) {
+        const line = document.getElementById('step-line-' + i);
+        line.className = i < step ? 'w-8 h-0.5 bg-accent' : 'w-8 h-0.5 bg-gray-200';
+      }
+    }
+
+    // 肌悩み選択
+    document.querySelectorAll('.concern-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const concern = this.dataset.concern;
+        if (selectedConcerns.includes(concern)) {
+          selectedConcerns = selectedConcerns.filter(c => c !== concern);
+          this.classList.remove('selected');
+        } else {
+          selectedConcerns.push(concern);
+          this.classList.add('selected');
+        }
+        btnToStep2.disabled = selectedConcerns.length === 0;
+      });
+    });
+
+    // 予算選択
+    document.querySelectorAll('.budget-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.budget-btn').forEach(b => b.classList.remove('selected'));
+        this.classList.add('selected');
+        selectedBudget = this.dataset.budget;
+        btnToStep3.disabled = false;
+      });
+    });
+
+    // ナビゲーション
+    btnToStep2.addEventListener('click', () => {
+      step1.classList.add('hidden');
+      step2.classList.remove('hidden');
+      updateStepIndicators(2);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    btnBackToStep1.addEventListener('click', () => {
+      step2.classList.add('hidden');
+      step1.classList.remove('hidden');
+      updateStepIndicators(1);
+    });
+
+    btnToStep3.addEventListener('click', () => {
+      step2.classList.add('hidden');
+      step3.classList.remove('hidden');
+      updateStepIndicators(3);
+      showFullSet = false;
+      renderResults();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    btnRestart.addEventListener('click', () => {
+      selectedConcerns = [];
+      selectedBudget = null;
+      document.querySelectorAll('.concern-btn').forEach(b => b.classList.remove('selected'));
+      document.querySelectorAll('.budget-btn').forEach(b => b.classList.remove('selected'));
+      btnToStep2.disabled = true;
+      btnToStep3.disabled = true;
+      step3.classList.add('hidden');
+      step1.classList.remove('hidden');
+      updateStepIndicators(1);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // セット切り替え
+    btnMinimal.addEventListener('click', () => {
+      showFullSet = false;
+      btnMinimal.className = 'px-4 py-2 text-sm font-semibold rounded-full border-2 border-accent bg-accent/10 text-navy transition-all';
+      btnFull.className = 'px-4 py-2 text-sm font-semibold rounded-full border-2 border-gray-200 text-gray-500 transition-all hover:border-accent/50';
+      renderResults();
+    });
+
+    btnFull.addEventListener('click', () => {
+      showFullSet = true;
+      btnFull.className = 'px-4 py-2 text-sm font-semibold rounded-full border-2 border-accent bg-accent/10 text-navy transition-all';
+      btnMinimal.className = 'px-4 py-2 text-sm font-semibold rounded-full border-2 border-gray-200 text-gray-500 transition-all hover:border-accent/50';
+      renderResults();
+    });
+
+    // アフィリエイトリンク生成
+    function amazonLink(productName) {
+      return 'https://www.amazon.co.jp/s?k=' + encodeURIComponent(productName) + '&tag=skinscilab22-22';
+    }
+
+    function qoo10Link(productName) {
+      const qoo10SearchUrl = 'https://www.qoo10.jp/gmkt.inc/Search/Search.aspx?keyword=' + encodeURIComponent(productName);
+      return 'https://ck.jp.ap.valuecommerce.com/servlet/referral?sid=3767987&pid=892598572&vc_url=' + encodeURIComponent(qoo10SearchUrl);
+    }
+
+    // 結果レンダリング
+    function renderResults() {
+      const budget = selectedBudget;
+      const container = document.getElementById('results-container');
+      const summary = document.getElementById('result-summary');
+      const setInfo = document.getElementById('set-info');
+      const setInfoTitle = document.getElementById('set-info-title');
+      const setInfoDesc = document.getElementById('set-info-desc');
+
+      const concernLabels = {
+        acne: 'ニキビ・吹き出物',
+        pores: '毛穴の目立ち',
+        dryness: '乾燥・つっぱり',
+        spots: 'シミ・くすみ',
+        aging: 'シワ・たるみ',
+        sensitive: '敏感肌・赤み'
+      };
+
+      const budgetLabels = { low: 'プチプラ', mid: 'スタンダード', high: 'しっかり投資' };
+
+      summary.textContent = '肌悩み: ' + selectedConcerns.map(c => concernLabels[c]).join('、') + ' / 予算: ' + budgetLabels[budget];
+
+      if (showFullSet) {
+        setInfoTitle.textContent = 'フルセット: しっかりケアしたい方に';
+        setInfoDesc.textContent = 'クレンジング + 洗顔 + 化粧水 + 美容液 + 乳液orクリーム + 日焼け止め。丁寧にケアすることで肌の調子が整いやすくなります。';
+      } else {
+        setInfoTitle.textContent = '最低限セット: まずはこの3つから';
+        setInfoDesc.textContent = '洗顔 + 化粧水 + 日焼け止め。忙しくても、この3つだけは続けたいスキンケアの基本です。';
+      }
+
+      // 美容液の選択（最初に選んだ肌悩みを優先）
+      const primaryConcern = selectedConcerns[0];
+      const serumData = products.serum[primaryConcern][budget];
+
+      // 表示する商品リスト
+      let items = [];
+
+      if (showFullSet) {
+        items = [
+          { category: 'クレンジング', icon: '🧴', data: products.cleansing[budget], note: 'cleansing' },
+          { category: '洗顔', icon: '🫧', data: products.wash[budget], note: null },
+          { category: '化粧水', icon: '💧', data: products.toner[budget], note: null },
+          { category: '美容液', icon: '✨', data: serumData, note: 'serum' },
+          { category: '乳液 / クリーム', icon: '🧈', data: null, note: 'moisturizer' },
+          { category: '日焼け止め', icon: '☀️', data: products.sunscreen[budget], note: null }
+        ];
+      } else {
+        items = [
+          { category: '洗顔', icon: '🫧', data: products.wash[budget], note: null },
+          { category: '化粧水', icon: '💧', data: products.toner[budget], note: null },
+          { category: '日焼け止め', icon: '☀️', data: products.sunscreen[budget], note: null }
+        ];
+      }
+
+      let html = '';
+
+      items.forEach(item => {
+        if (item.note === 'moisturizer') {
+          // 乳液/クリームは両方表示
+          const isDry = selectedConcerns.includes('dryness');
+          const milkData = products.milkLotion[budget];
+          const creamData = products.cream[budget];
+          const recommended = isDry ? creamData : milkData;
+          const recommendedLabel = isDry ? 'クリーム（乾燥肌の方におすすめ）' : '乳液（普通〜脂性肌の方におすすめ）';
+
+          html += '<div class="border border-gray-200 rounded-xl p-5 fade-in">';
+          html += '<div class="flex items-center gap-3 mb-3">';
+          html += '<span class="text-2xl">' + item.icon + '</span>';
+          html += '<div><h3 class="font-bold text-sm text-gray-900">' + item.category + '</h3>';
+          html += '<span class="text-xs text-amber-600 font-medium">※どちらか一方でOK</span></div>';
+          html += '</div>';
+          html += '<div class="ml-9">';
+          html += '<p class="font-semibold text-sm text-navy mb-1">' + recommended.name + '</p>';
+          html += '<p class="text-xs text-gray-500 mb-1">' + recommendedLabel + ' / ' + recommended.price + '</p>';
+          html += '<p class="text-xs text-gray-600 mb-3">' + recommended.reason + '</p>';
+          html += '<div class="flex flex-wrap gap-2">';
+          html += '<a href="' + amazonLink(recommended.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#FF9900] text-white text-xs font-bold rounded-lg hover:bg-[#e68a00] transition-colors">Amazonで探す</a>';
+          html += '<a href="' + qoo10Link(recommended.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#E91E63] text-white text-xs font-bold rounded-lg hover:bg-[#c2185b] transition-colors">Qoo10で探す</a>';
+          html += '</div>';
+          html += '</div></div>';
+        } else {
+          html += '<div class="border border-gray-200 rounded-xl p-5 fade-in">';
+          html += '<div class="flex items-center gap-3 mb-3">';
+          html += '<span class="text-2xl">' + item.icon + '</span>';
+          html += '<div><h3 class="font-bold text-sm text-gray-900">' + item.category + '</h3>';
+          if (item.note === 'cleansing') {
+            html += '<span class="text-xs text-rose-600 font-bold">&#9888; 男子もクレンジングは必要！</span>';
+          }
+          if (item.note === 'serum') {
+            html += '<span class="text-xs text-accent font-medium">(' + concernLabels[primaryConcern] + '向け)</span>';
+          }
+          html += '</div></div>';
+
+          if (item.note === 'cleansing') {
+            html += '<div class="ml-9 mb-3 p-3 bg-rose-50 rounded-lg border border-rose-100">';
+            html += '<p class="text-xs text-rose-700 leading-relaxed">日焼け止めを使う場合、洗顔だけでは落としきれません。メイクをしなくても、日焼け止めを使うならクレンジングが必要です。</p>';
+            html += '</div>';
+          }
+
+          html += '<div class="ml-9">';
+          html += '<p class="font-semibold text-sm text-navy mb-1">' + item.data.name + '</p>';
+          html += '<p class="text-xs text-gray-500 mb-1">' + item.data.price + '</p>';
+          html += '<p class="text-xs text-gray-600 mb-3">' + item.data.reason + '</p>';
+          html += '<div class="flex flex-wrap gap-2">';
+          html += '<a href="' + amazonLink(item.data.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#FF9900] text-white text-xs font-bold rounded-lg hover:bg-[#e68a00] transition-colors">Amazonで探す</a>';
+          html += '<a href="' + qoo10Link(item.data.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#E91E63] text-white text-xs font-bold rounded-lg hover:bg-[#c2185b] transition-colors">Qoo10で探す</a>';
+          html += '</div>';
+          html += '</div></div>';
+        }
+      });
+
+      container.innerHTML = html;
+    }
+  })();
+  </script>
+
+</body>
+</html>
