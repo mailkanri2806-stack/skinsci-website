@@ -551,7 +551,158 @@
       </section>
 
     </div>
-  </article>
+  
+<!-- SKINSCI Reviews Section -->
+<section class="mb-14 mt-14" id="reviews-section">
+  <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 sm:p-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-2">みんなの口コミ</h2>
+    <p class="text-sm text-gray-500 mb-6">このページの成分・商品について、あなたの体験を教えてください</p>
+
+    <!-- 口コミ投稿フォーム -->
+    <form id="review-form" class="mb-8 p-5 bg-gray-50 rounded-xl">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">ニックネーム</label>
+          <input type="text" id="rv-nickname" placeholder="匿名でもOK" maxlength="20"
+            class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold text-gray-700 mb-1">成分・商品名</label>
+          <input type="text" id="rv-target" placeholder="例: ナイアシンアミド美容液" maxlength="50"
+            class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none">
+        </div>
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">満足度</label>
+        <div id="rv-stars" class="flex gap-1 cursor-pointer text-2xl select-none">
+          <span data-star="1" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="2" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="3" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="4" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+          <span data-star="5" class="text-gray-300 hover:text-yellow-400 transition-colors">&#9733;</span>
+        </div>
+        <input type="hidden" id="rv-rating" value="5">
+      </div>
+      <div class="mb-4">
+        <label class="block text-sm font-semibold text-gray-700 mb-1">口コミ・感想</label>
+        <textarea id="rv-comment" rows="3" placeholder="使ってみた感想、効果、気になった点など" maxlength="500"
+          class="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-300 focus:border-blue-400 outline-none resize-none"></textarea>
+      </div>
+      <button type="submit" id="rv-submit"
+        class="w-full sm:w-auto px-6 py-2.5 bg-[#0d1f3c] text-white text-sm font-bold rounded-lg hover:bg-[#1a3a5c] transition-colors">
+        口コミを投稿する
+      </button>
+      <p id="rv-status" class="text-sm mt-2 hidden"></p>
+    </form>
+
+    <!-- 口コミ一覧 -->
+    <div id="reviews-list">
+      <p class="text-sm text-gray-400 text-center py-4" id="rv-loading">口コミを読み込み中...</p>
+    </div>
+  </div>
+</section>
+
+<script>
+(function() {
+  const API = 'https://script.google.com/macros/s/AKfycbwmJSC9f2D0wdSpznfXjgJP95LLptP1Tad0GsdgTN09DKOz_bBu7nVAVPhzC_LEQbM7aw/exec';
+  const PAGE = location.pathname.split('/').pop().replace('.html', '');
+  let selectedRating = 5;
+
+  // 星の選択
+  document.querySelectorAll('#rv-stars span').forEach(star => {
+    star.addEventListener('click', function() {
+      selectedRating = parseInt(this.dataset.star);
+      document.getElementById('rv-rating').value = selectedRating;
+      document.querySelectorAll('#rv-stars span').forEach(s => {
+        s.style.color = parseInt(s.dataset.star) <= selectedRating ? '#facc15' : '#d1d5db';
+      });
+    });
+  });
+  // 初期表示: 5つ星
+  document.querySelectorAll('#rv-stars span').forEach(s => s.style.color = '#facc15');
+
+  // 口コミ投稿
+  document.getElementById('review-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const btn = document.getElementById('rv-submit');
+    const status = document.getElementById('rv-status');
+    btn.disabled = true;
+    btn.textContent = '送信中...';
+
+    try {
+      await fetch(API, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          nickname: document.getElementById('rv-nickname').value || '匿名',
+          target: document.getElementById('rv-target').value,
+          rating: selectedRating,
+          comment: document.getElementById('rv-comment').value,
+          page: PAGE
+        })
+      });
+      status.textContent = '口コミを投稿しました！ありがとうございます。';
+      status.className = 'text-sm mt-2 text-green-600';
+      status.classList.remove('hidden');
+      document.getElementById('rv-nickname').value = '';
+      document.getElementById('rv-target').value = '';
+      document.getElementById('rv-comment').value = '';
+      selectedRating = 5;
+      document.querySelectorAll('#rv-stars span').forEach(s => s.style.color = '#facc15');
+      setTimeout(() => loadReviews(), 2000);
+    } catch (err) {
+      status.textContent = '送信に失敗しました。もう一度お試しください。';
+      status.className = 'text-sm mt-2 text-red-600';
+      status.classList.remove('hidden');
+    }
+    btn.disabled = false;
+    btn.textContent = '口コミを投稿する';
+  });
+
+  // 口コミ読み込み
+  async function loadReviews() {
+    try {
+      const res = await fetch(API);
+      const data = await res.json();
+      const pageReviews = data.filter(r => (r.page || '') === '' || r.page === PAGE)
+        .reverse().slice(0, 20);
+      const container = document.getElementById('reviews-list');
+
+      if (pageReviews.length === 0) {
+        container.innerHTML = '<p class="text-sm text-gray-400 text-center py-4">まだ口コミがありません。最初の口コミを投稿してみましょう！</p>';
+        return;
+      }
+
+      container.innerHTML = pageReviews.map(r => {
+        const stars = '★'.repeat(Math.min(5, Math.max(1, parseInt(r.rating) || 5))) +
+                      '☆'.repeat(5 - Math.min(5, Math.max(1, parseInt(r.rating) || 5)));
+        const date = r.timestamp ? new Date(r.timestamp).toLocaleDateString('ja-JP') : '';
+        const nickname = (r.nickname || '匿名').replace(/</g, '&lt;');
+        const target = (r.target || '').replace(/</g, '&lt;');
+        const comment = (r.comment || '').replace(/</g, '&lt;').replace(/\n/g, '<br>');
+        return '<div class="border-b border-gray-100 py-4 last:border-0">' +
+          '<div class="flex items-center justify-between mb-1">' +
+            '<span class="font-semibold text-sm text-gray-800">' + nickname + '</span>' +
+            '<span class="text-xs text-gray-400">' + date + '</span>' +
+          '</div>' +
+          (target ? '<span class="inline-block text-xs bg-blue-50 text-blue-700 px-2 py-0.5 rounded mb-1">' + target + '</span>' : '') +
+          '<div class="text-yellow-400 text-sm mb-1">' + stars + '</div>' +
+          '<p class="text-sm text-gray-700 leading-relaxed">' + comment + '</p>' +
+        '</div>';
+      }).join('');
+    } catch (err) {
+      document.getElementById('reviews-list').innerHTML =
+        '<p class="text-sm text-gray-400 text-center py-4">口コミの読み込みに失敗しました</p>';
+    }
+  }
+
+  loadReviews();
+})();
+</script>
+<!-- END SKINSCI Reviews Section -->
+
+</article>
 
   <footer class="bg-navy py-12 border-t border-white/10" aria-label="サイトフッター">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
