@@ -592,12 +592,20 @@
     btn.textContent = '口コミを投稿する';
   });
 
-  // 口コミ読み込み
+  // 口コミ読み込み（Googleスプレッドシート直接読み込み）
   async function loadReviews() {
     try {
-      const res = await fetch(API);
-      const data = await res.json();
-      const pageReviews = data.filter(r => (r.page || '') === '' || r.page === PAGE)
+      const SHEET_URL = 'https://docs.google.com/spreadsheets/d/16WOueia601ROg-pOfBJyuLMI3jGgzSktldg0jmpEY0Y/gviz/tq?tqx=out:json';
+      const res = await fetch(SHEET_URL);
+      const text = await res.text();
+      const json = JSON.parse(text.match(/google\.visualization\.Query\.setResponse\((.*)\)/s)[1]);
+      const cols = json.table.cols.map(c => c.label);
+      const rows = json.table.rows.map(row => {
+        const obj = {};
+        row.c.forEach((cell, i) => { obj[cols[i]] = cell ? (cell.v || '') : ''; });
+        return obj;
+      });
+      const pageReviews = rows.filter(r => (r.page || '') === '' || r.page === PAGE)
         .reverse().slice(0, 20);
       const container = document.getElementById('reviews-list');
 
@@ -607,12 +615,12 @@
       }
 
       container.innerHTML = pageReviews.map(r => {
-        const stars = '★'.repeat(Math.min(5, Math.max(1, parseInt(r.rating) || 5))) +
-                      '☆'.repeat(5 - Math.min(5, Math.max(1, parseInt(r.rating) || 5)));
+        const stars = String.fromCharCode(9733).repeat(Math.min(5, Math.max(1, parseInt(r.rating) || 5))) +
+                      String.fromCharCode(9734).repeat(5 - Math.min(5, Math.max(1, parseInt(r.rating) || 5)));
         const date = r.timestamp ? new Date(r.timestamp).toLocaleDateString('ja-JP') : '';
-        const nickname = (r.nickname || '匿名').replace(/</g, '&lt;');
-        const target = (r.target || '').replace(/</g, '&lt;');
-        const comment = (r.comment || '').replace(/</g, '&lt;').replace(/\n/g, '<br>');
+        const nickname = (String(r.nickname) || '匿名').replace(/</g, '&lt;');
+        const target = (String(r.target) || '').replace(/</g, '&lt;');
+        const comment = (String(r.comment) || '').replace(/</g, '&lt;').replace(/\n/g, '<br>');
         return '<div class="border-b border-gray-100 py-4 last:border-0">' +
           '<div class="flex items-center justify-between mb-1">' +
             '<span class="font-semibold text-sm text-gray-800">' + nickname + '</span>' +
