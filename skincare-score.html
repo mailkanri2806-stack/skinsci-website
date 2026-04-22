@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB4R8WCP2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KCB4R8WCP2');
+  </script>
+  <!-- Google Search Console -->
+  <meta name="google-site-verification" content="5K1yj2blq4uTvLuEZ9xTCcXjGvWQt6RSdpuo1YT2w8o" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>スキンケア採点診断 | SKINSCI</title>
+  <meta name="description" content="あなたのスキンケアルーティンを100点満点で採点。7つの軸で足りないケア・過剰なケアを可視化します。" />
+  <meta name="keywords" content="スキンケア 診断,スキンケア 採点,スキンケア ルーティン,スキンケア チェック" />
+  <link rel="canonical" href="https://mailkanri2806-stack.github.io/skinsci-website/skincare-score.html" />
+  <!-- OGP -->
+  <meta property="og:title" content="スキンケア採点診断 | SKINSCI" />
+  <meta property="og:description" content="あなたのスキンケアルーティンを100点満点で採点。7つの軸で足りないケア・過剰なケアを可視化します。" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://mailkanri2806-stack.github.io/skinsci-website/skincare-score.html" />
+  <meta property="og:site_name" content="SKINSCI" />
+  <meta property="og:locale" content="ja_JP" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="スキンケア採点診断 | SKINSCI" />
+  <meta name="twitter:description" content="あなたのスキンケアルーティンを100点満点で採点。7つの軸で足りないケア・過剰なケアを可視化します。" />
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "スキンケア採点診断",
+    "description": "あなたのスキンケアルーティンを100点満点で採点。7つの軸で足りないケア・過剰なケアを可視化します。",
+    "url": "https://mailkanri2806-stack.github.io/skinsci-website/skincare-score.html",
+    "inLanguage": "ja",
+    "author": { "@type": "Organization", "name": "SKINSCI" },
+    "publisher": { "@type": "Organization", "name": "SKINSCI", "url": "https://mailkanri2806-stack.github.io/skinsci-website/" }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://mailkanri2806-stack.github.io/skinsci-website/" },
+      { "@type": "ListItem", "position": 2, "name": "スキンケア採点診断", "item": "https://mailkanri2806-stack.github.io/skinsci-website/skincare-score.html" }
+    ]
+  }
+  </script>
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0d1f3c', light: '#1a3461', dark: '#08132a' },
+            accent: { DEFAULT: '#5b9cc4', light: '#a8d5f0', muted: '#3a7fa8' },
+            pearl: '#f5f6f8',
+          },
+          fontFamily: { sans: ['Inter', 'Noto Sans JP', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+    .nav-blur { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .section-label { font-size: 0.7rem; letter-spacing: 0.25em; }
+  </style>
+
+<script type="text/javascript">var vc_pid = "892599909";</script>
+<script type="text/javascript" src="//aml.valuecommerce.com/vcdal.js" async></script>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10" aria-label="メインナビゲーション">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="SKINSCI トップページ">
+          <span class="text-accent font-semibold tracking-widest text-sm section-label">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="ingredients.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">成分解説</a>
+          <a href="skin-types.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">肌タイプ別</a>
+          <a href="research.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">論文まとめ</a>
+          <a href="skin-types.html#quiz" class="bg-accent hover:bg-accent-muted text-white text-sm px-5 py-2 rounded-full tracking-wide transition-colors">肌タイプ診断</a>
+        </div>
+        <div class="hidden lg:flex items-center gap-1 text-xs ml-4 pl-4 border-l border-white/20" aria-label="言語選択">
+            <a href="./index.html" class="text-white font-semibold px-2 py-1">日本語</a>
+            <span class="text-white/30">|</span>
+            <a href="./en/index.html" class="text-white/50 hover:text-white px-2 py-1">EN</a>
+            <span class="text-white/30">|</span>
+            <a href="./ko/index.html" class="text-white/50 hover:text-white px-2 py-1">한국語</a>
+          </div>
+                <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileMenu">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy border-t border-white/10 px-4 py-4 space-y-3">
+      <a href="ingredients.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">成分解説</a>
+      <a href="skin-types.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">肌タイプ別</a>
+      <a href="research.html" class="block text-white/70 hover:text-white text-sm py-2 tracking-wide">論文まとめ</a>
+      <a href="skin-types.html#quiz" class="block bg-accent text-white text-sm px-5 py-2 rounded-full text-center mt-2 tracking-wide">肌タイプ診断</a>
+      <div class="flex items-center gap-2 pt-3 mt-3 border-t border-white/10 text-xs">
+        <a href="./index.html" class="text-white font-semibold px-2 py-1">日本語</a>
+        <span class="text-white/30">|</span>
+        <a href="./en/index.html" class="text-white/50 px-2 py-1">EN</a>
+        <span class="text-white/30">|</span>
+        <a href="./ko/index.html" class="text-white/50 px-2 py-1">한国語</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-navy pt-28 pb-12">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <p class="section-label text-accent/80 font-medium mb-4">SKINCARE DIAGNOSTIC</p>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white leading-tight mb-4">スキンケア採点診断</h1>
+      <p class="text-white/60 text-sm max-w-lg mx-auto">あなたのスキンケアルーティンを100点満点で採点。7つの軸で「足りないケア」「過剰なケア」を可視化します。</p>
+    </div>
+  </section>
+
+  <!-- App Root -->
+  <div id="app" class="bg-pearl min-h-screen"></div>
+
+  <!-- Footer -->
+  <footer class="bg-navy py-12 border-t border-white/10" aria-label="サイトフッター">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2 mb-4">
+            <span class="text-accent font-semibold tracking-widest text-sm">SKIN</span>
+            <span class="text-white font-bold tracking-widest">SCI</span>
+          </div>
+          <p class="text-white/40 text-sm leading-relaxed max-w-xs">
+            科学的根拠に基づいたスキンケア情報を提供するメディア。成分の正しい知識で、あなたに合ったスキンケアを見つけましょう。
+          </p>
+          <!-- SNS Links -->
+          <div class="flex items-center gap-4 mt-4">
+            <a href="https://x.com/skinsci_lab" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm font-bold" aria-label="X">X</a>
+            <a href="https://www.instagram.com/skinsci_lab/" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm" aria-label="Instagram">IG</a>
+            <a href="https://note.com/skinsci_lab" target="_blank" rel="noopener" class="text-white/40 hover:text-white transition-colors text-sm" aria-label="note">note</a>
+          </div>
+        </div>
+        <div>
+          <p class="text-white/60 text-xs tracking-widest mb-4">CONTENTS</p>
+          <ul class="space-y-2">
+            <li><a href="ingredients.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">成分解説</a></li>
+            <li><a href="skin-types.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">肌タイプ別ガイド</a></li>
+            <li><a href="research.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">論文まとめ</a></li>
+            <li><a href="skin-types.html#quiz" class="text-white/40 hover:text-white/70 text-sm transition-colors">肌タイプ診断</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="text-white/60 text-xs tracking-widest mb-4">LEGAL</p>
+          <ul class="space-y-2">
+            <li><a href="tokushoho.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">特定商取引法に基づく表記</a></li>
+            <li><a href="privacy.html" class="text-white/40 hover:text-white/70 text-sm transition-colors">プライバシーポリシー</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <p class="text-white/30 text-xs">&copy; 2024-2026 SKINSCI. All rights reserved.</p>
+        <p class="text-white/30 text-xs text-center">本サイトの情報は教育目的であり、医療的アドバイスに代わるものではありません。肌に異常を感じた場合は専門医にご相談ください。</p>
+        <div class="flex items-center text-white/30 text-xs">
+          <a href="tokushoho.html" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
+          <span class="mx-2">|</span>
+          <a href="privacy.html" class="hover:text-white transition-colors">プライバシーポリシー</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+
+  <!-- React + Babel + Chart.js -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script type="text/babel">
+    // ========== PRODUCT DATABASE ==========
+    const PRODUCTS = [
+      // === CLEANSING (20) ===
+      { id:"cl_001", brand:"カウブランド", name:"無添加メイク落としミルク", category:"cleansing", keyIngredients:["アミノ酸系"], scores:{moisture:5,soothing:7,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_002", brand:"ちふれ", name:"ウォッシャブルコールドクリーム", category:"cleansing", keyIngredients:["ミネラルオイル"], scores:{moisture:6,soothing:4,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_003", brand:"ビオレ", name:"メイク落とし しっかりクリアジェル", category:"cleansing", keyIngredients:["洗浄成分"], scores:{moisture:2,soothing:2,sebum:6,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_004", brand:"ロゼット", name:"夢みるバーム 海泥スムースモイスチャー", category:"cleansing", keyIngredients:["海泥","ヒアルロン酸"], scores:{moisture:5,soothing:3,sebum:6,uv:0,turnover:1,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_005", brand:"ソフティモ", name:"薬用リキッドクレンジング", category:"cleansing", keyIngredients:["薬用成分"], scores:{moisture:3,soothing:3,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_006", brand:"ファンケル", name:"マイルドクレンジングオイル", category:"cleansing", keyIngredients:["美容オイル"], scores:{moisture:6,soothing:5,sebum:6,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_007", brand:"アテニア", name:"スキンクリアクレンズオイル", category:"cleansing", keyIngredients:["ロックローズオイル"], scores:{moisture:5,soothing:4,sebum:6,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"cl_008", brand:"dプログラム", name:"マイルドクレンジングジェル", category:"cleansing", keyIngredients:["低刺激設計"], scores:{moisture:4,soothing:8,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_009", brand:"オルビス", name:"クレンジングリキッド", category:"cleansing", keyIngredients:["オイルカット"], scores:{moisture:4,soothing:5,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_010", brand:"キュレル", name:"ジェルメイク落とし", category:"cleansing", keyIngredients:["セラミドケア"], scores:{moisture:6,soothing:7,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_011", brand:"シュウ ウエムラ", name:"アルティム8 スブリム ビューティ クレンジング オイル", category:"cleansing", keyIngredients:["カメリアオイル","スクワラン"], scores:{moisture:8,soothing:5,sebum:6,uv:0,turnover:0,antioxidant:2,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"cl_012", brand:"THREE", name:"バランシング クレンジング オイル", category:"cleansing", keyIngredients:["天然植物オイル"], scores:{moisture:6,soothing:5,sebum:5,uv:0,turnover:0,antioxidant:2,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"cl_013", brand:"コスメデコルテ", name:"リフトディメンション スムージング クレンジングオイル", category:"cleansing", keyIngredients:["美容オイル"], scores:{moisture:7,soothing:4,sebum:6,uv:0,turnover:1,antioxidant:2,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"cl_014", brand:"Anua", name:"ドクダミ クレンジングオイル", category:"cleansing", keyIngredients:["ドクダミ","植物オイル"], scores:{moisture:5,soothing:7,sebum:5,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_015", brand:"COSRX", name:"ピュアフィット シカクレンジングジェル", category:"cleansing", keyIngredients:["シカ","ティーツリー"], scores:{moisture:4,soothing:8,sebum:4,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_016", brand:"バニラコ", name:"クリーンイットゼロ クレンジングバーム", category:"cleansing", keyIngredients:["シャーベットバーム"], scores:{moisture:5,soothing:4,sebum:6,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_017", brand:"BULK HOMME", name:"THE CLEANSING", category:"cleansing", keyIngredients:["エチルヘキサン酸セチル"], scores:{moisture:4,soothing:4,sebum:6,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_018", brand:"NULL", name:"クレンジングリキッド", category:"cleansing", keyIngredients:["メンズ向け洗浄成分"], scores:{moisture:3,soothing:3,sebum:7,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_019", brand:"オルビス ミスター", name:"クレンジングウォッシュ", category:"cleansing", keyIngredients:["W洗顔不要"], scores:{moisture:4,soothing:4,sebum:6,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_020", brand:"無印良品", name:"マイルドオイルクレンジング", category:"cleansing", keyIngredients:["オリーブオイル"], scores:{moisture:5,soothing:5,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cl_021", brand:"DUO", name:"ザ クレンジングバーム", category:"cleansing", keyIngredients:["毛穴クリアカプセル","ナノコラーゲン"], scores:{moisture:6,soothing:4,sebum:6,uv:0,turnover:1,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cl_022", brand:"雪肌精", name:"トリートメント クレンジングオイル", category:"cleansing", keyIngredients:["和漢植物エキス"], scores:{moisture:5,soothing:4,sebum:5,uv:0,turnover:0,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+
+      // === FACE WASH (20) ===
+      { id:"fw_001", brand:"ロゼット", name:"洗顔パスタ 海泥スムース", category:"facewash", keyIngredients:["海泥","ローズフルーツ"], scores:{moisture:2,soothing:2,sebum:7,uv:0,turnover:1,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_002", brand:"ビオレ", name:"スキンケア洗顔料 モイスチャー", category:"facewash", keyIngredients:["SPT技術"], scores:{moisture:5,soothing:3,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_003", brand:"ダヴ", name:"ビューティモイスチャー 洗顔料", category:"facewash", keyIngredients:["うるおいミルク"], scores:{moisture:6,soothing:3,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_004", brand:"専科", name:"パーフェクトホイップ", category:"facewash", keyIngredients:["シルクエッセンス","Wヒアルロン酸"], scores:{moisture:5,soothing:3,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_005", brand:"キュレル", name:"泡洗顔料", category:"facewash", keyIngredients:["セラミドケア"], scores:{moisture:5,soothing:8,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_006", brand:"ファンケル", name:"洗顔パウダー", category:"facewash", keyIngredients:["アミノ酸系洗浄"], scores:{moisture:4,soothing:5,sebum:5,uv:0,turnover:1,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_007", brand:"dプログラム", name:"エッセンスイン クレンジングフォーム", category:"facewash", keyIngredients:["低刺激設計"], scores:{moisture:5,soothing:8,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_008", brand:"ミノン", name:"アミノモイスト ジェントルウォッシュ ホイップ", category:"facewash", keyIngredients:["アミノ酸系","植物性アミノ酸"], scores:{moisture:6,soothing:7,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_009", brand:"オルビス ユー", name:"ウォッシュ", category:"facewash", keyIngredients:["モロッコ溶岩クレイ"], scores:{moisture:4,soothing:4,sebum:6,uv:0,turnover:1,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_010", brand:"IPSA", name:"クレンジングフォーム センシティブ", category:"facewash", keyIngredients:["アミノ酸系洗浄"], scores:{moisture:5,soothing:6,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"fw_011", brand:"エリクシール", name:"バランシング バブル", category:"facewash", keyIngredients:["炭酸泡","コラーゲン"], scores:{moisture:4,soothing:3,sebum:6,uv:0,turnover:1,antioxidant:1,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"fw_012", brand:"POLA B.A", name:"ウォッシュ", category:"facewash", keyIngredients:["センサーウォッシュ機能"], scores:{moisture:6,soothing:5,sebum:5,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"fw_013", brand:"COSRX", name:"サリチル酸デイリージェントルクレンザー", category:"facewash", keyIngredients:["サリチル酸","ティーツリー"], scores:{moisture:2,soothing:3,sebum:8,uv:0,turnover:3,antioxidant:0,brightening:0}, strongActives:["bha"], priceRange:"mid" },
+      { id:"fw_014", brand:"Anua", name:"ドクダミ洗顔フォーム", category:"facewash", keyIngredients:["ドクダミ77%"], scores:{moisture:4,soothing:7,sebum:4,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_015", brand:"SKIN1004", name:"マダガスカルセンテラ クリーミーフォーミングクレンザー", category:"facewash", keyIngredients:["センテラ","アミノ酸系"], scores:{moisture:5,soothing:8,sebum:3,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_016", brand:"オルビス ミスター", name:"フェイシャルクレンザー", category:"facewash", keyIngredients:["炭","クレイ"], scores:{moisture:3,soothing:3,sebum:7,uv:0,turnover:1,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_017", brand:"BULK HOMME", name:"THE FACE WASH", category:"facewash", keyIngredients:["クレイミネラルズ","ベントナイト"], scores:{moisture:4,soothing:4,sebum:6,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"fw_018", brand:"UNO", name:"ホイップウォッシュ モイスト", category:"facewash", keyIngredients:["ヒアルロン酸"], scores:{moisture:4,soothing:3,sebum:5,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_019", brand:"GATSBY", name:"フェイシャルウォッシュ パーフェクトスクラブ", category:"facewash", keyIngredients:["スクラブ"], scores:{moisture:1,soothing:1,sebum:7,uv:0,turnover:2,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"fw_020", brand:"肌ラボ", name:"極潤ヒアルロン泡洗顔", category:"facewash", keyIngredients:["スーパーヒアルロン酸"], scores:{moisture:5,soothing:4,sebum:4,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+
+      // === TONER (25) ===
+      { id:"tn_001", brand:"ナチュリエ", name:"ハトムギ化粧水", category:"toner", keyIngredients:["ハトムギエキス"], scores:{moisture:5,soothing:4,sebum:2,uv:0,turnover:1,antioxidant:1,brightening:1}, strongActives:[], priceRange:"low" },
+      { id:"tn_002", brand:"無印良品", name:"敏感肌用化粧水 しっとりタイプ", category:"toner", keyIngredients:["グレープフルーツ種子エキス","スベリヒユエキス"], scores:{moisture:6,soothing:6,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"tn_003", brand:"ちふれ", name:"化粧水 しっとりタイプ", category:"toner", keyIngredients:["ヒアルロン酸","トレハロース"], scores:{moisture:6,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"tn_004", brand:"肌ラボ", name:"極潤ヒアルロン液", category:"toner", keyIngredients:["スーパーヒアルロン酸","ナノ化ヒアルロン酸"], scores:{moisture:8,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"tn_005", brand:"キュレル", name:"潤浸保湿 化粧水 III", category:"toner", keyIngredients:["セラミド","ユーカリエキス"], scores:{moisture:8,soothing:6,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"tn_006", brand:"dプログラム", name:"モイストケア ローション MB", category:"toner", keyIngredients:["トラネキサム酸","グリチルリチン酸"], scores:{moisture:6,soothing:8,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"tn_007", brand:"ミノン", name:"アミノモイスト モイストチャージ ローション II", category:"toner", keyIngredients:["アミノ酸","セラミド類似体"], scores:{moisture:7,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_008", brand:"アクアレーベル", name:"アクアローション", category:"toner", keyIngredients:["チャージアミノ酸","コラーゲン"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"tn_009", brand:"オルビス ユー", name:"エッセンスローション", category:"toner", keyIngredients:["キーポリンブースター"], scores:{moisture:7,soothing:4,sebum:2,uv:0,turnover:1,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_010", brand:"ONE BY KOSE", name:"薬用バランシング チューナー", category:"toner", keyIngredients:["ライスパワーNo.6"], scores:{moisture:4,soothing:3,sebum:8,uv:0,turnover:1,antioxidant:0,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"tn_011", brand:"IPSA", name:"ザ・タイムR アクア", category:"toner", keyIngredients:["アクアプレゼンターIII"], scores:{moisture:8,soothing:5,sebum:3,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"high" },
+      { id:"tn_012", brand:"アルビオン", name:"フローラドリップ", category:"toner", keyIngredients:["ミュラ発酵エキス"], scores:{moisture:7,soothing:5,sebum:2,uv:0,turnover:2,antioxidant:3,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"tn_013", brand:"SK-II", name:"フェイシャル トリートメント エッセンス", category:"toner", keyIngredients:["ピテラ"], scores:{moisture:7,soothing:4,sebum:3,uv:0,turnover:3,antioxidant:3,brightening:3}, strongActives:[], priceRange:"high" },
+      { id:"tn_014", brand:"エリクシール", name:"ブライトニング ローション WT II", category:"toner", keyIngredients:["4MSK","コラーゲン"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:1,antioxidant:1,brightening:4}, strongActives:[], priceRange:"high" },
+      { id:"tn_015", brand:"コスメデコルテ", name:"リポソーム アドバンスト リペア ローション", category:"toner", keyIngredients:["多重層リポソーム"], scores:{moisture:8,soothing:5,sebum:2,uv:0,turnover:2,antioxidant:3,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"tn_016", brand:"TORRIDEN", name:"バランスフル シカ トナー", category:"toner", keyIngredients:["シカ","ヒアルロン酸"], scores:{moisture:6,soothing:8,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_017", brand:"Anua", name:"ドクダミ 77% スージングトナー", category:"toner", keyIngredients:["ドクダミ77%","BHA"], scores:{moisture:5,soothing:8,sebum:4,uv:0,turnover:1,antioxidant:2,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_018", brand:"COSRX", name:"フルフィット プロポリス シナジートナー", category:"toner", keyIngredients:["プロポリスエキス","ヒアルロン酸"], scores:{moisture:7,soothing:5,sebum:2,uv:0,turnover:1,antioxidant:3,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"tn_019", brand:"mixsoon", name:"ビーンエッセンス", category:"toner", keyIngredients:["大豆発酵エキス"], scores:{moisture:6,soothing:4,sebum:3,uv:0,turnover:2,antioxidant:2,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"tn_020", brand:"オルビス ミスター", name:"ローション", category:"toner", keyIngredients:["浸透型コラーゲン"], scores:{moisture:6,soothing:3,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_021", brand:"BULK HOMME", name:"THE TONER", category:"toner", keyIngredients:["トレハロース","リンゴ果実培養エキス"], scores:{moisture:6,soothing:3,sebum:3,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"tn_022", brand:"UNO", name:"スキンケアウォーター", category:"toner", keyIngredients:["ヒアルロン酸"], scores:{moisture:4,soothing:2,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"tn_023", brand:"メラノCC", name:"薬用しみ対策美白化粧水", category:"toner", keyIngredients:["高浸透ビタミンC誘導体","アルピニアホワイト"], scores:{moisture:4,soothing:2,sebum:3,uv:0,turnover:1,antioxidant:4,brightening:5}, strongActives:[], priceRange:"low" },
+      { id:"tn_024", brand:"白潤", name:"薬用美白化粧水", category:"toner", keyIngredients:["トラネキサム酸","ナノ化ヒアルロン酸"], scores:{moisture:6,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:4}, strongActives:[], priceRange:"low" },
+      { id:"tn_025", brand:"なめらか本舗", name:"化粧水 NA", category:"toner", keyIngredients:["豆乳イソフラボン","ナイアシンアミド"], scores:{moisture:6,soothing:3,sebum:3,uv:0,turnover:0,antioxidant:1,brightening:2}, strongActives:[], priceRange:"low" },
+      { id:"tn_026", brand:"雪肌精", name:"クリアウェルネス ピュア コンク", category:"toner", keyIngredients:["イトワ発酵エキス"], scores:{moisture:5,soothing:4,sebum:3,uv:0,turnover:1,antioxidant:2,brightening:3}, strongActives:[], priceRange:"mid" },
+      { id:"tn_027", brand:"菊正宗", name:"日本酒の化粧水 高保湿", category:"toner", keyIngredients:["コメ発酵液","プラセンタ","アルブチン"], scores:{moisture:7,soothing:3,sebum:1,uv:0,turnover:1,antioxidant:2,brightening:3}, strongActives:[], priceRange:"low" },
+
+      // === SERUM (25) ===
+      { id:"sr_001", brand:"メラノCC", name:"薬用しみ集中対策 プレミアム美容液", category:"serum", keyIngredients:["活性型ビタミンC","ビタミンE誘導体","ビタミンB6"], scores:{moisture:2,soothing:1,sebum:4,uv:0,turnover:2,antioxidant:8,brightening:7}, strongActives:["vitamin_c"], priceRange:"low" },
+      { id:"sr_002", brand:"チューンメーカーズ", name:"ナイアシンアミド", category:"serum", keyIngredients:["ナイアシンアミド"], scores:{moisture:4,soothing:3,sebum:5,uv:0,turnover:1,antioxidant:2,brightening:4}, strongActives:[], priceRange:"low" },
+      { id:"sr_003", brand:"菊正宗", name:"日本酒の美容液", category:"serum", keyIngredients:["コメ発酵液","プラセンタ","アルブチン"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:2,antioxidant:3,brightening:4}, strongActives:[], priceRange:"low" },
+      { id:"sr_004", brand:"肌ラボ", name:"極潤プレミアム ヒアルロン美容液", category:"serum", keyIngredients:["7種のヒアルロン酸","スクワラン"], scores:{moisture:9,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"sr_005", brand:"タカミ", name:"スキンピール", category:"serum", keyIngredients:["角質美容水"], scores:{moisture:2,soothing:2,sebum:6,uv:0,turnover:7,antioxidant:1,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"sr_006", brand:"キュレル", name:"潤浸保湿 美容液", category:"serum", keyIngredients:["セラミド機能成分","ユーカリエキス"], scores:{moisture:8,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"sr_007", brand:"ONE BY KOSE", name:"メラノショット W", category:"serum", keyIngredients:["コウジ酸"], scores:{moisture:3,soothing:2,sebum:2,uv:0,turnover:2,antioxidant:3,brightening:8}, strongActives:[], priceRange:"mid" },
+      { id:"sr_008", brand:"なめらか本舗", name:"リンクル美容液 N", category:"serum", keyIngredients:["ピュアレチノール","豆乳イソフラボン"], scores:{moisture:5,soothing:2,sebum:2,uv:0,turnover:5,antioxidant:3,brightening:2}, strongActives:["retinol"], priceRange:"mid" },
+      { id:"sr_009", brand:"dプログラム", name:"モイストケア セラム", category:"serum", keyIngredients:["トラネキサム酸","グリチルリチン酸ジカリウム"], scores:{moisture:5,soothing:8,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"sr_010", brand:"オバジ", name:"C25セラム ネオ", category:"serum", keyIngredients:["ピュアビタミンC 25%","ビタミンE"], scores:{moisture:2,soothing:1,sebum:5,uv:0,turnover:3,antioxidant:10,brightening:7}, strongActives:["vitamin_c"], priceRange:"high" },
+      { id:"sr_011", brand:"HAKU", name:"メラノフォーカスEV", category:"serum", keyIngredients:["4MSK","m-トラネキサム酸"], scores:{moisture:4,soothing:3,sebum:2,uv:0,turnover:2,antioxidant:3,brightening:9}, strongActives:[], priceRange:"high" },
+      { id:"sr_012", brand:"エスティ ローダー", name:"アドバンス ナイト リペア SMR コンプレックス", category:"serum", keyIngredients:["ビフィズス菌発酵エキス","トリペプチド"], scores:{moisture:7,soothing:4,sebum:2,uv:0,turnover:4,antioxidant:6,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"sr_013", brand:"ランコム", name:"ジェニフィック アドバンスト N", category:"serum", keyIngredients:["発酵エキス","ビフィズス菌"], scores:{moisture:6,soothing:4,sebum:2,uv:0,turnover:3,antioxidant:5,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"sr_014", brand:"コスメデコルテ", name:"リポソーム アドバンスト リペアセラム", category:"serum", keyIngredients:["多重層バイオリポソーム"], scores:{moisture:8,soothing:5,sebum:2,uv:0,turnover:3,antioxidant:4,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"sr_015", brand:"POLA B.A", name:"セラム プリズルミナ", category:"serum", keyIngredients:["仙人穀ロスマ","BAコアリキッド"], scores:{moisture:6,soothing:4,sebum:2,uv:0,turnover:3,antioxidant:5,brightening:4}, strongActives:[], priceRange:"high" },
+      { id:"sr_016", brand:"COSRX", name:"アドバンスド スネイル 96 ムチン パワー エッセンス", category:"serum", keyIngredients:["カタツムリ分泌ろ液96%"], scores:{moisture:8,soothing:6,sebum:2,uv:0,turnover:2,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"sr_017", brand:"The Ordinary", name:"ナイアシンアミド 10% + 亜鉛 1%", category:"serum", keyIngredients:["ナイアシンアミド10%","亜鉛PCA"], scores:{moisture:4,soothing:3,sebum:7,uv:0,turnover:1,antioxidant:2,brightening:5}, strongActives:["niacinamide_high"], priceRange:"low" },
+      { id:"sr_018", brand:"BEAUTY OF JOSEON", name:"グロウセラム プロポリス+ナイアシンアミド", category:"serum", keyIngredients:["プロポリスエキス","ナイアシンアミド2%"], scores:{moisture:6,soothing:4,sebum:3,uv:0,turnover:1,antioxidant:4,brightening:3}, strongActives:[], priceRange:"mid" },
+      { id:"sr_019", brand:"SKIN1004", name:"マダガスカル センテラ アンプル", category:"serum", keyIngredients:["センテラアジアチカ"], scores:{moisture:4,soothing:9,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"sr_020", brand:"Anua", name:"ドクダミ 80% スージングアンプル", category:"serum", keyIngredients:["ドクダミ80%","ナイアシンアミド"], scores:{moisture:5,soothing:9,sebum:3,uv:0,turnover:0,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"sr_021", brand:"BULK HOMME", name:"THE SERUM", category:"serum", keyIngredients:["セラミド","リンゴ幹細胞エキス"], scores:{moisture:5,soothing:3,sebum:3,uv:0,turnover:1,antioxidant:2,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"sr_022", brand:"オルビス ミスター", name:"セラム", category:"serum", keyIngredients:["ナイアシンアミド","浸透型コラーゲン"], scores:{moisture:5,soothing:3,sebum:4,uv:0,turnover:1,antioxidant:1,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"sr_023", brand:"The Ordinary", name:"AHA 30% + BHA 2% ピーリングソリューション", category:"serum", keyIngredients:["AHA30%","BHA2%"], scores:{moisture:0,soothing:0,sebum:8,uv:0,turnover:9,antioxidant:0,brightening:3}, strongActives:["aha","bha"], priceRange:"low" },
+      { id:"sr_024", brand:"エリクシール", name:"レチノパワー リンクルエッセンス", category:"serum", keyIngredients:["純粋レチノール"], scores:{moisture:4,soothing:1,sebum:3,uv:0,turnover:8,antioxidant:4,brightening:3}, strongActives:["retinol"], priceRange:"high" },
+      { id:"sr_025", brand:"アスタリフト", name:"エッセンス デスティニー", category:"serum", keyIngredients:["ナノアスタキサンチン","ナノリコピン"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:2,antioxidant:7,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"sr_026", brand:"トゥヴェール", name:"ナノエマルジョン", category:"serum", keyIngredients:["セラミド","ヒト型セラミド5種"], scores:{moisture:9,soothing:5,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"sr_027", brand:"ドクターシーラボ", name:"VC100エッセンスローションEX", category:"serum", keyIngredients:["高浸透ビタミンC(APPS)","ナイアシンアミド"], scores:{moisture:4,soothing:2,sebum:4,uv:0,turnover:2,antioxidant:7,brightening:5}, strongActives:["vitamin_c"], priceRange:"mid" },
+
+      // === MILKY LOTION / EMULSION (15) ===
+      { id:"ml_001", brand:"無印良品", name:"敏感肌用乳液", category:"milkylotion", keyIngredients:["スベリヒユエキス","グレープフルーツ種子エキス"], scores:{moisture:6,soothing:5,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ml_002", brand:"ちふれ", name:"乳液 しっとりタイプ", category:"milkylotion", keyIngredients:["ヒアルロン酸","トレハロース"], scores:{moisture:6,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ml_003", brand:"肌ラボ", name:"極潤 乳液", category:"milkylotion", keyIngredients:["スーパーヒアルロン酸"], scores:{moisture:7,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ml_004", brand:"ミノン", name:"アミノモイスト モイストチャージ ミルク", category:"milkylotion", keyIngredients:["アミノ酸","セラミド類似体"], scores:{moisture:8,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ml_005", brand:"キュレル", name:"潤浸保湿 乳液", category:"milkylotion", keyIngredients:["セラミド機能成分","ユーカリエキス"], scores:{moisture:7,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ml_006", brand:"dプログラム", name:"モイストケア エマルジョン MB", category:"milkylotion", keyIngredients:["トラネキサム酸","グリチルリチン酸ジカリウム"], scores:{moisture:6,soothing:8,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"ml_007", brand:"アクセーヌ", name:"モイストバランス ミルキィジェル", category:"milkylotion", keyIngredients:["セラミド類似体","超微細ナノカプセル"], scores:{moisture:8,soothing:6,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ml_008", brand:"エリクシール", name:"ブライトニング エマルジョン WT II", category:"milkylotion", keyIngredients:["4MSK","コラーゲン"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:4}, strongActives:[], priceRange:"high" },
+      { id:"ml_009", brand:"アルビオン", name:"エクサージュホワイト ピュアホワイト ミルク II", category:"milkylotion", keyIngredients:["トラネキサム酸"], scores:{moisture:7,soothing:4,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:5}, strongActives:[], priceRange:"high" },
+      { id:"ml_010", brand:"IPSA", name:"ME レギュラー 2", category:"milkylotion", keyIngredients:["アクアプレゼンターIII"], scores:{moisture:7,soothing:5,sebum:3,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"ml_011", brand:"COSRX", name:"アドバンスド スネイル 92 オールインワンクリーム", category:"milkylotion", keyIngredients:["カタツムリ分泌ろ液92%"], scores:{moisture:7,soothing:6,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"ml_012", brand:"オルビス ミスター", name:"モイスチャー", category:"milkylotion", keyIngredients:["浸透型コラーゲン","ヒアルロン酸"], scores:{moisture:6,soothing:3,sebum:3,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ml_013", brand:"BULK HOMME", name:"THE LOTION", category:"milkylotion", keyIngredients:["スクワラン","黄金まゆ"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ml_014", brand:"UNO", name:"スキンケアタンク マイルド", category:"milkylotion", keyIngredients:["ヒアルロン酸"], scores:{moisture:4,soothing:3,sebum:2,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ml_015", brand:"なめらか本舗", name:"乳液 NA", category:"milkylotion", keyIngredients:["豆乳イソフラボン","ナイアシンアミド"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:2}, strongActives:[], priceRange:"low" },
+
+      // === CREAM (15) ===
+      { id:"cr_001", brand:"ニベア", name:"クリーム(大缶)", category:"cream", keyIngredients:["スクワラン","ホホバオイル"], scores:{moisture:8,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cr_002", brand:"ちふれ", name:"ボラージクリーム", category:"cream", keyIngredients:["ボラージオイル","ヒアルロン酸"], scores:{moisture:7,soothing:4,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cr_003", brand:"肌ラボ", name:"極潤プレミアム ヒアルロンクリーム", category:"cream", keyIngredients:["7種のヒアルロン酸","スクワラン"], scores:{moisture:9,soothing:3,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"cr_004", brand:"キュレル", name:"潤浸保湿 フェイスクリーム", category:"cream", keyIngredients:["セラミド機能成分"], scores:{moisture:8,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cr_005", brand:"dプログラム", name:"モイストケアクリーム", category:"cream", keyIngredients:["トラネキサム酸","グリチルリチン酸ジカリウム"], scores:{moisture:7,soothing:8,sebum:1,uv:0,turnover:0,antioxidant:1,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"cr_006", brand:"イハダ", name:"薬用バーム", category:"cream", keyIngredients:["高精製ワセリン","グリチルレチン酸ステアリル"], scores:{moisture:9,soothing:9,sebum:0,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cr_007", brand:"ミノン", name:"アミノモイスト モイストバリア クリーム", category:"cream", keyIngredients:["アミノ酸","スクワラン"], scores:{moisture:8,soothing:7,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cr_008", brand:"エリクシール", name:"レチノパワー リンクルクリーム S", category:"cream", keyIngredients:["純粋レチノール"], scores:{moisture:5,soothing:2,sebum:2,uv:0,turnover:8,antioxidant:4,brightening:3}, strongActives:["retinol"], priceRange:"high" },
+      { id:"cr_009", brand:"クレ・ド・ポー ボーテ", name:"ラ・クレーム n", category:"cream", keyIngredients:["イルミネイティングコンプレックスEX"], scores:{moisture:9,soothing:5,sebum:1,uv:0,turnover:3,antioxidant:5,brightening:3}, strongActives:[], priceRange:"high" },
+      { id:"cr_010", brand:"エスティ ローダー", name:"リバイタライジング シュプリーム+ クリーム", category:"cream", keyIngredients:["モリンガエキス"], scores:{moisture:8,soothing:4,sebum:1,uv:0,turnover:3,antioxidant:5,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"cr_011", brand:"COSRX", name:"アドバンスド スネイル 92 オールインワンクリーム", category:"cream", keyIngredients:["カタツムリ分泌ろ液92%"], scores:{moisture:7,soothing:6,sebum:2,uv:0,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"cr_012", brand:"BEAUTY OF JOSEON", name:"ダイナスティクリーム", category:"cream", keyIngredients:["米ぬかエキス","高麗人参"], scores:{moisture:7,soothing:5,sebum:2,uv:0,turnover:1,antioxidant:3,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"cr_013", brand:"Dr.G", name:"レッドブレミッシュ クリア スージングクリーム", category:"cream", keyIngredients:["シカ","マデカソサイド"], scores:{moisture:6,soothing:9,sebum:2,uv:0,turnover:0,antioxidant:2,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cr_014", brand:"BULK HOMME", name:"THE CREAM", category:"cream", keyIngredients:["ベタイン","リンゴ幹細胞エキス"], scores:{moisture:6,soothing:3,sebum:2,uv:0,turnover:1,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"cr_015", brand:"POLA B.A", name:"クリーム N", category:"cream", keyIngredients:["BAコアリキッド","仙人穀ロスマ"], scores:{moisture:9,soothing:4,sebum:1,uv:0,turnover:3,antioxidant:5,brightening:3}, strongActives:[], priceRange:"high" },
+      { id:"cr_016", brand:"セタフィル", name:"モイスチャライジングクリーム", category:"cream", keyIngredients:["ナイアシンアミド","パンテノール"], scores:{moisture:7,soothing:5,sebum:2,uv:0,turnover:0,antioxidant:1,brightening:1}, strongActives:[], priceRange:"mid" },
+      { id:"cr_017", brand:"なめらか本舗", name:"リンクルクリーム N", category:"cream", keyIngredients:["ピュアレチノール","豆乳イソフラボン"], scores:{moisture:6,soothing:2,sebum:2,uv:0,turnover:5,antioxidant:2,brightening:2}, strongActives:["retinol"], priceRange:"low" },
+      { id:"cr_018", brand:"松山油脂", name:"肌をうるおす保湿クリーム", category:"cream", keyIngredients:["大豆由来セラミド","シアバター"], scores:{moisture:8,soothing:5,sebum:1,uv:0,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+
+      // === SUNSCREEN (20) ===
+      { id:"ss_001", brand:"ビオレ UV", name:"アクアリッチ ウォータリーエッセンス SPF50+", category:"sunscreen", keyIngredients:["ヒアルロン酸","ローヤルゼリーエキス"], scores:{moisture:4,soothing:2,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ss_002", brand:"スキンアクア", name:"トーンアップ UV エッセンス SPF50+", category:"sunscreen", keyIngredients:["ラベンダーカラー","ヒアルロン酸"], scores:{moisture:3,soothing:2,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:1}, strongActives:[], priceRange:"low" },
+      { id:"ss_003", brand:"ニベアUV", name:"ディーププロテクト&ケア ジェル SPF50+", category:"sunscreen", keyIngredients:["金銀花エキス","予防美容"], scores:{moisture:4,soothing:3,sebum:2,uv:9,turnover:0,antioxidant:2,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ss_004", brand:"スキンアクア", name:"スーパーモイスチャージェル SPF50+", category:"sunscreen", keyIngredients:["4種のうるおい成分"], scores:{moisture:5,soothing:2,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ss_005", brand:"アネッサ", name:"パーフェクトUV スキンケアミルク N SPF50+", category:"sunscreen", keyIngredients:["オートブースター技術","スキンケア成分50%"], scores:{moisture:5,soothing:3,sebum:2,uv:10,turnover:0,antioxidant:2,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_006", brand:"アリィー", name:"エクストラUV ジェルN SPF50+", category:"sunscreen", keyIngredients:["フリクションプルーフ","ヒアルロン酸"], scores:{moisture:4,soothing:2,sebum:2,uv:10,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_007", brand:"キュレル", name:"UVカット UVエッセンス SPF30", category:"sunscreen", keyIngredients:["セラミド機能成分","植物由来消炎剤"], scores:{moisture:5,soothing:7,sebum:1,uv:7,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_008", brand:"dプログラム", name:"アレルバリア エッセンス N SPF40", category:"sunscreen", keyIngredients:["アレルバリアテクノロジー","低刺激設計"], scores:{moisture:4,soothing:8,sebum:1,uv:8,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_009", brand:"NOV", name:"UVミルクEX SPF32", category:"sunscreen", keyIngredients:["紫外線吸収剤不使用","ヒアルロン酸"], scores:{moisture:4,soothing:7,sebum:1,uv:7,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_010", brand:"ラ ロッシュ ポゼ", name:"UVイデア XL プロテクション トーンアップ SPF50+", category:"sunscreen", keyIngredients:["メギゾリルSX","ターマルウォーター"], scores:{moisture:4,soothing:5,sebum:2,uv:10,turnover:0,antioxidant:3,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"ss_011", brand:"エリクシール", name:"デーケアレボリューション SP+ SPF50+", category:"sunscreen", keyIngredients:["コラーゲンGL","エイジングケア"], scores:{moisture:5,soothing:3,sebum:2,uv:9,turnover:1,antioxidant:2,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"ss_012", brand:"ランコム", name:"UV エクスペール トーンアップ N SPF50+", category:"sunscreen", keyIngredients:["エーデルワイスエキス","ヒアルロン酸"], scores:{moisture:4,soothing:3,sebum:2,uv:10,turnover:0,antioxidant:3,brightening:2}, strongActives:[], priceRange:"high" },
+      { id:"ss_013", brand:"POLA B.A", name:"ライト セレクター N SPF50+", category:"sunscreen", keyIngredients:["B.Aコアリキッド","赤色光を透過"], scores:{moisture:5,soothing:3,sebum:2,uv:10,turnover:1,antioxidant:4,brightening:1}, strongActives:[], priceRange:"high" },
+      { id:"ss_014", brand:"BEAUTY OF JOSEON", name:"ライス + プロバイオティクス 日焼け止め SPF50+", category:"sunscreen", keyIngredients:["米ぬかエキス","プロバイオティクス"], scores:{moisture:5,soothing:4,sebum:2,uv:9,turnover:0,antioxidant:2,brightening:2}, strongActives:[], priceRange:"mid" },
+      { id:"ss_015", brand:"COSRX", name:"アロエ スージング サンクリーム SPF50+", category:"sunscreen", keyIngredients:["アロエベラ","ヒアルロン酸"], scores:{moisture:4,soothing:6,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_016", brand:"SKIN1004", name:"マダガスカル センテラ ヒアル-シカ サンスティック SPF50+", category:"sunscreen", keyIngredients:["センテラアジアチカ","ヒアルロン酸"], scores:{moisture:4,soothing:7,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_017", brand:"NULL", name:"メンズ ウォータープルーフ 日焼け止め SPF50+", category:"sunscreen", keyIngredients:["ウォータープルーフ"], scores:{moisture:2,soothing:1,sebum:3,uv:10,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_018", brand:"BULK HOMME", name:"THE SUNSCREEN SPF40", category:"sunscreen", keyIngredients:["フラーレン","リンゴ幹細胞エキス"], scores:{moisture:4,soothing:3,sebum:2,uv:8,turnover:0,antioxidant:3,brightening:0}, strongActives:[], priceRange:"mid" },
+      { id:"ss_019", brand:"オルビス", name:"リンクルブライト UVプロテクター SPF50+", category:"sunscreen", keyIngredients:["ナイアシンアミド","Wナイアシン"], scores:{moisture:4,soothing:3,sebum:3,uv:9,turnover:1,antioxidant:2,brightening:3}, strongActives:[], priceRange:"mid" },
+      { id:"ss_020", brand:"キャンメイク", name:"マーメイドスキンジェルUV SPF50+", category:"sunscreen", keyIngredients:["ヒアルロン酸","コラーゲン"], scores:{moisture:4,soothing:2,sebum:2,uv:9,turnover:0,antioxidant:1,brightening:0}, strongActives:[], priceRange:"low" },
+      { id:"ss_021", brand:"ミノン", name:"UVマイルドミルク SPF50+", category:"sunscreen", keyIngredients:["アミノ酸","ヒアルロン酸"], scores:{moisture:5,soothing:7,sebum:1,uv:9,turnover:0,antioxidant:0,brightening:0}, strongActives:[], priceRange:"mid" }
+    ];
+
+    // Category definitions
+    const CATEGORIES = [
+      { key:"cleansing", label:"クレンジング", icon:"\u{1F9F4}", desc:"メイクや日焼け止めを落とすアイテム" },
+      { key:"facewash", label:"洗顔料", icon:"\u{1F9FC}", desc:"肌の汚れや皮脂を洗い流すアイテム" },
+      { key:"toner", label:"化粧水", icon:"\u{1F4A7}", desc:"洗顔後の肌に水分を補給するアイテム" },
+      { key:"serum", label:"美容液", icon:"\u2728", desc:"集中的にケアするアイテム" },
+      { key:"milkylotion", label:"乳液", icon:"\u{1F95B}", desc:"水分と油分をバランスよく補うアイテム" },
+      { key:"cream", label:"クリーム", icon:"\u{1F36F}", desc:"油分で肌にフタをするアイテム" },
+      { key:"sunscreen", label:"日焼け止め", icon:"\u2600\uFE0F", desc:"紫外線から肌を守るアイテム" }
+    ];
+
+    const AXIS_LABELS = {
+      moisture: "保湿・バリア",
+      soothing: "鎮静・抗炎症",
+      sebum: "皮脂・毛穴ケア",
+      uv: "紫外線対策",
+      turnover: "ターンオーバー",
+      antioxidant: "抗酸化",
+      brightening: "美白"
+    };
+
+    const IDEALS = {
+      moisture: { min: 25, max: 35 },
+      soothing: { min: 8, max: 15 },
+      sebum: { min: 5, max: 15 },
+      uv: { min: 8, max: 10 },
+      turnover: { min: 5, max: 15 },
+      antioxidant: { min: 10, max: 20 },
+      brightening: { min: 5, max: 15 }
+    };
+
+    const WEIGHTS = {
+      moisture: 0.25,
+      uv: 0.20,
+      soothing: 0.12,
+      antioxidant: 0.12,
+      sebum: 0.10,
+      turnover: 0.10,
+      brightening: 0.06
+    };
+
+    const ACTIVE_CONFLICTS = [
+      { pair: ["retinol", "aha"], msg: "レチノールとAHAを併用しています。肌への刺激が強くなる可能性があるため、使用タイミングを朝夜で分けるか、どちらか一方にすることを検討してください。" },
+      { pair: ["retinol", "bha"], msg: "レチノールとBHA(サリチル酸)を併用しています。肌への刺激が強くなる可能性があるため、使用タイミングを分けることを検討してください。" },
+      { pair: ["vitamin_c", "retinol"], msg: "高濃度ビタミンCとレチノールを併用しています。どちらも刺激のある成分のため、朝にビタミンC、夜にレチノールと分けて使用することをおすすめします。" },
+      { pair: ["aha", "bha"], msg: "AHAとBHAを併用しています。角質ケアが過剰になり、バリア機能が低下する可能性があります。どちらか一方にすることを検討してください。" }
+    ];
+
+    // ========== REACT APP ==========
+    const { useState, useEffect, useRef, useMemo } = React;
+
+    function App() {
+      const [step, setStep] = useState(0); // 0-6: category steps, 7: result
+      const [selections, setSelections] = useState({});
+
+      const handleSelect = (categoryKey, productId) => {
+        setSelections(prev => ({ ...prev, [categoryKey]: productId }));
+      };
+
+      const handleNext = () => {
+        if (step < 6) setStep(step + 1);
+        else setStep(7);
+      };
+
+      const handleBack = () => {
+        if (step > 0) setStep(step - 1);
+      };
+
+      const handleReset = () => {
+        setStep(0);
+        setSelections({});
+      };
+
+      if (step === 7) {
+        return React.createElement(ResultScreen, { selections, onReset: handleReset });
+      }
+
+      return React.createElement(StepScreen, {
+        step, selections, onSelect: handleSelect,
+        onNext: handleNext, onBack: handleBack
+      });
+    }
+
+    function StepScreen({ step, selections, onSelect, onNext, onBack }) {
+      const [searchText, setSearchText] = useState("");
+      const [dropdownOpen, setDropdownOpen] = useState(false);
+      const cat = CATEGORIES[step];
+      const selectedId = selections[cat.key] || null;
+
+      const categoryProducts = useMemo(() =>
+        PRODUCTS.filter(p => p.category === cat.key), [cat.key]);
+
+      const filteredProducts = useMemo(() => {
+        if (!searchText) return categoryProducts;
+        const q = searchText.toLowerCase();
+        return categoryProducts.filter(p =>
+          (p.brand + " " + p.name).toLowerCase().includes(q)
+        );
+      }, [categoryProducts, searchText]);
+
+      const selectedProduct = selectedId === "none" ? null :
+        PRODUCTS.find(p => p.id === selectedId);
+
+      const progress = ((step + 1) / 7) * 100;
+
+      useEffect(() => {
+        setSearchText("");
+        setDropdownOpen(false);
+      }, [step]);
+
+      return (
+        <div className="max-w-lg mx-auto px-4 py-8">
+          {/* Progress */}
+          <div className="mb-6">
+            <div className="flex justify-between text-xs text-gray-500 mb-2">
+              <span>ステップ {step + 1} / 7</span>
+              <span>{Math.round(progress)}%</span>
+            </div>
+            <div className="w-full bg-gray-200 rounded-full h-2">
+              <div className="bg-accent h-2 rounded-full transition-all duration-300"
+                   style={{ width: progress + "%" }}></div>
+            </div>
+          </div>
+
+          {/* Category */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+            <div className="text-center mb-6">
+              <div className="text-4xl mb-2">{cat.icon}</div>
+              <h2 className="text-xl font-bold text-navy">{cat.label}</h2>
+              <p className="text-sm text-gray-500 mt-1">{cat.desc}</p>
+            </div>
+
+            {/* Search Dropdown */}
+            <div className="relative mb-4">
+              <input
+                type="text"
+                placeholder="商品名やブランドで検索..."
+                className="w-full px-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent"
+                value={searchText}
+                onChange={e => { setSearchText(e.target.value); setDropdownOpen(true); }}
+                onFocus={() => setDropdownOpen(true)}
+              />
+              {dropdownOpen && (
+                <div className="absolute z-10 w-full mt-1 bg-white border border-gray-200 rounded-xl shadow-lg max-h-60 overflow-y-auto">
+                  {filteredProducts.map(p => (
+                    <button key={p.id}
+                      className={`w-full text-left px-4 py-3 text-sm hover:bg-accent/5 transition-colors border-b border-gray-50 last:border-0 ${selectedId === p.id ? "bg-accent/10 font-medium" : ""}`}
+                      onClick={() => { onSelect(cat.key, p.id); setDropdownOpen(false); setSearchText(""); }}>
+                      <span className="font-medium text-navy">{p.brand}</span>
+                      <span className="text-gray-600 ml-1">{p.name}</span>
+                    </button>
+                  ))}
+                  {filteredProducts.length === 0 && (
+                    <div className="px-4 py-3 text-sm text-gray-400">該当する商品がありません</div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Not Using Button */}
+            <button
+              className={`w-full py-3 rounded-xl text-sm font-medium transition-colors border ${selectedId === "none" ? "bg-gray-100 border-navy text-navy" : "bg-white border-gray-200 text-gray-500 hover:bg-gray-50"}`}
+              onClick={() => { onSelect(cat.key, "none"); setDropdownOpen(false); }}>
+              使っていない
+            </button>
+
+            {/* Selected Display */}
+            {selectedProduct && (
+              <div className="mt-4 p-3 bg-accent/5 rounded-xl border border-accent/20">
+                <p className="text-sm text-navy font-medium">
+                  選択中: {selectedProduct.brand} {selectedProduct.name}
+                </p>
+                <div className="flex flex-wrap gap-1 mt-1">
+                  {selectedProduct.keyIngredients.map((ing, i) => (
+                    <span key={i} className="text-xs bg-accent/10 text-accent-muted px-2 py-0.5 rounded-full">{ing}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+            {selectedId === "none" && (
+              <div className="mt-4 p-3 bg-gray-50 rounded-xl">
+                <p className="text-sm text-gray-500">「使っていない」を選択しました</p>
+              </div>
+            )}
+          </div>
+
+          {/* Navigation */}
+          <div className="flex gap-3">
+            {step > 0 && (
+              <button onClick={onBack}
+                className="flex-1 py-3 rounded-xl text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors">
+                戻る
+              </button>
+            )}
+            <button onClick={onNext}
+              disabled={!selectedId}
+              className={`flex-1 py-3 rounded-xl text-sm font-medium transition-colors ${selectedId ? "bg-navy text-white hover:bg-navy-light" : "bg-gray-200 text-gray-400 cursor-not-allowed"}`}>
+              {step < 6 ? "次へ" : "診断結果を見る"}
+            </button>
+          </div>
+        </div>
+      );
+    }
+
+    function ResultScreen({ selections, onReset }) {
+      const chartRef = useRef(null);
+      const chartInstance = useRef(null);
+
+      // Compute totals
+      const selectedProducts = [];
+      const allActives = [];
+      const totals = { moisture:0, soothing:0, sebum:0, uv:0, turnover:0, antioxidant:0, brightening:0 };
+
+      CATEGORIES.forEach(cat => {
+        const pid = selections[cat.key];
+        if (pid && pid !== "none") {
+          const p = PRODUCTS.find(x => x.id === pid);
+          if (p) {
+            selectedProducts.push(p);
+            allActives.push(...p.strongActives);
+            Object.keys(totals).forEach(k => { totals[k] += p.scores[k]; });
+          }
+        }
+      });
+
+      // Penalties
+      let penalty = 0;
+      const penaltyMessages = [];
+      const hasSunscreen = selections.sunscreen && selections.sunscreen !== "none";
+      const hasCleansing = selections.cleansing && selections.cleansing !== "none";
+      const hasFacewash = selections.facewash && selections.facewash !== "none";
+      const hasToner = selections.toner && selections.toner !== "none";
+      const hasMilky = selections.milkylotion && selections.milkylotion !== "none";
+      const hasCream = selections.cream && selections.cream !== "none";
+
+      if (!hasSunscreen) {
+        penalty += 15;
+        penaltyMessages.push("日焼け止め未使用: -15点");
+      }
+      if (!hasCleansing && !hasFacewash) {
+        penalty += 10;
+        penaltyMessages.push("クレンジング・洗顔料ともに未使用: -10点");
+      }
+      if (!hasToner && !hasMilky && !hasCream) {
+        penalty += 20;
+        penaltyMessages.push("化粧水・乳液・クリーム全て未使用: -20点");
+      }
+
+      // Score per axis
+      const axisScores = {};
+      Object.keys(IDEALS).forEach(k => {
+        const ideal = IDEALS[k];
+        const val = totals[k];
+        if (val >= ideal.min && val <= ideal.max) {
+          axisScores[k] = 1.0;
+        } else if (val < ideal.min) {
+          axisScores[k] = Math.max(0, val / ideal.min);
+        } else {
+          const over = val - ideal.max;
+          axisScores[k] = Math.max(0, 1 - over / (ideal.max * 0.5));
+        }
+      });
+
+      let baseScore = 0;
+      Object.keys(WEIGHTS).forEach(k => {
+        baseScore += axisScores[k] * WEIGHTS[k] * 100;
+      });
+
+      const finalScore = Math.max(0, Math.min(100, Math.round(baseScore - penalty)));
+
+      // Rank
+      let rank, rankColor;
+      if (finalScore >= 90) { rank = "S"; rankColor = "#10b981"; }
+      else if (finalScore >= 80) { rank = "A"; rankColor = "#22c55e"; }
+      else if (finalScore >= 70) { rank = "B"; rankColor = "#eab308"; }
+      else if (finalScore >= 60) { rank = "C"; rankColor = "#f97316"; }
+      else { rank = "D"; rankColor = "#ef4444"; }
+
+      // Score color
+      const scoreColor = finalScore >= 80 ? "#10b981" : finalScore >= 60 ? "#eab308" : "#ef4444";
+
+      // Stimulus warnings
+      const warnings = [];
+      const uniqueActives = [...new Set(allActives)];
+      ACTIVE_CONFLICTS.forEach(conflict => {
+        if (uniqueActives.includes(conflict.pair[0]) && uniqueActives.includes(conflict.pair[1])) {
+          warnings.push(conflict.msg);
+        }
+      });
+
+      // Comments
+      const goodAxes = [];
+      const lowAxes = [];
+      const highAxes = [];
+
+      Object.keys(IDEALS).forEach(k => {
+        const val = totals[k];
+        const ideal = IDEALS[k];
+        if (val >= ideal.min && val <= ideal.max) {
+          goodAxes.push(k);
+        } else if (val < ideal.min) {
+          lowAxes.push(k);
+        } else {
+          highAxes.push(k);
+        }
+      });
+
+      const lowAdvice = {
+        moisture: "保湿が不足しています。セラミドやヒアルロン酸を含む化粧水やクリームの追加を検討してみてください。",
+        soothing: "鎮静ケアが足りていません。敏感肌用アイテムやシカ成分を含む製品を取り入れてみてください。",
+        sebum: "皮脂・毛穴ケアが不足しています。ナイアシンアミドやBHA配合の製品を検討してみてください。",
+        uv: "紫外線対策が不十分です。日焼け止めはスキンケアの最重要ステップ。毎日塗ることを習慣にしましょう。",
+        turnover: "ターンオーバーケアが足りていません。レチノールやAHA配合のアイテムを取り入れることが期待できます。",
+        antioxidant: "抗酸化ケアが不足しています。ビタミンC美容液やアスタキサンチン配合の製品を検討してみてください。",
+        brightening: "美白ケアが不足しています。ナイアシンアミドやトラネキサム酸配合の製品を取り入れてみてください。"
+      };
+
+      const highAdvice = {
+        moisture: "保湿が過剰な可能性があります。重たさを感じる場合は、一部のアイテムを軽いテクスチャーのものに変更してみてください。",
+        soothing: "鎮静ケアが多めです。特に問題はありませんが、攻めのケアも少し取り入れてみると良いかもしれません。",
+        sebum: "皮脂ケアが過剰な可能性があります。乾燥を感じる場合は使用頻度を減らすことを検討してください。",
+        uv: "紫外線対策はしっかりできています。",
+        turnover: "角質ケアが過剰な可能性があります。レチノールとAHA/BHAの併用は肌への刺激が強くなることがあるため、どちらか一方にすることを検討してください。",
+        antioxidant: "抗酸化ケアが多めですが、基本的には問題ありません。",
+        brightening: "美白ケアが多めです。複数の美白成分を使う場合は刺激に注意してください。"
+      };
+
+      // Chart.js
+      useEffect(() => {
+        if (!chartRef.current) return;
+        if (chartInstance.current) chartInstance.current.destroy();
+
+        const axisKeys = Object.keys(AXIS_LABELS);
+        const labels = axisKeys.map(k => AXIS_LABELS[k]);
+        const idealMid = axisKeys.map(k => (IDEALS[k].min + IDEALS[k].max) / 2);
+        const maxVal = Math.max(...axisKeys.map(k => Math.max(totals[k], IDEALS[k].max)), 10);
+        const userData = axisKeys.map(k => totals[k]);
+
+        chartInstance.current = new Chart(chartRef.current, {
+          type: 'radar',
+          data: {
+            labels,
+            datasets: [
+              {
+                label: 'あなたのスコア',
+                data: userData,
+                backgroundColor: 'rgba(91,156,196,0.2)',
+                borderColor: '#5b9cc4',
+                borderWidth: 2,
+                pointBackgroundColor: '#5b9cc4',
+                pointRadius: 4
+              },
+              {
+                label: '理想ライン',
+                data: idealMid,
+                backgroundColor: 'rgba(16,185,129,0.08)',
+                borderColor: '#10b981',
+                borderWidth: 2,
+                borderDash: [5, 5],
+                pointBackgroundColor: '#10b981',
+                pointRadius: 3
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            scales: {
+              r: {
+                beginAtZero: true,
+                max: Math.ceil(maxVal * 1.1),
+                ticks: {
+                  stepSize: 5,
+                  font: { size: 10 },
+                  backdropColor: 'transparent'
+                },
+                pointLabels: {
+                  font: { size: 11, family: "'Noto Sans JP', sans-serif" },
+                  color: '#374151'
+                },
+                grid: { color: 'rgba(0,0,0,0.06)' },
+                angleLines: { color: 'rgba(0,0,0,0.06)' }
+              }
+            },
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: {
+                  font: { size: 11, family: "'Noto Sans JP', sans-serif" },
+                  usePointStyle: true,
+                  padding: 16
+                }
+              }
+            }
+          }
+        });
+
+        return () => { if (chartInstance.current) chartInstance.current.destroy(); };
+      }, []);
+
+      // Share text
+      const shareText = encodeURIComponent(
+        `スキンケア採点診断の結果は${finalScore}点（${rank}ランク）でした！\n7つの軸で自分のルーティンをチェックしてみよう\n\nhttps://mailkanri2806-stack.github.io/skinsci-website/skincare-score.html\n#SKINSCI #スキンケア診断`
+      );
+
+      return (
+        <div className="max-w-lg mx-auto px-4 py-8">
+          {/* Score Circle */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-8 text-center mb-6">
+            <p className="text-sm text-gray-500 mb-4 tracking-widest font-medium">YOUR SCORE</p>
+            <div className="relative w-40 h-40 mx-auto mb-4">
+              <svg viewBox="0 0 120 120" className="w-full h-full">
+                <circle cx="60" cy="60" r="52" fill="none" stroke="#e5e7eb" strokeWidth="8" />
+                <circle cx="60" cy="60" r="52" fill="none" stroke={scoreColor} strokeWidth="8"
+                  strokeDasharray={`${finalScore * 3.267} 326.7`}
+                  strokeLinecap="round" transform="rotate(-90 60 60)"
+                  style={{ transition: "stroke-dasharray 1s ease" }} />
+              </svg>
+              <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <span className="text-4xl font-bold" style={{ color: scoreColor }}>{finalScore}</span>
+                <span className="text-xs text-gray-400">/ 100</span>
+              </div>
+            </div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full" style={{ backgroundColor: rankColor + "15" }}>
+              <span className="text-2xl font-bold" style={{ color: rankColor }}>{rank}</span>
+              <span className="text-sm font-medium" style={{ color: rankColor }}>ランク</span>
+            </div>
+          </div>
+
+          {/* Penalties */}
+          {penaltyMessages.length > 0 && (
+            <div className="bg-red-50 border border-red-200 rounded-2xl p-4 mb-6">
+              <p className="text-sm font-medium text-red-700 mb-2">ペナルティ</p>
+              {penaltyMessages.map((msg, i) => (
+                <p key={i} className="text-sm text-red-600">{msg}</p>
+              ))}
+            </div>
+          )}
+
+          {/* Radar Chart */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+            <h3 className="text-sm font-bold text-navy mb-4 tracking-widest">RADAR CHART</h3>
+            <canvas ref={chartRef}></canvas>
+          </div>
+
+          {/* Good Axes */}
+          {goodAxes.length > 0 && (
+            <div className="bg-green-50 border border-green-200 rounded-2xl p-5 mb-4">
+              <h3 className="text-sm font-bold text-green-800 mb-3">できていること</h3>
+              {goodAxes.map(k => (
+                <p key={k} className="text-sm text-green-700 mb-1">
+                  {AXIS_LABELS[k]}は適切な範囲です。この調子で続けましょう。
+                </p>
+              ))}
+            </div>
+          )}
+
+          {/* Low Axes */}
+          {lowAxes.length > 0 && (
+            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-4">
+              <h3 className="text-sm font-bold text-amber-800 mb-3">足りないもの</h3>
+              {lowAxes.map(k => (
+                <p key={k} className="text-sm text-amber-700 mb-2">{lowAdvice[k]}</p>
+              ))}
+            </div>
+          )}
+
+          {/* High Axes */}
+          {highAxes.length > 0 && (
+            <div className="bg-blue-50 border border-blue-200 rounded-2xl p-5 mb-4">
+              <h3 className="text-sm font-bold text-blue-800 mb-3">過剰な可能性があるもの</h3>
+              {highAxes.map(k => (
+                <p key={k} className="text-sm text-blue-700 mb-2">{highAdvice[k]}</p>
+              ))}
+            </div>
+          )}
+
+          {/* Warnings */}
+          {warnings.length > 0 && (
+            <div className="bg-red-50 border border-red-300 rounded-2xl p-5 mb-4">
+              <h3 className="text-sm font-bold text-red-800 mb-3">刺激リスク警告</h3>
+              {warnings.map((w, i) => (
+                <p key={i} className="text-sm text-red-700 mb-2">{w}</p>
+              ))}
+            </div>
+          )}
+
+          {/* Selected Products */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+            <h3 className="text-sm font-bold text-navy mb-3 tracking-widest">YOUR ROUTINE</h3>
+            {CATEGORIES.map(cat => {
+              const pid = selections[cat.key];
+              const p = pid && pid !== "none" ? PRODUCTS.find(x => x.id === pid) : null;
+              return (
+                <div key={cat.key} className="flex items-center gap-3 py-2 border-b border-gray-50 last:border-0">
+                  <span className="text-lg">{cat.icon}</span>
+                  <div className="flex-1">
+                    <p className="text-xs text-gray-400">{cat.label}</p>
+                    {p ? (
+                      <p className="text-sm text-navy font-medium">{p.brand} {p.name}</p>
+                    ) : (
+                      <p className="text-sm text-gray-400">使っていない</p>
+                    )}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Share / Reset */}
+          <div className="flex gap-3 mb-6">
+            <a href={`https://twitter.com/intent/tweet?text=${shareText}`}
+              target="_blank" rel="noopener noreferrer"
+              className="flex-1 py-3 rounded-xl text-sm font-medium bg-black text-white text-center hover:bg-gray-800 transition-colors">
+              X (Twitter) でシェア
+            </a>
+            <button onClick={onReset}
+              className="flex-1 py-3 rounded-xl text-sm font-medium bg-accent text-white hover:bg-accent-muted transition-colors">
+              もう一度診断する
+            </button>
+          </div>
+
+          {/* Related Links */}
+          <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-5 mb-6">
+            <h3 className="text-sm font-bold text-navy mb-3 tracking-widest">RELATED ARTICLES</h3>
+            <ul className="space-y-2">
+              <li><a href="best-niacinamide.html" className="text-sm text-accent hover:underline">ナイアシンアミド美容液・化粧水の選び方</a></li>
+              <li><a href="ingredients.html" className="text-sm text-accent hover:underline">成分解説</a></li>
+              <li><a href="skin-types.html" className="text-sm text-accent hover:underline">肌タイプ別ガイド</a></li>
+              <li><a href="skin-types.html#quiz" className="text-sm text-accent hover:underline">肌タイプ診断</a></li>
+            </ul>
+          </div>
+
+          {/* Disclaimer */}
+          <div className="text-center text-xs text-gray-400 space-y-2 mb-4">
+            <p>※本ページにはアフィリエイトリンク(PR)が含まれます</p>
+            <p>本診断は一般的なスキンケアの考え方に基づく情報提供であり、医学的なアドバイスではありません。</p>
+          </div>
+        </div>
+      );
+    }
+
+    // ========== RENDER ==========
+    const root = ReactDOM.createRoot(document.getElementById('app'));
+    root.render(React.createElement(App));
+  </script>
+</body>
+</html>
