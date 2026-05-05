@@ -13,17 +13,17 @@
   <!-- Google Search Console -->
   <meta name="google-site-verification" content="5K1yj2blq4uTvLuEZ9xTCcXjGvWQt6RSdpuo1YT2w8o" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SKINSCI — 科学で選ぶスキンケア｜成分解説・肌タイプ診断</title>
-  <meta name="description" content="スキンケア成分の効果・使い方を論文データで徹底解説。ナイアシンアミド・レチノール・セラミド等の完全ガイドと肌タイプ診断で、あなたに最適なケアが見つかります。" />
-  <meta name="keywords" content="スキンケア,成分解説,肌タイプ診断,ナイアシンアミド,レチノール,ビタミンC,セラミド,科学的根拠,美肌" />
+  <title>SKINSCI — 肌悩み別おすすめスキンケア商品ガイド｜論文ベースで徹底解説</title>
+  <meta name="description" content="ニキビ・毛穴・乾燥・シミ・エイジング、あなたの肌悩みに合ったスキンケア商品を論文ベースで厳選。なぜ効くのかを成分から解説し、美容のプロの推薦も紹介。" />
+  <meta name="keywords" content="スキンケア,おすすめ商品,肌悩み別,ニキビ,毛穴,乾燥,シミ,エイジング,成分解説,論文ベース" />
   <link rel="canonical" href="https://skinsci.jp/" />
   <link rel="alternate" hreflang="ja" href="https://skinsci.jp/" />
   <link rel="alternate" hreflang="en" href="https://skinsci.jp/en/" />
   <link rel="alternate" hreflang="ko" href="https://skinsci.jp/ko/" />
   <link rel="alternate" hreflang="x-default" href="https://skinsci.jp/" />
   <!-- OGP -->
-  <meta property="og:title" content="SKINSCI — 科学で選ぶスキンケア" />
-  <meta property="og:description" content="成分の効果・研究データを分かりやすく解説。肌タイプ別の最適なケアをご提案します。" />
+  <meta property="og:title" content="SKINSCI — 肌悩み別おすすめスキンケア商品ガイド｜論文ベースで徹底解説" />
+  <meta property="og:description" content="肌悩み別におすすめの商品と、なぜ効くのかを論文ベースで解説。あなたに合ったスキンケアが見つかります。" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://skinsci.jp/" />
   <meta property="og:image" content="https://skinsci.jp/assets/ogp.png" />
@@ -31,8 +31,8 @@
   <meta property="og:locale" content="ja_JP" />
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="SKINSCI — 科学で選ぶスキンケア" />
-  <meta name="twitter:description" content="成分の効果・研究データを分かりやすく解説。肌タイプ別の最適なケアをご提案します。" />
+  <meta name="twitter:title" content="SKINSCI — 肌悩み別おすすめスキンケア商品ガイド" />
+  <meta name="twitter:description" content="肌悩み別におすすめの商品と、なぜ効くのかを論文ベースで解説。あなたに合ったスキンケアが見つかります。" />
   <meta name="twitter:image" content="https://skinsci.jp/assets/ogp.png" />
   <!-- JSON-LD 構造化データ -->
   <script type="application/ld+json">
@@ -41,7 +41,7 @@
     "@type": "WebSite",
     "name": "SKINSCI",
     "url": "https://skinsci.jp/",
-    "description": "科学的根拠に基づくスキンケア情報サイト",
+    "description": "肌悩み別におすすめのスキンケア商品を論文ベースで厳選・解説する情報サイト",
     "inLanguage": "ja",
     "potentialAction": {
       "@type": "SearchAction",
@@ -95,6 +95,7 @@
     .quiz-option:hover { border-color: #5b9cc4; background: #f0f8ff; }
     .quiz-option.selected { border-color: #5b9cc4; background: #e8f4fd; }
     .progress-bar { transition: width 0.4s ease; }
+    .concern-tab.active { background-color: #0d1f3c; color: #ffffff; border-color: #0d1f3c; }
     @keyframes fadeInUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
     .fade-in-up { animation: fadeInUp 0.7s ease forwards; }
     .delay-1 { animation-delay: 0.15s; opacity: 0; }
@@ -126,7 +127,7 @@
             <span class="text-white/30">|</span>
             <a href="./ko/index.html" class="text-white/50 hover:text-white px-2 py-1">한국어</a>
           </div>
-        
+
         <!-- Mobile Menu Button -->
         <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileMenu">
           <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -151,48 +152,64 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
+  <!-- 1. Hero Section（変更） -->
   <section class="hero-gradient min-h-screen flex items-center pt-16">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
       <div class="max-w-3xl">
-        <p class="section-label text-accent/80 font-medium mb-6 fade-in-up">EVIDENCE-BASED SKINCARE</p>
+        <p class="section-label text-accent/80 font-medium mb-6 fade-in-up">EVIDENCE-BASED PRODUCT GUIDE</p>
         <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6 fade-in-up delay-1">
-          科学で選ぶ、<br/>
-          <span class="text-accent">自分だけの</span><br/>
-          スキンケア。
+          あなたの肌悩み、<br/>
+          <span class="text-accent">正しい商品選び</span>で<br/>
+          変わる。
         </h1>
         <p class="text-white/60 text-lg leading-relaxed mb-10 max-w-xl fade-in-up delay-2">
-          成分の作用・研究データを分かりやすく解説。<br/>
-          自分の肌に本当に合うケアを見つけましょう。
+          悩み別におすすめの商品と、なぜ効くのかを<br/>
+          論文ベースで解説。
         </p>
         <div class="flex flex-col sm:flex-row gap-4 fade-in-up delay-3">
-          <a href="skin-types.html#quiz" class="bg-accent hover:bg-accent-muted text-white font-medium px-8 py-3.5 rounded-full tracking-wide transition-colors text-center">
-            肌タイプを診断する
+          <a href="#concern-products" class="bg-accent hover:bg-accent-muted text-white font-medium px-8 py-3.5 rounded-full tracking-wide transition-colors text-center">
+            悩みから商品を探す
           </a>
-          <a href="ingredients.html" class="border border-white/30 hover:border-white/60 text-white/80 hover:text-white font-medium px-8 py-3.5 rounded-full tracking-wide transition-colors text-center">
-            成分を調べる
+          <a href="skin-types.html#quiz" class="border border-white/30 hover:border-white/60 text-white/80 hover:text-white font-medium px-8 py-3.5 rounded-full tracking-wide transition-colors text-center">
+            スキンケア診断する
           </a>
         </div>
       </div>
-      <!-- Stats (visual) -->
+      <!-- Stats -->
       <div class="grid grid-cols-3 gap-6 mt-20 max-w-2xl">
         <div class="text-center">
-          <div class="text-5xl mb-2">🧪</div>
-          <p class="text-white/70 text-xs mt-1 tracking-wide">多数の成分解説</p>
+          <div class="text-5xl mb-2">🎯</div>
+          <p class="text-white/70 text-xs mt-1 tracking-wide">悩み別ガイド5種</p>
         </div>
         <div class="text-center border-x border-white/10">
-          <div class="text-5xl mb-2">📚</div>
-          <p class="text-white/70 text-xs mt-1 tracking-wide">査読論文ベース</p>
+          <div class="text-5xl mb-2">🏆</div>
+          <p class="text-white/70 text-xs mt-1 tracking-wide">商品レビュー多数</p>
         </div>
         <div class="text-center">
-          <div class="text-5xl mb-2">🌵💧🌓🌸</div>
-          <p class="text-white/70 text-xs mt-1 tracking-wide">4肌タイプ対応</p>
+          <div class="text-5xl mb-2">📚</div>
+          <p class="text-white/70 text-xs mt-1 tracking-wide">論文ベース</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Search by Concern (visual) -->
+  <!-- 2. 今週の注目商品（新規） -->
+  <section class="bg-white py-16 border-b border-gray-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <p class="section-label text-accent font-medium mb-3">WEEKLY PICKS</p>
+        <h2 class="text-2xl md:text-3xl font-bold text-navy mb-2">今週の注目商品</h2>
+        <p class="text-gray-500 text-sm">編集部が毎週厳選。成分・コスパ・口コミから総合評価しています。</p>
+        <p class="text-gray-400 text-xs mt-2" id="weekly-update-date"></p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="weekly-picks-container">
+        <!-- JavaScriptで動的に描画 -->
+      </div>
+      <p class="text-gray-400 text-xs mt-6 text-center">※ 商品リンクにはアフィリエイトリンクが含まれる場合があります。詳しくは<a href="tokushoho.html" class="underline">こちら</a></p>
+    </div>
+  </section>
+
+  <!-- 3. 悩みから探す（既存強化） -->
   <section class="bg-pearl py-16 border-b border-gray-100">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-10">
@@ -205,35 +222,90 @@
           <div class="text-5xl mb-3">🔴</div>
           <p class="font-bold text-navy text-sm">ニキビ</p>
           <p class="text-gray-400 text-xs mt-1">Acne</p>
+          <p class="text-accent text-xs font-medium mt-2">おすすめ商品を見る</p>
         </a>
         <a href="trouble-pores.html" class="bg-white rounded-2xl p-6 text-center border border-gray-100 hover:border-accent hover:shadow-lg transition-all card-hover">
           <div class="text-5xl mb-3">🕳️</div>
           <p class="font-bold text-navy text-sm">毛穴</p>
           <p class="text-gray-400 text-xs mt-1">Pores</p>
+          <p class="text-accent text-xs font-medium mt-2">おすすめ商品を見る</p>
         </a>
         <a href="trouble-dryness.html" class="bg-white rounded-2xl p-6 text-center border border-gray-100 hover:border-accent hover:shadow-lg transition-all card-hover">
           <div class="text-5xl mb-3">🌵</div>
           <p class="font-bold text-navy text-sm">乾燥</p>
           <p class="text-gray-400 text-xs mt-1">Dryness</p>
+          <p class="text-accent text-xs font-medium mt-2">おすすめ商品を見る</p>
         </a>
         <a href="trouble-dark-spots.html" class="bg-white rounded-2xl p-6 text-center border border-gray-100 hover:border-accent hover:shadow-lg transition-all card-hover">
           <div class="text-5xl mb-3">☀️</div>
           <p class="font-bold text-navy text-sm">シミ・くすみ</p>
           <p class="text-gray-400 text-xs mt-1">Dark Spots</p>
+          <p class="text-accent text-xs font-medium mt-2">おすすめ商品を見る</p>
         </a>
         <a href="trouble-aging.html" class="bg-white rounded-2xl p-6 text-center border border-gray-100 hover:border-accent hover:shadow-lg transition-all card-hover">
           <div class="text-5xl mb-3">⏳</div>
           <p class="font-bold text-navy text-sm">ハリ・エイジング</p>
           <p class="text-gray-400 text-xs mt-1">Aging</p>
+          <p class="text-accent text-xs font-medium mt-2">おすすめ商品を見る</p>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- Skin Type Quiz CTA -->
-  <section class="bg-pearl py-20">
+  <!-- 4. 悩み別おすすめ商品（新規） -->
+  <section id="concern-products" class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
+      <div class="text-center mb-10">
+        <p class="section-label text-accent font-medium mb-3">RECOMMENDED PRODUCTS</p>
+        <h2 class="text-2xl md:text-3xl font-bold text-navy mb-2">悩み別おすすめ商品</h2>
+        <p class="text-gray-500 text-sm">成分の科学的根拠と口コミをもとに、悩み別に厳選しました。</p>
+      </div>
+
+      <!-- 悩みタブ -->
+      <div class="flex flex-wrap justify-center gap-3 mb-10">
+        <button class="concern-tab active px-5 py-2 rounded-full text-sm font-medium transition-colors bg-navy text-white" data-concern="acne">ニキビ</button>
+        <button class="concern-tab px-5 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 border border-gray-200 hover:border-accent" data-concern="pores">毛穴</button>
+        <button class="concern-tab px-5 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 border border-gray-200 hover:border-accent" data-concern="dryness">乾燥</button>
+        <button class="concern-tab px-5 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 border border-gray-200 hover:border-accent" data-concern="darkspots">シミ・くすみ</button>
+        <button class="concern-tab px-5 py-2 rounded-full text-sm font-medium transition-colors bg-white text-gray-600 border border-gray-200 hover:border-accent" data-concern="aging">エイジング</button>
+      </div>
+
+      <!-- 商品カードグリッド -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" id="concern-products-container">
+        <!-- JavaScriptで動的に描画 -->
+      </div>
+
+      <!-- もっと見るリンク -->
+      <div class="text-center mt-8">
+        <a id="concern-more-link" href="trouble-acne.html" class="text-accent hover:text-accent-muted text-sm font-medium tracking-wide inline-flex items-center gap-1">
+          ニキビケアの商品をもっと見る
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+
+      <p class="text-gray-400 text-xs mt-6 text-center">※ 価格は参考価格です。実際の価格は販売サイトでご確認ください。<br/>※ 商品リンクにはアフィリエイトリンクが含まれる場合があります。</p>
+    </div>
+  </section>
+
+  <!-- 5. 美容のプロも注目（新規） -->
+  <section class="py-20 bg-pearl">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-10">
+        <p class="section-label text-accent font-medium mb-3">TRUSTED BY EXPERTS</p>
+        <h2 class="text-2xl md:text-3xl font-bold text-navy mb-2">美容のプロも注目</h2>
+        <p class="text-gray-500 text-sm">スキンケアの専門家たちが語る、商品選びのヒント。</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6" id="influencer-container">
+        <!-- JavaScriptで動的に描画 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. Skin Type Quiz CTA（既存、位置変更） -->
+  <section class="bg-white py-20">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-pearl rounded-3xl shadow-sm border border-gray-100 p-8 md:p-12 flex flex-col md:flex-row items-center gap-8">
         <div class="flex-1">
           <p class="section-label text-accent font-medium mb-3">SKIN TYPE QUIZ</p>
           <h2 class="text-2xl md:text-3xl font-bold text-navy mb-4">肌タイプ診断 - あなたの肌タイプは？</h2>
@@ -249,19 +321,19 @@
           </a>
         </div>
         <div class="grid grid-cols-2 gap-3 flex-shrink-0">
-          <div class="bg-pearl rounded-2xl p-4 text-center w-28">
+          <div class="bg-white rounded-2xl p-4 text-center w-28">
             <p class="text-2xl mb-1">💧</p>
             <p class="text-xs font-medium text-navy">乾燥肌</p>
           </div>
-          <div class="bg-pearl rounded-2xl p-4 text-center w-28">
+          <div class="bg-white rounded-2xl p-4 text-center w-28">
             <p class="text-2xl mb-1">✨</p>
             <p class="text-xs font-medium text-navy">脂性肌</p>
           </div>
-          <div class="bg-pearl rounded-2xl p-4 text-center w-28">
+          <div class="bg-white rounded-2xl p-4 text-center w-28">
             <p class="text-2xl mb-1">🌿</p>
             <p class="text-xs font-medium text-navy">混合肌</p>
           </div>
-          <div class="bg-pearl rounded-2xl p-4 text-center w-28">
+          <div class="bg-white rounded-2xl p-4 text-center w-28">
             <p class="text-2xl mb-1">🌸</p>
             <p class="text-xs font-medium text-navy">敏感肌</p>
           </div>
@@ -270,8 +342,8 @@
     </div>
   </section>
 
-  <!-- Trouble Guide -->
-  <section id="trouble-guide" class="py-20 bg-white">
+  <!-- 7. Trouble Guide（既存） -->
+  <section id="trouble-guide" class="py-20 bg-pearl">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <p class="section-label text-accent font-medium mb-3">TROUBLE GUIDE</p>
@@ -279,7 +351,7 @@
         <p class="text-gray-500 mt-3">あなたの肌悩みに合わせた、科学的根拠に基づくケア方法をご紹介します。</p>
       </div>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="trouble-pores.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col items-center text-center">
+        <a href="trouble-pores.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col items-center text-center">
           <div class="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-5">
             <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <circle cx="12" cy="12" r="3" stroke-width="2"/>
@@ -290,7 +362,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">開き・黒ずみ・たるみの3タイプ別に原因と対策を科学的に解説</p>
           <span class="mt-auto text-accent text-sm font-medium">詳しく見る →</span>
         </a>
-        <a href="trouble-acne.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col items-center text-center">
+        <a href="trouble-acne.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col items-center text-center">
           <div class="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-5">
             <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
@@ -300,7 +372,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">思春期・大人ニキビの違いとおすすめ成分別ケア方法を紹介</p>
           <span class="mt-auto text-accent text-sm font-medium">詳しく見る →</span>
         </a>
-        <a href="trouble-dryness.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col items-center text-center">
+        <a href="trouble-dryness.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col items-center text-center">
           <div class="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-5">
             <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
@@ -310,7 +382,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">保湿しても乾く原因とバリア機能を回復する正しい保湿方法</p>
           <span class="mt-auto text-accent text-sm font-medium">詳しく見る →</span>
         </a>
-        <a href="trouble-dark-spots.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col items-center text-center">
+        <a href="trouble-dark-spots.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col items-center text-center">
           <div class="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-5">
             <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
@@ -320,7 +392,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">メラニンの生成を抑える成分と日焼け止めの重要性を解説</p>
           <span class="mt-auto text-accent text-sm font-medium">詳しく見る →</span>
         </a>
-        <a href="trouble-aging.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col items-center text-center">
+        <a href="trouble-aging.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col items-center text-center">
           <div class="w-16 h-16 bg-accent/10 rounded-2xl flex items-center justify-center mb-5">
             <svg class="w-8 h-8 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
@@ -334,8 +406,8 @@
     </div>
   </section>
 
-  <!-- Featured Ingredients -->
-  <section class="py-20 bg-pearl">
+  <!-- 8. Featured Ingredients（既存、下に移動） -->
+  <section class="py-20 bg-white">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
         <div>
@@ -433,110 +505,19 @@
     </div>
   </section>
 
-  <!-- How to use this site -->
-  <section class="py-20 bg-navy">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-14">
-        <p class="section-label text-accent/70 font-medium mb-3">HOW TO USE</p>
-        <h2 class="text-3xl font-bold text-white">SKINSCIで始めるスキンケア成分学習</h2>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="text-center">
-          <div class="w-14 h-14 bg-accent/15 rounded-2xl flex items-center justify-center mx-auto mb-5">
-            <span class="text-white font-bold text-lg">01</span>
-          </div>
-          <h3 class="text-white font-semibold mb-3">肌タイプを診断</h3>
-          <p class="text-white/50 text-sm leading-relaxed">5つの質問に答えて、あなたの肌タイプ（乾燥・脂性・混合・敏感）を把握します。</p>
-        </div>
-        <div class="text-center">
-          <div class="w-14 h-14 bg-accent/15 rounded-2xl flex items-center justify-center mx-auto mb-5">
-            <span class="text-white font-bold text-lg">02</span>
-          </div>
-          <h3 class="text-white font-semibold mb-3">成分を学ぶ</h3>
-          <p class="text-white/50 text-sm leading-relaxed">成分解説ページで各成分の作用・濃度・使い方・注意点を科学的根拠とともに確認。</p>
-        </div>
-        <div class="text-center">
-          <div class="w-14 h-14 bg-accent/15 rounded-2xl flex items-center justify-center mx-auto mb-5">
-            <span class="text-white font-bold text-lg">03</span>
-          </div>
-          <h3 class="text-white font-semibold mb-3">ルーティンを組む</h3>
-          <p class="text-white/50 text-sm leading-relaxed">肌タイプ別ページで、朝・夜のスキンケアルーティンの組み立て方を確認します。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Research Teaser -->
+  <!-- 9. 読み物コンテンツ（既存統合: 人気ガイド + 論文 + 基礎知識） -->
   <section class="py-20 bg-pearl">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
-        <div>
-          <p class="section-label text-accent font-medium mb-3">RESEARCH</p>
-          <h2 class="text-3xl font-bold text-navy">論文ベースの情報</h2>
-          <p class="text-gray-500 mt-3 max-w-lg">すべての解説は学術論文・臨床研究を参照。根拠のある情報だけをお届けします。</p>
-        </div>
-        <a href="research.html" class="text-accent hover:text-accent-muted text-sm font-medium tracking-wide mt-4 md:mt-0 flex items-center gap-1">
-          論文一覧を見る
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </a>
-      </div>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex items-start gap-4">
-            <span class="text-accent text-xl mt-0.5">📄</span>
-            <div>
-              <p class="text-xs text-gray-400 mb-1">Journal of Clinical and Aesthetic Dermatology, 2021</p>
-              <h4 class="font-semibold text-navy text-sm mb-2">ナイアシンアミド5%による毛穴縮小効果の検証</h4>
-              <p class="text-gray-500 text-xs leading-relaxed">12週間の二重盲検試験により、5%ナイアシンアミドが毛穴の見た目を有意に改善することを確認。</p>
-            </div>
-          </div>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex items-start gap-4">
-            <span class="text-accent text-xl mt-0.5">📄</span>
-            <div>
-              <p class="text-xs text-gray-400 mb-1">British Journal of Dermatology, 2019</p>
-              <h4 class="font-semibold text-navy text-sm mb-2">レチノイン酸によるコラーゲン産生促進メカニズム</h4>
-              <p class="text-gray-500 text-xs leading-relaxed">レチノール使用群で24週後に研究では、コラーゲン産生への寄与が報告されています（詳細は論文ページ参照）。</p>
-            </div>
-          </div>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex items-start gap-4">
-            <span class="text-accent text-xl mt-0.5">📄</span>
-            <div>
-              <p class="text-xs text-gray-400 mb-1">International Journal of Molecular Sciences, 2022</p>
-              <h4 class="font-semibold text-navy text-sm mb-2">ビタミンC誘導体の安定性と経皮吸収率の比較</h4>
-              <p class="text-gray-500 text-xs leading-relaxed">AA2G・APPS等の誘導体はL-アスコルビン酸と比較して安定性が大幅に向上し、持続的な効果を発揮。</p>
-            </div>
-          </div>
-        </div>
-        <div class="bg-white rounded-xl p-6 border border-gray-100">
-          <div class="flex items-start gap-4">
-            <span class="text-accent text-xl mt-0.5">📄</span>
-            <div>
-              <p class="text-xs text-gray-400 mb-1">Dermatology and Therapy, 2020</p>
-              <h4 class="font-semibold text-navy text-sm mb-2">セラミド配合保湿剤による敏感肌バリア改善</h4>
-              <p class="text-gray-500 text-xs leading-relaxed">セラミド1・3・6-II配合製剤が経表皮水分蒸散量(TEWL)を有意に低下させ、バリア機能を強化。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Popular Articles -->
-  <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
-        <p class="section-label text-accent font-medium mb-3">POPULAR ARTICLES</p>
-        <h2 class="text-3xl font-bold text-navy">人気のガイド記事</h2>
-        <p class="text-gray-500 mt-3">成分の効果・使い方を科学的根拠とともに詳しく解説しています。</p>
+        <p class="section-label text-accent font-medium mb-3">ARTICLES</p>
+        <h2 class="text-3xl font-bold text-navy">読み物コンテンツ</h2>
+        <p class="text-gray-500 mt-3">成分の効果・使い方・論文データまで。科学的根拠とともに詳しく解説しています。</p>
       </div>
+
+      <!-- 人気のガイド記事 -->
+      <h3 class="text-lg font-bold text-navy mb-6">人気のガイド記事</h3>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
-        <a href="niacinamide-guide.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col">
+        <a href="niacinamide-guide.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">VITAMIN B3</span>
             <span class="text-2xl">🔬</span>
@@ -554,7 +535,7 @@
           <p class="text-white/60 text-sm leading-relaxed mb-4">始め方・注意点・おすすめ濃度。A反応の対処法や段階的な導入ステップも紹介。</p>
           <span class="mt-auto text-accent-light text-sm font-medium">記事を読む →</span>
         </a>
-        <a href="morning-routine.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col">
+        <a href="morning-routine.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">ROUTINE</span>
             <span class="text-2xl">☀️</span>
@@ -564,7 +545,7 @@
           <span class="mt-auto text-accent text-sm font-medium">記事を読む →</span>
         </a>
       </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
         <a href="ingredient-combinations.html" class="card-hover group bg-white rounded-2xl p-6 flex items-center gap-4 border border-gray-100">
           <div class="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center flex-shrink-0">
             <span class="text-xl">🧪</span>
@@ -616,72 +597,11 @@
           </div>
         </a>
       </div>
-    </div>
-  </section>
 
-  <!-- Product Guide -->
-  <section class="py-20 bg-pearl">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <p class="section-label text-accent font-medium mb-3">PRODUCT GUIDE</p>
-        <h2 class="text-3xl font-bold text-navy">製品の選び方ガイド</h2>
-        <p class="text-gray-500 mt-3">特定の商品ではなく「選び方のポイント」を科学的に解説。あなたに合った製品を見つけましょう。</p>
-      </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="best-niacinamide.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
-          <div class="flex items-center justify-between mb-4">
-            <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">VITAMIN B3</span>
-          </div>
-          <h3 class="text-lg font-bold text-navy mb-2 group-hover:text-accent transition-colors">ナイアシンアミド美容液の選び方</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">濃度・pH・併用成分・テクスチャーで比較するポイントを解説。肌タイプ別チェックリスト付き。</p>
-          <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
-        </a>
-        <a href="best-retinol.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
-          <div class="flex items-center justify-between mb-4">
-            <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">VITAMIN A</span>
-          </div>
-          <h3 class="text-lg font-bold text-navy mb-2 group-hover:text-accent transition-colors">レチノール美容液の選び方</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">濃度別ガイド・カプセル化レチノールの特徴・保管方法まで初心者向けに解説。</p>
-          <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
-        </a>
-        <a href="best-ceramide.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
-          <div class="flex items-center justify-between mb-4">
-            <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">BARRIER</span>
-          </div>
-          <h3 class="text-lg font-bold text-navy mb-2 group-hover:text-accent transition-colors">セラミド化粧水・クリームの選び方</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">ヒト型・天然型・疑似セラミドの見分け方と成分表示の読み方を解説。</p>
-          <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
-        </a>
-        <a href="best-vitamin-c.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
-          <div class="flex items-center justify-between mb-4">
-            <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">VITAMIN C</span>
-          </div>
-          <h3 class="text-lg font-bold text-navy mb-2 group-hover:text-accent transition-colors">ビタミンC美容液の選び方</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">APPS・AA2G・純粋VCなど誘導体の種類別に選び方と使い分けを解説。</p>
-          <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
-        </a>
-        <a href="best-sunscreen.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
-          <div class="flex items-center justify-between mb-4">
-            <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">UV CARE</span>
-          </div>
-          <h3 class="text-lg font-bold text-navy mb-2 group-hover:text-accent transition-colors">日焼け止めの選び方</h3>
-          <p class="text-gray-500 text-sm leading-relaxed mb-4">SPF・PA・紫外線防御成分の違いから肌タイプ別の選び方まで科学的に解説。</p>
-          <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Skincare Basics -->
-  <section class="py-20 bg-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center mb-12">
-        <p class="section-label text-accent font-medium mb-3">SKINCARE BASICS</p>
-        <h2 class="text-3xl font-bold text-navy">スキンケアの基礎知識</h2>
-        <p class="text-gray-500 mt-3">洗顔・塗り方・生活習慣・食事まで。基本を押さえれば肌は確実に応えてくれます。</p>
-      </div>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <a href="free-skin-habits.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+      <!-- 基礎知識 -->
+      <h3 class="text-lg font-bold text-navy mb-6">スキンケアの基礎知識</h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <a href="free-skin-habits.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">LIFESTYLE</span>
             <span class="text-2xl" aria-hidden="true">🌿</span>
@@ -690,7 +610,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">化粧品なしでできる美肌習慣を科学的根拠とともに15個紹介。今日から0円で始められる。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
-        <a href="how-to-wash-face.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+        <a href="how-to-wash-face.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">WASHING</span>
             <span class="text-2xl" aria-hidden="true">💧</span>
@@ -699,7 +619,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">NG洗顔と肌にやさしい洗い方を解説。お湯の温度・泡立て方・すすぎ方まで完全網羅。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
-        <a href="how-to-apply-skincare.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+        <a href="how-to-apply-skincare.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">TECHNIQUE</span>
             <span class="text-2xl" aria-hidden="true">✋</span>
@@ -708,7 +628,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">ハンドプレスで浸透を高めるコツ、コットン派・手塗り派の使い分けを科学的に解説。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
-        <a href="skincare-for-beginners.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+        <a href="skincare-for-beginners.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">BEGINNER</span>
             <span class="text-2xl" aria-hidden="true">📘</span>
@@ -717,7 +637,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">最低限の3ステップから始めるスキンケア。予算別プランと成分表示の読み方まで。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
-        <a href="skincare-mistakes.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+        <a href="skincare-mistakes.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">MISTAKES</span>
             <span class="text-2xl" aria-hidden="true">⚠️</span>
@@ -726,7 +646,7 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">熱いお湯での洗顔、ゴシゴシ拭き、パッティングなど、よくある間違いを科学的に解説。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
-        <a href="skincare-foods.html" class="card-hover group bg-pearl rounded-2xl p-7 flex flex-col border border-gray-100">
+        <a href="skincare-foods.html" class="card-hover group bg-white rounded-2xl p-7 flex flex-col border border-gray-100">
           <div class="flex items-center justify-between mb-4">
             <span class="ingredient-tag bg-accent/10 text-accent font-semibold px-3 py-1 rounded-full tracking-widest">NUTRITION</span>
             <span class="text-2xl" aria-hidden="true">🥗</span>
@@ -735,6 +655,60 @@
           <p class="text-gray-500 text-sm leading-relaxed mb-4">5大栄養素と食材、避けたい食習慣、1日の食事例、悩み別おすすめ食材まで徹底解説。</p>
           <span class="mt-auto text-accent text-sm font-medium">ガイドを読む →</span>
         </a>
+      </div>
+
+      <!-- 論文ベースの情報 -->
+      <h3 class="text-lg font-bold text-navy mb-6">論文ベースの情報</h3>
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-6">
+        <p class="text-gray-500 max-w-lg text-sm">すべての解説は学術論文・臨床研究を参照。根拠のある情報だけをお届けします。</p>
+        <a href="research.html" class="text-accent hover:text-accent-muted text-sm font-medium tracking-wide mt-4 md:mt-0 flex items-center gap-1">
+          論文一覧を見る
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex items-start gap-4">
+            <span class="text-accent text-xl mt-0.5">📄</span>
+            <div>
+              <p class="text-xs text-gray-400 mb-1">Journal of Clinical and Aesthetic Dermatology, 2021</p>
+              <h4 class="font-semibold text-navy text-sm mb-2">ナイアシンアミド5%による毛穴縮小効果の検証</h4>
+              <p class="text-gray-500 text-xs leading-relaxed">12週間の二重盲検試験により、5%ナイアシンアミドが毛穴の見た目を有意に改善することを確認。</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex items-start gap-4">
+            <span class="text-accent text-xl mt-0.5">📄</span>
+            <div>
+              <p class="text-xs text-gray-400 mb-1">British Journal of Dermatology, 2019</p>
+              <h4 class="font-semibold text-navy text-sm mb-2">レチノイン酸によるコラーゲン産生促進メカニズム</h4>
+              <p class="text-gray-500 text-xs leading-relaxed">レチノール使用群で24週後に研究では、コラーゲン産生への寄与が報告されています（詳細は論文ページ参照）。</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex items-start gap-4">
+            <span class="text-accent text-xl mt-0.5">📄</span>
+            <div>
+              <p class="text-xs text-gray-400 mb-1">International Journal of Molecular Sciences, 2022</p>
+              <h4 class="font-semibold text-navy text-sm mb-2">ビタミンC誘導体の安定性と経皮吸収率の比較</h4>
+              <p class="text-gray-500 text-xs leading-relaxed">AA2G・APPS等の誘導体はL-アスコルビン酸と比較して安定性が大幅に向上し、持続的な効果を発揮。</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-gray-100">
+          <div class="flex items-start gap-4">
+            <span class="text-accent text-xl mt-0.5">📄</span>
+            <div>
+              <p class="text-xs text-gray-400 mb-1">Dermatology and Therapy, 2020</p>
+              <h4 class="font-semibold text-navy text-sm mb-2">セラミド配合保湿剤による敏感肌バリア改善</h4>
+              <p class="text-gray-500 text-xs leading-relaxed">セラミド1・3・6-II配合製剤が経表皮水分蒸散量(TEWL)を有意に低下させ、バリア機能を強化。</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -799,6 +773,142 @@
     document.getElementById('menuBtn').addEventListener('click', () => {
       document.getElementById('mobileMenu').classList.toggle('hidden');
     });
+
+    // === 動的コンテンツ描画 ===
+    document.addEventListener('DOMContentLoaded', async () => {
+      await renderWeeklyPicks();
+      await renderConcernProducts('acne');
+      await renderInfluencers();
+      setupConcernTabs();
+    });
+
+    async function fetchJSON(url) {
+      try {
+        const res = await fetch(url);
+        return res.json();
+      } catch (e) {
+        console.error('JSON読み込みエラー:', url, e);
+        return null;
+      }
+    }
+
+    // 今週の注目商品
+    async function renderWeeklyPicks() {
+      const data = await fetchJSON('data/weekly-picks.json');
+      if (!data) return;
+      const container = document.getElementById('weekly-picks-container');
+      const dateEl = document.getElementById('weekly-update-date');
+
+      if (dateEl && data.weekOf) {
+        dateEl.textContent = data.weekOf + ' 更新';
+      }
+
+      container.innerHTML = data.picks.map(p => `
+        <div class="card-hover bg-pearl rounded-2xl p-6 flex flex-col border border-gray-100">
+          <div class="flex flex-wrap gap-2 mb-4">
+            ${p.concern.map(c => `<span class="text-xs bg-accent/10 text-accent font-medium px-3 py-1 rounded-full">${c}</span>`).join('')}
+          </div>
+          ${p.image ? `<div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center"><img src="${p.image}" alt="${p.name}" class="max-h-full object-contain" loading="lazy" /></div>` : `<div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center"><span class="text-4xl">🧴</span></div>`}
+          <p class="text-xs text-gray-400 mb-1">${p.brand}</p>
+          <h3 class="text-lg font-bold text-navy mb-2">${p.name}</h3>
+          <p class="text-accent font-semibold text-sm mb-2">${p.price}</p>
+          <p class="text-xs text-gray-400 mb-3">注目成分: ${p.keyIngredient}</p>
+          <p class="text-gray-600 text-sm leading-relaxed mb-3">${p.reason}</p>
+          <div class="flex items-center gap-2 mb-4 bg-white rounded-lg p-3 border border-gray-100">
+            <div class="w-8 h-8 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center text-xs">👤</div>
+            <div>
+              <p class="text-xs text-gray-500 italic">${p.influencer}</p>
+            </div>
+          </div>
+          <a href="${p.link}" class="mt-auto text-center bg-navy hover:bg-navy-light text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
+            詳しく見る
+          </a>
+        </div>
+      `).join('');
+    }
+
+    // 悩み別おすすめ商品
+    let concernData = null;
+    async function renderConcernProducts(concernId) {
+      if (!concernData) {
+        concernData = await fetchJSON('data/concern-products.json');
+      }
+      if (!concernData) return;
+
+      const container = document.getElementById('concern-products-container');
+      const moreLink = document.getElementById('concern-more-link');
+
+      const category = concernData.categories.find(c => c.id === concernId);
+      if (!category) return;
+
+      // もっと見るリンクの更新
+      const moreLinkMap = {
+        acne: { href: 'trouble-acne.html', text: 'ニキビケアの商品をもっと見る' },
+        pores: { href: 'trouble-pores.html', text: '毛穴ケアの商品をもっと見る' },
+        dryness: { href: 'trouble-dryness.html', text: '乾燥ケアの商品をもっと見る' },
+        darkspots: { href: 'trouble-dark-spots.html', text: 'シミ・くすみケアの商品をもっと見る' },
+        aging: { href: 'trouble-aging.html', text: 'エイジングケアの商品をもっと見る' }
+      };
+      const linkInfo = moreLinkMap[concernId] || moreLinkMap.acne;
+      moreLink.href = linkInfo.href;
+      moreLink.innerHTML = linkInfo.text + ' <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
+
+      if (category.products.length === 0) {
+        container.innerHTML = '<p class="text-gray-400 text-sm text-center col-span-full py-8">準備中です。もうしばらくお待ちください。</p>';
+        return;
+      }
+
+      container.innerHTML = category.products.map(p => `
+        <div class="card-hover bg-pearl rounded-2xl p-6 flex flex-col border border-gray-100">
+          <p class="text-xs text-gray-400 mb-1">${p.name.split(' ')[0]}</p>
+          <h3 class="text-base font-bold text-navy mb-1">${p.name}</h3>
+          <p class="text-accent font-semibold text-sm mb-3">${p.price}</p>
+          <div class="bg-white rounded-lg p-3 mb-3">
+            <p class="text-xs text-gray-500 font-medium mb-1">注目成分: ${p.ingredient}</p>
+            <p class="text-sm text-gray-700 leading-relaxed">${p.reason}</p>
+          </div>
+          <div class="flex items-start gap-2 mb-4">
+            <div class="w-6 h-6 bg-gray-200 rounded-full flex-shrink-0 mt-0.5 flex items-center justify-center text-xs">👤</div>
+            <p class="text-xs text-gray-500 italic">${p.influencer}</p>
+          </div>
+          <a href="${p.link}" class="mt-auto text-center bg-accent hover:bg-accent-muted text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
+            詳しく見る
+          </a>
+        </div>
+      `).join('');
+    }
+
+    // タブ切り替え
+    function setupConcernTabs() {
+      document.querySelectorAll('.concern-tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+          document.querySelectorAll('.concern-tab').forEach(t => {
+            t.classList.remove('active', 'bg-navy', 'text-white');
+            t.classList.add('bg-white', 'text-gray-600', 'border', 'border-gray-200');
+          });
+          tab.classList.add('active', 'bg-navy', 'text-white');
+          tab.classList.remove('bg-white', 'text-gray-600', 'border', 'border-gray-200');
+          renderConcernProducts(tab.dataset.concern);
+        });
+      });
+    }
+
+    // インフルエンサー描画
+    async function renderInfluencers() {
+      const data = await fetchJSON('data/influencers.json');
+      if (!data || !data.influencers) return;
+
+      const container = document.getElementById('influencer-container');
+      container.innerHTML = data.influencers.map(inf => `
+        <div class="card-hover bg-white rounded-2xl p-6 flex flex-col items-center text-center border border-gray-100">
+          <div class="w-16 h-16 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-2xl">👤</div>
+          <h3 class="text-base font-bold text-navy mb-1">${inf.name}</h3>
+          <p class="text-xs text-gray-400 mb-1">${inf.title}</p>
+          <p class="text-xs text-accent font-medium mb-3">${inf.followers}</p>
+          <p class="text-sm text-gray-600 leading-relaxed italic mb-4">「${inf.quote}」</p>
+        </div>
+      `).join('');
+    }
   </script>
 </body>
 </html>

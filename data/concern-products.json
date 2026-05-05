@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "id": "acne",
+      "label": "ニキビ",
+      "products": [
+        {
+          "name": "SKIN1004 マダガスカルセンテラアンプル",
+          "price": "約1,800円",
+          "ingredient": "ツボクサエキス（CICA）",
+          "reason": "炎症を穏やかに鎮め、ニキビの赤みにアプローチ",
+          "influencer": "水越みさとさんが紹介",
+          "link": "trouble-acne.html"
+        },
+        {
+          "name": "ペアアクネクリームW",
+          "price": "約1,000円",
+          "ingredient": "イブプロフェンピコノール",
+          "reason": "炎症性ニキビに直接塗布。ドラッグストアで手軽に買える",
+          "influencer": "皮膚科医YouTuberが推薦",
+          "link": "trouble-acne.html"
+        },
+        {
+          "name": "ナンバーズイン 3番 セラム",
+          "price": "約1,600円",
+          "ingredient": "ナイアシンアミド10%",
+          "reason": "皮脂コントロールとニキビ跡のケアを同時に",
+          "influencer": "かずのすけさんが成分解説",
+          "link": "best-niacinamide.html"
+        }
+      ]
+    },
+    {
+      "id": "pores",
+      "label": "毛穴",
+      "products": [
+        {
+          "name": "ONE THING ナイアシンアミド10%セラム",
+          "price": "約1,400円",
+          "ingredient": "ナイアシンアミド10%",
+          "reason": "高濃度ナイアシンアミドが皮脂をコントロールし毛穴を引き締める",
+          "influencer": "美容系YouTuberの間で話題",
+          "link": "best-niacinamide.html"
+        },
+        {
+          "name": "COSRX BHAブラックヘッドパワーリキッド",
+          "price": "約1,800円",
+          "ingredient": "BHA（サリチル酸）",
+          "reason": "毛穴の奥まで浸透し角栓を穏やかに除去",
+          "influencer": "韓国スキンケア好きに人気",
+          "link": "trouble-pores.html"
+        },
+        {
+          "name": "タカミスキンピール",
+          "price": "約5,500円",
+          "ingredient": "角質柔軟成分",
+          "reason": "肌のターンオーバーをサポートし毛穴の目立ちにくい肌へ",
+          "influencer": "丸の内OLの憂鬱さんが紹介",
+          "link": "trouble-pores.html"
+        }
+      ]
+    },
+    {
+      "id": "dryness",
+      "label": "乾燥",
+      "products": [
+        {
+          "name": "キュレル 潤浸保湿フェイスクリーム",
+          "price": "約2,500円",
+          "ingredient": "セラミド機能成分",
+          "reason": "セラミドの働きを補い、バリア機能を助ける。敏感肌でも使いやすい",
+          "influencer": "皮膚科医おすすめ定番",
+          "link": "best-ceramide.html"
+        },
+        {
+          "name": "ミノン アミノモイスト モイストチャージミルク",
+          "price": "約2,000円",
+          "ingredient": "アミノ酸系保湿成分",
+          "reason": "アミノ酸が角質層に浸透し、内側からうるおいを保持",
+          "influencer": "乾燥肌の味方として話題",
+          "link": "trouble-dryness.html"
+        },
+        {
+          "name": "ヒルマイルド クリーム",
+          "price": "約1,200円",
+          "ingredient": "ヘパリン類似物質",
+          "reason": "医薬品グレードの保湿成分が肌の水分を保持。ドラッグストアで購入可能",
+          "influencer": "コスパ最強保湿として人気",
+          "link": "trouble-dryness.html"
+        }
+      ]
+    },
+    {
+      "id": "darkspots",
+      "label": "シミ・くすみ",
+      "products": [
+        {
+          "name": "メラノCC 薬用しみ集中対策美容液",
+          "price": "約1,200円",
+          "ingredient": "活性型ビタミンC",
+          "reason": "メラニン生成を抑え、シミ・くすみにアプローチ",
+          "influencer": "かずのすけさんが紹介",
+          "link": "best-vitamin-c.html"
+        },
+        {
+          "name": "肌ラボ 白潤プレミアム 薬用浸透美白化粧水",
+          "price": "約900円",
+          "ingredient": "トラネキサム酸",
+          "reason": "メラニンの生成を抑え、シミ・そばかすを防ぐ",
+          "influencer": "プチプラ美白の代名詞",
+          "link": "best-vitamin-c.html"
+        },
+        {
+          "name": "Anua ドクダミ77%トナー",
+          "price": "約2,000円",
+          "ingredient": "ドクダミエキス77%",
+          "reason": "肌を整え透明感をサポート。韓国スキンケアの大人気アイテム",
+          "influencer": "韓国美容好きに絶大な人気",
+          "link": "trouble-dark-spots.html"
+        }
+      ]
+    },
+    {
+      "id": "aging",
+      "label": "エイジング",
+      "products": [
+        {
+          "name": "イニスフリー レチノール シカ リペア セラム",
+          "price": "約3,000円",
+          "ingredient": "レチノール+CICA",
+          "reason": "レチノールの効果をCICAが穏やかにサポート。初心者にも使いやすい",
+          "influencer": "殿堂入りバズりコスメ",
+          "link": "best-retinol.html"
+        },
+        {
+          "name": "エリクシール シュペリエル エンリッチド リンクルクリーム",
+          "price": "約6,000円",
+          "ingredient": "純粋レチノール",
+          "reason": "日本初の薬用シワ改善クリーム。純粋レチノールが真皮に届く",
+          "influencer": "美容雑誌ベストコスメ常連",
+          "link": "best-retinol.html"
+        },
+        {
+          "name": "ONE BY KOSE セラム ヴェール",
+          "price": "約5,500円",
+          "ingredient": "ライスパワーNo.11",
+          "reason": "セラミドの産生を促し、肌のバリア機能を根本から改善する効果が期待",
+          "influencer": "コーセーの技術力が凝縮",
+          "link": "best-ceramide.html"
+        }
+      ]
+    }
+  ]
+}
