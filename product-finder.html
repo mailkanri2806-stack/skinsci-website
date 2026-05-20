@@ -685,8 +685,7 @@
     }
 
     function qoo10Link(productName) {
-      const qoo10SearchUrl = 'https://www.qoo10.jp/s/?keyword=' + encodeURIComponent(productName);
-      return '' + encodeURIComponent(qoo10SearchUrl);
+      return '#';
     }
 
     // 結果レンダリング
@@ -766,7 +765,7 @@
           html += '<p class="text-xs text-gray-600 mb-3">' + recommended.reason + '</p>';
           html += '<div class="flex flex-wrap gap-2">';
           html += '<a href="' + amazonLink(recommended.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#FF9900] text-white text-xs font-bold rounded-lg hover:bg-[#e68a00] transition-colors">Amazonで探す</a>';
-          html += '<a href="' + qoo10Link(recommended.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#E91E63] text-white text-xs font-bold rounded-lg hover:bg-[#c2185b] transition-colors">Qoo10で探す</a>';
+          html += '';
           html += '</div>';
           html += '</div></div>';
         } else {
@@ -794,7 +793,7 @@
           html += '<p class="text-xs text-gray-600 mb-3">' + item.data.reason + '</p>';
           html += '<div class="flex flex-wrap gap-2">';
           html += '<a href="' + amazonLink(item.data.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#FF9900] text-white text-xs font-bold rounded-lg hover:bg-[#e68a00] transition-colors">Amazonで探す</a>';
-          html += '<a href="' + qoo10Link(item.data.name) + '" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-3 py-1.5 bg-[#E91E63] text-white text-xs font-bold rounded-lg hover:bg-[#c2185b] transition-colors">Qoo10で探す</a>';
+          html += '';
           html += '</div>';
           html += '</div></div>';
         }
