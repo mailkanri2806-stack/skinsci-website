@@ -7,7 +7,7 @@
       "price": "約2,500円",
       "reason": "迷ったらこれ。敏感肌でも使える保湿クリーム",
       "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22",
-      "image": "https://kao-h.assetsadobe3.com/is/image/content/dam/sites/kao/www-kao-kirei-com/jp/ja/item/kbb/curel/25417079/GG01.jpg?fmt=webp&wid=300",
+      "image": "images/products/curel-face-cream.jpg",
       "rank": 1
     },
     {
@@ -16,7 +16,7 @@
       "price": "約1,200円",
       "reason": "ドラッグストアで買える、コスパ最強の美容液",
       "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22",
-      "image": "https://jp.rohto.com/-/media/com/melanocc/essence/img_169658_01.jpg",
+      "image": "images/products/melano-cc-essence.jpg",
       "rank": 2
     },
     {
@@ -25,7 +25,7 @@
       "price": "約1,800円",
       "reason": "肌荒れが気になるときの鎮静ケアに",
       "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22",
-      "image": "https://www.skin1004.com/cdn/shop/products/skin1004-ampoule-serum-centella-ampoule-38642800132342.png?v=1677148695&width=300",
+      "image": "images/products/skin1004-centella.png",
       "rank": 3
     },
     {
@@ -34,7 +34,7 @@
       "price": "約1,600円",
       "reason": "皮脂とテカリが気になる人の定番セラム",
       "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22",
-      "image": "https://numbuzin.jp/web/product/big/202604/d332cc6deab5f4677b3e296a7a31aed0.jpg",
+      "image": "images/products/numbuzin-3-serum.jpg",
       "rank": 4
     },
     {
@@ -43,7 +43,7 @@
       "price": "約2,800円",
       "reason": "レチノール初心者に。低濃度で始めやすい",
       "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22",
-      "image": "https://www.innisfree.jp/cdn/shop/files/pdp_mig_product-1847_ID0101_1.jpg?v=1776440667&width=300",
+      "image": "images/products/innisfree-retinol-cica.jpg",
       "rank": 5
     }
   ]
