@@ -543,7 +543,11 @@
         <div class="card-hover bg-white rounded-2xl p-4 flex flex-col border border-gray-100 relative">
           <div class="absolute -top-2 -left-2 w-8 h-8 bg-navy rounded-full flex items-center justify-center text-white text-sm font-bold z-10">${p.rank}</div>
           <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored" class="block w-full h-36 bg-gray-50 rounded-xl mb-3 flex items-center justify-center overflow-hidden">
-            <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="width:120px;height:240px;border:none;overflow:hidden;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS1=1&bg1=FFFFFF&fc1=0d1f3c&lc1=5b9cc4&t=skinscilab22-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=${p.asin}"></iframe>
+            <img src="https://images-fe.ssl-images-amazon.com/images/P/${p.asin}.09.LZZZZZZZ.jpg"
+                 alt="${p.name}"
+                 class="max-h-full max-w-full object-contain p-2"
+                 loading="lazy"
+                 onerror="this.onerror=null;this.src='';this.parentElement.innerHTML='<svg class=\\'w-12 h-12 text-gray-200\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'1\\' d=\\'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4\\'/></svg>'" />
           </a>
           <p class="text-xs text-gray-400 mb-0.5">${p.brand}</p>
           <h3 class="text-sm font-bold text-navy mb-1 leading-snug">${p.name}</h3>
@@ -587,7 +591,11 @@
         <div class="card-hover bg-white rounded-2xl p-4 flex flex-col border border-gray-100 relative">
           <div class="absolute -top-2 -left-2 w-7 h-7 ${i === 0 ? 'bg-yellow-500' : 'bg-gray-400'} rounded-full flex items-center justify-center text-white text-xs font-bold z-10">${i + 1}</div>
           <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored" class="block w-full h-32 bg-gray-50 rounded-xl mb-3 flex items-center justify-center overflow-hidden">
-            <iframe sandbox="allow-scripts allow-same-origin allow-popups" style="width:120px;height:150px;border:none;overflow:hidden;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=FFFFFF&IS1=1&bg1=FFFFFF&fc1=0d1f3c&lc1=5b9cc4&t=skinscilab22-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=${p.asin}"></iframe>
+            <img src="https://images-fe.ssl-images-amazon.com/images/P/${p.asin}.09.LZZZZZZZ.jpg"
+                 alt="${p.name}"
+                 class="max-h-full max-w-full object-contain p-2"
+                 loading="lazy"
+                 onerror="this.onerror=null;this.src='';this.parentElement.innerHTML='<svg class=\\'w-10 h-10 text-gray-200\\' fill=\\'none\\' stroke=\\'currentColor\\' viewBox=\\'0 0 24 24\\'><path stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\' stroke-width=\\'1\\' d=\\'M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4\\'/></svg>'" />
           </a>
           <h3 class="text-sm font-bold text-navy mb-1">${p.name}</h3>
           <p class="text-accent font-bold text-sm mb-1">${p.price}</p>
