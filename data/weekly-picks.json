@@ -7,6 +7,7 @@
       "price": "約2,500円",
       "reason": "迷ったらこれ。敏感肌でも使える保湿クリーム",
       "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22",
+      "asin": "B09X3HQ7G4",
       "rank": 1
     },
     {
@@ -15,14 +16,16 @@
       "price": "約1,200円",
       "reason": "ドラッグストアで買える、コスパ最強の美容液",
       "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22",
+      "asin": "B00ITAP8P0",
       "rank": 2
     },
     {
-      "name": "SKIN1004 マダガスカルセンテラアンプル",
+      "name": "SKIN1004 センテラアンプル",
       "brand": "SKIN1004",
       "price": "約1,800円",
       "reason": "肌荒れが気になるときの鎮静ケアに",
       "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22",
+      "asin": "B07TXCTBDG",
       "rank": 3
     },
     {
@@ -31,14 +34,16 @@
       "price": "約1,600円",
       "reason": "皮脂とテカリが気になる人の定番セラム",
       "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22",
+      "asin": "B0915K6WD3",
       "rank": 4
     },
     {
-      "name": "イニスフリー レチノールシカリペアセラム",
+      "name": "イニスフリー レチノールシカセラム",
       "brand": "innisfree",
       "price": "約2,800円",
       "reason": "レチノール初心者に。低濃度で始めやすい",
       "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22",
+      "asin": "B0C45Y816C",
       "rank": 5
     }
   ]

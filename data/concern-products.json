@@ -4,180 +4,55 @@
       "id": "acne",
       "label": "ニキビ",
       "products": [
-        {
-          "name": "SKIN1004 センテラアンプル",
-          "price": "約1,800円",
-          "reason": "肌荒れが気になるときの鎮静ケアに",
-          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
-        },
-        {
-          "name": "ペアアクネクリームW",
-          "price": "約1,000円",
-          "reason": "ニキビにピンポイントで塗れる",
-          "link": "https://www.amazon.co.jp/dp/B00F4LXVMY?tag=skinscilab22-22"
-        },
-        {
-          "name": "ナンバーズイン 3番 セラム",
-          "price": "約1,600円",
-          "reason": "テカリと皮脂をケアしたい人に",
-          "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22"
-        },
-        {
-          "name": "イニスフリー レチノールシカセラム",
-          "price": "約2,800円",
-          "reason": "肌のターンオーバーをやさしくサポート",
-          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
-        },
-        {
-          "name": "メラノCC 美容液",
-          "price": "約1,200円",
-          "reason": "ニキビ跡が気になる人のコスパ最強美容液",
-          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
-        }
+        {"name": "SKIN1004 センテラアンプル", "price": "約1,800円", "reason": "肌荒れが気になるときの鎮静ケアに", "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22", "asin": "B07TXCTBDG"},
+        {"name": "ペアアクネクリームW", "price": "約1,000円", "reason": "ニキビにピンポイントで塗れる", "link": "https://www.amazon.co.jp/dp/B00F4LXVMY?tag=skinscilab22-22", "asin": "B00F4LXVMY"},
+        {"name": "ナンバーズイン 3番 セラム", "price": "約1,600円", "reason": "テカリと皮脂をケアしたい人に", "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22", "asin": "B0915K6WD3"},
+        {"name": "イニスフリー レチノールシカセラム", "price": "約2,800円", "reason": "肌の生まれ変わりをサポート", "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22", "asin": "B0C45Y816C"},
+        {"name": "メラノCC 美容液", "price": "約1,200円", "reason": "ニキビ跡が気になる人のコスパ最強", "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22", "asin": "B00ITAP8P0"}
       ]
     },
     {
       "id": "pores",
       "label": "毛穴",
       "products": [
-        {
-          "name": "ナンバーズイン 3番 セラム",
-          "price": "約1,600円",
-          "reason": "皮脂と毛穴が気になる人の定番",
-          "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22"
-        },
-        {
-          "name": "タカミスキンピール",
-          "price": "約5,500円",
-          "reason": "毛穴の目立ちにくい肌へ導く角質美容水",
-          "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22"
-        },
-        {
-          "name": "SKIN1004 センテラアンプル",
-          "price": "約1,800円",
-          "reason": "毛穴周りの肌荒れを穏やかにケア",
-          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
-        },
-        {
-          "name": "イニスフリー レチノールシカセラム",
-          "price": "約2,800円",
-          "reason": "たるみ毛穴が気になり始めた人に",
-          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
-        },
-        {
-          "name": "メラノCC 美容液",
-          "price": "約1,200円",
-          "reason": "毛穴の黒ずみケアにもコスパ良し",
-          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
-        }
+        {"name": "ナンバーズイン 3番 セラム", "price": "約1,600円", "reason": "皮脂と毛穴が気になる人の定番", "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22", "asin": "B0915K6WD3"},
+        {"name": "タカミスキンピール", "price": "約5,500円", "reason": "毛穴が目立ちにくい肌へ", "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22", "asin": "B010FZZWY8"},
+        {"name": "SKIN1004 センテラアンプル", "price": "約1,800円", "reason": "毛穴周りの肌荒れをケア", "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22", "asin": "B07TXCTBDG"},
+        {"name": "イニスフリー レチノールシカセラム", "price": "約2,800円", "reason": "たるみ毛穴が気になり始めた人に", "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22", "asin": "B0C45Y816C"},
+        {"name": "メラノCC 美容液", "price": "約1,200円", "reason": "毛穴の黒ずみケアにもコスパ良し", "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22", "asin": "B00ITAP8P0"}
       ]
     },
     {
       "id": "dryness",
       "label": "乾燥",
       "products": [
-        {
-          "name": "キュレル 潤浸保湿フェイスクリーム",
-          "price": "約2,500円",
-          "reason": "迷ったらこれ。敏感肌でも使える",
-          "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22"
-        },
-        {
-          "name": "ミノン アミノモイスト チャージミルク",
-          "price": "約2,000円",
-          "reason": "アミノ酸でうるおいを閉じ込める",
-          "link": "https://www.amazon.co.jp/dp/B00IGSRT60?tag=skinscilab22-22"
-        },
-        {
-          "name": "IHADA 薬用バーム",
-          "price": "約1,500円",
-          "reason": "ワセリンベースの肌荒れ防止バーム",
-          "link": "https://www.amazon.co.jp/dp/B07DFH16CG?tag=skinscilab22-22"
-        },
-        {
-          "name": "SKIN1004 センテラアンプル",
-          "price": "約1,800円",
-          "reason": "乾燥で荒れた肌を穏やかに整える",
-          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
-        },
-        {
-          "name": "ナンバーズイン 4番 コラーゲンセラム",
-          "price": "約1,800円",
-          "reason": "コラーゲン73%配合のぷるぷる保湿",
-          "link": "https://www.amazon.co.jp/dp/B09JPCZQDN?tag=skinscilab22-22"
-        }
+        {"name": "キュレル 潤浸保湿フェイスクリーム", "price": "約2,500円", "reason": "迷ったらこれ。敏感肌でも使える", "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22", "asin": "B09X3HQ7G4"},
+        {"name": "ミノン アミノモイスト チャージミルク", "price": "約2,000円", "reason": "アミノ酸でうるおいを閉じ込める", "link": "https://www.amazon.co.jp/dp/B00IGSRT60?tag=skinscilab22-22", "asin": "B00IGSRT60"},
+        {"name": "IHADA 薬用バーム", "price": "約1,500円", "reason": "肌荒れを防ぐ保護バーム", "link": "https://www.amazon.co.jp/dp/B07DFH16CG?tag=skinscilab22-22", "asin": "B07DFH16CG"},
+        {"name": "SKIN1004 センテラアンプル", "price": "約1,800円", "reason": "荒れた肌を穏やかに整える", "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22", "asin": "B07TXCTBDG"},
+        {"name": "ナンバーズイン 4番 コラーゲンセラム", "price": "約1,800円", "reason": "ぷるぷる保湿のコラーゲン美容液", "link": "https://www.amazon.co.jp/dp/B09JPCZQDN?tag=skinscilab22-22", "asin": "B09JPCZQDN"}
       ]
     },
     {
       "id": "darkspots",
       "label": "シミ",
       "products": [
-        {
-          "name": "メラノCC 美容液",
-          "price": "約1,200円",
-          "reason": "シミ・くすみが気になる人の定番",
-          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
-        },
-        {
-          "name": "肌ラボ 白潤プレミアム 化粧水",
-          "price": "約900円",
-          "reason": "プチプラで毎日使える美白化粧水",
-          "link": "https://www.amazon.co.jp/dp/B08WSHPTWZ?tag=skinscilab22-22"
-        },
-        {
-          "name": "Anua ドクダミ77%トナー",
-          "price": "約2,000円",
-          "reason": "肌を整えて透明感をサポート",
-          "link": "https://www.amazon.co.jp/dp/B0BK87QVSX?tag=skinscilab22-22"
-        },
-        {
-          "name": "ナンバーズイン 5番 グルタチオンセラム",
-          "price": "約1,800円",
-          "reason": "グルタチオン配合のトーンケア",
-          "link": "https://www.amazon.co.jp/dp/B0C61FD7P9?tag=skinscilab22-22"
-        },
-        {
-          "name": "オバジC25セラム ネオ",
-          "price": "約8,000円",
-          "reason": "高濃度ビタミンCの本格ケア",
-          "link": "https://www.amazon.co.jp/dp/B08TJGNB8R?tag=skinscilab22-22"
-        }
+        {"name": "メラノCC 美容液", "price": "約1,200円", "reason": "シミ・くすみが気になる人の定番", "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22", "asin": "B00ITAP8P0"},
+        {"name": "肌ラボ 白潤プレミアム 化粧水", "price": "約900円", "reason": "毎日使えるプチプラ美白化粧水", "link": "https://www.amazon.co.jp/dp/B08WSHPTWZ?tag=skinscilab22-22", "asin": "B08WSHPTWZ"},
+        {"name": "Anua ドクダミ77%トナー", "price": "約2,000円", "reason": "肌を整えて透明感をサポート", "link": "https://www.amazon.co.jp/dp/B0BK87QVSX?tag=skinscilab22-22", "asin": "B0BK87QVSX"},
+        {"name": "ナンバーズイン 5番 グルタチオンセラム", "price": "約1,800円", "reason": "トーンケアの韓国コスメ", "link": "https://www.amazon.co.jp/dp/B0C61FD7P9?tag=skinscilab22-22", "asin": "B0C61FD7P9"},
+        {"name": "オバジC25セラム ネオ", "price": "約8,000円", "reason": "高濃度ビタミンCの本格ケア", "link": "https://www.amazon.co.jp/dp/B08TJGNB8R?tag=skinscilab22-22", "asin": "B08TJGNB8R"}
       ]
     },
     {
       "id": "aging",
       "label": "エイジング",
       "products": [
-        {
-          "name": "イニスフリー レチノールシカセラム",
-          "price": "約2,800円",
-          "reason": "レチノール初心者はまずこれから",
-          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
-        },
-        {
-          "name": "エリクシール リンクルクリーム",
-          "price": "約6,000円",
-          "reason": "純粋レチノールの薬用シワケア",
-          "link": "https://www.amazon.co.jp/dp/B07CPWRYKB?tag=skinscilab22-22"
-        },
-        {
-          "name": "ONE BY KOSE ザ リンクレス S",
-          "price": "約5,500円",
-          "reason": "目元・口元のシワケアに",
-          "link": "https://www.amazon.co.jp/dp/B09CQ3B488?tag=skinscilab22-22"
-        },
-        {
-          "name": "キュレル 潤浸保湿フェイスクリーム",
-          "price": "約2,500円",
-          "reason": "保湿はエイジングケアの基本",
-          "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22"
-        },
-        {
-          "name": "タカミスキンピール",
-          "price": "約5,500円",
-          "reason": "ターンオーバーをサポートして若々しい肌へ",
-          "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22"
-        }
+        {"name": "イニスフリー レチノールシカセラム", "price": "約2,800円", "reason": "レチノール初心者はまずこれから", "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22", "asin": "B0C45Y816C"},
+        {"name": "エリクシール リンクルクリーム", "price": "約6,000円", "reason": "シワケアの定番クリーム", "link": "https://www.amazon.co.jp/dp/B07CPWRYKB?tag=skinscilab22-22", "asin": "B07CPWRYKB"},
+        {"name": "ONE BY KOSE ザ リンクレス S", "price": "約5,500円", "reason": "目元・口元のシワケアに", "link": "https://www.amazon.co.jp/dp/B09CQ3B488?tag=skinscilab22-22", "asin": "B09CQ3B488"},
+        {"name": "キュレル 潤浸保湿フェイスクリーム", "price": "約2,500円", "reason": "保湿はエイジングケアの基本", "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22", "asin": "B09X3HQ7G4"},
+        {"name": "タカミスキンピール", "price": "約5,500円", "reason": "肌の生まれ変わりをサポート", "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22", "asin": "B010FZZWY8"}
       ]
     }
   ]
