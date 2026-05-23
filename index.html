@@ -520,7 +520,7 @@
 
     async function fetchJSON(url) {
       try {
-        const res = await fetch(url);
+        const res = await fetch(url + '?v=' + Date.now());
         return res.json();
       } catch (e) {
         console.error('JSON読み込みエラー:', url, e);
