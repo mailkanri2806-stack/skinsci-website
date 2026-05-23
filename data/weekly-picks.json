@@ -7,6 +7,8 @@
       "price": "約2,500円",
       "reason": "迷ったらこれ。敏感肌でも使える保湿クリーム",
       "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22",
+      "qoo10": "https://www.qoo10.jp/g/722507868",
+      "youtube": "https://www.youtube.com/watch?v=3Qrz__mY4Yo",
       "image": "images/products/curel-face-cream.jpg",
       "rank": 1
     },
@@ -16,6 +18,8 @@
       "price": "約1,200円",
       "reason": "ドラッグストアで買える、コスパ最強の美容液",
       "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22",
+      "qoo10": "",
+      "youtube": "https://www.youtube.com/watch?v=Vwd6cThPtV4",
       "image": "images/products/melano-cc-essence.jpg",
       "rank": 2
     },
@@ -25,6 +29,8 @@
       "price": "約1,800円",
       "reason": "肌荒れが気になるときの鎮静ケアに",
       "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22",
+      "qoo10": "https://www.qoo10.jp/g/1003093003",
+      "youtube": "https://www.youtube.com/watch?v=392HJwKpMvQ",
       "image": "images/products/skin1004-centella.png",
       "rank": 3
     },
@@ -34,6 +40,8 @@
       "price": "約1,600円",
       "reason": "皮脂とテカリが気になる人の定番セラム",
       "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22",
+      "qoo10": "https://www.qoo10.jp/g/823483756",
+      "youtube": "https://www.youtube.com/watch?v=LC8USC_pKtg",
       "image": "images/products/numbuzin-3-serum.jpg",
       "rank": 4
     },
@@ -43,6 +51,8 @@
       "price": "約2,800円",
       "reason": "レチノール初心者に。低濃度で始めやすい",
       "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22",
+      "qoo10": "https://www.qoo10.jp/g/932059650",
+      "youtube": "https://www.youtube.com/watch?v=_KM5ckDU0S8",
       "image": "images/products/innisfree-retinol-cica.jpg",
       "rank": 5
     }

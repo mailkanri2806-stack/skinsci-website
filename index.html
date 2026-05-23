@@ -549,11 +549,15 @@
           <h3 class="text-sm font-bold text-navy mb-1 leading-snug">${p.name}</h3>
           <p class="text-accent font-bold text-sm mb-2">${p.price}</p>
           <p class="text-xs text-gray-500 mb-3 leading-relaxed">${p.reason}</p>
-          <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
-             class="mt-auto text-center bg-accent hover:bg-accent-muted text-white text-xs font-bold py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center gap-1">
-            <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
-            Amazonで見る
-          </a>
+          ${p.youtube ? `<a href="${p.youtube}" target="_blank" rel="noopener" class="text-xs text-red-500 hover:text-red-600 font-medium mb-3 flex items-center gap-1"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 00.5 6.2 31.9 31.9 0 000 12a31.9 31.9 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.6a3 3 0 002.1-2.1A31.9 31.9 0 0024 12a31.9 31.9 0 00-.5-5.8zM9.5 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>動画を見る</a>` : ''}
+          <div class="mt-auto flex flex-col gap-2">
+            <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
+               class="text-center bg-accent hover:bg-accent-muted text-white text-xs font-bold py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center gap-1">
+              <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
+              Amazonで見る
+            </a>
+            ${p.qoo10 ? `<a href="${p.qoo10}" target="_blank" rel="noopener noreferrer sponsored" class="text-center bg-red-500 hover:bg-red-600 text-white text-xs font-bold py-2.5 px-4 rounded-lg transition-colors">Qoo10で見る</a>` : ''}
+          </div>
         </div>
       `).join('');
     }
@@ -592,11 +596,14 @@
           <h3 class="text-sm font-bold text-navy mb-1">${p.name}</h3>
           <p class="text-accent font-bold text-sm mb-1">${p.price}</p>
           <p class="text-xs text-gray-500 mb-3">${p.reason}</p>
-          <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
-             class="mt-auto text-center bg-navy hover:bg-navy-light text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors flex items-center justify-center gap-1">
-            <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
-            Amazonで見る
-          </a>
+          <div class="mt-auto flex flex-col gap-1.5">
+            <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
+               class="text-center bg-navy hover:bg-navy-light text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors flex items-center justify-center gap-1">
+              <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
+              Amazon
+            </a>
+            ${p.qoo10 ? `<a href="${p.qoo10}" target="_blank" rel="noopener noreferrer sponsored" class="text-center bg-red-500 hover:bg-red-600 text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors">Qoo10</a>` : ''}
+          </div>
         </div>
       `).join('');
     }
