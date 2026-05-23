@@ -5,28 +5,34 @@
       "label": "ニキビ",
       "products": [
         {
-          "name": "SKIN1004 マダガスカルセンテラアンプル",
+          "name": "SKIN1004 センテラアンプル",
           "price": "約1,800円",
-          "ingredient": "ツボクサエキス（CICA）",
-          "reason": "炎症を穏やかに鎮め、ニキビの赤みにアプローチ",
-          "influencer": "水越みさとさんが紹介",
-          "link": "trouble-acne.html"
+          "reason": "肌荒れが気になるときの鎮静ケアに",
+          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
         },
         {
           "name": "ペアアクネクリームW",
           "price": "約1,000円",
-          "ingredient": "イブプロフェンピコノール",
-          "reason": "炎症性ニキビに直接塗布。ドラッグストアで手軽に買える",
-          "influencer": "皮膚科医YouTuberが推薦",
-          "link": "trouble-acne.html"
+          "reason": "ニキビにピンポイントで塗れる",
+          "link": "https://www.amazon.co.jp/dp/B00F4LXVMY?tag=skinscilab22-22"
         },
         {
           "name": "ナンバーズイン 3番 セラム",
           "price": "約1,600円",
-          "ingredient": "ナイアシンアミド10%",
-          "reason": "皮脂コントロールとニキビ跡のケアを同時に",
-          "influencer": "かずのすけさんが成分解説",
-          "link": "best-niacinamide.html"
+          "reason": "テカリと皮脂をケアしたい人に",
+          "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22"
+        },
+        {
+          "name": "イニスフリー レチノールシカセラム",
+          "price": "約2,800円",
+          "reason": "肌のターンオーバーをやさしくサポート",
+          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
+        },
+        {
+          "name": "メラノCC 美容液",
+          "price": "約1,200円",
+          "reason": "ニキビ跡が気になる人のコスパ最強美容液",
+          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
         }
       ]
     },
@@ -35,28 +41,34 @@
       "label": "毛穴",
       "products": [
         {
-          "name": "ONE THING ナイアシンアミド10%セラム",
-          "price": "約1,400円",
-          "ingredient": "ナイアシンアミド10%",
-          "reason": "高濃度ナイアシンアミドが皮脂をコントロールし毛穴を引き締める",
-          "influencer": "美容系YouTuberの間で話題",
-          "link": "best-niacinamide.html"
-        },
-        {
-          "name": "COSRX BHAブラックヘッドパワーリキッド",
-          "price": "約1,800円",
-          "ingredient": "BHA（サリチル酸）",
-          "reason": "毛穴の奥まで浸透し角栓を穏やかに除去",
-          "influencer": "韓国スキンケア好きに人気",
-          "link": "trouble-pores.html"
+          "name": "ナンバーズイン 3番 セラム",
+          "price": "約1,600円",
+          "reason": "皮脂と毛穴が気になる人の定番",
+          "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22"
         },
         {
           "name": "タカミスキンピール",
           "price": "約5,500円",
-          "ingredient": "角質柔軟成分",
-          "reason": "肌のターンオーバーをサポートし毛穴の目立ちにくい肌へ",
-          "influencer": "丸の内OLの憂鬱さんが紹介",
-          "link": "trouble-pores.html"
+          "reason": "毛穴の目立ちにくい肌へ導く角質美容水",
+          "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22"
+        },
+        {
+          "name": "SKIN1004 センテラアンプル",
+          "price": "約1,800円",
+          "reason": "毛穴周りの肌荒れを穏やかにケア",
+          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
+        },
+        {
+          "name": "イニスフリー レチノールシカセラム",
+          "price": "約2,800円",
+          "reason": "たるみ毛穴が気になり始めた人に",
+          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
+        },
+        {
+          "name": "メラノCC 美容液",
+          "price": "約1,200円",
+          "reason": "毛穴の黒ずみケアにもコスパ良し",
+          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
         }
       ]
     },
@@ -67,56 +79,68 @@
         {
           "name": "キュレル 潤浸保湿フェイスクリーム",
           "price": "約2,500円",
-          "ingredient": "セラミド機能成分",
-          "reason": "セラミドの働きを補い、バリア機能を助ける。敏感肌でも使いやすい",
-          "influencer": "皮膚科医おすすめ定番",
-          "link": "best-ceramide.html"
+          "reason": "迷ったらこれ。敏感肌でも使える",
+          "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22"
         },
         {
-          "name": "ミノン アミノモイスト モイストチャージミルク",
+          "name": "ミノン アミノモイスト チャージミルク",
           "price": "約2,000円",
-          "ingredient": "アミノ酸系保湿成分",
-          "reason": "アミノ酸が角質層に浸透し、内側からうるおいを保持",
-          "influencer": "乾燥肌の味方として話題",
-          "link": "trouble-dryness.html"
+          "reason": "アミノ酸でうるおいを閉じ込める",
+          "link": "https://www.amazon.co.jp/dp/B00IGSRT60?tag=skinscilab22-22"
         },
         {
-          "name": "ヒルマイルド クリーム",
-          "price": "約1,200円",
-          "ingredient": "ヘパリン類似物質",
-          "reason": "医薬品グレードの保湿成分が肌の水分を保持。ドラッグストアで購入可能",
-          "influencer": "コスパ最強保湿として人気",
-          "link": "trouble-dryness.html"
+          "name": "IHADA 薬用バーム",
+          "price": "約1,500円",
+          "reason": "ワセリンベースの肌荒れ防止バーム",
+          "link": "https://www.amazon.co.jp/dp/B07DFH16CG?tag=skinscilab22-22"
+        },
+        {
+          "name": "SKIN1004 センテラアンプル",
+          "price": "約1,800円",
+          "reason": "乾燥で荒れた肌を穏やかに整える",
+          "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22"
+        },
+        {
+          "name": "ナンバーズイン 4番 コラーゲンセラム",
+          "price": "約1,800円",
+          "reason": "コラーゲン73%配合のぷるぷる保湿",
+          "link": "https://www.amazon.co.jp/dp/B09JPCZQDN?tag=skinscilab22-22"
         }
       ]
     },
     {
       "id": "darkspots",
-      "label": "シミ・くすみ",
+      "label": "シミ",
       "products": [
         {
-          "name": "メラノCC 薬用しみ集中対策美容液",
+          "name": "メラノCC 美容液",
           "price": "約1,200円",
-          "ingredient": "活性型ビタミンC",
-          "reason": "メラニン生成を抑え、シミ・くすみにアプローチ",
-          "influencer": "かずのすけさんが紹介",
-          "link": "best-vitamin-c.html"
+          "reason": "シミ・くすみが気になる人の定番",
+          "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22"
         },
         {
-          "name": "肌ラボ 白潤プレミアム 薬用浸透美白化粧水",
+          "name": "肌ラボ 白潤プレミアム 化粧水",
           "price": "約900円",
-          "ingredient": "トラネキサム酸",
-          "reason": "メラニンの生成を抑え、シミ・そばかすを防ぐ",
-          "influencer": "プチプラ美白の代名詞",
-          "link": "best-vitamin-c.html"
+          "reason": "プチプラで毎日使える美白化粧水",
+          "link": "https://www.amazon.co.jp/dp/B08WSHPTWZ?tag=skinscilab22-22"
         },
         {
           "name": "Anua ドクダミ77%トナー",
           "price": "約2,000円",
-          "ingredient": "ドクダミエキス77%",
-          "reason": "肌を整え透明感をサポート。韓国スキンケアの大人気アイテム",
-          "influencer": "韓国美容好きに絶大な人気",
-          "link": "trouble-dark-spots.html"
+          "reason": "肌を整えて透明感をサポート",
+          "link": "https://www.amazon.co.jp/dp/B0BK87QVSX?tag=skinscilab22-22"
+        },
+        {
+          "name": "ナンバーズイン 5番 グルタチオンセラム",
+          "price": "約1,800円",
+          "reason": "グルタチオン配合のトーンケア",
+          "link": "https://www.amazon.co.jp/dp/B0C61FD7P9?tag=skinscilab22-22"
+        },
+        {
+          "name": "オバジC25セラム ネオ",
+          "price": "約8,000円",
+          "reason": "高濃度ビタミンCの本格ケア",
+          "link": "https://www.amazon.co.jp/dp/B08TJGNB8R?tag=skinscilab22-22"
         }
       ]
     },
@@ -125,28 +149,34 @@
       "label": "エイジング",
       "products": [
         {
-          "name": "イニスフリー レチノール シカ リペア セラム",
-          "price": "約3,000円",
-          "ingredient": "レチノール+CICA",
-          "reason": "レチノールの効果をCICAが穏やかにサポート。初心者にも使いやすい",
-          "influencer": "殿堂入りバズりコスメ",
-          "link": "best-retinol.html"
+          "name": "イニスフリー レチノールシカセラム",
+          "price": "約2,800円",
+          "reason": "レチノール初心者はまずこれから",
+          "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22"
         },
         {
-          "name": "エリクシール シュペリエル エンリッチド リンクルクリーム",
+          "name": "エリクシール リンクルクリーム",
           "price": "約6,000円",
-          "ingredient": "純粋レチノール",
-          "reason": "日本初の薬用シワ改善クリーム。純粋レチノールが真皮に届く",
-          "influencer": "美容雑誌ベストコスメ常連",
-          "link": "best-retinol.html"
+          "reason": "純粋レチノールの薬用シワケア",
+          "link": "https://www.amazon.co.jp/dp/B07CPWRYKB?tag=skinscilab22-22"
         },
         {
-          "name": "ONE BY KOSE セラム ヴェール",
+          "name": "ONE BY KOSE ザ リンクレス S",
           "price": "約5,500円",
-          "ingredient": "ライスパワーNo.11",
-          "reason": "セラミドの産生を促し、肌のバリア機能を根本から改善する効果が期待",
-          "influencer": "コーセーの技術力が凝縮",
-          "link": "best-ceramide.html"
+          "reason": "目元・口元のシワケアに",
+          "link": "https://www.amazon.co.jp/dp/B09CQ3B488?tag=skinscilab22-22"
+        },
+        {
+          "name": "キュレル 潤浸保湿フェイスクリーム",
+          "price": "約2,500円",
+          "reason": "保湿はエイジングケアの基本",
+          "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22"
+        },
+        {
+          "name": "タカミスキンピール",
+          "price": "約5,500円",
+          "reason": "ターンオーバーをサポートして若々しい肌へ",
+          "link": "https://www.amazon.co.jp/dp/B010FZZWY8?tag=skinscilab22-22"
         }
       ]
     }

@@ -508,7 +508,6 @@
     document.addEventListener('DOMContentLoaded', async () => {
       await renderWeeklyPicks();
       await renderConcernProducts('acne');
-      await renderInfluencers();
       setupConcernTabs();
     });
 
@@ -522,7 +521,7 @@
       }
     }
 
-    // 今週の注目商品
+    // 今週の売れ筋TOP5
     async function renderWeeklyPicks() {
       const data = await fetchJSON('data/weekly-picks.json');
       if (!data) return;
@@ -534,24 +533,19 @@
       }
 
       container.innerHTML = data.picks.map(p => `
-        <div class="card-hover bg-pearl rounded-2xl p-6 flex flex-col border border-gray-100">
-          <div class="flex flex-wrap gap-2 mb-4">
-            ${p.concern.map(c => `<span class="text-xs bg-accent/10 text-accent font-medium px-3 py-1 rounded-full">${c}</span>`).join('')}
+        <div class="card-hover bg-white rounded-2xl p-4 flex flex-col border border-gray-100 relative">
+          <div class="absolute -top-2 -left-2 w-8 h-8 bg-navy rounded-full flex items-center justify-center text-white text-sm font-bold z-10">${p.rank}</div>
+          <div class="w-full h-32 bg-gray-50 rounded-xl mb-3 flex items-center justify-center">
+            <svg class="w-12 h-12 text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
           </div>
-          ${p.image ? `<div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center"><img src="${p.image}" alt="${p.name}" class="max-h-full object-contain" loading="lazy" /></div>` : `<div class="w-full h-48 bg-gray-100 rounded-xl mb-4 flex items-center justify-center"><span class="text-4xl">🧴</span></div>`}
-          <p class="text-xs text-gray-400 mb-1">${p.brand}</p>
-          <h3 class="text-lg font-bold text-navy mb-2">${p.name}</h3>
-          <p class="text-accent font-semibold text-sm mb-2">${p.price}</p>
-          <p class="text-xs text-gray-400 mb-3">注目成分: ${p.keyIngredient}</p>
-          <p class="text-gray-600 text-sm leading-relaxed mb-3">${p.reason}</p>
-          <div class="flex items-center gap-2 mb-4 bg-white rounded-lg p-3 border border-gray-100">
-            <div class="w-8 h-8 bg-gray-200 rounded-full flex-shrink-0 flex items-center justify-center text-xs">👤</div>
-            <div>
-              <p class="text-xs text-gray-500 italic">${p.influencer}</p>
-            </div>
-          </div>
-          <a href="${p.link}" class="mt-auto text-center bg-navy hover:bg-navy-light text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
-            詳しく見る
+          <p class="text-xs text-gray-400 mb-0.5">${p.brand}</p>
+          <h3 class="text-sm font-bold text-navy mb-1 leading-snug">${p.name}</h3>
+          <p class="text-accent font-bold text-sm mb-2">${p.price}</p>
+          <p class="text-xs text-gray-500 mb-3 leading-relaxed">${p.reason}</p>
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
+             class="mt-auto text-center bg-accent hover:bg-accent-muted text-white text-xs font-bold py-2.5 px-4 rounded-lg transition-colors flex items-center justify-center gap-1">
+            <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
+            Amazonで見る
           </a>
         </div>
       `).join('');
@@ -571,38 +565,30 @@
       const category = concernData.categories.find(c => c.id === concernId);
       if (!category) return;
 
-      // もっと見るリンクの更新
       const moreLinkMap = {
-        acne: { href: 'trouble-acne.html', text: 'ニキビケアの商品をもっと見る' },
-        pores: { href: 'trouble-pores.html', text: '毛穴ケアの商品をもっと見る' },
-        dryness: { href: 'trouble-dryness.html', text: '乾燥ケアの商品をもっと見る' },
-        darkspots: { href: 'trouble-dark-spots.html', text: 'シミ・くすみケアの商品をもっと見る' },
-        aging: { href: 'trouble-aging.html', text: 'エイジングケアの商品をもっと見る' }
+        acne: { href: 'ranking-acne.html', text: 'ニキビTOP5を全て見る' },
+        pores: { href: 'ranking-pores.html', text: '毛穴TOP5を全て見る' },
+        dryness: { href: 'ranking-dryness.html', text: '乾燥肌TOP5を全て見る' },
+        darkspots: { href: 'ranking-darkspots.html', text: 'シミTOP5を全て見る' },
+        aging: { href: 'ranking-aging.html', text: 'エイジングTOP5を全て見る' }
       };
       const linkInfo = moreLinkMap[concernId] || moreLinkMap.acne;
       moreLink.href = linkInfo.href;
       moreLink.innerHTML = linkInfo.text + ' <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>';
 
-      if (category.products.length === 0) {
-        container.innerHTML = '<p class="text-gray-400 text-sm text-center col-span-full py-8">準備中です。もうしばらくお待ちください。</p>';
-        return;
-      }
-
-      container.innerHTML = category.products.map(p => `
-        <div class="card-hover bg-pearl rounded-2xl p-6 flex flex-col border border-gray-100">
-          <p class="text-xs text-gray-400 mb-1">${p.name.split(' ')[0]}</p>
-          <h3 class="text-base font-bold text-navy mb-1">${p.name}</h3>
-          <p class="text-accent font-semibold text-sm mb-3">${p.price}</p>
-          <div class="bg-white rounded-lg p-3 mb-3">
-            <p class="text-xs text-gray-500 font-medium mb-1">注目成分: ${p.ingredient}</p>
-            <p class="text-sm text-gray-700 leading-relaxed">${p.reason}</p>
+      container.innerHTML = category.products.map((p, i) => `
+        <div class="card-hover bg-white rounded-2xl p-4 flex flex-col border border-gray-100 relative">
+          <div class="absolute -top-2 -left-2 w-7 h-7 ${i === 0 ? 'bg-yellow-500' : 'bg-gray-400'} rounded-full flex items-center justify-center text-white text-xs font-bold z-10">${i + 1}</div>
+          <div class="w-full h-28 bg-gray-50 rounded-xl mb-3 flex items-center justify-center">
+            <svg class="w-10 h-10 text-gray-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
           </div>
-          <div class="flex items-start gap-2 mb-4">
-            <div class="w-6 h-6 bg-gray-200 rounded-full flex-shrink-0 mt-0.5 flex items-center justify-center text-xs">👤</div>
-            <p class="text-xs text-gray-500 italic">${p.influencer}</p>
-          </div>
-          <a href="${p.link}" class="mt-auto text-center bg-accent hover:bg-accent-muted text-white text-sm font-medium px-6 py-2.5 rounded-full transition-colors">
-            詳しく見る
+          <h3 class="text-sm font-bold text-navy mb-1">${p.name}</h3>
+          <p class="text-accent font-bold text-sm mb-1">${p.price}</p>
+          <p class="text-xs text-gray-500 mb-3">${p.reason}</p>
+          <a href="${p.link}" target="_blank" rel="noopener noreferrer sponsored"
+             class="mt-auto text-center bg-navy hover:bg-navy-light text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors flex items-center justify-center gap-1">
+            <span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>
+            Amazonで見る
           </a>
         </div>
       `).join('');
@@ -621,23 +607,6 @@
           renderConcernProducts(tab.dataset.concern);
         });
       });
-    }
-
-    // インフルエンサー描画
-    async function renderInfluencers() {
-      const data = await fetchJSON('data/influencers.json');
-      if (!data || !data.influencers) return;
-
-      const container = document.getElementById('influencer-container');
-      container.innerHTML = data.influencers.map(inf => `
-        <div class="card-hover bg-white rounded-2xl p-6 flex flex-col items-center text-center border border-gray-100">
-          <div class="w-16 h-16 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-2xl">👤</div>
-          <h3 class="text-base font-bold text-navy mb-1">${inf.name}</h3>
-          <p class="text-xs text-gray-400 mb-1">${inf.title}</p>
-          <p class="text-xs text-accent font-medium mb-3">${inf.followers}</p>
-          <p class="text-sm text-gray-600 leading-relaxed italic mb-4">「${inf.quote}」</p>
-        </div>
-      `).join('');
     }
   </script>
 </body>

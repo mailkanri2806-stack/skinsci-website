@@ -1,38 +1,45 @@
 {
-  "weekOf": "2026-05-06",
+  "weekOf": "2026-05-23",
   "picks": [
+    {
+      "name": "キュレル 潤浸保湿フェイスクリーム",
+      "brand": "花王",
+      "price": "約2,500円",
+      "reason": "迷ったらこれ。敏感肌でも使える保湿クリーム",
+      "link": "https://www.amazon.co.jp/dp/B09X3HQ7G4?tag=skinscilab22-22",
+      "rank": 1
+    },
     {
       "name": "メラノCC 薬用しみ集中対策美容液",
       "brand": "ロート製薬",
       "price": "約1,200円",
-      "concern": ["シミ", "ニキビ跡"],
-      "keyIngredient": "活性型ビタミンC",
-      "reason": "活性型ビタミンCがメラニンの生成を抑え、シミ・ニキビ跡にアプローチ。ドラッグストアで手に入るコスパの高さも魅力。",
-      "influencer": "かずのすけさんが動画で紹介",
-      "link": "best-vitamin-c.html",
-      "image": ""
-    },
-    {
-      "name": "IHADA 薬用バーム",
-      "brand": "資生堂",
-      "price": "約1,500円",
-      "concern": ["乾燥", "敏感肌"],
-      "keyIngredient": "ワセリン+抗炎症成分",
-      "reason": "高精製ワセリンが肌のバリア機能を保護。敏感肌やマスク荒れに悩む人から支持が高い。",
-      "influencer": "美容皮膚科医も推薦",
-      "link": "trouble-dryness.html",
-      "image": ""
+      "reason": "ドラッグストアで買える、コスパ最強の美容液",
+      "link": "https://www.amazon.co.jp/dp/B00ITAP8P0?tag=skinscilab22-22",
+      "rank": 2
     },
     {
       "name": "SKIN1004 マダガスカルセンテラアンプル",
       "brand": "SKIN1004",
       "price": "約1,800円",
-      "concern": ["ニキビ", "肌荒れ"],
-      "keyIngredient": "ツボクサエキス（CICA）",
-      "reason": "ツボクサエキスが炎症を穏やかに鎮める効果が期待される。韓国で大ヒットし、日本でも話題に。",
-      "influencer": "水越みさとさんが紹介",
-      "link": "trouble-acne.html",
-      "image": ""
+      "reason": "肌荒れが気になるときの鎮静ケアに",
+      "link": "https://www.amazon.co.jp/dp/B07TXCTBDG?tag=skinscilab22-22",
+      "rank": 3
+    },
+    {
+      "name": "ナンバーズイン 3番 キメケアセラム",
+      "brand": "numbuzin",
+      "price": "約1,600円",
+      "reason": "皮脂とテカリが気になる人の定番セラム",
+      "link": "https://www.amazon.co.jp/dp/B0915K6WD3?tag=skinscilab22-22",
+      "rank": 4
+    },
+    {
+      "name": "イニスフリー レチノールシカリペアセラム",
+      "brand": "innisfree",
+      "price": "約2,800円",
+      "reason": "レチノール初心者に。低濃度で始めやすい",
+      "link": "https://www.amazon.co.jp/dp/B0C45Y816C?tag=skinscilab22-22",
+      "rank": 5
     }
   ]
 }
