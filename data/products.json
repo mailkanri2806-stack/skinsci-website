@@ -1,0 +1,159 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "メラノCC 薬用しみ対策美白化粧水",
+      "brand": "ロート製薬",
+      "category": "化粧水",
+      "page_url": "/products/prod-001.html",
+      "asin": "B00DRSDC3I",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1000-1500",
+      "summary": "ビタミンC配合のドラッグストア定番化粧水。コスパ重視の初心者にぴったり。",
+      "verdict_badge": "初心者向け",
+      "for_whom": ["コスパ重視の人", "ニキビ跡が気になる人", "脂性肌・混合肌の人"],
+      "not_for_whom": ["乾燥肌でしっとり感を求める人", "敏感肌で刺激に弱い人"],
+      "key_ingredients": ["ビタミンC誘導体", "アルピニアホワイト"],
+      "keywords": ["メラノCC", "美白", "化粧水", "ニキビ跡", "しみ対策", "ビタミンC"],
+      "concerns": ["シミ", "ニキビ跡", "美白", "くすみ"],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-002",
+      "name": "無印良品 化粧水・敏感肌用・高保湿タイプ",
+      "brand": "無印良品",
+      "category": "化粧水",
+      "page_url": "/products/prod-002.html",
+      "asin": "B07D6V34YC",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "500-1000",
+      "summary": "低刺激・高保湿の万能化粧水。迷ったらまずこれ。",
+      "verdict_badge": "初心者向け",
+      "for_whom": ["スキンケア初心者", "乾燥が気になる人", "敏感肌の人", "コスパを重視する人"],
+      "not_for_whom": ["さっぱりした使用感を求める人", "エイジングケアを重視する人"],
+      "key_ingredients": ["ヒアルロン酸", "リピジュア", "グレープフルーツ種子エキス"],
+      "keywords": ["無印良品", "無印", "敏感肌", "高保湿", "化粧水", "MUJI"],
+      "concerns": ["乾燥", "敏感肌", "保湿"],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-003",
+      "name": "キュレル 潤浸保湿フェイスクリーム",
+      "brand": "花王",
+      "category": "クリーム",
+      "page_url": "/products/prod-003.html",
+      "asin": "B001JF1RLU",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1500-2500",
+      "summary": "セラミド配合で乾燥・敏感肌のバリア機能をサポートするクリーム。",
+      "verdict_badge": "敏感肌向け",
+      "for_whom": ["乾燥肌・敏感肌の人", "バリア機能を強化したい人", "低刺激なクリームを探している人"],
+      "not_for_whom": ["脂性肌でベタつきが苦手な人", "軽いテクスチャーを好む人"],
+      "key_ingredients": ["セラミド機能成分", "ユーカリエキス", "アラントイン"],
+      "keywords": ["キュレル", "Curel", "潤浸保湿", "フェイスクリーム", "セラミド"],
+      "concerns": ["乾燥", "敏感肌", "保湿", "肌荒れ"],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-004",
+      "name": "ナチュリエ ハトムギ化粧水 スキンコンディショナー",
+      "brand": "ナチュリエ",
+      "category": "化粧水",
+      "page_url": "/products/prod-004.html",
+      "asin": "B000FQP2HS",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "500-800",
+      "summary": "大容量・低価格で惜しみなく使える。さっぱり系の保湿化粧水。",
+      "verdict_badge": "コスパ◎",
+      "for_whom": ["とにかくコスパ重視の人", "さっぱり系が好きな人", "全身にも使いたい人"],
+      "not_for_whom": ["しっとり感を求める乾燥肌の人", "高機能な成分を求める人"],
+      "key_ingredients": ["ハトムギエキス"],
+      "keywords": ["ハトムギ", "ハトムギ化粧水", "ナチュリエ", "スキンコンディショナー", "大容量"],
+      "concerns": ["保湿", "テカリ", "コスパ"],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-005",
+      "name": "バルクオム THE TONER",
+      "brand": "バルクオム",
+      "category": "化粧水",
+      "page_url": "/products/prod-005.html",
+      "asin": "B07QLQTMG5",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "2000-3500",
+      "summary": "メンズ向けブランドの看板化粧水。しっとり系で乾燥にも対応。",
+      "verdict_badge": "メンズ定番",
+      "for_whom": ["メンズ向け製品を探している人", "しっとり保湿したい人", "ブランド感を求める人"],
+      "not_for_whom": ["コスパを最優先する人", "さっぱり系が好きな人"],
+      "key_ingredients": ["トレハロース", "リンゴ果実培養細胞エキス", "グリセリルグルコシド"],
+      "keywords": ["バルクオム", "BULK HOMME", "THE TONER", "メンズ", "男性用"],
+      "concerns": ["テカリ", "乾燥", "メンズ"],
+      "for_beginners": true
+    }
+  ]
+}

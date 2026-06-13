@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB4R8WCP2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KCB4R8WCP2');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>検索結果 — SKINSCI</title>
+  <meta name="description" content="SKINSCIの商品検索結果ページ。気になる商品を名前で検索できます。" />
+  <meta name="robots" content="noindex" />
+  <link rel="canonical" href="https://skinsci.jp/search.html" />
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0d1f3c', light: '#1a3461', dark: '#08132a' },
+            accent: { DEFAULT: '#5b9cc4', light: '#a8d5f0', muted: '#3a7fa8' },
+            pearl: '#f5f6f8',
+          },
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans JP', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+    .nav-blur { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(13,31,60,0.15); }
+    @media (max-width: 640px) {
+      button, a[class*="rounded-full"] { min-height: 44px; }
+    }
+  </style>
+</head>
+<body class="bg-pearl text-gray-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10" aria-label="メインナビゲーション">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center gap-2" aria-label="SKINSCI トップページ">
+          <span class="text-accent font-semibold tracking-widest text-sm" style="font-size:0.7rem;letter-spacing:0.25em;">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="skincare-for-beginners.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">初心者ガイド</a>
+          <a href="skin-types.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">肌タイプ別</a>
+          <a href="ingredients.html" class="text-white/70 hover:text-white text-sm tracking-wide transition-colors">成分解説</a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy border-t border-white/10 px-4 py-4 space-y-3">
+      <a href="skincare-for-beginners.html" class="block text-white/70 hover:text-white text-sm py-2">初心者ガイド</a>
+      <a href="skin-types.html" class="block text-white/70 hover:text-white text-sm py-2">肌タイプ別</a>
+      <a href="ingredients.html" class="block text-white/70 hover:text-white text-sm py-2">成分解説</a>
+    </div>
+  </nav>
+
+  <!-- 検索ヘッダー -->
+  <section class="bg-navy pt-24 pb-8">
+    <div class="max-w-3xl mx-auto px-4">
+      <div id="skinsci-search-wrapper" class="relative">
+        <div class="flex items-center bg-white rounded-2xl overflow-hidden shadow-lg">
+          <input
+            type="search"
+            id="skinsci-search-input"
+            placeholder="商品名で検索（例：メラノCC、無印 化粧水）"
+            class="flex-1 px-5 py-4 text-base text-navy placeholder-gray-400 outline-none bg-transparent"
+            style="font-size: 16px;"
+            autocomplete="off"
+            aria-label="商品名で検索"
+          />
+          <button id="skinsci-search-btn" class="px-5 py-4 text-accent hover:text-accent-muted transition-colors" aria-label="検索">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+          </button>
+        </div>
+        <div id="skinsci-suggest" class="hidden absolute left-0 right-0 top-full mt-1 bg-white rounded-xl shadow-xl border border-gray-100 z-50 overflow-hidden"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 検索結果 -->
+  <section class="py-10">
+    <div class="max-w-3xl mx-auto px-4">
+      <div class="mb-6">
+        <h1 class="text-2xl font-bold text-navy mb-1">
+          「<span id="skinsci-search-query"></span>」の検索結果
+        </h1>
+        <p class="text-sm text-gray-500" id="skinsci-search-count"></p>
+      </div>
+      <div id="skinsci-search-results" class="space-y-4">
+        <p class="text-gray-500 text-center py-12">読み込み中...</p>
+      </div>
+      <p class="text-xs text-gray-400 mt-6">※ 商品リンクにはアフィリエイト広告が含まれます（PR）。</p>
+    </div>
+  </section>
+
+  <!-- フッター（簡易版） -->
+  <footer class="bg-navy py-8 border-t border-white/10 mt-10">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <a href="index.html" class="text-white/60 hover:text-white text-sm">トップページに戻る</a>
+      <p class="text-white/30 text-xs mt-4">© 2024-2026 SKINSCI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('menuBtn').addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <script src="/js/search.js"></script>
+</body>
+</html>

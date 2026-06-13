@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB4R8WCP2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-KCB4R8WCP2');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">商品詳細 — SKINSCI</title>
+  <meta name="description" id="page-description" content="" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" id="page-canonical" href="" />
+  <meta property="og:type" content="product" />
+  <meta property="og:site_name" content="SKINSCI" />
+  <meta property="og:locale" content="ja_JP" />
+  <script id="product-schema" type="application/ld+json"></script>
+  <link rel="preload" href="https://cdn.tailwindcss.com" as="script" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { DEFAULT: '#0d1f3c', light: '#1a3461', dark: '#08132a' },
+            accent: { DEFAULT: '#5b9cc4', light: '#a8d5f0', muted: '#3a7fa8' },
+            pearl: '#f5f6f8',
+          },
+          fontFamily: { sans: ['Inter', 'Noto Sans JP', 'sans-serif'] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', 'Noto Sans JP', sans-serif; }
+    .nav-blur { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(13,31,60,0.15); }
+    @media (max-width: 640px) {
+      button, a[class*="rounded-full"], a[class*="rounded-lg"] { min-height: 44px; }
+      details summary { min-height: 48px; }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Navigation -->
+  <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16">
+        <a href="/index.html" class="flex items-center gap-2">
+          <span class="text-accent font-semibold tracking-widest" style="font-size:0.7rem;letter-spacing:0.25em;">SKIN</span>
+          <span class="text-white font-bold tracking-widest">SCI</span>
+        </a>
+        <div class="hidden md:flex items-center gap-8">
+          <a href="/skincare-for-beginners.html" class="text-white/70 hover:text-white text-sm transition-colors">初心者ガイド</a>
+          <a href="/skin-types.html" class="text-white/70 hover:text-white text-sm transition-colors">肌タイプ別</a>
+          <a href="/ingredients.html" class="text-white/70 hover:text-white text-sm transition-colors">成分解説</a>
+        </div>
+        <button id="menuBtn" class="md:hidden text-white p-2" aria-label="メニューを開く">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <div id="mobileMenu" class="hidden md:hidden bg-navy border-t border-white/10 px-4 py-4 space-y-3">
+      <a href="/skincare-for-beginners.html" class="block text-white/70 hover:text-white text-sm py-2">初心者ガイド</a>
+      <a href="/skin-types.html" class="block text-white/70 hover:text-white text-sm py-2">肌タイプ別</a>
+      <a href="/ingredients.html" class="block text-white/70 hover:text-white text-sm py-2">成分解説</a>
+    </div>
+  </nav>
+
+  <main class="pt-16">
+    <!-- Breadcrumb -->
+    <div class="bg-pearl border-b border-gray-100">
+      <div class="max-w-4xl mx-auto px-4 py-3">
+        <nav class="text-xs text-gray-400" aria-label="パンくずリスト">
+          <a href="/index.html" class="hover:text-accent transition-colors">トップ</a>
+          <span class="mx-1">/</span>
+          <span id="breadcrumb-name">商品</span>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Product content rendered by JS -->
+    <div id="product-content" class="max-w-4xl mx-auto px-4 py-8">
+      <p class="text-gray-500 text-center py-12">読み込み中...</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-navy py-8 border-t border-white/10 mt-10">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <a href="/index.html" class="text-white/60 hover:text-white text-sm">トップページに戻る</a>
+      <div class="flex justify-center items-center gap-4 mt-4 text-white/30 text-xs">
+        <a href="/tokushoho.html" class="hover:text-white transition-colors">特定商取引法に基づく表記</a>
+        <span>|</span>
+        <a href="/privacy.html" class="hover:text-white transition-colors">プライバシーポリシー</a>
+      </div>
+      <p class="text-white/30 text-xs mt-4">© 2024-2026 SKINSCI. All rights reserved.</p>
+      <p class="text-white/20 text-xs mt-2">本サイトの情報は教育目的であり、医療的アドバイスに代わるものではありません。</p>
+    </div>
+  </footer>
+
+  <script src="/js/voices.js"></script>
+  <script src="/js/compare.js"></script>
+  <script>
+    // Mobile menu
+    document.getElementById('menuBtn').addEventListener('click', function() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+
+    // Get product ID from filename
+    var pathParts = window.location.pathname.split('/');
+    var filename = pathParts[pathParts.length - 1];
+    var productId = filename.replace('.html', '');
+
+    document.addEventListener('DOMContentLoaded', function() {
+      loadProduct(productId);
+    });
+
+    function esc(str) {
+      var d = document.createElement('div');
+      d.appendChild(document.createTextNode(str || ''));
+      return d.innerHTML;
+    }
+
+    async function loadProduct(id) {
+      try {
+        var res = await fetch('/data/products.json?v=' + Date.now());
+        var data = await res.json();
+        var products = data.products || [];
+        var product = products.find(function(p) { return p.id === id; });
+
+        if (!product) {
+          document.getElementById('product-content').innerHTML = '<div class="text-center py-20"><h1 class="text-2xl font-bold text-navy mb-4">商品が見つかりません</h1><a href="/index.html" class="text-accent hover:text-accent-muted">トップページへ戻る</a></div>';
+          return;
+        }
+
+        // Set page meta
+        document.title = product.name + ' — SKINSCI';
+        document.getElementById('page-title').textContent = product.name + ' — SKINSCI';
+        var descMeta = document.getElementById('page-description');
+        if (descMeta) descMeta.setAttribute('content', product.summary || product.name + 'の詳細ページ');
+        var canonical = document.getElementById('page-canonical');
+        if (canonical) canonical.setAttribute('href', 'https://skinsci.jp/products/' + id + '.html');
+
+        // Breadcrumb
+        document.getElementById('breadcrumb-name').textContent = product.name;
+
+        // Product Schema
+        var schema = {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": product.name,
+          "brand": { "@type": "Brand", "name": product.brand },
+          "description": product.summary || '',
+          "category": product.category,
+          "url": "https://skinsci.jp/products/" + id + ".html"
+        };
+        document.getElementById('product-schema').textContent = JSON.stringify(schema);
+
+        // CTA buttons
+        var ctaHTML = buildCTA(product);
+
+        // Related products
+        var related = products.filter(function(p) {
+          return p.category === product.category && p.id !== product.id;
+        }).slice(0, 3);
+
+        var relatedHTML = '';
+        if (related.length > 0) {
+          relatedHTML = '<section class="mt-12 pt-8 border-t border-gray-100">'
+            + '<h2 class="text-lg font-bold text-navy mb-4">関連商品</h2>'
+            + '<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">'
+            + related.map(function(r) {
+                return '<a href="/products/' + r.id + '.html" class="card-hover bg-pearl rounded-2xl p-5 block">'
+                  + '<p class="text-xs text-gray-400 mb-1">' + esc(r.brand) + '</p>'
+                  + '<p class="text-sm font-bold text-navy mb-1">' + esc(r.name) + '</p>'
+                  + '<p class="text-sm text-accent font-bold">' + esc(r.price_range) + '円</p>'
+                  + '</a>';
+              }).join('')
+            + '</div>'
+            + '</section>';
+        }
+
+        // Ingredients
+        var ingredientsHTML = '';
+        if (product.key_ingredients && product.key_ingredients.length > 0) {
+          ingredientsHTML = '<section class="mt-8">'
+            + '<details class="group border border-gray-100 rounded-2xl">'
+            + '<summary class="flex items-center justify-between cursor-pointer px-6 py-4">'
+            + '<h2 class="text-base font-bold text-navy">主要成分</h2>'
+            + '<svg class="w-5 h-5 text-gray-400 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>'
+            + '</summary>'
+            + '<div class="px-6 pb-5 space-y-2">'
+            + product.key_ingredients.map(function(ing) {
+                return '<div class="flex items-center gap-2 text-sm">'
+                  + '<span class="text-accent">▸</span>'
+                  + '<a href="/ingredients.html" class="text-navy hover:text-accent transition-colors">' + esc(ing) + '</a>'
+                  + '</div>';
+              }).join('')
+            + '</div>'
+            + '</details>'
+            + '</section>';
+        }
+
+        // For whom
+        var forWhomHTML = '';
+        if ((product.for_whom && product.for_whom.length) || (product.not_for_whom && product.not_for_whom.length)) {
+          forWhomHTML = '<section class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">';
+          if (product.for_whom && product.for_whom.length) {
+            forWhomHTML += '<div class="bg-accent/5 rounded-2xl p-5">'
+              + '<h2 class="text-base font-bold text-navy mb-3">こんな人におすすめ</h2>'
+              + '<ul class="space-y-2">'
+              + product.for_whom.map(function(f) { return '<li class="flex items-start gap-2 text-sm text-gray-700"><span class="text-green-500 mt-0.5">○</span>' + esc(f) + '</li>'; }).join('')
+              + '</ul></div>';
+          }
+          if (product.not_for_whom && product.not_for_whom.length) {
+            forWhomHTML += '<div class="bg-red-50 rounded-2xl p-5">'
+              + '<h2 class="text-base font-bold text-navy mb-3">こんな人には合わないかも</h2>'
+              + '<ul class="space-y-2">'
+              + product.not_for_whom.map(function(f) { return '<li class="flex items-start gap-2 text-sm text-gray-700"><span class="text-red-400 mt-0.5">△</span>' + esc(f) + '</li>'; }).join('')
+              + '</ul></div>';
+          }
+          forWhomHTML += '</section>';
+        }
+
+        // Concerns tags
+        var concernsHTML = '';
+        if (product.concerns && product.concerns.length) {
+          concernsHTML = '<div class="flex flex-wrap gap-1.5 mt-3">'
+            + product.concerns.map(function(c) { return '<span class="text-xs bg-accent/10 text-accent px-2.5 py-1 rounded-full">' + esc(c) + '</span>'; }).join('')
+            + '</div>';
+        }
+
+        // Main content
+        document.getElementById('product-content').innerHTML = ''
+          // First view
+          + '<section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">'
+          + '<div class="bg-pearl rounded-2xl border border-gray-100 flex items-center justify-center aspect-square">'
+          + (getImageUrl(product)
+              ? '<img src="' + esc(getImageUrl(product)) + '" alt="' + esc(product.name) + '" class="max-h-full max-w-full object-contain p-8" />'
+              : '<div class="text-center text-gray-300"><svg class="w-20 h-20 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg><p class="text-xs">画像準備中</p></div>')
+          + '</div>'
+          + '<div>'
+          + '<p class="text-sm text-gray-400 mb-1">' + esc(product.brand) + '</p>'
+          + '<h1 class="text-2xl md:text-3xl font-bold text-navy mb-3">' + esc(product.name) + '</h1>'
+          + '<div class="flex items-center gap-2 mb-3">'
+          + '<span class="inline-block bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">★ ' + esc(product.verdict_badge || '') + '</span>'
+          + (product.for_beginners ? '<span class="inline-block bg-green-50 text-green-600 text-xs px-2.5 py-1 rounded-full">初心者OK</span>' : '')
+          + '</div>'
+          + '<p class="text-2xl font-bold text-accent mb-1">' + esc(product.price_range) + '円</p>'
+          + '<p class="text-xs text-gray-400 mb-4">※ 価格は目安です。販売サイトでご確認ください。</p>'
+          + ctaHTML
+          + '<p class="text-xs text-gray-400 mt-3">※ 当ページにはアフィリエイト広告が含まれます（PR）</p>'
+          + '<div class="mt-3"><button id="compare-add-btn" class="w-full text-sm font-medium py-2.5 px-4 rounded-lg border-2 border-gray-200 text-gray-600 hover:border-accent hover:text-accent transition-colors">☐ 比較に追加</button></div>'
+          + concernsHTML
+          + '</div>'
+          + '</section>'
+
+          // Summary
+          + '<section class="mt-8 bg-pearl rounded-2xl p-6">'
+          + '<h2 class="text-base font-bold text-navy mb-2">結局どんな商品？</h2>'
+          + '<p class="text-sm text-gray-700 leading-relaxed">' + esc(product.summary) + '</p>'
+          + '</section>'
+
+          // For whom
+          + forWhomHTML
+
+          // SKINSCI Score (rendered by voices.js)
+          + '<section class="mt-8" id="skinsci-score-area"></section>'
+
+          // Ingredients
+          + ingredientsHTML
+
+          // Voices (rendered by voices.js)
+          + '<section class="mt-8" id="skinsci-voice-area"></section>'
+
+          // Related
+          + relatedHTML
+
+          // Bottom CTA
+          + '<section class="mt-12 bg-navy rounded-2xl p-6 text-center">'
+          + '<p class="text-white font-bold mb-4">' + esc(product.name) + '</p>'
+          + '<div class="flex flex-col sm:flex-row gap-3 justify-center">'
+          + buildCTAButtons(product)
+          + '</div>'
+          + '<p class="text-white/40 text-xs mt-3">※ 当ページにはアフィリエイト広告が含まれます（PR）</p>'
+          + '</section>';
+
+        // Load voices data (F-005)
+        if (typeof loadVoices === 'function') {
+          loadVoices(id);
+        }
+
+        // Compare button (F-006)
+        if (typeof initCompareButton === 'function') {
+          initCompareButton(id);
+        }
+
+      } catch (e) {
+        document.getElementById('product-content').innerHTML = '<div class="text-center py-20"><h1 class="text-2xl font-bold text-navy mb-4">読み込みエラー</h1><p class="text-gray-500 mb-4">商品データの取得に失敗しました。</p><a href="/index.html" class="text-accent hover:text-accent-muted">トップページへ戻る</a></div>';
+      }
+    }
+
+    function getAmazonUrl(p) { return (p.amazon && p.amazon.url) || p.amazon_url || ''; }
+    function getQoo10Url(p) { return (p.qoo10 && p.qoo10.url) || p.qoo10_url || ''; }
+    function getAmazonPrice(p) { return p.amazon && p.amazon.price; }
+    function getQoo10Price(p) { return p.qoo10 && p.qoo10.price; }
+    function getImageUrl(p) { return (p.amazon && p.amazon.image_url) || (p.qoo10 && p.qoo10.image_url) || p.image_url || ''; }
+    function isMegaSale(p) { return p.qoo10 && p.qoo10.is_mega_sale_active; }
+
+    function buildCTA(product) {
+      return '<div class="flex flex-col sm:flex-row gap-3">' + buildCTAButtons(product) + '</div>';
+    }
+
+    function buildCTAButtons(product) {
+      var html = '';
+      var aUrl = getAmazonUrl(product);
+      var qUrl = getQoo10Url(product);
+      var aPrice = getAmazonPrice(product);
+      var qPrice = getQoo10Price(product);
+      var lowest = product.lowest_price_source;
+
+      if (aUrl) {
+        var aLabel = aPrice ? 'Amazon ¥' + aPrice.toLocaleString() : 'Amazonで見る';
+        var aBadge = lowest === 'amazon' ? '<span class="bg-yellow-400 text-yellow-900 text-[9px] font-bold px-1 py-0.5 rounded ml-1">最安値</span>' : '';
+        html += '<a href="' + esc(aUrl) + '" target="_blank" rel="noopener noreferrer sponsored" class="flex items-center justify-center gap-2 bg-accent hover:bg-accent-muted text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm"><span class="bg-white/20 text-[10px] px-1.5 py-0.5 rounded">PR</span>' + aLabel + aBadge + '</a>';
+      }
+      if (qUrl) {
+        var qLabel = qPrice ? 'Qoo10 ¥' + qPrice.toLocaleString() : 'Qoo10で見る';
+        var qBadge = lowest === 'qoo10' ? '<span class="bg-yellow-400 text-yellow-900 text-[9px] font-bold px-1 py-0.5 rounded ml-1">最安値</span>' : '';
+        var megaBadge = isMegaSale(product) ? ' <span class="bg-red-600 text-white text-[9px] px-1 py-0.5 rounded">メガ割中</span>' : '';
+        html += '<a href="' + esc(qUrl) + '" target="_blank" rel="noopener noreferrer sponsored" class="flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white font-bold px-6 py-3 rounded-lg transition-colors text-sm">' + qLabel + qBadge + megaBadge + '</a>';
+      }
+      /* F-010: 将来、楽天・Yahoo!のボタンをここに追加可能 */
+      if (!aUrl && !qUrl) {
+        html += '<span class="text-sm text-gray-400 py-3">購入リンクは準備中です</span>';
+      }
+      return html;
+    }
+  </script>
+</body>
+</html>

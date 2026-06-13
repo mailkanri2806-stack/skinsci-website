@@ -5,10 +5,9 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-KCB4R8WCP2"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-KCB4R8WCP2');</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ニキビにおすすめ TOP5 — SKINSCI</title>
-  <meta name="description" content="" />
-  <link rel="canonical" href="https://skinsci.jp/ranking-pores.html" />
-  <script id="ranking-schema" type="application/ld+json"></script>
+  <title>SKINSCIお任せセット — 肌タイプと予算で5商品まるごと提案</title>
+  <meta name="description" content="肌タイプと予算を選ぶだけで、あなたに合ったスキンケア5商品をまるごと提案。迷わず買える、SKINSCIお任せセット。" />
+  <link rel="canonical" href="https://skinsci.jp/omakase.html" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config={theme:{extend:{colors:{navy:{DEFAULT:'#0d1f3c',light:'#1a3461',dark:'#08132a'},accent:{DEFAULT:'#5b9cc4',light:'#a8d5f0',muted:'#3a7fa8'},pearl:'#f5f6f8'},fontFamily:{sans:['Inter','Noto Sans JP','sans-serif']}}}};
@@ -19,10 +18,11 @@
   <style>
     body{font-family:'Inter','Noto Sans JP',sans-serif;}
     .nav-blur{backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);}
-    @media(max-width:640px){button,a[class*="rounded-full"],a[class*="rounded-lg"]{min-height:44px;}}
+    @media(max-width:640px){button,a[class*="rounded-full"],a[class*="rounded-lg"],select{min-height:44px;}}
   </style>
 </head>
 <body class="bg-pearl text-gray-900 antialiased">
+
   <nav class="fixed top-0 left-0 right-0 z-50 nav-blur bg-navy/90 border-b border-white/10">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-16">
@@ -41,10 +41,63 @@
       <a href="ingredients.html" class="block text-white/70 text-sm py-2">成分解説</a>
     </div>
   </nav>
-  <main class="pt-20 pb-16"><div class="max-w-3xl mx-auto px-4" id="ranking-content"><p class="text-gray-500 text-center py-12">読み込み中...</p></div></main>
+
+  <main class="pt-20 pb-16">
+    <div class="max-w-3xl mx-auto px-4">
+      <!-- Header -->
+      <div class="mb-8">
+        <h1 class="text-2xl md:text-3xl font-bold text-navy mb-2">SKINSCIお任せセット</h1>
+        <p class="text-gray-500 text-sm mb-4">肌タイプと予算で、5商品まるごと提案。迷わず始められる。</p>
+        <p class="text-xs text-gray-400">※ 商品リンクにはアフィリエイト広告が含まれます（PR）。効果には個人差があります。</p>
+      </div>
+
+      <!-- Filters -->
+      <div class="bg-white rounded-2xl border border-gray-100 p-5 mb-6">
+        <p class="text-sm font-bold text-navy mb-3">セットを絞り込む</p>
+        <div class="grid grid-cols-2 gap-3">
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">肌タイプ</label>
+            <select id="filter-skin" class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-navy bg-white" style="font-size:16px;">
+              <option value="">すべて</option>
+              <option value="oily">脂性肌</option>
+              <option value="dry">乾燥肌</option>
+              <option value="combo">混合肌</option>
+              <option value="sensitive">敏感肌</option>
+            </select>
+          </div>
+          <div>
+            <label class="text-xs text-gray-400 mb-1 block">予算</label>
+            <select id="filter-budget" class="w-full border border-gray-200 rounded-lg px-3 py-2.5 text-sm text-navy bg-white" style="font-size:16px;">
+              <option value="">すべて</option>
+              <option value="3000">〜3,000円台</option>
+              <option value="5000">〜5,000円台</option>
+              <option value="8000">〜8,000円台</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-500 mb-4" id="omakase-count"></p>
+
+      <!-- Results -->
+      <div id="omakase-results">
+        <p class="text-gray-500 text-center py-12">読み込み中...</p>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-8 text-center">
+        <a href="skin-types.html#quiz" class="inline-flex items-center gap-2 bg-accent hover:bg-accent-muted text-white font-bold px-8 py-4 rounded-full transition-colors">
+          まず肌タイプ診断する
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </main>
+
   <footer class="bg-navy py-8 border-t border-white/10"><div class="max-w-6xl mx-auto px-4 text-center"><a href="index.html" class="text-white/60 hover:text-white text-sm">トップページに戻る</a><div class="flex justify-center items-center gap-4 mt-4 text-white/30 text-xs"><a href="tokushoho.html" class="hover:text-white">特定商取引法に基づく表記</a><span>|</span><a href="privacy.html" class="hover:text-white">プライバシーポリシー</a></div><p class="text-white/30 text-xs mt-4">© 2024-2026 SKINSCI.</p></div></footer>
+
   <script>document.getElementById('menuBtn').addEventListener('click',function(){document.getElementById('mobileMenu').classList.toggle('hidden');});</script>
-  <script src="js/rankings.js"></script>
-  <script>document.addEventListener('DOMContentLoaded',function(){initRankingPage();});</script>
+  <script src="js/omakase.js"></script>
+  <script>document.addEventListener('DOMContentLoaded',function(){initOmakasePage();});</script>
 </body>
 </html>

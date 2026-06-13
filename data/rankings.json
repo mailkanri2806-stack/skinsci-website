@@ -1,0 +1,110 @@
+{
+  "rankings": {
+    "acne": {
+      "title": "ニキビにおすすめ TOP5",
+      "subtitle": "繰り返すニキビに悩む男性のための厳選アイテム",
+      "seo_title": "【2026年】ニキビにおすすめのスキンケア商品TOP5｜メンズ向け — SKINSCI",
+      "seo_description": "ニキビに悩む男性向け。SKINSCIスコアと使用者の声をもとに厳選したスキンケア商品ランキング。",
+      "products": [
+        { "rank": 1, "product_id": "prod-001", "reason": "ビタミンC誘導体配合で肌を清潔に保ちやすく、ドラッグストアで手軽に入手できる。コスパの良さも高評価。" },
+        { "rank": 2, "product_id": "prod-004", "reason": "大容量でたっぷり使え、さっぱりした使用感が脂性肌寄りのニキビ肌に好まれている。" },
+        { "rank": 3, "product_id": "prod-002", "reason": "低刺激で敏感になったニキビ肌にも使いやすい。保湿力が高く、乾燥由来のニキビ対策にも。" },
+        { "rank": 4, "product_id": "prod-005", "reason": "メンズ向け設計で使いやすく、適度な保湿力がある。ブランドの信頼感も評価ポイント。" },
+        { "rank": 5, "product_id": "prod-003", "reason": "セラミド配合でバリア機能をサポート。肌荒れしやすいニキビ肌の保護クリームとして。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-004", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-002", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-001", "label": "初心者にはコレ" }
+      }
+    },
+    "oily": {
+      "title": "テカリ・皮脂におすすめ TOP5",
+      "subtitle": "昼にはベタつく顔をなんとかしたい男性へ",
+      "seo_title": "【2026年】テカリ・皮脂におすすめのスキンケア商品TOP5｜メンズ向け — SKINSCI",
+      "seo_description": "テカリ・皮脂が気になる男性向け。さっぱり系からしっかり保湿まで、SKINSCIスコアで厳選。",
+      "products": [
+        { "rank": 1, "product_id": "prod-004", "reason": "さっぱりした使用感と大容量で惜しみなく使える。脂性肌のデイリーケアに最適。" },
+        { "rank": 2, "product_id": "prod-001", "reason": "ビタミンC誘導体が皮脂の酸化を抑え、テカリ対策と美白ケアを同時に。" },
+        { "rank": 3, "product_id": "prod-005", "reason": "メンズ向けの適度な保湿設計。テカリを抑えつつ乾燥も防ぐバランス型。" },
+        { "rank": 4, "product_id": "prod-002", "reason": "軽いつけ心地で保湿もできる。皮脂が気になるけど保湿も必要な人に。" },
+        { "rank": 5, "product_id": "prod-003", "reason": "バリア機能の強化で肌の水分バランスを整える。クリームだが意外とベタつかないとの声も。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-004", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-002", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-004", "label": "初心者にはコレ" }
+      }
+    },
+    "shave": {
+      "title": "ヒゲ剃り後のケアにおすすめ TOP3",
+      "subtitle": "剃ったあとのヒリヒリを何とかしたい男性へ",
+      "seo_title": "【2026年】ヒゲ剃り後の肌荒れにおすすめのスキンケアTOP3｜メンズ向け — SKINSCI",
+      "seo_description": "ヒゲ剃り後のヒリつき・赤みに悩む男性向け。低刺激・バリア修復系のスキンケアを厳選。",
+      "products": [
+        { "rank": 1, "product_id": "prod-002", "reason": "低刺激で剃刀負けした肌にも使いやすい。高保湿でバリア機能をサポート。" },
+        { "rank": 2, "product_id": "prod-003", "reason": "セラミド配合でダメージを受けた肌のバリア修復を助ける。ヒリつきを感じにくいとの声が多い。" },
+        { "rank": 3, "product_id": "prod-005", "reason": "メンズ向け設計で、シェービング後のスキンケアとして使いやすい。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-002", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-003", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-002", "label": "初心者にはコレ" }
+      }
+    },
+    "pores": {
+      "title": "毛穴の黒ずみにおすすめ TOP5",
+      "subtitle": "鼻まわりのブツブツが気になる男性へ",
+      "seo_title": "【2026年】毛穴の黒ずみにおすすめのスキンケア商品TOP5｜メンズ向け — SKINSCI",
+      "seo_description": "毛穴の黒ずみ・開きに悩む男性向け。皮脂ケア・角質ケア系のスキンケアをSKINSCIスコアで厳選。",
+      "products": [
+        { "rank": 1, "product_id": "prod-001", "reason": "ビタミンC誘導体が毛穴まわりの皮脂酸化にアプローチ。コスパも良く継続しやすい。" },
+        { "rank": 2, "product_id": "prod-004", "reason": "さっぱり大容量で毎日たっぷり使え、毛穴の詰まりを防ぐ基本の保湿に。" },
+        { "rank": 3, "product_id": "prod-002", "reason": "低刺激で毛穴ケアと保湿を両立。角質ケア後のフォローアップにも。" },
+        { "rank": 4, "product_id": "prod-005", "reason": "メンズ向けの適度な保湿で、皮脂バランスを整えて毛穴を目立ちにくく。" },
+        { "rank": 5, "product_id": "prod-003", "reason": "バリア機能強化で肌のキメを整える。毛穴ケアの仕上げとして。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-004", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-002", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-001", "label": "初心者にはコレ" }
+      }
+    },
+    "dryness": {
+      "title": "乾燥肌におすすめ TOP5",
+      "subtitle": "カサつき・つっぱり感に悩む男性へ",
+      "seo_title": "【2026年】乾燥肌におすすめのスキンケア商品TOP5｜メンズ向け — SKINSCI",
+      "seo_description": "乾燥肌に悩む男性向け。セラミド・ヒアルロン酸配合の保湿アイテムをSKINSCIスコアで厳選。",
+      "products": [
+        { "rank": 1, "product_id": "prod-002", "reason": "高保湿・低刺激の万能化粧水。乾燥肌の基本ケアとして最もバランスが良い。" },
+        { "rank": 2, "product_id": "prod-003", "reason": "セラミド配合クリームでバリア機能を強化。乾燥肌の水分蒸発を防ぐ。" },
+        { "rank": 3, "product_id": "prod-005", "reason": "しっとり系の保湿化粧水。メンズ向けだが乾燥肌のケアにしっかり対応。" },
+        { "rank": 4, "product_id": "prod-004", "reason": "大容量で全身にも使える保湿化粧水。さっぱり系だが重ね付けで保湿力アップ。" },
+        { "rank": 5, "product_id": "prod-001", "reason": "ビタミンC配合だが保湿力もあり、乾燥しにくい設計。くすみ対策も兼ねたい人に。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-002", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-003", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-002", "label": "初心者にはコレ" }
+      }
+    },
+    "acne_scar": {
+      "title": "ニキビ跡におすすめ TOP5",
+      "subtitle": "残ってしまった赤み・跡が気になる男性へ",
+      "seo_title": "【2026年】ニキビ跡におすすめのスキンケア商品TOP5｜メンズ向け — SKINSCI",
+      "seo_description": "ニキビ跡の赤み・色素沈着が気になる男性向け。ビタミンC・ナイアシンアミド系のスキンケアを厳選。",
+      "products": [
+        { "rank": 1, "product_id": "prod-001", "reason": "ビタミンC誘導体がニキビ跡の色素沈着に働きかけるとされる。ドラッグストアの定番。" },
+        { "rank": 2, "product_id": "prod-002", "reason": "低刺激でニキビ跡ケア中の保湿に最適。バリア機能を守りながら肌を整える。" },
+        { "rank": 3, "product_id": "prod-004", "reason": "ハトムギエキス配合でさっぱり保湿。ニキビ跡ケアの基本保湿として。" },
+        { "rank": 4, "product_id": "prod-005", "reason": "メンズ向けの保湿化粧水。ニキビ跡ケアと日常保湿を両立したい人に。" },
+        { "rank": 5, "product_id": "prod-003", "reason": "セラミドでバリア修復。ニキビ跡のある敏感な肌を優しく保護。" }
+      ],
+      "alternative_picks": {
+        "best_cost": { "product_id": "prod-004", "label": "コスパ重視ならコレ" },
+        "best_for_sensitive": { "product_id": "prod-002", "label": "肌に優しいのはコレ" },
+        "best_for_beginner": { "product_id": "prod-001", "label": "初心者にはコレ" }
+      }
+    }
+  }
+}

@@ -1059,6 +1059,7 @@
             もう一度診断する
           </button>
         </div>
+        <div id="setRecommendation" class="mt-10 pt-8 border-t border-gray-100"></div>
       `;
 
       document.getElementById('step5').classList.remove('active');
@@ -1066,6 +1067,77 @@
       document.getElementById('progressBar').style.width = '100%';
       document.getElementById('progressPercent').textContent = '100%';
       document.getElementById('progressLabel').textContent = '診断完了';
+
+      loadSetRecommendation(max);
+    }
+
+    async function loadSetRecommendation(skinType) {
+      const container = document.getElementById('setRecommendation');
+      if (!container) return;
+
+      try {
+        const [setsRes, productsRes] = await Promise.all([
+          fetch('/data/skin-type-sets.json?v=' + Date.now()),
+          fetch('/data/products.json?v=' + Date.now())
+        ]);
+        const setsData = await setsRes.json();
+        const productsData = await productsRes.json();
+
+        const set = setsData.sets[skinType];
+        if (!set) {
+          container.innerHTML = '';
+          return;
+        }
+
+        const productMap = {};
+        (productsData.products || []).forEach(function(p) { productMap[p.id] = p; });
+
+        let cardsHTML = set.products.map(function(item) {
+          const product = item.product_id ? productMap[item.product_id] : null;
+          const name = product ? product.name : item.fallback_name;
+          const brand = product ? product.brand : '';
+          const price = product ? product.price_range + '円' : '';
+          const isPlaceholder = !product;
+
+          let linksHTML = '';
+          if (product && product.amazon_url) {
+            linksHTML += '<a href="' + product.amazon_url + '" target="_blank" rel="noopener noreferrer sponsored" class="text-center bg-accent hover:bg-accent-muted text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors flex items-center justify-center gap-1"><span class="bg-white/20 text-[10px] px-1 py-0.5 rounded">PR</span>Amazonで見る</a>';
+          }
+          if (product && product.qoo10_url) {
+            linksHTML += '<a href="' + product.qoo10_url + '" target="_blank" rel="noopener noreferrer sponsored" class="text-center bg-red-500 hover:bg-red-600 text-white text-xs font-bold py-2 px-3 rounded-lg transition-colors">Qoo10で見る</a>';
+          }
+
+          return '<div class="bg-pearl rounded-2xl p-5 text-center">'
+            + '<p class="text-xs text-accent font-bold tracking-widest mb-2">' + escapeText(item.category) + '</p>'
+            + '<p class="text-sm font-bold text-navy mb-1">' + escapeText(name) + '</p>'
+            + (brand ? '<p class="text-xs text-gray-400 mb-1">' + escapeText(brand) + '</p>' : '')
+            + (price ? '<p class="text-sm text-accent font-bold mb-2">' + escapeText(price) + '</p>' : '')
+            + (isPlaceholder ? '<p class="text-xs text-gray-400 mb-2">商品は近日公開予定です</p>' : '')
+            + (linksHTML ? '<div class="flex flex-col gap-1.5 mt-2">' + linksHTML + '</div>' : '')
+            + '</div>';
+        }).join('');
+
+        container.innerHTML = '<div class="text-center mb-6">'
+          + '<h4 class="text-lg font-bold text-navy mb-1">あなたへの3点セット</h4>'
+          + '<p class="text-sm text-gray-500">' + escapeText(set.label) + '</p>'
+          + '</div>'
+          + '<div class="grid grid-cols-1 sm:grid-cols-3 gap-4">' + cardsHTML + '</div>'
+          + '<p class="text-xs text-gray-400 mt-4 text-center">※ 商品リンクにはアフィリエイトリンクが含まれます（PR）。効果には個人差があります。</p>'
+          + '<div class="text-center mt-6">'
+          + '<a href="omakase.html?skin_type=' + skinType + '" class="inline-flex items-center gap-2 border-2 border-navy/20 hover:border-navy/40 text-navy font-medium px-6 py-3 rounded-full text-sm transition-colors">'
+          + 'お任せセットをまとめて見る'
+          + '<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>'
+          + '</a>'
+          + '</div>';
+      } catch (e) {
+        container.innerHTML = '<p class="text-sm text-gray-400 text-center">セット情報を取得できませんでした。</p>';
+      }
+    }
+
+    function escapeText(str) {
+      var d = document.createElement('div');
+      d.appendChild(document.createTextNode(str));
+      return d.innerHTML;
     }
 
     function resetQuiz() {

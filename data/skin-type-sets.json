@@ -1,0 +1,84 @@
+{
+  "sets": {
+    "dry": {
+      "label": "乾燥肌向け基本3点セット",
+      "products": [
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "",
+          "fallback_name": "セラミド美容液（選定中）"
+        },
+        {
+          "category": "乳液・クリーム",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
+      ]
+    },
+    "oily": {
+      "label": "脂性肌向け基本3点セット",
+      "products": [
+        {
+          "category": "化粧水",
+          "product_id": "prod-004",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-001",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液・クリーム",
+          "product_id": "",
+          "fallback_name": "軽量ジェル乳液（選定中）"
+        }
+      ]
+    },
+    "combo": {
+      "label": "混合肌向け基本3点セット",
+      "products": [
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "",
+          "fallback_name": "ナイアシンアミド美容液（選定中）"
+        },
+        {
+          "category": "乳液・クリーム",
+          "product_id": "",
+          "fallback_name": "軽量乳液（選定中）"
+        }
+      ]
+    },
+    "sensitive": {
+      "label": "敏感肌向け基本3点セット",
+      "products": [
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "",
+          "fallback_name": "低刺激美容液（選定中）"
+        },
+        {
+          "category": "乳液・クリーム",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
+      ]
+    }
+  }
+}
