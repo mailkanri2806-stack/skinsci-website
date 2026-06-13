@@ -1,6 +1,56 @@
 {
   "product_id": "prod-004",
-  "collected_at": null,
-  "status": "data_collection_pending",
-  "message": "現在、使用者の声を収集中です。今しばらくお待ちください。"
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": { "review_count_total": null, "average_rating": null },
+    "qoo10": { "review_count_total": null, "average_rating": null },
+    "x_twitter": { "post_count_collected": 1 }
+  },
+  "summary": {
+    "good_points": [
+      { "point": "大容量で低価格、コスパが非常に良い", "frequency": "高", "context": "500mLの大容量で価格が手頃なため、顔だけでなく全身に惜しみなく使えるという声が複数サイトで最も多く挙がる" },
+      { "point": "さっぱりした使用感でベタつきにくい", "frequency": "高", "context": "水のようなサラッとしたテクスチャで、重ね付けしてもベタつかないと脂性肌・混合肌から支持。@cosmeやLIPSで頻出" },
+      { "point": "低刺激でシンプルな処方、肌になじみやすい", "frequency": "中", "context": "無香料・無着色・アルコールフリーで、敏感肌のランキングでも上位という評価。安心して使えるとの声" },
+      { "point": "コットンパックなど多用途に使える", "frequency": "中", "context": "コットンパックやプレ化粧水、ボディ用など使い方の幅が広く、毎日たっぷり使えると好評" },
+      { "point": "リピート購入者が多い", "frequency": "中", "context": "LIPSで保存数・クチコミ数が非常に多く、長年の定番として繰り返し購入する声が目立つ" }
+    ],
+    "bad_points": [
+      { "point": "乾燥肌には保湿力が物足りなく感じることがある", "frequency": "高", "context": "保湿に特化した処方ではないため、乾燥が強い人はこれ単体では不足を感じ、クリーム等の重ね使いが推奨される旨の口コミが多い" },
+      { "point": "浸透感がいまひとつという指摘", "frequency": "中", "context": "サラッとした分、肌奥まで入る感覚が薄いと感じる人がいるとの声がモノシル等で見られる" },
+      { "point": "容器が大きく液だれしやすい", "frequency": "低", "context": "ボトルが大きいため出しすぎたり液だれするとの使い勝手面の指摘" }
+    ],
+    "neutral_points": [
+      { "point": "年齢や肌悩みによって向き不向きが分かれる", "frequency": "中", "context": "若い肌や夏場のさっぱりケアには好適だが、年齢を重ねた肌には他アイテム併用前提という捉え方が見られる" },
+      { "point": "シンプルゆえ役割は補助的との認識", "frequency": "低", "context": "土台を整えるプレ化粧水・水分補給として割り切って使う層が一定数いる" }
+    ]
+  },
+  "relative_evaluation": "同価格帯のプチプラ大容量化粧水の中では、ベタつかない使用感・入手のしやすさ・低刺激処方のバランスで定番的な地位を確立している。@cosmeで数千件、LIPSで2万件超のクチコミと高い保存数を集め、平均評価も4点前後と安定して高い。一方で高保湿タイプの化粧水と比べると保湿の持続力では見劣りし、乾燥肌では物足りなさを感じる層もいるため、保湿重視よりさっぱり・大量使い・コスパを求める用途で相対的に強い。",
+  "best_for": [
+    "コスパよく顔も全身もたっぷり使いたい人",
+    "ベタつきが苦手な脂性肌・混合肌の人",
+    "コットンパックなどに惜しみなく使いたい人",
+    "シンプルで低刺激な処方を好む人"
+  ],
+  "not_best_for": [
+    "高い保湿力をこれ1本に求める乾燥肌の人",
+    "とろみのあるしっとりした使用感を好む人"
+  ],
+  "skinsci_score": {
+    "total": 86,
+    "axes": { "beginner_friendly": 23, "cost_performance": 25, "effect_satisfaction": 19, "availability": 19 },
+    "rationale": {
+      "beginner_friendly": "無香料・無着色・アルコールフリーの低刺激処方で使い方も簡単、敏感肌ランキングでも上位",
+      "cost_performance": "500mLの大容量を低価格で提供し、コスパ最強との声が全サイトで最頻出",
+      "effect_satisfaction": "@cosme・LIPSで平均4点前後と高評価だが、乾燥肌での保湿物足りなさの声が一定数あり減点",
+      "availability": "ドラッグストア・通販で広く流通する定番品。具体的在庫データは未確認のため控えめに評価"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10229168/review/",
+    "https://lipscosme.com/products/8894",
+    "https://monocil.jp/items/214/",
+    "https://osusume.mynavi.jp/beauty/12403/",
+    "https://www.naturie-net.jp/lotion"
+  ]
 }

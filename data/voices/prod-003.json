@@ -1,6 +1,55 @@
 {
   "product_id": "prod-003",
-  "collected_at": null,
-  "status": "data_collection_pending",
-  "message": "現在、使用者の声を収集中です。今しばらくお待ちください。"
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": { "review_count_total": null, "average_rating": null },
+    "qoo10": { "review_count_total": null, "average_rating": null },
+    "x_twitter": { "post_count_collected": 4 }
+  },
+  "summary": {
+    "good_points": [
+      { "point": "乾燥性敏感肌でも刺激を感じにくく安心して使えるという声が多い", "frequency": "高", "context": "弱酸性・無香料・無着色・アルコールフリーの設計で、肌荒れ気味やヒリつく時期でも沁みにくいとの感想が複数。@cosme・LIPSで顕著" },
+      { "point": "保湿力の評価が高く、角層までうるおう感覚が長く続くと感じる人が多い", "frequency": "高", "context": "LIPSでは保湿力が項目別1位(4.59点)。mybestの検証でも塗布数時間後の水分量が高水準だったとの報告" },
+      { "point": "軽くてべたつかないテクスチャーで肌なじみが良い", "frequency": "高", "context": "薄膜で軽いのにうるおうという声。脂性肌・混合肌でも使いやすいとの声" },
+      { "point": "価格に対する満足度(コスパ)が高く、リピートしやすい", "frequency": "中", "context": "LIPSのコスパ項目1位(4.42点)。10回以上リピートする愛用者の声も" },
+      { "point": "ベストコスメ受賞などメディア評価が高く信頼して選びやすい", "frequency": "中", "context": "@cosme殿堂入り、美的の年間ベスコスでクリーム1位の実績" }
+    ],
+    "bad_points": [
+      { "point": "肌質によっては合わず、ほてりや刺激を感じて使用を中止した例がある", "frequency": "低", "context": "界面活性剤などに反応して肌が熱くなったとの個別の声。あくまで一部の体質依存" },
+      { "point": "テクスチャーをやや重い・べたつくと感じる人もいる", "frequency": "低", "context": "軽いという多数意見の一方で、好みによって重さを指摘する声も少数存在" },
+      { "point": "ジャータイプでスパチュラが付属せず衛生面が気になるという指摘", "frequency": "低", "context": "mybestの検証コメント。指で直接取り出す形状への懸念" }
+    ],
+    "neutral_points": [
+      { "point": "効果実感には個人差があり、肌状態によって評価が分かれる", "frequency": "中", "context": "高い期待に対し物足りないと感じる人もいれば、継続で実感する人もいる" },
+      { "point": "保湿主体のためエイジングケア用途には物足りない可能性", "frequency": "低", "context": "mybestがハリ・年齢肌向け成分は主眼でない点を中立的に指摘" }
+    ]
+  },
+  "relative_evaluation": "乾燥性敏感肌向けのセラミドケア系フェイスクリームの中では、入手のしやすさ・価格・刺激の少なさのバランスが取れた定番として安定した支持を得ている。@cosme殿堂入りやLIPSの保湿力・コスパ項目1位など、同価格帯のクリームと比べて使用者評価の母数が大きく、評価の安定感が強み。一方で攻めの美白・エイジング訴求の製品と比べると機能はベーシックで、特定の悩みをピンポイントで狙う層には物足りなく映る場合がある。総じて最初の保湿クリームとして外しにくい一本という相対的ポジション。",
+  "best_for": [
+    "乾燥や季節の変わり目で肌が敏感に傾きやすい人",
+    "刺激が少なくべたつかない保湿クリームを探す初心者",
+    "プチプラで続けやすい定番クリームを求める人"
+  ],
+  "not_best_for": [
+    "ハリ・年齢肌ケアなど明確な機能性を最優先したい人",
+    "ジャー容器を指で触れることに抵抗がある人"
+  ],
+  "skinsci_score": {
+    "total": 88,
+    "axes": { "beginner_friendly": 24, "cost_performance": 22, "effect_satisfaction": 21, "availability": 21 },
+    "rationale": {
+      "beginner_friendly": "弱酸性・無香料・アルコールフリーで刺激の声が少なく、軽い使用感で初心者にやさしい",
+      "cost_performance": "2,500円前後で続けやすく、LIPSコスパ項目1位など満足度が高い",
+      "effect_satisfaction": "@cosme殿堂入り・LIPS4.43点と高評価だが効果実感に個人差ありで満点は留保",
+      "availability": "Amazon・楽天・Yahoo・店舗など販路が広く在庫も安定との報告"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/293354/review/",
+    "https://lipscosme.com/products/29985",
+    "https://my-best.com/products/75969",
+    "https://www.biteki.com/skin-care/trouble/383830",
+    "https://i-voce.jp/cosmetics/629/33444/reviews/"
+  ]
 }

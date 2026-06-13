@@ -1,6 +1,55 @@
 {
   "product_id": "prod-002",
-  "collected_at": null,
-  "status": "data_collection_pending",
-  "message": "現在、使用者の声を収集中です。今しばらくお待ちください。"
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": { "review_count_total": null, "average_rating": null },
+    "qoo10": { "review_count_total": null, "average_rating": null },
+    "x_twitter": { "post_count_collected": 0 }
+  },
+  "summary": {
+    "good_points": [
+      { "point": "高保湿なのにベタつきにくく、肌がうるおうと感じる声が多い", "frequency": "高", "context": "LIPS・@cosme・マイベスト各所で最も多く挙がる評価。油分不使用でももっちりした使用感という声" },
+      { "point": "敏感肌・ゆらぎ肌でもヒリつきにくく使いやすいという声", "frequency": "高", "context": "無香料・無着色・パラベンフリー・アルコールフリーの低刺激処方を評価する声。化粧水が合いにくい人からの支持" },
+      { "point": "大容量で価格が手頃でコスパが良いという評価", "frequency": "高", "context": "顔だけでなく首・腕・脚にも惜しみなく使える、バシャバシャ使えるという声が複数" },
+      { "point": "テクスチャーが水のように軽く、重ねても重くならない", "frequency": "中", "context": "サラサラした使い心地で浸透が早いと感じるという声" },
+      { "point": "全国の無印店舗・通販で入手しやすくリピートしやすい", "frequency": "中", "context": "定番品として継続購入しているユーザーが多い" }
+    ],
+    "bad_points": [
+      { "point": "テクスチャーが軽すぎて物足りないと感じる人がいる", "frequency": "中", "context": "シャバシャバで保湿感が弱いと感じる肌質の声。乾燥が強い時期は重ねづけや乳液併用を要するという声" },
+      { "point": "ボトルが柔らかく液が出すぎる・液だれするという声", "frequency": "中", "context": "リニューアル後の容器に関する使い勝手の指摘" },
+      { "point": "肌質によって合わず赤み等が出たという個人差の報告", "frequency": "低", "context": "敏感肌向けでも合わないケースがあるという少数意見" }
+    ],
+    "neutral_points": [
+      { "point": "シンプル処方ゆえ効果実感は肌質・季節で差が出るという声", "frequency": "中", "context": "夏は十分だが冬は重ねる、しっとりタイプと使い分けるなど" },
+      { "point": "高保湿・しっとり・さっぱりの3タイプ間で比較・使い分けする声", "frequency": "中", "context": "どのタイプが自分に合うか検討するユーザーが多い" }
+    ]
+  },
+  "relative_evaluation": "同価格帯（500〜1000円）の敏感肌向けプチプラ化粧水の中では、低刺激処方・大容量・全国の店舗で買える入手性の三拍子が揃った定番格と位置づけられる。@cosmeベストコスメ化粧水部門で複数年上位入賞しており、ロングセラーとしての信頼感は同カテゴリ上位。一方でテクスチャーが軽い分、こってりした保湿感を求める人にはキュレル等の機能性重視品に見劣りする場合があり、保湿の強さよりも刺激の少なさ・コスパ・気兼ねなく多量に使える点で選ばれる傾向が強い。",
+  "best_for": [
+    "スキンケア初心者で低刺激かつ手頃な定番品を探している人",
+    "敏感肌・ゆらぎ肌で軽いテクスチャーを好む人",
+    "全身に惜しみなく使える大容量・低価格を重視する人"
+  ],
+  "not_best_for": [
+    "とろみのある濃厚な保湿感を求める人",
+    "乾燥が非常に強く1本で完結する高機能化粧水を求める人"
+  ],
+  "skinsci_score": {
+    "total": 89,
+    "axes": { "beginner_friendly": 24, "cost_performance": 24, "effect_satisfaction": 20, "availability": 21 },
+    "rationale": {
+      "beginner_friendly": "無香料・パラベンフリー等の低刺激処方と使い方の簡単さで初心者向け評価が高い",
+      "cost_performance": "大容量かつ手頃な価格で全身に使えるとの声が多くコスパ評価は高水準",
+      "effect_satisfaction": "@cosme・LIPSとも高評価だが軽さによる物足りなさの声もあり満点には届かない",
+      "availability": "全国の無印店舗・公式通販・大手ECで安定入手可、Amazon在庫の正確な確認はできず1点減"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/2923854/review/",
+    "https://lipscosme.com/products/89069",
+    "https://my-best.com/products/1790742",
+    "https://review.rakuten.co.jp/review/item/1/385909_10001152/1.1/",
+    "https://onecosme.jp/65786"
+  ]
 }

@@ -1,6 +1,56 @@
 {
   "product_id": "prod-005",
-  "collected_at": null,
-  "status": "data_collection_pending",
-  "message": "現在、使用者の声を収集中です。今しばらくお待ちください。"
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": { "review_count_total": null, "average_rating": 4.6 },
+    "qoo10": { "review_count_total": null, "average_rating": null },
+    "x_twitter": { "post_count_collected": 0 }
+  },
+  "summary": {
+    "good_points": [
+      { "point": "ベタつかないのに保湿感がある使用感", "frequency": "高", "context": "@cosme・LIPS・Amazon各所で最多。さっぱりしつつもうるおいを感じ、つっぱらないという声が多い" },
+      { "point": "つけた後に肌がしっとり・もちもちした感触になると感じる人が多い", "frequency": "高", "context": "わずかなとろみで角質層になじむ感触への満足コメントが目立つ" },
+      { "point": "香り（フローラル系）が良いという評価", "frequency": "中", "context": "男女問わず好まれるという声がある一方、香りの好みは分かれる" },
+      { "point": "パッケージ・容器のデザインがおしゃれで生活感が出ない", "frequency": "中", "context": "透明パウチで残量が見やすい点も好評" },
+      { "point": "シェービング後でもしみにくいと感じる人がいる", "frequency": "低", "context": "低刺激設計に関する個別の好意的コメント" }
+    ],
+    "bad_points": [
+      { "point": "価格が高いと感じる声", "frequency": "高", "context": "200mLで3,300円(税込)前後という容量対価格への指摘がデメリットとして最多" },
+      { "point": "容器が使いにくいという指摘", "frequency": "中", "context": "手に出す際に出すぎる、残量が減るとパウチがヘタる、量の調節がしにくいなど" },
+      { "point": "乾燥肌では単体だと保湿が物足りず追加ケアが必要との声", "frequency": "中", "context": "脂性肌〜普通肌向きで、強い乾燥には別途保湿を足す使い方をする人がいる" },
+      { "point": "エタノール配合で刺激を感じたという個別の報告", "frequency": "低", "context": "敏感肌で合わなかったという少数意見。感じ方には個人差がある" }
+    ],
+    "neutral_points": [
+      { "point": "効果の実感には個人差がある", "frequency": "中", "context": "保湿満足の声が多数だが、期待値とのギャップを述べる人もいる" },
+      { "point": "サンプルやトライアルで試してから判断する人が一定数いる", "frequency": "低", "context": "価格が高めなため本品購入前に試用するケース" }
+    ]
+  },
+  "relative_evaluation": "メンズ向け化粧水の中ではブランド認知・レビュー数ともに上位クラスで、評価も@cosme4.5(7点満点)・LIPS3.88(5点満点)・Amazon4.6前後と総じて高水準。価格は同カテゴリの中ではやや高めの部類に入り、安価なドラッグストア系メンズ化粧水と比べるとコスパ面では見劣りするとの声があるが、ベタつかず保湿される使用感・香り・デザインで満足度を稼いでおり、価格相応の質を評価する層に支持されている。",
+  "best_for": [
+    "本格的にスキンケアを始めたい20〜30代のメンズ初心者",
+    "ベタつきが苦手で、さっぱりめの使用感を好む脂性肌〜普通肌の人",
+    "香りやパッケージのデザイン性も重視する人"
+  ],
+  "not_best_for": [
+    "とにかく安さ・コスパ最優先の人",
+    "強い乾燥肌で1本で高い保湿を求める人",
+    "アルコール(エタノール)に敏感な人"
+  ],
+  "skinsci_score": {
+    "total": 79,
+    "axes": { "beginner_friendly": 21, "cost_performance": 16, "effect_satisfaction": 21, "availability": 21 },
+    "rationale": {
+      "beginner_friendly": "低刺激設計で使い方が簡単、メンズ初心者の導入として定番だが容器の扱いにくさが減点",
+      "cost_performance": "200mLで3,300円前後と容量対価格は高めで、価格を指摘する声が最多",
+      "effect_satisfaction": "@cosme・LIPS・Amazonいずれも評価が高く保湿の使用感満足が多いが乾燥肌での物足りなさも一部あり",
+      "availability": "公式・Amazon・Yahooショッピング等で広く流通し入手しやすい"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10060377/review/",
+    "https://lipscosme.com/products/198901",
+    "https://my-best.com/products/10355",
+    "https://beoji.jp/face/7061/"
+  ]
 }

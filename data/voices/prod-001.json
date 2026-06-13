@@ -1,6 +1,59 @@
 {
   "product_id": "prod-001",
-  "collected_at": null,
-  "status": "data_collection_pending",
-  "message": "現在、使用者の声を収集中です。今しばらくお待ちください。"
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": { "review_count_total": null, "average_rating": null },
+    "qoo10": { "review_count_total": null, "average_rating": null },
+    "x_twitter": { "post_count_collected": 3 }
+  },
+  "summary": {
+    "good_points": [
+      { "point": "プチプラ価格でコスパが高く、惜しまずたっぷり使えるという声が多い", "frequency": "高", "context": "1000円前後でビタミンC誘導体配合という点を評価する口コミがLIPS・モノシル等で多数" },
+      { "point": "さっぱりした使用感で肌なじみ・浸透の速さが好評", "frequency": "高", "context": "通常タイプはシャバシャバ系、ベタつかず夏場や脂性肌に向くとの感想" },
+      { "point": "肌の明るさ・透明感を感じたという満足の声", "frequency": "中", "context": "使い続けてトーンが明るく感じた等。ただし個人差が大きいと併記される傾向" },
+      { "point": "ニキビ・毛穴ケア目的で使いやすいという評価", "frequency": "中", "context": "多機能に使えるとの口コミ。ニキビができにくく感じたという声も" },
+      { "point": "ドラッグストア・通販で買いやすく詰め替えもある", "frequency": "中", "context": "入手性とリピートのしやすさを挙げる声" }
+    ],
+    "bad_points": [
+      { "point": "エタノール配合の清涼感で敏感肌はヒリつき・赤みを感じる場合がある", "frequency": "高", "context": "敏感肌・ゆらぎ肌での刺激報告が複数。目にしみるという声も" },
+      { "point": "乾燥肌には通常タイプは保湿が物足りないと感じる場合がある", "frequency": "中", "context": "単体では心もとない、しっとりタイプを勧める声あり" },
+      { "point": "期待したほどの変化を感じられなかったという声", "frequency": "中", "context": "効果実感には個人差があり、継続前に様子見が必要との意見" },
+      { "point": "柑橘系の香りが苦手な人もいる", "frequency": "低", "context": "香りの好みが分かれる" }
+    ],
+    "neutral_points": [
+      { "point": "とろみ・テクスチャーの評価が好み次第で二分する", "frequency": "中", "context": "保湿的と感じる人と、ぺったりすると感じる人に分かれる" },
+      { "point": "リニューアル後の使用感・成分変更に賛否がある", "frequency": "中", "context": "旧タイプとの違いに賛否、低刺激になったとの声もある" },
+      { "point": "通常タイプとしっとりタイプの2種類があり肌質で選ぶ前提", "frequency": "低", "context": "乾燥肌はしっとり、脂性肌は通常という使い分けが語られる" }
+    ]
+  },
+  "relative_evaluation": "同価格帯（1000円台）のビタミンC系・美白系化粧水の中では、入手しやすさとコスパの良さで上位に位置づけられる定番アイテムという評価。LIPSでは通常タイプ3.82/5（約3,000件超）、しっとりタイプ3.99/5（約1,500件超）と安定した中〜高評価を維持しており、口コミ件数の多さが信頼感につながっている。一方でエタノールによる清涼感が前面に出るため、無印良品やキュレル系の低刺激・高保湿化粧水と比べると敏感肌・乾燥肌では刺激や保湿不足を指摘されやすく、肌質を選ぶ商品といえる。",
+  "best_for": [
+    "コスパ重視でビタミンC系の化粧水をたっぷり使いたい人",
+    "脂性肌・混合肌でさっぱりした使用感を好む人",
+    "ドラッグストアで手軽に買えて続けやすいものを探す初心者",
+    "ニキビ・毛穴・くすみ感など複数の悩みを1本でケアしたい人"
+  ],
+  "not_best_for": [
+    "アルコール（エタノール）に刺激を感じやすい敏感肌の人",
+    "高保湿・とろみのあるしっとり感を最優先する乾燥肌の人",
+    "柑橘系の香りが苦手な人"
+  ],
+  "skinsci_score": {
+    "total": 80,
+    "axes": { "beginner_friendly": 19, "cost_performance": 24, "effect_satisfaction": 18, "availability": 19 },
+    "rationale": {
+      "beginner_friendly": "使い方が簡単で価格も手頃だが、エタノールの刺激報告があり敏感肌は注意が必要なため減点",
+      "cost_performance": "1000円前後でビタミンC誘導体配合、たっぷり使えコスパ評価が非常に高い",
+      "effect_satisfaction": "LIPSで3.8〜4.0前後の安定評価だが効果実感の個人差が大きい",
+      "availability": "ドラッグストア・主要通販で広く流通し詰め替えもあるが在庫件数は未確認のため満点は留保"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10076613/",
+    "https://lipscosme.com/products/260421",
+    "https://monocil.jp/items/163/",
+    "https://www.ozmall.co.jp/cosme/skinlotion/article/37528/",
+    "https://onecosme.jp/89266"
+  ]
 }
