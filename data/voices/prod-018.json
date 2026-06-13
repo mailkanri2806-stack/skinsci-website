@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-018",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "軽くてみずみずしいつけ心地",
+        "frequency": "高",
+        "context": "ジェルとクリームの中間のような水感で肌にすっとなじみきしまないという声が多い"
+      },
+      {
+        "point": "白浮きしにくい",
+        "frequency": "高",
+        "context": "均一に密着して白っぽくならず伸びが良いと評価されている"
+      },
+      {
+        "point": "価格が手頃でコスパが良い",
+        "frequency": "高",
+        "context": "1000円以内で買えて少量で広く伸びるため続けやすいとの声"
+      },
+      {
+        "point": "石けんで落とせる手軽さ",
+        "frequency": "中",
+        "context": "専用クレンジング不要で洗い流せる点が初心者に好評"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "汗・水で落ちやすくキープ力が弱め",
+        "frequency": "中",
+        "context": "こまめな塗り直しが必要との指摘がある"
+      },
+      {
+        "point": "トーンアップ効果はない",
+        "frequency": "低",
+        "context": "肌色補正を期待する人には物足りないとの声"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "化粧下地としても使える",
+        "frequency": "中",
+        "context": "保湿成分配合で下地兼用に使う人もいる"
+      }
+    ]
+  },
+  "relative_evaluation": "高機能ミルクタイプと比べると耐久性は控えめだが、軽さ・低価格・落としやすさで初心者向けの入りやすさはトップクラス。",
+  "best_for": [
+    "日常使い",
+    "通勤・通学",
+    "日焼け止め初心者"
+  ],
+  "not_best_for": [
+    "真夏の長時間アウトドア",
+    "ウォータースポーツ"
+  ],
+  "skinsci_score": {
+    "total": 86,
+    "axes": {
+      "beginner_friendly": 24,
+      "cost_performance": 24,
+      "effect_satisfaction": 19,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "軽い使用感・石けんオフ・白浮きしにくさで初めての1本に最適",
+      "cost_performance": "1000円以内かつ伸びが良く量当たりの満足度が高い",
+      "effect_satisfaction": "日常の紫外線対策には十分だがキープ力面で評価が分かれる",
+      "availability": "ドラッグストア・通販ともに広く流通し入手は容易"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B0BSGD7C3Z",
+    "https://kakaku.com/item/K0001537429/",
+    "https://lipscosme.com/products/540883/review"
+  ]
+}

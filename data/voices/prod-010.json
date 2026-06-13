@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-010",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "こすらずするんとメイクが落ちる",
+        "frequency": "高",
+        "context": "ラメやマスカラなど濃いメイクもなじませるだけで落ちると高評価"
+      },
+      {
+        "point": "洗い上がりがつっぱりにくい",
+        "frequency": "高",
+        "context": "オイルなのに洗顔後の乾燥感が少なくキメが整うと感じる声が多い"
+      },
+      {
+        "point": "毛穴・角栓のケアに役立つ",
+        "frequency": "高",
+        "context": "角栓が取れやすい、鼻の黒ずみが目立ちにくいという報告が多い"
+      },
+      {
+        "point": "濡れた手でも使える手軽さ",
+        "frequency": "中",
+        "context": "お風呂場でも使え、定番として安心感があるという声"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "敏感肌だとヒリつくことがある",
+        "frequency": "低",
+        "context": "肌が合わないとヒリヒリすると感じる人がいる"
+      },
+      {
+        "point": "価格がプチプラより高め",
+        "frequency": "中",
+        "context": "入門ジェルに比べると割高に感じる声がある"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "オイル特有の使用感の好みが分かれる",
+        "frequency": "中",
+        "context": "ぬるつきやオイル感が好きな人とそうでない人で評価が分かれる"
+      }
+    ]
+  },
+  "relative_evaluation": "入門ジェルより価格は上がるが洗浄力と洗い上がりのバランスが高く、口コミ件数・平均評価ともに非常に多い実績の定番。初心者がワンランク上を狙う際の鉄板。",
+  "best_for": [
+    "濃いメイク・日焼け止めをしっかり落としたい人",
+    "毛穴・角栓ケア重視",
+    "定番で失敗したくない人"
+  ],
+  "not_best_for": [
+    "価格最優先の人",
+    "オイル感が苦手な人"
+  ],
+  "skinsci_score": {
+    "total": 88,
+    "axes": {
+      "beginner_friendly": 21,
+      "cost_performance": 20,
+      "effect_satisfaction": 23,
+      "availability": 24
+    },
+    "rationale": {
+      "beginner_friendly": "濡れた手OK・こすらず落ちて使い方が簡単。敏感肌はパッチテスト推奨で満点ではない",
+      "cost_performance": "約60回分で2千円前後と1回あたりは妥当だが入門ジェルより割高",
+      "effect_satisfaction": "口コミ件数が非常に多く平均評価も高水準で満足度が高い",
+      "availability": "ドラッグストア・バラエティショップ・公式・通販と販路が非常に広い"
+    }
+  },
+  "sources_urls": [
+    "https://lipscosme.com/products/24103/review",
+    "https://www.cosme.net/products/10212986/",
+    "https://kakaku.com/item/K0001172256/"
+  ]
+}

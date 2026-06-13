@@ -1,0 +1,95 @@
+{
+  "product_id": "prod-014",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "肌がもっちりして保湿感が高い",
+        "frequency": "高",
+        "context": "使用後に肌がやわらかくなると感じる声が多い"
+      },
+      {
+        "point": "伸びが良く香りが気になりにくい",
+        "frequency": "中",
+        "context": "なめらかに広がり使い心地が良いとの評価"
+      },
+      {
+        "point": "後のスキンケアのなじみが良くなる",
+        "frequency": "中",
+        "context": "導入後に化粧水が入りやすくなると感じる人が多い"
+      },
+      {
+        "point": "話題性が高く入門しやすい価格",
+        "frequency": "中",
+        "context": "受賞歴があり手頃で試しやすいとの声"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "効果を実感しにくいという声もある",
+        "frequency": "中",
+        "context": "つけ心地は良いが変化が分かりにくいとの指摘"
+      },
+      {
+        "point": "コクのあるテクスチャーが好みを分ける",
+        "frequency": "中",
+        "context": "リッチさが苦手・重いと感じる人もいる"
+      },
+      {
+        "point": "人気で品切れになることがある",
+        "frequency": "低",
+        "context": "話題化により一時的に入手しづらい時期があった"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "導入（ブースター）として後工程と併用する前提",
+        "frequency": "中",
+        "context": "単体ではなく化粧水・乳液と合わせて使う設計"
+      }
+    ]
+  },
+  "relative_evaluation": "導入美容液カテゴリで近年話題性が高いプチプラの代表格。保湿・なじみの良さは高評価だが、リッチな使用感と効果の体感に好みが分かれる。",
+  "best_for": [
+    "スキンケアの土台を整えたい初心者",
+    "もっちり保湿が好きな男性"
+  ],
+  "not_best_for": [
+    "軽い使用感を求める人",
+    "即効的な変化を期待する人"
+  ],
+  "skinsci_score": {
+    "total": 80,
+    "axes": {
+      "beginner_friendly": 21,
+      "cost_performance": 22,
+      "effect_satisfaction": 18,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "最初に塗るだけで手順が簡単だがリッチさで好み差あり",
+      "cost_performance": "50mLで1000円台後半と量・価格のバランスが良い",
+      "effect_satisfaction": "保湿・なじみの満足の声が多いが効果体感に個人差",
+      "availability": "無印良品で広く扱うが人気で一時品薄になることがある"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10244750/",
+    "https://www.cosme.net/products/10244750/review/",
+    "https://lipscosme.com/products/564586"
+  ]
+}

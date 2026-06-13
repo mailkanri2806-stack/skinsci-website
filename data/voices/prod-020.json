@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-020",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "ヒゲ剃り後でもヒリつきにくい使用感",
+        "frequency": "高",
+        "context": "アルコールフリー・低刺激でカミソリ負け対策に選ばれる"
+      },
+      {
+        "point": "これ1本で保湿までまかなえる手軽さ",
+        "frequency": "高",
+        "context": "シェービング後のケアが簡単に済むという声"
+      },
+      {
+        "point": "価格が手頃でリピートしやすい",
+        "frequency": "高",
+        "context": "1000円前後で複数本リピートする人が目立つ"
+      },
+      {
+        "point": "とろみがあり伸びが良い",
+        "frequency": "中",
+        "context": "液がよく伸びて使いやすいという感想"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "ベタつきが残ると感じる人がいる",
+        "frequency": "中",
+        "context": "とろみ系のため軽い残り感が気になる声"
+      },
+      {
+        "point": "うるおいが足りないと感じる人もいる",
+        "frequency": "低",
+        "context": "強い乾燥肌には保湿が物足りないという声"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "無香料でクセがない",
+        "frequency": "中",
+        "context": "香りを楽しみたい人には物足りないが万人向け"
+      }
+    ]
+  },
+  "relative_evaluation": "アフターシェーブ化粧水カテゴリでは入手性と低刺激のバランスが良く、ヒゲ剃り後ケアを始める男性の標準的な入門品として評価が安定している。",
+  "best_for": [
+    "ヒゲ剃り後のヒリつき対策",
+    "敏感肌の男性",
+    "アフターケア初心者"
+  ],
+  "not_best_for": [
+    "濃厚な保湿を化粧水に求める人",
+    "清涼感重視の人"
+  ],
+  "skinsci_score": {
+    "total": 85,
+    "axes": {
+      "beginner_friendly": 23,
+      "cost_performance": 21,
+      "effect_satisfaction": 21,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "アルコールフリー・無香料でヒゲ剃り後でも使いやすい",
+      "cost_performance": "1000円前後で手頃だが容量あたりは中位",
+      "effect_satisfaction": "ヒリつきにくさへの満足度が高い",
+      "availability": "ドラッグストア・通販で広く流通する定番品"
+    }
+  },
+  "sources_urls": [
+    "https://www.nivea.co.jp/products/sensitive-lotion-49013013792900052.html",
+    "https://www.cosme.net/products/10101306/",
+    "https://my-best.com/products/305425"
+  ]
+}

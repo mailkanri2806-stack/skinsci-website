@@ -1,0 +1,95 @@
+{
+  "product_id": "prod-008",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "酵素で角質や毛穴汚れを分解し肌がつるっとする",
+        "frequency": "高",
+        "context": "毛穴の詰まりが目立ちにくくなったとの声が多い"
+      },
+      {
+        "point": "個包装で衛生的・分量が分かりやすく初心者でも使いやすい",
+        "frequency": "高",
+        "context": "旅行や持ち運びにも便利"
+      },
+      {
+        "point": "洗い上がりが乾燥しすぎずさっぱりする",
+        "frequency": "中",
+        "context": "潤いを保ちながら汚れを落とす設計との評価"
+      },
+      {
+        "point": "長年の人気で信頼感がある",
+        "frequency": "中",
+        "context": "定番の毛穴ケア洗顔として評価が安定"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "人によってはつっぱりや乾燥を感じることがある",
+        "frequency": "中",
+        "context": "酵素ケアが強く感じられ毎日使いだと負担との声"
+      },
+      {
+        "point": "泡立ちが控えめで物足りないと感じる人がいる",
+        "frequency": "低",
+        "context": "パウダータイプ特有の感触"
+      },
+      {
+        "point": "通常の洗顔料より価格が高め",
+        "frequency": "中",
+        "context": "個包装のスペシャルケア用途のため"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "毎日でなく週数回のプラスケアとして使う人が多い",
+        "frequency": "中",
+        "context": "使用頻度を調整する声が目立つ"
+      }
+    ]
+  },
+  "relative_evaluation": "酵素パウダー洗顔の定番で、毛穴・黒ずみケアに特化した立ち位置。日常の泡洗顔とは役割が異なり、週数回のスペシャルケアとして組み合わせやすい。個包装で初心者でも量を失敗しにくいが、価格は高めで刺激を感じる人もいるため使用頻度の調整が前提。",
+  "best_for": [
+    "毛穴の黒ずみ・ザラつきをケアしたい初心者",
+    "個包装で手軽に酵素ケアを試したい人"
+  ],
+  "not_best_for": [
+    "毎日使いの安価な洗顔を探している人",
+    "角質ケアで乾燥しやすい人"
+  ],
+  "skinsci_score": {
+    "total": 80,
+    "axes": {
+      "beginner_friendly": 21,
+      "cost_performance": 17,
+      "effect_satisfaction": 23,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "個包装で量が分かりやすいが酵素ケアは頻度調整が必要",
+      "cost_performance": "スペシャルケア用途で単価は高め",
+      "effect_satisfaction": "毛穴ケアの満足度が高く長年の人気で信頼性あり",
+      "availability": "ドラッグストアやネットで広く入手可能"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10188262/",
+    "https://monocil.jp/items/3095/",
+    "https://lipscosme.com/products/240516/review"
+  ]
+}

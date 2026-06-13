@@ -24,11 +24,33 @@
       "price_range": "1000-1500",
       "summary": "ビタミンC配合のドラッグストア定番化粧水。コスパ重視の初心者にぴったり。",
       "verdict_badge": "初心者向け",
-      "for_whom": ["コスパ重視の人", "ニキビ跡が気になる人", "脂性肌・混合肌の人"],
-      "not_for_whom": ["乾燥肌でしっとり感を求める人", "敏感肌で刺激に弱い人"],
-      "key_ingredients": ["ビタミンC誘導体", "アルピニアホワイト"],
-      "keywords": ["メラノCC", "美白", "化粧水", "ニキビ跡", "しみ対策", "ビタミンC"],
-      "concerns": ["シミ", "ニキビ跡", "美白", "くすみ"],
+      "for_whom": [
+        "コスパ重視の人",
+        "ニキビ跡が気になる人",
+        "脂性肌・混合肌の人"
+      ],
+      "not_for_whom": [
+        "乾燥肌でしっとり感を求める人",
+        "敏感肌で刺激に弱い人"
+      ],
+      "key_ingredients": [
+        "ビタミンC誘導体",
+        "アルピニアホワイト"
+      ],
+      "keywords": [
+        "メラノCC",
+        "美白",
+        "化粧水",
+        "ニキビ跡",
+        "しみ対策",
+        "ビタミンC"
+      ],
+      "concerns": [
+        "シミ",
+        "ニキビ跡",
+        "美白",
+        "くすみ"
+      ],
       "for_beginners": true
     },
     {
@@ -55,11 +77,34 @@
       "price_range": "500-1000",
       "summary": "低刺激・高保湿の万能化粧水。迷ったらまずこれ。",
       "verdict_badge": "初心者向け",
-      "for_whom": ["スキンケア初心者", "乾燥が気になる人", "敏感肌の人", "コスパを重視する人"],
-      "not_for_whom": ["さっぱりした使用感を求める人", "エイジングケアを重視する人"],
-      "key_ingredients": ["ヒアルロン酸", "リピジュア", "グレープフルーツ種子エキス"],
-      "keywords": ["無印良品", "無印", "敏感肌", "高保湿", "化粧水", "MUJI"],
-      "concerns": ["乾燥", "敏感肌", "保湿"],
+      "for_whom": [
+        "スキンケア初心者",
+        "乾燥が気になる人",
+        "敏感肌の人",
+        "コスパを重視する人"
+      ],
+      "not_for_whom": [
+        "さっぱりした使用感を求める人",
+        "エイジングケアを重視する人"
+      ],
+      "key_ingredients": [
+        "ヒアルロン酸",
+        "リピジュア",
+        "グレープフルーツ種子エキス"
+      ],
+      "keywords": [
+        "無印良品",
+        "無印",
+        "敏感肌",
+        "高保湿",
+        "化粧水",
+        "MUJI"
+      ],
+      "concerns": [
+        "乾燥",
+        "敏感肌",
+        "保湿"
+      ],
       "for_beginners": true
     },
     {
@@ -86,11 +131,33 @@
       "price_range": "1500-2500",
       "summary": "セラミド配合で乾燥・敏感肌のバリア機能をサポートするクリーム。",
       "verdict_badge": "敏感肌向け",
-      "for_whom": ["乾燥肌・敏感肌の人", "バリア機能を強化したい人", "低刺激なクリームを探している人"],
-      "not_for_whom": ["脂性肌でベタつきが苦手な人", "軽いテクスチャーを好む人"],
-      "key_ingredients": ["セラミド機能成分", "ユーカリエキス", "アラントイン"],
-      "keywords": ["キュレル", "Curel", "潤浸保湿", "フェイスクリーム", "セラミド"],
-      "concerns": ["乾燥", "敏感肌", "保湿", "肌荒れ"],
+      "for_whom": [
+        "乾燥肌・敏感肌の人",
+        "バリア機能を強化したい人",
+        "低刺激なクリームを探している人"
+      ],
+      "not_for_whom": [
+        "脂性肌でベタつきが苦手な人",
+        "軽いテクスチャーを好む人"
+      ],
+      "key_ingredients": [
+        "セラミド機能成分",
+        "ユーカリエキス",
+        "アラントイン"
+      ],
+      "keywords": [
+        "キュレル",
+        "Curel",
+        "潤浸保湿",
+        "フェイスクリーム",
+        "セラミド"
+      ],
+      "concerns": [
+        "乾燥",
+        "敏感肌",
+        "保湿",
+        "肌荒れ"
+      ],
       "for_beginners": true
     },
     {
@@ -117,11 +184,30 @@
       "price_range": "500-800",
       "summary": "大容量・低価格で惜しみなく使える。さっぱり系の保湿化粧水。",
       "verdict_badge": "コスパ◎",
-      "for_whom": ["とにかくコスパ重視の人", "さっぱり系が好きな人", "全身にも使いたい人"],
-      "not_for_whom": ["しっとり感を求める乾燥肌の人", "高機能な成分を求める人"],
-      "key_ingredients": ["ハトムギエキス"],
-      "keywords": ["ハトムギ", "ハトムギ化粧水", "ナチュリエ", "スキンコンディショナー", "大容量"],
-      "concerns": ["保湿", "テカリ", "コスパ"],
+      "for_whom": [
+        "とにかくコスパ重視の人",
+        "さっぱり系が好きな人",
+        "全身にも使いたい人"
+      ],
+      "not_for_whom": [
+        "しっとり感を求める乾燥肌の人",
+        "高機能な成分を求める人"
+      ],
+      "key_ingredients": [
+        "ハトムギエキス"
+      ],
+      "keywords": [
+        "ハトムギ",
+        "ハトムギ化粧水",
+        "ナチュリエ",
+        "スキンコンディショナー",
+        "大容量"
+      ],
+      "concerns": [
+        "保湿",
+        "テカリ",
+        "コスパ"
+      ],
       "for_beginners": true
     },
     {
@@ -148,11 +234,823 @@
       "price_range": "2000-3500",
       "summary": "メンズ向けブランドの看板化粧水。しっとり系で乾燥にも対応。",
       "verdict_badge": "メンズ定番",
-      "for_whom": ["メンズ向け製品を探している人", "しっとり保湿したい人", "ブランド感を求める人"],
-      "not_for_whom": ["コスパを最優先する人", "さっぱり系が好きな人"],
-      "key_ingredients": ["トレハロース", "リンゴ果実培養細胞エキス", "グリセリルグルコシド"],
-      "keywords": ["バルクオム", "BULK HOMME", "THE TONER", "メンズ", "男性用"],
-      "concerns": ["テカリ", "乾燥", "メンズ"],
+      "for_whom": [
+        "メンズ向け製品を探している人",
+        "しっとり保湿したい人",
+        "ブランド感を求める人"
+      ],
+      "not_for_whom": [
+        "コスパを最優先する人",
+        "さっぱり系が好きな人"
+      ],
+      "key_ingredients": [
+        "トレハロース",
+        "リンゴ果実培養細胞エキス",
+        "グリセリルグルコシド"
+      ],
+      "keywords": [
+        "バルクオム",
+        "BULK HOMME",
+        "THE TONER",
+        "メンズ",
+        "男性用"
+      ],
+      "concerns": [
+        "テカリ",
+        "乾燥",
+        "メンズ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-006",
+      "name": "メンズビオレ 泡タイプ洗顔",
+      "brand": "メンズビオレ（花王）",
+      "category": "洗顔料",
+      "page_url": "/products/prod-006.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "500-800",
+      "summary": "ワンプッシュで弾力泡が出てきて、洗顔とシェービングまで一気にこなせる脂性肌・メンズ向けのさっぱり洗顔。",
+      "verdict_badge": "初心者向け",
+      "for_whom": [
+        "皮脂のテカリやベタつきが気になる脂性肌の人",
+        "泡立てが面倒で時短したい初心者",
+        "洗顔とヒゲ剃りをまとめて済ませたい人"
+      ],
+      "not_for_whom": [
+        "乾燥肌・冬につっぱりやすい人",
+        "とにかく強いさっぱり感を求める人"
+      ],
+      "key_ingredients": [
+        "化粧水成分（グリセリン）",
+        "PPG-9ジグリセリル",
+        "PG"
+      ],
+      "keywords": [
+        "メンズ 洗顔",
+        "泡 洗顔 メンズ",
+        "テカリ 洗顔",
+        "シェービング 洗顔"
+      ],
+      "concerns": [
+        "テカリ",
+        "ヒゲ",
+        "毛穴"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-007",
+      "name": "キュレル 潤浸保湿 泡洗顔料",
+      "brand": "キュレル（花王）",
+      "category": "洗顔料",
+      "page_url": "/products/prod-007.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1000-1800",
+      "summary": "セラミドの働きを守りながら洗える、きめ細かい泡で出てくる乾燥性敏感肌向けの低刺激洗顔。",
+      "verdict_badge": "敏感肌向け",
+      "for_whom": [
+        "乾燥や肌のつっぱりが気になる人",
+        "刺激の少ない洗顔を探している敏感肌の初心者",
+        "泡立て不要で優しく洗いたい人"
+      ],
+      "not_for_whom": [
+        "皮脂をガッツリ落とす強い洗浄力を求める脂性肌の人",
+        "とにかく安く済ませたい人"
+      ],
+      "key_ingredients": [
+        "セラミド機能成分",
+        "グリセリン（化粧水成分）",
+        "弱酸性処方"
+      ],
+      "keywords": [
+        "敏感肌 洗顔",
+        "低刺激 洗顔",
+        "乾燥 洗顔",
+        "キュレル 泡"
+      ],
+      "concerns": [
+        "乾燥",
+        "敏感肌"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-008",
+      "name": "suisai ビューティクリア パウダーウォッシュN",
+      "brand": "suisai（カネボウ化粧品）",
+      "category": "洗顔料",
+      "page_url": "/products/prod-008.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1500-2100",
+      "summary": "2種類の酵素配合の個包装パウダー洗顔で、普段の洗顔で落としにくい毛穴の黒ずみや角質汚れにアプローチする。",
+      "verdict_badge": "毛穴ケア",
+      "for_whom": [
+        "毛穴の黒ずみや角質のザラつきが気になる人",
+        "週に数回のスペシャルケアを取り入れたい初心者",
+        "普段の洗顔で落ちきらない汚れをケアしたい人"
+      ],
+      "not_for_whom": [
+        "毎日ゴシゴシ強く洗いたい人",
+        "乾燥や刺激に敏感で角質ケアが負担になる人"
+      ],
+      "key_ingredients": [
+        "プロテアーゼ（酵素）",
+        "パパイン（酵素）",
+        "アミノ酸系洗浄成分"
+      ],
+      "keywords": [
+        "酵素 洗顔",
+        "毛穴 黒ずみ 洗顔",
+        "パウダー 洗顔",
+        "suisai 毛穴"
+      ],
+      "concerns": [
+        "毛穴",
+        "黒ずみ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-009",
+      "name": "無印良品 マイルドジェルクレンジング 200g",
+      "brand": "無印良品",
+      "category": "クレンジング",
+      "page_url": "/products/prod-009.html",
+      "asin": "B09RPGXTQ5",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "700-1000",
+      "summary": "弱酸性・アルコールフリーで肌への負担が少ないジェルクレンジング。くるくるなじませるだけでメイクオフでき、大容量で続けやすい価格が魅力。スキンケア初心者がまず手に取りやすい定番。",
+      "verdict_badge": "コスパ◎",
+      "for_whom": [
+        "スキンケアを始めたばかりの人",
+        "コスパ重視で続けやすさを求める人",
+        "オイルのぬるつきが苦手な人",
+        "軽めのメイクや日焼け止めを落としたい人"
+      ],
+      "not_for_whom": [
+        "濃いメイク・ウォータープルーフを毎日しっかり落としたい人",
+        "洗い上がりにしっとり感を強く求める乾燥肌の人"
+      ],
+      "key_ingredients": [
+        "ヒアルロン酸（保湿）",
+        "ポリクオタニウム-51（保湿）",
+        "アンズ果汁",
+        "モモ葉エキス"
+      ],
+      "keywords": [
+        "ジェルクレンジング",
+        "プチプラ",
+        "弱酸性",
+        "アルコールフリー",
+        "メンズ",
+        "初心者"
+      ],
+      "concerns": [
+        "毛穴",
+        "乾燥",
+        "コスパ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-010",
+      "name": "ファンケル マイルドクレンジング オイル 120mL",
+      "brand": "ファンケル",
+      "category": "クレンジング",
+      "page_url": "/products/prod-010.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1800-2000",
+      "summary": "長年クレンジングオイル市場で売上トップクラスを続ける定番。こすらずするんとメイクを落とせて、洗い上がりがつっぱりにくいと幅広い世代に支持される。毛穴の角栓ケアを意識する人にも人気。",
+      "verdict_badge": "定番オイル",
+      "for_whom": [
+        "濃いメイクや日焼け止めをしっかり落としたい人",
+        "毛穴の角栓やザラつきが気になる人",
+        "つっぱりにくい洗い上がりを求める人",
+        "無添加処方を重視する人"
+      ],
+      "not_for_whom": [
+        "価格をとにかく抑えたい人",
+        "オイルのぬるつき・残り感が苦手な人",
+        "ごく敏感でヒリつきやすい人"
+      ],
+      "key_ingredients": [
+        "熟成ホップエキス（保湿・整肌）",
+        "緑茶エキス（保湿）",
+        "植物由来オイル系洗浄成分"
+      ],
+      "keywords": [
+        "クレンジングオイル",
+        "定番",
+        "無添加",
+        "角栓",
+        "毛穴",
+        "メンズ"
+      ],
+      "concerns": [
+        "毛穴",
+        "黒ずみ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-011",
+      "name": "メラノCC 薬用しみ集中対策美容液",
+      "brand": "ロート製薬",
+      "category": "美容液",
+      "page_url": "/products/prod-011.html",
+      "asin": "B007409FZ0",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1000-1500",
+      "summary": "ビタミンC誘導体とビタミンE誘導体を配合した医薬部外品。べたつきにくいリキッドタイプで、ニキビ予防やメラニンの生成を抑えしみ・そばかすを防ぐケアを目的とした定番プチプラ美容液。",
+      "verdict_badge": "ビタミンC定番",
+      "for_whom": [
+        "ニキビ跡や毛穴・くすみが気になる初心者",
+        "コスパ重視で続けたい人",
+        "さっぱりした使用感が好きな人"
+      ],
+      "not_for_whom": [
+        "柑橘系の香りが苦手な人",
+        "極度の乾燥肌で保湿力を最優先する人",
+        "刺激に敏感な人"
+      ],
+      "key_ingredients": [
+        "アスコルビン酸（ビタミンC）",
+        "トコフェロール酢酸エステル（ビタミンE誘導体）",
+        "グリチルリチン酸ジカリウム"
+      ],
+      "keywords": [
+        "ビタミンC",
+        "ニキビ予防",
+        "美白ケア",
+        "プチプラ",
+        "毛穴"
+      ],
+      "concerns": [
+        "ニキビ",
+        "ニキビ跡",
+        "毛穴",
+        "くすみ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-012",
+      "name": "無印良品 高濃度美容液 ナイアシンアミド配合",
+      "brand": "無印良品",
+      "category": "美容液",
+      "page_url": "/products/prod-012.html",
+      "asin": "B0DR18WBDT",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "2000-3000",
+      "summary": "ナイアシンアミドを高配合した美容液。乾燥によるくすみが気になる肌にうるおいを与え、ハリと透明感のある肌印象に整えることを目的としたプチプラの人気アイテム。",
+      "verdict_badge": "ナイアシンアミド入門",
+      "for_whom": [
+        "くすみ・ハリ不足が気になる初心者",
+        "ナイアシンアミドを試したい人",
+        "なじみの良い使用感を求める人"
+      ],
+      "not_for_whom": [
+        "濃厚な保湿感を求める乾燥肌",
+        "ニキビができやすく合わない人",
+        "とろみのあるテクスチャーが好きな人"
+      ],
+      "key_ingredients": [
+        "ナイアシンアミド",
+        "グリセリン",
+        "ヒアルロン酸"
+      ],
+      "keywords": [
+        "ナイアシンアミド",
+        "高濃度",
+        "くすみケア",
+        "ハリ",
+        "プチプラ"
+      ],
+      "concerns": [
+        "くすみ",
+        "乾燥",
+        "美白"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-013",
+      "name": "キュレル 潤浸保湿 美容液",
+      "brand": "キュレル（花王）",
+      "category": "美容液",
+      "page_url": "/products/prod-013.html",
+      "asin": "B0CYTGF2F4",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "2000-2500",
+      "summary": "セラミドの働きを補うセラミド機能成分を配合した医薬部外品の美容液。乾燥性敏感肌向けに設計され、弱酸性・無香料・無着色・アルコールフリーで肌のバリアを整え乾燥による肌荒れを防ぐ。",
+      "verdict_badge": "敏感肌向け",
+      "for_whom": [
+        "乾燥肌・敏感肌の初心者",
+        "刺激の少なさを最優先する人",
+        "ベタつかず保湿したい人"
+      ],
+      "not_for_whom": [
+        "皮脂が多くさっぱり感だけ求める人",
+        "美白やニキビケアが主目的の人",
+        "香りのある製品が好きな人"
+      ],
+      "key_ingredients": [
+        "セラミド機能成分",
+        "ユーカリエキス",
+        "アラントイン"
+      ],
+      "keywords": [
+        "セラミド",
+        "敏感肌",
+        "保湿",
+        "バリア機能",
+        "低刺激"
+      ],
+      "concerns": [
+        "乾燥",
+        "敏感肌",
+        "肌荒れ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-014",
+      "name": "無印良品 発酵導入美容液",
+      "brand": "無印良品",
+      "category": "美容液",
+      "page_url": "/products/prod-014.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1500-2000",
+      "summary": "米ぬか発酵液を主体に、加水分解ヒアルロン酸やセラミドなどの保湿成分を配合した導入（ブースター）美容液。洗顔後の最初に使い、後のスキンケアのなじみとうるおいを高めることを目的とした人気アイテム。",
+      "verdict_badge": "導入美容液",
+      "for_whom": [
+        "スキンケアの土台から整えたい初心者",
+        "もっちりした保湿感が好きな人",
+        "手頃に導入美容液を試したい人"
+      ],
+      "not_for_whom": [
+        "さっぱり軽い使用感を最優先する人",
+        "リッチなテクスチャーが苦手な人",
+        "即効的な変化を求める人"
+      ],
+      "key_ingredients": [
+        "米ぬか発酵液",
+        "加水分解ヒアルロン酸",
+        "セラミド"
+      ],
+      "keywords": [
+        "導入美容液",
+        "ブースター",
+        "ヒアルロン酸",
+        "発酵",
+        "保湿"
+      ],
+      "concerns": [
+        "乾燥",
+        "保湿"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-015",
+      "name": "無印良品 乳液・敏感肌用・高保湿タイプ",
+      "brand": "無印良品",
+      "category": "乳液",
+      "page_url": "/products/prod-015.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "700-1000",
+      "summary": "天然由来のうるおい成分を配合した低刺激設計の敏感肌向け乳液。高保湿タイプでもベタつきにくく、コスパの良さからスキンケア初心者の最初の1本として選ばれやすい定番。",
+      "verdict_badge": "コスパ◎",
+      "for_whom": [
+        "スキンケアを始めたばかりの人",
+        "敏感肌・乾燥が気になる人",
+        "なるべく安く続けたい人",
+        "無香料・シンプル処方を好む人"
+      ],
+      "not_for_whom": [
+        "強い保湿感やリッチな使用感を求める人",
+        "皮脂が多くさっぱり仕上げたい人"
+      ],
+      "key_ingredients": [
+        "セラミド",
+        "アミノ酸",
+        "植物由来エキス",
+        "ヒアルロン酸"
+      ],
+      "keywords": [
+        "無印",
+        "乳液",
+        "敏感肌",
+        "高保湿",
+        "プチプラ",
+        "初心者"
+      ],
+      "concerns": [
+        "乾燥",
+        "敏感肌",
+        "コスパ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-016",
+      "name": "ニベアメン アクティブエイジバーム",
+      "brand": "ニベアメン",
+      "category": "乳液",
+      "page_url": "/products/prod-016.html",
+      "asin": "B0096HYHZ2",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "1500-2200",
+      "summary": "とろみのあるテクスチャーで伸びが良く、ベタつきにくいメンズ向け乳液。乾燥やハリが気になる肌の保湿ケアに向き、メンズコスメの定番として入手しやすい1本。",
+      "verdict_badge": "メンズ定番",
+      "for_whom": [
+        "男性でスキンケアを習慣化したい人",
+        "乾燥やハリ不足が気になる人",
+        "ベタつきが苦手な人",
+        "1本でまとめてケアしたい人"
+      ],
+      "not_for_whom": [
+        "とにかく安く済ませたい人",
+        "皮脂が非常に多くさっぱり重視の人"
+      ],
+      "key_ingredients": [
+        "ヒアルロン酸",
+        "コエンザイムQ10",
+        "アルギニン"
+      ],
+      "keywords": [
+        "ニベアメン",
+        "メンズ乳液",
+        "保湿",
+        "ベタつかない"
+      ],
+      "concerns": [
+        "乾燥",
+        "メンズ"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-017",
+      "name": "肌ラボ 極潤ヒアルロン乳液",
+      "brand": "肌ラボ",
+      "category": "乳液",
+      "page_url": "/products/prod-017.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "800-1000",
+      "summary": "ヒアルロン酸配合の高保湿プチプラ乳液。とろみがあり少量でも伸びやすく、シンプル処方で敏感肌や初心者にも使いやすい定番のロングセラー。",
+      "verdict_badge": "コスパ◎",
+      "for_whom": [
+        "コスパよく保湿したい人",
+        "乾燥が気になる初心者",
+        "シンプル処方を好む人",
+        "ヒアルロン酸でしっとりさせたい人"
+      ],
+      "not_for_whom": [
+        "完全にさらっとした仕上がりが好みの人",
+        "強い香りや特別な使用感を求める人"
+      ],
+      "key_ingredients": [
+        "ヒアルロン酸"
+      ],
+      "keywords": [
+        "肌ラボ",
+        "極潤",
+        "乳液",
+        "ヒアルロン酸",
+        "プチプラ",
+        "高保湿",
+        "初心者"
+      ],
+      "concerns": [
+        "乾燥",
+        "コスパ",
+        "敏感肌"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-018",
+      "name": "ビオレUV アクアリッチ ウォータリーエッセンス",
+      "brand": "ビオレ（花王）",
+      "category": "日焼け止め",
+      "page_url": "/products/prod-018.html",
+      "asin": "B0BSGD7C3Z",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "700-1000",
+      "summary": "SPF50+/PA++++のみずみずしい水感エッセンスタイプ。白浮きしにくく軽いつけ心地で、顔にも使える定番。石けんで落とせて、保湿成分配合。日焼け止めデビューに選ばれやすい1本。",
+      "verdict_badge": "初心者向け",
+      "for_whom": [
+        "日焼け止めデビューの男性",
+        "ベタつき・テカリが苦手な人",
+        "コスパ重視の人",
+        "軽いつけ心地を求める人"
+      ],
+      "not_for_whom": [
+        "長時間の屋外スポーツで塗り直しが難しい人",
+        "汗を大量にかくシーンで高いキープ力を求める人"
+      ],
+      "key_ingredients": [
+        "ヒアルロン酸（保湿成分）",
+        "ローヤルゼリーエキス（保湿成分）",
+        "BG（保湿成分）"
+      ],
+      "keywords": [
+        "ビオレUV",
+        "アクアリッチ",
+        "日焼け止め",
+        "SPF50",
+        "白浮きしない",
+        "軽い"
+      ],
+      "concerns": [
+        "テカリ",
+        "乾燥"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-019",
+      "name": "アネッサ パーフェクトUV スキンケアミルク NA",
+      "brand": "アネッサ（資生堂）",
+      "category": "日焼け止め",
+      "page_url": "/products/prod-019.html",
+      "asin": "B0CSSVF9GQ",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "2300-3100",
+      "summary": "SPF50+/PA++++の高機能ミルクタイプ。汗・水・熱に強く、よれや隙間を補う設計。顔・からだ兼用で石けんオフ可。屋外イベントやスポーツ時の必需品として支持される定番。",
+      "verdict_badge": "本気のUV対策",
+      "for_whom": [
+        "屋外スポーツ・レジャーが多い人",
+        "汗をかくシーンでも崩れにくさを求める人",
+        "本格的なUV対策をしたい人"
+      ],
+      "not_for_whom": [
+        "軽い使用感だけを最優先する人",
+        "乾燥肌で全顔にたっぷり使うと突っ張りを感じやすい人",
+        "低価格を最優先する初心者"
+      ],
+      "key_ingredients": [
+        "スーパーウォータープルーフ処方",
+        "保湿・美容液成分"
+      ],
+      "keywords": [
+        "アネッサ",
+        "パーフェクトUV",
+        "SPF50",
+        "ウォータープルーフ",
+        "汗に強い",
+        "スポーツ"
+      ],
+      "concerns": [
+        "テカリ",
+        "乾燥"
+      ],
+      "for_beginners": true
+    },
+    {
+      "id": "prod-020",
+      "name": "ニベアメン センシティブローション（薬用）",
+      "brand": "ニベアメン",
+      "category": "化粧水",
+      "page_url": "/products/prod-020.html",
+      "asin": "",
+      "amazon": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null
+      },
+      "qoo10": {
+        "url": "",
+        "price": null,
+        "image_url": "",
+        "last_fetched": null,
+        "is_mega_sale_active": false
+      },
+      "lowest_price_source": null,
+      "price_range": "800-1200",
+      "summary": "ヒゲ剃り後のカミソリ負けや乾燥による肌荒れを防ぐことを目的とした薬用メンズ化粧水。抗炎症成分配合・アルコールフリー・無香料で、敏感肌やシェービング後のケア初心者に向く。",
+      "verdict_badge": "ヒゲ剃り後ケア",
+      "for_whom": [
+        "ヒゲ剃り後にヒリつきやすい人",
+        "カミソリ負け・乾燥肌荒れが気になる人",
+        "敏感肌の男性",
+        "アフターシェーブケアの初心者"
+      ],
+      "not_for_whom": [
+        "こってりした保湿感を化粧水に求める人",
+        "アルコールの清涼感が好きな人"
+      ],
+      "key_ingredients": [
+        "グリチルリチン酸ジカリウム",
+        "ヒアルロン酸"
+      ],
+      "keywords": [
+        "ニベアメン",
+        "アフターシェーブ",
+        "化粧水",
+        "敏感肌",
+        "カミソリ負け",
+        "ヒゲ剃り後",
+        "薬用"
+      ],
+      "concerns": [
+        "ヒゲ",
+        "肌荒れ",
+        "乾燥",
+        "敏感肌"
+      ],
       "for_beginners": true
     }
   ]

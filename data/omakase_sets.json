@@ -8,13 +8,37 @@
       "concern_focus": "",
       "total_price_estimate": "約3,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "オイルフリークレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "さっぱり泡洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-004", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "ビタミンC美容液（選定中）" },
-        { "category": "乳液", "product_id": "", "fallback_name": "軽量ジェル乳液（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-006",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-004",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-011",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-015",
+          "fallback_name": ""
+        }
       ],
-      "features": ["3,000円台で全部揃う", "脂性肌向けさっぱり設計", "ドラッグストアで入手可能"],
+      "features": [
+        "3,000円台で全部揃う",
+        "脂性肌向けさっぱり設計",
+        "ドラッグストアで入手可能"
+      ],
       "skinsci_pick_reason": "脂性肌の方向けに、ベタつかない使用感とコスパを優先して選定。"
     },
     {
@@ -25,13 +49,37 @@
       "concern_focus": "",
       "total_price_estimate": "約5,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "ジェルクレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "酵素洗顔パウダー（選定中）" },
-        { "category": "化粧水", "product_id": "prod-001", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "ナイアシンアミド美容液（選定中）" },
-        { "category": "乳液", "product_id": "", "fallback_name": "オイルフリー保湿ジェル（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-008",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-001",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-012",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-016",
+          "fallback_name": ""
+        }
       ],
-      "features": ["5,000円台でワンランク上", "皮脂コントロール成分充実", "ビタミンC+ナイアシンアミドの組み合わせ"],
+      "features": [
+        "5,000円台でワンランク上",
+        "皮脂コントロール成分充実",
+        "ビタミンC+ナイアシンアミドの組み合わせ"
+      ],
       "skinsci_pick_reason": "テカリを抑えつつ肌を整える成分を重視。5,000円台でしっかりケア。"
     },
     {
@@ -42,13 +90,37 @@
       "concern_focus": "",
       "total_price_estimate": "約8,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "低刺激クレンジングバーム（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "BHA配合洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-005", "fallback_name": "" },
-        { "category": "美容液", "product_id": "prod-001", "fallback_name": "" },
-        { "category": "乳液", "product_id": "", "fallback_name": "高機能保湿ジェル（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-010",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-006",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-005",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-011",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-016",
+          "fallback_name": ""
+        }
       ],
-      "features": ["本格派のメンズスキンケア", "ブランド×プチプラのハイブリッド", "毛穴・テカリに多角的アプローチ"],
+      "features": [
+        "本格派のメンズスキンケア",
+        "ブランド×プチプラのハイブリッド",
+        "毛穴・テカリに多角的アプローチ"
+      ],
       "skinsci_pick_reason": "メンズブランドのバルクオムとプチプラの良いとこ取り。本気で肌を整えたい人に。"
     },
     {
@@ -59,13 +131,37 @@
       "concern_focus": "",
       "total_price_estimate": "約3,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "ミルククレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "低刺激洗顔フォーム（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "ヒアルロン酸美容液（選定中）" },
-        { "category": "乳液", "product_id": "", "fallback_name": "しっとり乳液（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-014",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-017",
+          "fallback_name": ""
+        }
       ],
-      "features": ["3,000円台で保湿ケア完成", "低刺激で乾燥肌に安心", "無印良品の安定感"],
+      "features": [
+        "3,000円台で保湿ケア完成",
+        "低刺激で乾燥肌に安心",
+        "無印良品の安定感"
+      ],
       "skinsci_pick_reason": "乾燥肌に必要な保湿力を、手頃な価格で実現。まず試すならこのセット。"
     },
     {
@@ -76,13 +172,37 @@
       "concern_focus": "",
       "total_price_estimate": "約5,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "バームクレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "アミノ酸洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "セラミド美容液（選定中）" },
-        { "category": "乳液", "product_id": "prod-003", "fallback_name": "" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-013",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
       ],
-      "features": ["セラミド×ヒアルロン酸の保湿コンビ", "バリア機能を重視", "キュレルの安心感"],
+      "features": [
+        "セラミド×ヒアルロン酸の保湿コンビ",
+        "バリア機能を重視",
+        "キュレルの安心感"
+      ],
       "skinsci_pick_reason": "化粧水で水分補給、クリームでバリア強化。乾燥肌のゴールデンコンビ。"
     },
     {
@@ -93,13 +213,37 @@
       "concern_focus": "",
       "total_price_estimate": "約8,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "高保湿クレンジングミルク（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "セラミド洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-005", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "レチノール美容液（選定中）" },
-        { "category": "乳液", "product_id": "prod-003", "fallback_name": "" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-010",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-005",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-013",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
       ],
-      "features": ["保湿+エイジングケアの本格派", "バルクオム+キュレルのW保湿", "長期的な肌質改善を目指す"],
+      "features": [
+        "保湿+エイジングケアの本格派",
+        "バルクオム+キュレルのW保湿",
+        "長期的な肌質改善を目指す"
+      ],
       "skinsci_pick_reason": "保湿しながらエイジングケアも始めたい人に。しっとり重視の本格セット。"
     },
     {
@@ -110,13 +254,37 @@
       "concern_focus": "",
       "total_price_estimate": "約3,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "ジェルクレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "バランス洗顔フォーム（選定中）" },
-        { "category": "化粧水", "product_id": "prod-004", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "ナイアシンアミド美容液（選定中）" },
-        { "category": "乳液", "product_id": "", "fallback_name": "軽量乳液（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-006",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-004",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-012",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-015",
+          "fallback_name": ""
+        }
       ],
-      "features": ["Tゾーンもuゾーンもこれ1セット", "さっぱり×しっとりのバランス型", "3,000円台で始められる"],
+      "features": [
+        "Tゾーンもuゾーンもこれ1セット",
+        "さっぱり×しっとりのバランス型",
+        "3,000円台で始められる"
+      ],
       "skinsci_pick_reason": "混合肌のバランスケアを手頃な価格で。さっぱり化粧水+軽い乳液の組み合わせ。"
     },
     {
@@ -127,13 +295,37 @@
       "concern_focus": "",
       "total_price_estimate": "約5,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "ダブル洗顔不要クレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "泡洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "prod-001", "fallback_name": "" },
-        { "category": "乳液", "product_id": "", "fallback_name": "さっぱり乳液（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-006",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-011",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-017",
+          "fallback_name": ""
+        }
       ],
-      "features": ["無印×メラノCCの定番コンビ", "保湿しつつ皮脂もケア", "5,000円台でしっかり5ステップ"],
+      "features": [
+        "無印×メラノCCの定番コンビ",
+        "保湿しつつ皮脂もケア",
+        "5,000円台でしっかり5ステップ"
+      ],
       "skinsci_pick_reason": "保湿の無印とビタミンCのメラノCC。混合肌の両方の悩みに対応。"
     },
     {
@@ -144,13 +336,37 @@
       "concern_focus": "",
       "total_price_estimate": "約8,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "クレンジングバーム（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "酵素洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-005", "fallback_name": "" },
-        { "category": "美容液", "product_id": "prod-001", "fallback_name": "" },
-        { "category": "乳液", "product_id": "prod-003", "fallback_name": "" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-010",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-008",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-005",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-011",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-016",
+          "fallback_name": ""
+        }
       ],
-      "features": ["ブランド×プチプラの黄金比", "バルクオム+メラノCC+キュレル", "混合肌の悩みに多角的アプローチ"],
+      "features": [
+        "ブランド×プチプラの黄金比",
+        "バルクオム+メラノCC+キュレル",
+        "混合肌の悩みに多角的アプローチ"
+      ],
       "skinsci_pick_reason": "メンズブランドの化粧水、プチプラの美白美容液、敏感肌向けクリームの3本柱。"
     },
     {
@@ -161,13 +377,37 @@
       "concern_focus": "",
       "total_price_estimate": "約3,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "低刺激ミルククレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "無添加洗顔フォーム（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "低刺激美容液（選定中）" },
-        { "category": "乳液", "product_id": "", "fallback_name": "セラミド乳液（選定中）" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-013",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-015",
+          "fallback_name": ""
+        }
       ],
-      "features": ["刺激最小限の安心設計", "無印良品を軸にしたシンプルケア", "3,000円台で始められる"],
+      "features": [
+        "刺激最小限の安心設計",
+        "無印良品を軸にしたシンプルケア",
+        "3,000円台で始められる"
+      ],
       "skinsci_pick_reason": "敏感肌に大切なのは引き算。低刺激にこだわったコスパセット。"
     },
     {
@@ -178,13 +418,37 @@
       "concern_focus": "",
       "total_price_estimate": "約5,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "敏感肌用クレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "アミノ酸系洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "セラミド美容液（選定中）" },
-        { "category": "乳液", "product_id": "prod-003", "fallback_name": "" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-009",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-013",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
       ],
-      "features": ["無印×キュレルの低刺激コンビ", "セラミドでバリア修復", "敏感肌専門ブランドの安心感"],
+      "features": [
+        "無印×キュレルの低刺激コンビ",
+        "セラミドでバリア修復",
+        "敏感肌専門ブランドの安心感"
+      ],
       "skinsci_pick_reason": "低刺激の無印化粧水とキュレルのセラミドクリーム。敏感肌の王道セット。"
     },
     {
@@ -195,13 +459,37 @@
       "concern_focus": "",
       "total_price_estimate": "約8,000円",
       "products": [
-        { "category": "クレンジング", "product_id": "", "fallback_name": "処方箋級クレンジング（選定中）" },
-        { "category": "洗顔料", "product_id": "", "fallback_name": "セラミド洗顔（選定中）" },
-        { "category": "化粧水", "product_id": "prod-002", "fallback_name": "" },
-        { "category": "美容液", "product_id": "", "fallback_name": "アラントイン美容液（選定中）" },
-        { "category": "乳液", "product_id": "prod-003", "fallback_name": "" }
+        {
+          "category": "クレンジング",
+          "product_id": "prod-010",
+          "fallback_name": ""
+        },
+        {
+          "category": "洗顔料",
+          "product_id": "prod-007",
+          "fallback_name": ""
+        },
+        {
+          "category": "化粧水",
+          "product_id": "prod-002",
+          "fallback_name": ""
+        },
+        {
+          "category": "美容液",
+          "product_id": "prod-013",
+          "fallback_name": ""
+        },
+        {
+          "category": "乳液",
+          "product_id": "prod-003",
+          "fallback_name": ""
+        }
       ],
-      "features": ["バリア修復を徹底重視", "低刺激×高保湿の本格ライン", "肌が安定するまでの集中ケア"],
+      "features": [
+        "バリア修復を徹底重視",
+        "低刺激×高保湿の本格ライン",
+        "肌が安定するまでの集中ケア"
+      ],
       "skinsci_pick_reason": "敏感肌の集中ケアに。バリア修復に特化した本格セット。"
     }
   ]

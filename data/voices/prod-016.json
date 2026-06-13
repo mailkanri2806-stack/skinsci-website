@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-016",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 1300,
+      "average_rating": 4.2
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "しっとりするのにベタつきにくい",
+        "frequency": "高",
+        "context": "保湿感とさらっとした仕上がりの両立が高評価の中心"
+      },
+      {
+        "point": "少量でよく伸びてコスパよく使える",
+        "frequency": "高",
+        "context": "とろみがあり伸びが良いため1本が長持ちするという声"
+      },
+      {
+        "point": "メンズ向けで売り場でも探しやすい",
+        "frequency": "高",
+        "context": "知名度が高く店舗・通販で手に入りやすい安心感"
+      },
+      {
+        "point": "1本で保湿ケアがまとまる手軽さ",
+        "frequency": "中",
+        "context": "あれこれ揃えなくてよく初心者に向くという感想"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "保湿力が物足りないと感じる人もいる",
+        "frequency": "中",
+        "context": "強い乾燥肌では物足りなさを感じる声がある"
+      },
+      {
+        "point": "容器が使いにくいと感じる声",
+        "frequency": "低",
+        "context": "中身の出しやすさに不満を持つ人がいる"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "価格はメンズ乳液としては中位",
+        "frequency": "中",
+        "context": "プチプラよりやや高いが許容範囲との受け止め"
+      }
+    ]
+  },
+  "relative_evaluation": "メンズ乳液カテゴリでは知名度・入手性・使用感のバランスが良く、男性初心者の標準的な選択肢として評価が安定している。",
+  "best_for": [
+    "男性のスキンケア初心者",
+    "乾燥・ハリが気になる人",
+    "ベタつき嫌い"
+  ],
+  "not_best_for": [
+    "最安重視の人",
+    "脂性肌でさっぱり最優先の人"
+  ],
+  "skinsci_score": {
+    "total": 84,
+    "axes": {
+      "beginner_friendly": 22,
+      "cost_performance": 19,
+      "effect_satisfaction": 22,
+      "availability": 21
+    },
+    "rationale": {
+      "beginner_friendly": "1本で保湿が完結しメンズ向けで迷いにくい",
+      "cost_performance": "プチプラ乳液よりやや高めだが伸びの良さで補える",
+      "effect_satisfaction": "ベタつかない保湿感への満足度が高い",
+      "availability": "ドラッグストア・通販で広く流通する定番品"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B0096HYHZ2",
+    "https://my-best.com/products/269869",
+    "https://onecosme.jp/92055"
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-015",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "価格が安く続けやすい",
+        "frequency": "高",
+        "context": "200mLで1000円弱という手頃さがリピート理由として頻繁に挙げられる"
+      },
+      {
+        "point": "高保湿タイプでもベタつきにくい",
+        "frequency": "高",
+        "context": "しっとりするのに重すぎず朝のメイク前でも使いやすいという声"
+      },
+      {
+        "point": "敏感肌でも使いやすい低刺激感",
+        "frequency": "高",
+        "context": "無香料で刺激を感じにくく安心して使えたという感想が目立つ"
+      },
+      {
+        "point": "どこでも買える入手のしやすさ",
+        "frequency": "中",
+        "context": "店舗・通販ともに手に入りやすく初心者が試しやすい"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "保湿感が物足りないと感じる人もいる",
+        "frequency": "中",
+        "context": "真冬や強い乾燥肌には保湿が足りないと感じる声"
+      },
+      {
+        "point": "使用感がシンプルで好みが分かれる",
+        "frequency": "低",
+        "context": "リッチさや特別な使用感を求める人には平凡に映る場合がある"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "香りがなくクセがない",
+        "frequency": "中",
+        "context": "無香料のため好みで評価が分かれるが万人向けとされる"
+      }
+    ]
+  },
+  "relative_evaluation": "同価格帯の乳液の中でも入手性と低刺激のバランスが良く、初心者が失敗しにくい標準的な選択肢として位置づけられる。",
+  "best_for": [
+    "スキンケア初心者",
+    "敏感肌",
+    "コスパ重視"
+  ],
+  "not_best_for": [
+    "濃厚な保湿を求める人",
+    "皮脂が非常に多い人"
+  ],
+  "skinsci_score": {
+    "total": 88,
+    "axes": {
+      "beginner_friendly": 24,
+      "cost_performance": 24,
+      "effect_satisfaction": 20,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "無香料・低刺激でシンプル、最初の1本に向く",
+      "cost_performance": "200mLで1000円弱と量あたり単価が非常に優秀",
+      "effect_satisfaction": "保湿満足度は高いが強い乾燥肌には物足りなさの声もある",
+      "availability": "全国の店舗と通販で安定して入手できる"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/2936927/",
+    "https://my-best.com/products/1788992",
+    "https://lipscosme.com/products/569464"
+  ]
+}

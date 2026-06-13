@@ -114,10 +114,10 @@
     var sourcesHTML = '';
     if (data.sources) {
       var parts = [];
-      if (data.sources.amazon) parts.push('Amazonレビュー ' + data.sources.amazon.review_count_total + '件（平均★' + data.sources.amazon.average_rating + '）');
-      if (data.sources.qoo10) parts.push('Qoo10レビュー ' + data.sources.qoo10.review_count_total + '件（平均★' + data.sources.qoo10.average_rating + '）');
-      if (data.sources.x_twitter) parts.push('X投稿 ' + data.sources.x_twitter.post_count_collected + '件');
-      sourcesHTML = '<p class="text-xs text-gray-400 mb-1">' + parts.join(' / ') + ' を分析</p>';
+      if (data.sources.amazon && data.sources.amazon.review_count_total != null) parts.push('Amazonレビュー ' + data.sources.amazon.review_count_total + '件（平均★' + data.sources.amazon.average_rating + '）');
+      if (data.sources.qoo10 && data.sources.qoo10.review_count_total != null) parts.push('Qoo10レビュー ' + data.sources.qoo10.review_count_total + '件（平均★' + data.sources.qoo10.average_rating + '）');
+      if (data.sources.x_twitter && data.sources.x_twitter.post_count_collected) parts.push('X投稿 ' + data.sources.x_twitter.post_count_collected + '件');
+      if (parts.length) sourcesHTML = '<p class="text-xs text-gray-400 mb-1">複数の口コミサイト（' + parts.join(' / ') + 'など）を分析</p>';
     }
     if (data.collected_at) {
       sourcesHTML += '<p class="text-xs text-gray-400 mb-4">最終更新：' + esc(data.collected_at) + '</p>';

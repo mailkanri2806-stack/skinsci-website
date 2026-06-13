@@ -1,0 +1,95 @@
+{
+  "product_id": "prod-013",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 262,
+      "average_rating": 4.3
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "敏感肌でもヒリつきにくく低刺激",
+        "frequency": "高",
+        "context": "赤みやヒリつきが出にくく安心して使えるとの声が多い"
+      },
+      {
+        "point": "ベタつかずモチモチに潤う",
+        "frequency": "高",
+        "context": "ジェルタイプでサラッとしつつ保湿感があると好評"
+      },
+      {
+        "point": "肌の調子・メイクのりが良くなる",
+        "frequency": "中",
+        "context": "使い続けて肌が安定したという体験談が見られる"
+      },
+      {
+        "point": "無香料で使う人を選ばない",
+        "frequency": "中",
+        "context": "香りが苦手な男性にも使いやすいとの評価"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "皮脂が多い人には保湿が重く感じる場合がある",
+        "frequency": "中",
+        "context": "脂性肌だとしっとりしすぎると感じる声"
+      },
+      {
+        "point": "価格がプチプラの中ではやや高め",
+        "frequency": "中",
+        "context": "ドラッグストア美容液としては高めという指摘"
+      },
+      {
+        "point": "劇的な変化は感じにくい",
+        "frequency": "低",
+        "context": "あくまで保湿・肌荒れ予防向けという認識の声"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "保湿・バリアケア目的が中心",
+        "frequency": "中",
+        "context": "美白やニキビケアを期待する用途ではない"
+      }
+    ]
+  },
+  "relative_evaluation": "セラミド系保湿美容液の中で敏感肌向けの信頼度が高い定番。低刺激と保湿バランスが強みで、攻めの美容成分よりも肌の土台ケア向き。",
+  "best_for": [
+    "乾燥・敏感肌の初心者",
+    "低刺激で保湿したい男性"
+  ],
+  "not_best_for": [
+    "美白・ニキビケアが主目的の人",
+    "さっぱり感だけ求める脂性肌"
+  ],
+  "skinsci_score": {
+    "total": 85,
+    "axes": {
+      "beginner_friendly": 24,
+      "cost_performance": 20,
+      "effect_satisfaction": 21,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "低刺激・無香料で敏感肌でも安心して始めやすい",
+      "cost_performance": "プチプラ内ではやや高めだが内容に納得感がある",
+      "effect_satisfaction": "保湿・肌荒れ予防の満足度が高く平均評価も安定",
+      "availability": "ドラッグストア・通販で全国的に入手しやすい"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B0CYTGF2F4",
+    "https://www.cosme.net/products/10064383/",
+    "https://my-best.com/products/29073"
+  ]
+}

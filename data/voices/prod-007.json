@@ -1,0 +1,89 @@
+{
+  "product_id": "prod-007",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "つっぱらずしっとりした洗い上がり",
+        "frequency": "高",
+        "context": "乾燥性敏感肌でも刺激を感じにくいとの声"
+      },
+      {
+        "point": "きめ細かい泡が最初から出てきて泡立て不要",
+        "frequency": "高",
+        "context": "摩擦が少なく時短にもなると好評"
+      },
+      {
+        "point": "無香料・無着色・アルコールフリーで肌に優しい",
+        "frequency": "中",
+        "context": "医薬部外品で敏感肌向けの配慮"
+      },
+      {
+        "point": "使うと肌のトーンが明るく感じるという声",
+        "frequency": "中",
+        "context": "くすみが取れたとのレビューが複数"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "洗浄力がマイルドで物足りないと感じる人がいる",
+        "frequency": "中",
+        "context": "皮脂が多い人にはさっぱり感が弱め"
+      },
+      {
+        "point": "泡のキメがやや荒く軽い印象との声もある",
+        "frequency": "低",
+        "context": "一部のレビューで指摘"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "価格は同カテゴリの中ではやや高め",
+        "frequency": "中",
+        "context": "敏感肌処方相応の価格帯"
+      }
+    ]
+  },
+  "relative_evaluation": "敏感肌・乾燥肌向け泡洗顔として@cosmeで多数の口コミを集める定番。低刺激と保湿の両立が強みで、つっぱりが苦手な初心者に向く。一方で洗浄力はマイルドなため、強いさっぱり感を求める脂性肌にはメンズビオレ等の方が合う。",
+  "best_for": [
+    "乾燥・敏感肌でつっぱりが苦手な初心者",
+    "低刺激を最優先したい人"
+  ],
+  "not_best_for": [
+    "皮脂をしっかり落としたい脂性肌の人"
+  ],
+  "skinsci_score": {
+    "total": 85,
+    "axes": {
+      "beginner_friendly": 24,
+      "cost_performance": 19,
+      "effect_satisfaction": 23,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "泡で出て使い方が簡単、刺激が少なく初心者でも失敗しにくい",
+      "cost_performance": "価格はやや高めだが容量と満足度で妥当",
+      "effect_satisfaction": "口コミ件数が多く満足度の声が安定して高い",
+      "availability": "ドラッグストアで広く流通し入手しやすい"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10046695/",
+    "https://www.biteki.com/skin-care/facewash/484859",
+    "https://lipscosme.com/products/30018"
+  ]
+}

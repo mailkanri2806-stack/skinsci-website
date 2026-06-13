@@ -1,0 +1,95 @@
+{
+  "product_id": "prod-012",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "刺激を感じにくく肌なじみが良い",
+        "frequency": "高",
+        "context": "スーッとなじむ感触で敏感な人でも使いやすいとの声"
+      },
+      {
+        "point": "もちもちした保湿感を実感",
+        "frequency": "高",
+        "context": "使用後に肌の調子が良くなったという体験談が多い"
+      },
+      {
+        "point": "コスパが良く続けやすい",
+        "frequency": "中",
+        "context": "高濃度配合ながら手頃な価格で評価されている"
+      },
+      {
+        "point": "くすみ・透明感ケアに期待できる",
+        "frequency": "中",
+        "context": "乾燥によるくすみが気になる人に向くとの口コミ"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "テクスチャーがシャバシャバで物足りない",
+        "frequency": "中",
+        "context": "とろみを期待した人や乾燥肌には軽すぎると感じる声"
+      },
+      {
+        "point": "人によってはニキビができた",
+        "frequency": "中",
+        "context": "肌質によって合わないとの口コミも見られる"
+      },
+      {
+        "point": "効果実感に個人差が大きい",
+        "frequency": "低",
+        "context": "変化を感じにくいという評価もある"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "保湿は乳液・クリーム併用前提",
+        "frequency": "中",
+        "context": "単体ではさっぱりめで重ね使いする人が多い"
+      }
+    ]
+  },
+  "relative_evaluation": "ナイアシンアミド美容液の中で入手性・価格に優れた入門アイテム。なじみの良さは高評価だがテクスチャーの軽さで好みが分かれる。",
+  "best_for": [
+    "くすみ・透明感ケア初心者",
+    "ナイアシンアミドを安く試したい男性"
+  ],
+  "not_best_for": [
+    "濃厚保湿を求める乾燥肌",
+    "ニキビができやすい敏感肌"
+  ],
+  "skinsci_score": {
+    "total": 82,
+    "axes": {
+      "beginner_friendly": 22,
+      "cost_performance": 22,
+      "effect_satisfaction": 18,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "刺激が少なくなじみが良いが軽い使用感で好み差あり",
+      "cost_performance": "高濃度配合で2000円台と価格÷量の納得感が高い",
+      "effect_satisfaction": "もちもち感やくすみケアの満足の声が多いが個人差あり",
+      "availability": "無印良品店舗・公式・通販で安定して入手可能"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B0DR18WBDT",
+    "https://www.cosme.net/variations/1192337/review/",
+    "https://lipscosme.com/products/617670"
+  ]
+}

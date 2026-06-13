@@ -1,0 +1,91 @@
+{
+  "product_id": "prod-017",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 2904,
+      "average_rating": 4.3
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "プチプラで続けやすい価格",
+        "frequency": "高",
+        "context": "140mLで1000円以下という手頃さが支持の中心"
+      },
+      {
+        "point": "ヒアルロン酸でしっとり保湿できる",
+        "frequency": "高",
+        "context": "乾燥しにくくなったという満足の声が多い"
+      },
+      {
+        "point": "とろみがあり少量でも伸びやすい",
+        "frequency": "高",
+        "context": "使用量が少なくてすみコスパが良いという感想"
+      },
+      {
+        "point": "シンプル処方で刺激を感じにくい",
+        "frequency": "中",
+        "context": "敏感肌でも使いやすかったという声"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "塗布後に少しぺたつきを感じる人がいる",
+        "frequency": "中",
+        "context": "しっとり系のため軽い粘つきが気になる声"
+      },
+      {
+        "point": "さっぱり仕上げ派には重く感じる",
+        "frequency": "低",
+        "context": "脂性肌や夏場には好みが分かれる"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "香りがなくシンプル",
+        "frequency": "中",
+        "context": "無香料で好みが分かれるが万人向けとされる"
+      }
+    ]
+  },
+  "relative_evaluation": "プチプラ乳液の中でも保湿満足度とレビュー数が突出しており、初心者の高保湿入門として鉄板の評価を得ている。",
+  "best_for": [
+    "コスパ重視の初心者",
+    "乾燥肌",
+    "高保湿を安く"
+  ],
+  "not_best_for": [
+    "さっぱり最優先の人",
+    "脂性肌で夏場メイン使用の人"
+  ],
+  "skinsci_score": {
+    "total": 89,
+    "axes": {
+      "beginner_friendly": 23,
+      "cost_performance": 25,
+      "effect_satisfaction": 22,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "シンプル処方で迷わず使える定番",
+      "cost_performance": "140mLで1000円以下と量あたり単価が非常に優秀",
+      "effect_satisfaction": "保湿満足度が高くレビュー件数も多い",
+      "availability": "ドラッグストア・通販で広く入手できる"
+    }
+  },
+  "sources_urls": [
+    "https://lipscosme.com/products/425978",
+    "https://my-best.com/products/7936",
+    "https://www.cosme.net/products/10195293/review/"
+  ]
+}

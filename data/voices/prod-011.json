@@ -1,0 +1,95 @@
+{
+  "product_id": "prod-011",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 2652,
+      "average_rating": 4.4
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "価格が手頃で続けやすい",
+        "frequency": "高",
+        "context": "高濃度処方ながら低価格でリピートしやすいという声が多い"
+      },
+      {
+        "point": "ニキビ跡や肌の調子に変化を感じた",
+        "frequency": "高",
+        "context": "数ヶ月のスポット使用で気にならなくなったという体験談が見られる"
+      },
+      {
+        "point": "べたつきにくくさっぱりした使用感",
+        "frequency": "中",
+        "context": "リキッドタイプで重くならず初心者でも使いやすいとの評価"
+      },
+      {
+        "point": "滴下式容器で量を調整しやすい",
+        "frequency": "中",
+        "context": "ピンポイントで塗りやすい容器設計が好評"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "独特の香りが気になる",
+        "frequency": "中",
+        "context": "柑橘系のにおいが苦手という声が一定数ある"
+      },
+      {
+        "point": "塗布後にぬるつきを感じることがある",
+        "frequency": "中",
+        "context": "テクスチャーが肌に合わないと感じる人もいる"
+      },
+      {
+        "point": "乾燥肌には保湿が物足りない",
+        "frequency": "低",
+        "context": "保湿目的では別途クリーム併用が必要との指摘"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "効果実感には継続使用が必要",
+        "frequency": "中",
+        "context": "数ヶ月単位で使い続けてから判断する人が多い"
+      }
+    ]
+  },
+  "relative_evaluation": "ビタミンC系美容液の中で最も入手しやすく低価格な定番。効果実感の声は多いが香り・使用感の好みが分かれる。",
+  "best_for": [
+    "ニキビ・毛穴ケア初心者",
+    "ビタミンCを試したい男性"
+  ],
+  "not_best_for": [
+    "保湿最優先の乾燥肌",
+    "無香料を求める人"
+  ],
+  "skinsci_score": {
+    "total": 84,
+    "axes": {
+      "beginner_friendly": 21,
+      "cost_performance": 24,
+      "effect_satisfaction": 19,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "さっぱり使えて手順が簡単だが香りと刺激で好みが分かれる",
+      "cost_performance": "1000円台で続けやすく価格÷量の満足度が非常に高い",
+      "effect_satisfaction": "ニキビ跡・くすみへの満足の声が多いが個人差あり",
+      "availability": "ドラッグストア・通販で広く流通し在庫も安定"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B007409FZ0",
+    "https://www.cosme.net/products/10086817/review/",
+    "https://my-best.com/products/299204"
+  ]
+}

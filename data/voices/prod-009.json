@@ -1,0 +1,96 @@
+{
+  "product_id": "prod-009",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 1443,
+      "average_rating": 4.3
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "価格に対する満足度が高い",
+        "frequency": "高",
+        "context": "大容量・低価格でこの品質はすごいという声が目立つ"
+      },
+      {
+        "point": "洗い上がりがさっぱりして突っぱりにくい",
+        "frequency": "高",
+        "context": "弱酸性・低刺激処方で洗顔後のつっぱり感が少ないと評価"
+      },
+      {
+        "point": "くるくるするだけでメイクが落ちる手軽さ",
+        "frequency": "高",
+        "context": "濡れた手でも使え、軽めのメイクや日焼け止めをこすらず落とせると初心者から好評"
+      },
+      {
+        "point": "肌への刺激が少なく安心して使える",
+        "frequency": "中",
+        "context": "アルコールフリーで敏感に傾きやすい時期でも使いやすい"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "濃いメイクには洗浄力が物足りない",
+        "frequency": "中",
+        "context": "ジェルタイプゆえウォータープルーフなど濃いメイクは落ちにくいという指摘"
+      },
+      {
+        "point": "洗い上がり後の乾燥が気になる",
+        "frequency": "中",
+        "context": "潤いがほしい・すぐ保湿が必要との声があり保湿ケアとの併用が望まれる"
+      },
+      {
+        "point": "目にしみやすい・ぬるつきが残ることがある",
+        "frequency": "低",
+        "context": "使用感としてしみる、すすぎ残しでぬるつくと感じる人がいる"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "まつエク対応かは要確認",
+        "frequency": "低",
+        "context": "オイルフリーではないため、まつエク使用時は注意という声がある"
+      }
+    ]
+  },
+  "relative_evaluation": "オイルやバームに比べて洗浄力はマイルドだが、価格と低刺激性のバランスでは入門用として上位。初めての一本として失敗しにくい。",
+  "best_for": [
+    "スキンケア初心者",
+    "コスパ重視",
+    "軽めメイク・日焼け止め落とし"
+  ],
+  "not_best_for": [
+    "濃いメイク常用者",
+    "しっとり感最優先の乾燥肌"
+  ],
+  "skinsci_score": {
+    "total": 85,
+    "axes": {
+      "beginner_friendly": 23,
+      "cost_performance": 24,
+      "effect_satisfaction": 18,
+      "availability": 20
+    },
+    "rationale": {
+      "beginner_friendly": "弱酸性・アルコールフリーで刺激が少なく、くるくるなじませるだけと操作も簡単",
+      "cost_performance": "大容量で1回あたりのコストが非常に低く満足度の声も多い",
+      "effect_satisfaction": "平均評価は高いが濃いメイクへの洗浄力と乾燥に不満も一定数ある",
+      "availability": "無印良品店舗・ネットストア・大手ECで入手できる"
+    }
+  },
+  "sources_urls": [
+    "https://lipscosme.com/products/89275/review",
+    "https://www.cosme.net/products/2901342/review/",
+    "https://www.amazon.co.jp/dp/B09RPGXTQ5"
+  ]
+}

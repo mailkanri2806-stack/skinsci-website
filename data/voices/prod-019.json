@@ -1,0 +1,96 @@
+{
+  "product_id": "prod-019",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 695,
+      "average_rating": 4.6
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "汗・水に強く崩れにくい",
+        "frequency": "高",
+        "context": "屋外イベントやゴルフでも焼けにくかったという声が多く必需品との評価"
+      },
+      {
+        "point": "高いUVカット性能への信頼感",
+        "frequency": "高",
+        "context": "強力な紫外線対策ができる定番として支持されている"
+      },
+      {
+        "point": "ミルクがしっとり肌になじむ",
+        "frequency": "中",
+        "context": "次の工程を重ねてもよれにくいとの声"
+      },
+      {
+        "point": "石けんで落とせる",
+        "frequency": "中",
+        "context": "高機能ながら専用クレンジング不要で扱いやすい"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "ややベタつきを感じることがある",
+        "frequency": "中",
+        "context": "塗布後に次の工程がしづらいと感じる人がいる"
+      },
+      {
+        "point": "全顔に多めに使うと乾燥を感じる場合がある",
+        "frequency": "低",
+        "context": "肌質や使用量により突っ張りを感じるとの指摘"
+      },
+      {
+        "point": "価格が高め",
+        "frequency": "中",
+        "context": "初心者には手が出しにくい価格帯との声"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "白浮きの感じ方が人により分かれる",
+        "frequency": "低",
+        "context": "白浮きしないという声が多い一方、塗り方によって白く見えるとの報告もある"
+      }
+    ]
+  },
+  "relative_evaluation": "軽量エッセンスタイプより価格は高いが、汗・水・熱への耐久性とUVカットの信頼性で頭ひとつ抜ける。本気のUV対策をしたい人向けの定番。",
+  "best_for": [
+    "屋外スポーツ",
+    "海・プール・レジャー",
+    "真夏の長時間外出"
+  ],
+  "not_best_for": [
+    "軽さ最優先の日常使い",
+    "予算重視の最初の1本"
+  ],
+  "skinsci_score": {
+    "total": 85,
+    "axes": {
+      "beginner_friendly": 19,
+      "cost_performance": 19,
+      "effect_satisfaction": 24,
+      "availability": 23
+    },
+    "rationale": {
+      "beginner_friendly": "石けんオフで扱いやすいがベタつきや価格で初心者の入りやすさはやや控えめ",
+      "cost_performance": "価格は高めだが耐久性と満足度の高さで納得感がある",
+      "effect_satisfaction": "平均評価が高く汗・水に強い実感の声が多い",
+      "availability": "全国のドラッグストア・通販で広く流通し入手は非常に容易"
+    }
+  },
+  "sources_urls": [
+    "https://www.amazon.co.jp/dp/B0CSSVF9GQ",
+    "https://lipscosme.com/products/309086/review",
+    "https://monocil.jp/items/1022/"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "product_id": "prod-006",
+  "collected_at": "2026-06-13",
+  "status": "active",
+  "sources": {
+    "amazon": {
+      "review_count_total": 6,
+      "average_rating": 3.8
+    },
+    "qoo10": {
+      "review_count_total": null,
+      "average_rating": null
+    },
+    "x_twitter": {
+      "post_count_collected": 0
+    }
+  },
+  "summary": {
+    "good_points": [
+      {
+        "point": "ワンプッシュで弾力のある泡が出て泡立て不要",
+        "frequency": "高",
+        "context": "手間が省けて時短になると初心者から好評"
+      },
+      {
+        "point": "皮脂汚れをしっかり落としてさっぱりする",
+        "frequency": "高",
+        "context": "脂性肌・メンズから支持される洗い上がり"
+      },
+      {
+        "point": "洗顔とシェービングを一度に済ませられる",
+        "frequency": "中",
+        "context": "スキンケア発想の処方で兼用しやすい"
+      },
+      {
+        "point": "価格が手ごろでリピートしやすい",
+        "frequency": "中",
+        "context": "ドラッグストアで入手しやすくコスパ良好"
+      }
+    ],
+    "bad_points": [
+      {
+        "point": "乾燥しやすい人は洗顔後につっぱりを感じることがある",
+        "frequency": "中",
+        "context": "皮脂を落とす力があるため冬場は影響が出やすい"
+      },
+      {
+        "point": "もっと強いさっぱり感を求める人には物足りない場合がある",
+        "frequency": "低",
+        "context": "マイルド寄りの洗い上がりとの声"
+      }
+    ],
+    "neutral_points": [
+      {
+        "point": "香りはマイルドシトラスで好みが分かれる",
+        "frequency": "低",
+        "context": "控えめな香りという評価"
+      }
+    ]
+  },
+  "relative_evaluation": "メンズ向け泡洗顔の定番で、泡立て不要の手軽さと手ごろな価格から初心者の最初の一本として選ばれやすい。脂性肌のさっぱり感を重視するなら同価格帯で上位の選択肢だが、乾燥肌には他のしっとり系の方が向く。",
+  "best_for": [
+    "脂性肌でテカリが気になる初心者",
+    "手軽さと価格重視の人"
+  ],
+  "not_best_for": [
+    "乾燥肌・敏感肌でつっぱりが苦手な人"
+  ],
+  "skinsci_score": {
+    "total": 82,
+    "axes": {
+      "beginner_friendly": 23,
+      "cost_performance": 22,
+      "effect_satisfaction": 18,
+      "availability": 19
+    },
+    "rationale": {
+      "beginner_friendly": "泡立て不要で使い方が簡単、メンズ初心者の導入に最適",
+      "cost_performance": "150mlで手ごろ価格、日常使いしやすい",
+      "effect_satisfaction": "さっぱり感は好評だが乾燥の声もありやや割引",
+      "availability": "全国のドラッグストアで安定入手可能"
+    }
+  },
+  "sources_urls": [
+    "https://www.cosme.net/products/10138372/",
+    "https://www.kao.co.jp/mensbiore/lineup/foam/",
+    "https://lipscosme.com/products/300413"
+  ]
+}
